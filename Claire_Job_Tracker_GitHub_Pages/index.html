@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f5f6f8" />
+  <title>Job Tracker</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="loginScreen" class="login-shell" aria-hidden="false">
+    <div class="login-card">
+      <div class="brand-mark">JT</div>
+      <p class="eyebrow">PRIVATE WORKSPACE</p>
+      <h1>Your job search, in one place.</h1>
+      <p class="login-copy">Enter your password to open the Toronto / GTA UX & Product tracker.</p>
+      <form id="loginForm" class="login-form">
+        <label for="passwordInput">Password</label>
+        <div class="password-row">
+          <input id="passwordInput" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required />
+          <button class="icon-btn" id="togglePassword" type="button" aria-label="Show password">Show</button>
+        </div>
+        <p id="loginError" class="form-error" role="alert"></p>
+        <button class="primary-btn login-btn" type="submit">Open tracker</button>
+      </form>
+      <p class="login-note">Static GitHub Pages access gate. For stronger private access, use an identity layer such as Cloudflare Access.</p>
+    </div>
+  </div>
+
+  <div id="app" class="app-shell is-hidden">
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand-mark brand-small">JT</div>
+        <div>
+          <div class="brand-title">Job Tracker</div>
+          <div class="brand-subtitle">Toronto / GTA · UX, Product & Product Ops</div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span id="updatedAt" class="updated-at">Updated —</span>
+        <button id="logoutBtn" class="ghost-btn">Lock</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">PERSONAL JOB SEARCH</p>
+          <h1>Focus on roles worth applying to.</h1>
+          <p class="hero-copy">Priority: Markham, Richmond Hill, North York and Vaughan. Official careers / ATS sources are surfaced first.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="secondary-btn" href="#jobsSection">Browse roles</a>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Job tracker summary">
+        <article class="stat-card">
+          <span class="stat-label">Open roles</span>
+          <strong id="statOpen" class="stat-value">0</strong>
+          <span class="stat-note">currently tracked</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">New this run</span>
+          <strong id="statNew" class="stat-value">0</strong>
+          <span class="stat-note">needs review</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Applied</span>
+          <strong id="statApplied" class="stat-value">0</strong>
+          <span class="stat-note">kept for status tracking</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Priority-area open</span>
+          <strong id="statPriority" class="stat-value">0</strong>
+          <span class="stat-note">Markham · RH · NY · Vaughan</span>
+        </article>
+      </section>
+
+      <section class="priority-strip">
+        <div class="priority-strip-title">Location priority</div>
+        <div id="priorityLocationChips" class="chip-row"></div>
+      </section>
+
+      <section id="jobsSection" class="jobs-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OPPORTUNITIES</p>
+            <h2>Job pipeline</h2>
+          </div>
+          <div id="resultCount" class="result-count">0 roles</div>
+        </div>
+
+        <div class="toolbar">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+            <input id="searchInput" type="search" placeholder="Search company, role, skill, location…" />
+          </div>
+          <select id="locationFilter" aria-label="Location">
+            <option value="all">All locations</option>
+            <option value="priority">Priority areas only</option>
+            <option value="Markham">Markham</option>
+            <option value="Richmond Hill">Richmond Hill</option>
+            <option value="North York">North York</option>
+            <option value="Vaughan">Vaughan</option>
+            <option value="Toronto">Toronto</option>
+          </select>
+          <select id="trackFilter" aria-label="Track">
+            <option value="all">All tracks</option>
+          </select>
+          <select id="sourceFilter" aria-label="Source">
+            <option value="all">All sources</option>
+          </select>
+          <select id="sortFilter" aria-label="Sort">
+            <option value="priority">Priority</option>
+            <option value="match">Match: high to low</option>
+            <option value="newest">Recently checked</option>
+            <option value="deadline">Deadline</option>
+          </select>
+        </div>
+
+        <div class="segmented" role="tablist" aria-label="Job status">
+          <button class="segment is-active" data-status="all">All</button>
+          <button class="segment" data-status="new">New</button>
+          <button class="segment" data-status="open">Open</button>
+          <button class="segment" data-status="applied">Applied</button>
+          <button class="segment" data-status="closed">Closed / Expired</button>
+        </div>
+
+        <div id="jobList" class="job-list"></div>
+        <div id="emptyState" class="empty-state is-hidden">
+          <div class="empty-icon">⌕</div>
+          <h3>No roles match these filters.</h3>
+          <p>Clear a filter or try a broader keyword.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Private job-search dashboard</span>
+      <span>Data source: daily tracker</span>
+    </footer>
+  </div>
+
+  <div id="drawerBackdrop" class="drawer-backdrop is-hidden"></div>
+  <aside id="jobDrawer" class="drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <button id="closeDrawer" class="icon-btn drawer-close" type="button">Close</button>
+      <div id="drawerMatch" class="match-badge">—</div>
+    </div>
+    <div id="drawerContent" class="drawer-content"></div>
+  </aside>
+
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
