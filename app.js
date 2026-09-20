@@ -1,14 +1,63 @@
 
 (() => {
   const cfg = window.JOBTRACKER_CONFIG || {};
-  const els = {};
+  const APPLIED_KEY = "jt_applied";
   let jobs = [];
   let activeStatus = "all";
+  let appliedIds = new Set();
+  let clearedIds = new Set();
+  let lastMeta = {};
 
   const $ = (id) => document.getElementById(id);
   const esc = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const normalize = (v) => String(v ?? "").toLowerCase();
   const priorities = ["markham","richmond hill","north york","vaughan"];
+
+  function jobId(j){
+    return [j["Company"], j["Job Title"], j["Application Link"] || ""].map(v => String(v ?? "").trim()).join("||");
+  }
+
+  function loadAppliedState(){
+    try{
+      const raw = JSON.parse(localStorage.getItem(APPLIED_KEY) || "{}");
+      const list = Array.isArray(raw) ? raw : (raw.applied || []);
+      const cleared = Array.isArray(raw) ? [] : (raw.cleared || []);
+      appliedIds = new Set(list.map(String));
+      clearedIds = new Set(cleared.map(String));
+    }catch{
+      appliedIds = new Set();
+      clearedIds = new Set();
+    }
+  }
+
+  function saveAppliedState(){
+    localStorage.setItem(APPLIED_KEY, JSON.stringify({
+      applied: [...appliedIds],
+      cleared: [...clearedIds]
+    }));
+  }
+
+  function isApplied(j){
+    const id = jobId(j);
+    if(clearedIds.has(id)) return false;
+    if(appliedIds.has(id)) return true;
+    return normalize(j["Application Status"]) === "applied";
+  }
+
+  function setApplied(j, value){
+    const id = jobId(j);
+    if(value){
+      appliedIds.add(id);
+      clearedIds.delete(id);
+      j["Application Status"] = "Applied";
+      if(!j["Application Date"]) j["Application Date"] = new Date().toISOString().slice(0,10);
+    }else{
+      appliedIds.delete(id);
+      clearedIds.add(id);
+      j["Application Status"] = "Not Applied";
+    }
+    saveAppliedState();
+  }
 
   async function sha256(text){
     const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
@@ -64,11 +113,13 @@
 
   async function initData(){
     try{
+      loadAppliedState();
       const res = await fetch(`./data/jobs.json?v=${Date.now()}`);
       if(!res.ok) throw new Error(`HTTP ${res.status}`);
       const payload = await res.json();
       jobs = payload.jobs || [];
-      renderMeta(payload.meta || {});
+      lastMeta = payload.meta || {};
+      renderMeta(lastMeta);
       populateFilters();
       wireControls();
       render();
@@ -78,7 +129,7 @@
     }
   }
 
-  function renderMeta(meta){
+  function renderMeta(meta = lastMeta){
     const raw = meta.lastUpdated;
     let label = "Updated —";
     if(raw){
@@ -89,10 +140,10 @@
     }
     $("updatedAt").textContent = label;
 
-    const open = jobs.filter(j => normalize(j["Job Status"]) === "open").length;
+    const open = jobs.filter(j => normalize(j["Job Status"]) === "open" && !isApplied(j)).length;
     const fresh = jobs.filter(j => normalize(j["New This Run"]) === "yes").length;
-    const applied = jobs.filter(j => normalize(j["Application Status"]) === "applied").length;
-    const priorityOpen = jobs.filter(j => normalize(j["Job Status"]) === "open" && isPriorityLocation(j["Location"])).length;
+    const applied = jobs.filter(j => isApplied(j)).length;
+    const priorityOpen = jobs.filter(j => normalize(j["Job Status"]) === "open" && !isApplied(j) && isPriorityLocation(j["Location"])).length;
     $("statOpen").textContent = open;
     $("statNew").textContent = fresh;
     $("statApplied").textContent = applied;
@@ -100,7 +151,7 @@
 
     const counts = {};
     (meta.priorityLocations || ["Markham","Richmond Hill","North York","Vaughan"]).forEach(loc => {
-      counts[loc] = jobs.filter(j => normalize(j["Location"]).includes(normalize(loc)) && normalize(j["Job Status"]) === "open").length;
+      counts[loc] = jobs.filter(j => normalize(j["Location"]).includes(normalize(loc)) && normalize(j["Job Status"]) === "open" && !isApplied(j)).length;
     });
     $("priorityLocationChips").innerHTML = Object.entries(counts)
       .map(([loc,count]) => `<button class="chip location-chip" data-location="${esc(loc)}">${esc(loc)} <strong>${count}</strong></button>`)
@@ -152,12 +203,12 @@
 
   function filterStatus(j){
     const status = normalize(j["Job Status"]);
-    const application = normalize(j["Application Status"]);
+    const applied = isApplied(j);
     const fresh = normalize(j["New This Run"]) === "yes";
     if(activeStatus === "all") return true;
     if(activeStatus === "new") return fresh;
-    if(activeStatus === "open") return status === "open" && application !== "applied";
-    if(activeStatus === "applied") return application === "applied";
+    if(activeStatus === "open") return status === "open" && !applied;
+    if(activeStatus === "applied") return applied;
     if(activeStatus === "closed") return status.includes("closed") || status.includes("expired") || status.includes("conflicting");
     return true;
   }
@@ -198,9 +249,9 @@
       // priority: new > priority-area open > open > applied > closed, then match
       const rank = j => {
         if(normalize(j["New This Run"]) === "yes") return 0;
-        if(normalize(j["Job Status"]) === "open" && normalize(j["Application Status"]) !== "applied" && isPriorityLocation(j["Location"])) return 1;
-        if(normalize(j["Job Status"]) === "open" && normalize(j["Application Status"]) !== "applied") return 2;
-        if(normalize(j["Application Status"]) === "applied") return 3;
+        if(normalize(j["Job Status"]) === "open" && !isApplied(j) && isPriorityLocation(j["Location"])) return 1;
+        if(normalize(j["Job Status"]) === "open" && !isApplied(j)) return 2;
+        if(isApplied(j)) return 3;
         return 4;
       };
       return rank(a)-rank(b) || Number(b["Match %"]||0)-Number(a["Match %"]||0);
@@ -223,7 +274,7 @@
     const bits = [];
     if(normalize(j["New This Run"]) === "yes") bits.push(badge("New","new"));
     if(isPriorityLocation(j["Location"])) bits.push(badge("Priority location","priority"));
-    if(normalize(j["Application Status"]) === "applied") bits.push(badge("Applied","applied"));
+    if(isApplied(j)) bits.push(badge("Applied","applied"));
     const st = String(j["Job Status"]||"");
     if(normalize(st) !== "open") bits.push(badge(st,"closed"));
     const source = String(j["Source Type"]||"");
@@ -231,12 +282,27 @@
     return bits.join("");
   }
 
+  function appliedToggleMarkup(j, variant="card"){
+    const on = isApplied(j);
+    const label = on ? "Applied" : "Mark applied";
+    return `<button type="button" class="applied-toggle ${variant} ${on?"is-on":""}" data-applied-toggle="1" aria-pressed="${on}" title="${esc(label)}">
+      <span class="applied-check" aria-hidden="true">${on ? "✓" : ""}</span>
+      <span>${esc(label)}</span>
+    </button>`;
+  }
+
+  function refreshAfterAppliedChange(j){
+    renderMeta();
+    render();
+    if($("jobDrawer").classList.contains("is-open")) openDrawer(j);
+  }
+
   function render(){
     const list = filteredJobs();
     $("resultCount").textContent = `${list.length} role${list.length===1?"":"s"}`;
     $("emptyState").classList.toggle("is-hidden", list.length > 0);
-    $("jobList").innerHTML = list.map((j,idx) => `
-      <article class="job-card" data-index="${jobs.indexOf(j)}" tabindex="0">
+    $("jobList").innerHTML = list.map(j => `
+      <article class="job-card ${isApplied(j)?"is-applied":""}" data-index="${jobs.indexOf(j)}" tabindex="0">
         <div class="job-main">
           <div class="job-title-row"><div class="job-title">${esc(j["Job Title"])}</div></div>
           <div class="company">${esc(j["Company"])}</div>
@@ -250,15 +316,26 @@
           <div class="salary">${esc(j["Salary"] || "Not disclosed")}</div>
           <div class="meta-line">${esc(j["Experience Requirement"] || "")}</div>
         </div>
-        <div><span class="match">${esc(j["Match %"] ?? "—")}%</span></div>
+        <div class="match-col"><span class="match">${esc(j["Match %"] ?? "—")}%</span></div>
+        <div class="applied-col">${appliedToggleMarkup(j,"card")}</div>
         <div class="chevron">›</div>
       </article>
     `).join("");
 
     document.querySelectorAll(".job-card").forEach(card => {
-      const open = () => openDrawer(jobs[Number(card.dataset.index)]);
+      const j = jobs[Number(card.dataset.index)];
+      const open = () => openDrawer(j);
       card.addEventListener("click", open);
       card.addEventListener("keydown", e => { if(e.key==="Enter" || e.key===" "){ e.preventDefault(); open(); }});
+      const toggle = card.querySelector("[data-applied-toggle]");
+      if(toggle){
+        toggle.addEventListener("click", e => {
+          e.preventDefault();
+          e.stopPropagation();
+          setApplied(j, !isApplied(j));
+          refreshAfterAppliedChange(j);
+        });
+      }
     });
   }
 
@@ -280,6 +357,11 @@
       <div class="drawer-company">${esc(j["Company"])}</div>
       <div class="drawer-badges">${statusBadges(j)}</div>
 
+      <div class="drawer-actions">
+        ${appliedToggleMarkup(j,"drawer")}
+        ${j["Application Link"] ? `<a class="drawer-apply" href="${esc(j["Application Link"])}" target="_blank" rel="noopener noreferrer"><span>Open application</span><span>↗</span></a>` : ""}
+      </div>
+
       <div class="detail-grid">
         ${detailBox("Location",j["Location"])}
         ${detailBox("Work mode",j["Work Mode"])}
@@ -287,15 +369,22 @@
         ${detailBox("Deadline",j["Deadline"] || "Not listed")}
         ${detailBox("Experience",j["Experience Requirement"])}
         ${detailBox("Company type",j["Company Type"])}
+        ${detailBox("Application date", isApplied(j) ? (j["Application Date"] || "Marked locally") : "")}
       </div>
 
       ${detailSection("Core requirements",j["Core Requirements"])}
       ${detailSection("Main risks",j["Main Risks"])}
       ${detailSection("Notes",j["Notes"])}
       ${detailSection("Source",j["Source Type"])}
-
-      ${j["Application Link"] ? `<a class="drawer-apply" href="${esc(j["Application Link"])}" target="_blank" rel="noopener noreferrer"><span>Open application</span><span>↗</span></a>` : ""}
     `;
+    const toggle = $("drawerContent").querySelector("[data-applied-toggle]");
+    if(toggle){
+      toggle.addEventListener("click", e => {
+        e.preventDefault();
+        setApplied(j, !isApplied(j));
+        refreshAfterAppliedChange(j);
+      });
+    }
     $("drawerBackdrop").classList.remove("is-hidden");
     $("jobDrawer").classList.add("is-open");
     $("jobDrawer").setAttribute("aria-hidden","false");
