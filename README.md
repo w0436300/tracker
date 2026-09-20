@@ -12,17 +12,15 @@ A static, password-gated job-search dashboard designed for GitHub Pages.
 - `set_password.py` — local helper to change the password hash
 - `.nojekyll` — keeps GitHub Pages simple
 
-## Temporary password
+## Set or change password
 
-`hsxZf12N2kLo`
-
-Change it before publishing:
+Run locally (do not commit the plaintext password):
 
 ```bash
 python set_password.py
 ```
 
-The script stores only a SHA-256 hash in `config.js`, not your plain-text password.
+The script stores only a SHA-256 hash in `config.js`, not your plain-text password. Commit and push `config.js` after changing it.
 
 ## Publish to GitHub Pages
 
