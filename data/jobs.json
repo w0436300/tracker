@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-19T08:00:00-04:00",
+    "lastUpdated": "2026-09-24T11:56:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_GTA_UX_Product_Jobs_Tracker_2026-09-19_Morning.xlsx",
     "priorityLocations": [
@@ -9,7 +9,7 @@
       "North York",
       "Vaughan"
     ],
-    "total": 26
+    "total": 30
   },
   "jobs": [
     {
@@ -497,7 +497,7 @@
       "Source Type": "Official Careers / ATS"
     },
     {
-      "Date Checked": "2026-09-19",
+      "Date Checked": "2026-09-24",
       "New This Run": "No",
       "Company": "ZenaTech",
       "Job Title": "UX/UI Designer",
@@ -514,8 +514,8 @@
       "Application Status": "Applied",
       "Application Date": null,
       "Deadline": "2026-09-21",
-      "Job Status": "Open",
-      "Notes": "Already applied; deadline Sep 21.",
+      "Job Status": "Closed/Expired",
+      "Notes": "Already applied; deadline Sep 21. Rechecked Sep 24: Sep 21 deadline has passed; retain as Applied history.",
       "Source Type": "Jobs.ca"
     },
     {
@@ -582,6 +582,94 @@
       "Deadline": "2026-09-16",
       "Job Status": "Expired",
       "Notes": "Deadline Sep 16 passed; retained in tracker history.",
+      "Source Type": "Jobs.ca"
+    },
+    {
+      "Date Checked": "2026-09-24",
+      "New This Run": "Yes",
+      "Company": "Konrad Group",
+      "Job Title": "Associate UX/UI Designer",
+      "Track": "UX/UI Design / Experience Design",
+      "Company Type": "Digital Consultancy / Product & Experience Design",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid / work-from-home flexibility",
+      "Experience Requirement": "Entry-level / Associate; official posting states no fixed minimum years",
+      "Core Requirements": "Figma; user research; information architecture; journey maps; wireframes; visual UI; developer collaboration; end-to-end digital project delivery",
+      "Salary": "$70,000–$78,000 CAD estimated compensation",
+      "Application Link": "https://www.konrad.com/careers/job/associate-ux-ui-designer_7612500003",
+      "Match %": 99,
+      "Main Risks": "Consulting environment may be competitive; portfolio must demonstrate strong visual hierarchy and digital product work.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEW Sep 24. Official Konrad careers page verified. Strong early-career UX/UI fit in Toronto.",
+      "Source Type": "Official Careers / ATS"
+    },
+    {
+      "Date Checked": "2026-09-24",
+      "New This Run": "Yes",
+      "Company": "AdaTech",
+      "Job Title": "Product Designer (UX/UI)",
+      "Track": "Product Design / UX/UI",
+      "Company Type": "Toronto Product & AI Studio / Digital Modernization",
+      "Location": "Toronto, ON",
+      "Work Mode": "Full-time Toronto",
+      "Experience Requirement": "No fixed minimum years stated on official careers page",
+      "Core Requirements": "UX research; prototyping; visual systems; accessible interfaces; Figma",
+      "Salary": "Not disclosed",
+      "Application Link": "https://adatechsolutions.ca/careers",
+      "Match %": 96,
+      "Main Risks": "Small-company/studio role; official page provides limited role detail and application is routed through email intake.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 24. Official careers page verified live; company explicitly lists Digital Modernization and Toronto product/AI work.",
+      "Source Type": "Official Careers"
+    },
+    {
+      "Date Checked": "2026-09-24",
+      "New This Run": "Yes",
+      "Company": "THRILLWORKS",
+      "Job Title": "Product Designer (Web & UX)",
+      "Track": "Product Design / Web UX",
+      "Company Type": "Digital Acceleration / Consulting",
+      "Location": "Ontario, Canada",
+      "Work Mode": "Remote",
+      "Experience Requirement": "Entry-level listing; no fixed year minimum stated in current posting",
+      "Core Requirements": "Figma; website UX; user flows; wireframes; prototypes; responsive UI; accessibility; design components; developer handoff",
+      "Salary": "Not disclosed",
+      "Application Link": "https://builtintoronto.com/job/product-designer-web-ux/11219415",
+      "Match %": 97,
+      "Main Risks": "3-month contract initially; official employer ATS link not independently surfaced in this run.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 24; posting surfaced within the past week. Remote Ontario; 3-month contract with possible extension/permanent conversion.",
+      "Source Type": "Other / Aggregator"
+    },
+    {
+      "Date Checked": "2026-09-24",
+      "New This Run": "Yes",
+      "Company": "Leap Tools",
+      "Job Title": "UI/UX Designer",
+      "Track": "UX/UI Design / Product Design",
+      "Company Type": "Retail Tech / Visualization SaaS",
+      "Location": "Canada",
+      "Work Mode": "Remote-first",
+      "Experience Requirement": "2+ years",
+      "Core Requirements": "Figma; UI/UX flows; design systems; data-driven design; user testing; A/B testing; Product/Engineering collaboration; TypeScript/Next.js/React product environment",
+      "Salary": "$70,000–$100,000 CAD (Ontario range)",
+      "Application Link": "https://www.jobs.ca/leap-tools/jobs/ui-ux-designer-remote-canada-9ace8bf0038e",
+      "Match %": 99,
+      "Main Risks": "2+ years expected; current verified source is Jobs.ca rather than employer ATS.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 24; posted Sep 18. Strong design-system and frontend-adjacent fit; remote Canada.",
       "Source Type": "Jobs.ca"
     }
   ]
