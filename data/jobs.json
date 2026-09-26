@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-24T12:30:00-04:00",
+    "lastUpdated": "2026-09-26T00:41:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_GTA_UX_Product_Jobs_Tracker_2026-09-19_Morning.xlsx",
     "priorityLocations": [
@@ -9,7 +9,7 @@
       "North York",
       "Vaughan"
     ],
-    "total": 30
+    "total": 34
   },
   "jobs": [
     {
@@ -671,6 +671,94 @@
       "Job Status": "Open",
       "Notes": "NEWLY DISCOVERED Sep 24; posted Sep 18. Strong design-system and frontend-adjacent fit; remote Canada.",
       "Source Type": "Jobs.ca"
+    },
+    {
+      "Date Checked": "2026-09-26",
+      "New This Run": "Yes",
+      "Company": "Loblaw Digital",
+      "Job Title": "Product Designer, Buy, Fulfill & Assist",
+      "Track": "Product Design / Enterprise & Commerce UX",
+      "Company Type": "Retail Tech / Digital & Ecommerce",
+      "Location": "Toronto, ON",
+      "Work Mode": "Toronto office",
+      "Experience Requirement": "2–4 years Product Designer, UX Designer, or similar",
+      "Core Requirements": "Product design; enterprise/colleague tools; complex workflows; Figma; design systems; accessibility; responsive design; research/testing; Product/Engineering collaboration; AI-enabled tools",
+      "Salary": "$80,000–$110,000 CAD",
+      "Application Link": "https://careers.loblaw.ca/product-designer/job/PAF-LCL-2E40A25B-B595-478C-BD09-9538FF4959B0_7580_1790282706_0",
+      "Match %": 99,
+      "Main Risks": "2–4 year band; competitive applicant pool.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 26 from LinkedIn, then verified on official Loblaw Careers. Buy, Fulfill & Assist team; strong enterprise/internal-tools and design-system fit.",
+      "Source Type": "Official Careers / ATS"
+    },
+    {
+      "Date Checked": "2026-09-26",
+      "New This Run": "Yes",
+      "Company": "Cayde AI",
+      "Job Title": "Product Designer",
+      "Track": "Product Design / AI / Design Systems",
+      "Company Type": "AI / HR Tech / B2B SaaS",
+      "Location": "Toronto, ON",
+      "Work Mode": "On-site",
+      "Experience Requirement": "2+ years shown by verified job source; LinkedIn labels entry level",
+      "Core Requirements": "End-to-end product design; design systems; B2B SaaS; AI explainability; customer conversations; high-fidelity prototypes; frontend skills nice-to-have",
+      "Salary": "$90,000–$140,000 CAD",
+      "Application Link": "https://ca.linkedin.com/jobs/view/product-designer-at-cayde-ai-4464542390",
+      "Match %": 99,
+      "Main Risks": "First/only North American designer; high ownership; fully on-site; startup pace.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-10",
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 26 through LinkedIn backfill. Strong UX + frontend + AI/product fit.",
+      "Source Type": "LinkedIn / Verified Job Source"
+    },
+    {
+      "Date Checked": "2026-09-26",
+      "New This Run": "Yes",
+      "Company": "Tata Consultancy Services",
+      "Job Title": "UI/UX Designer",
+      "Track": "UX/UI Design / Enterprise",
+      "Company Type": "IT Services / Consulting",
+      "Location": "Toronto, ON",
+      "Work Mode": "On-site",
+      "Experience Requirement": "2+ years",
+      "Core Requirements": "Figma; user research; IA; interaction design; responsive/mobile; WCAG; design systems; UI component libraries; HTML/CSS/front-end principles; Agile",
+      "Salary": "$90,000–$110,000 CAD",
+      "Application Link": "https://ca.linkedin.com/jobs/view/ui-ux-designer-at-tata-consultancy-services-4470046906",
+      "Match %": 98,
+      "Main Risks": "On-site; consulting environment; LinkedIn posting rather than direct TCS ATS surfaced in this run.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-09",
+      "Job Status": "Open",
+      "Notes": "NEWLY DISCOVERED Sep 26 from LinkedIn. TCS Canada Inc.; enterprise/SaaS, accessibility, design systems and frontend knowledge align strongly.",
+      "Source Type": "LinkedIn / Jobs.ca"
+    },
+    {
+      "Date Checked": "2026-09-26",
+      "New This Run": "Yes",
+      "Company": "Russell Tobin",
+      "Job Title": "UX Designer — Public Sector (Job ID 26-24821)",
+      "Track": "UX Design / Public Sector",
+      "Company Type": "Staffing / Public Sector Client",
+      "Location": "Toronto, ON",
+      "Work Mode": "On-site",
+      "Experience Requirement": "To verify against full requisition; role currently surfaced as UX Designer",
+      "Core Requirements": "UX research; user-centred design; accessible digital services; public-sector delivery",
+      "Salary": "Approx. $67.29–$70/hour CAD",
+      "Application Link": "https://ca.linkedin.com/jobs/view/ux-designer-at-russell-tobin-4471674502",
+      "Match %": 95,
+      "Main Risks": "Staffing contract; onsite; must check whether this is a duplicate Ontario Government RQ before submission.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open",
+      "Notes": "NEW Sep 26 LinkedIn discovery. Job ID 26-24821, 162 business days, public-sector client. Flagged for Ontario RQ duplicate check before application.",
+      "Source Type": "LinkedIn / Vendor"
     }
   ]
 }
