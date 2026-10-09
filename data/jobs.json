@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-26T00:41:00-04:00",
+    "lastUpdated": "2026-10-09T08:04:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_GTA_UX_Product_Jobs_Tracker_2026-09-19_Morning.xlsx",
     "priorityLocations": [
@@ -9,7 +9,7 @@
       "North York",
       "Vaughan"
     ],
-    "total": 34
+    "total": 37
   },
   "jobs": [
     {
@@ -35,7 +35,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-09-19",
+      "Date Checked": "2026-10-09",
       "New This Run": "No",
       "Company": "Interac",
       "Job Title": "Associate Product Manager, Core Products",
@@ -52,8 +52,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open",
-      "Notes": "NEW Sep 15 run. Posted Sep 14 / surfaced as 6 hours old today. Entry-level fi...",
+      "Job Status": "Closed/Expired",
+      "Notes": "NEW Sep 15 run. Posted Sep 14 / surfaced as 6 hours old today. Entry-level fi... | Reverified expired by 2026-10-09; do not recommend.",
       "Source Type": "Other / Aggregator"
     },
     {
@@ -211,7 +211,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-09-19",
+      "Date Checked": "2026-10-09",
       "New This Run": "No",
       "Company": "Ontario Government — MPBSDP / Government Services Integration Cluster",
       "Job Title": "UX Designer – Junior (RQ11616)",
@@ -227,9 +227,9 @@
       "Main Risks": "Contractor role rather than OPS employee; same requisition is distributed through multiple staffing vendors, so avoid duplicate submissions.",
       "Application Status": "Not Applied",
       "Application Date": null,
-      "Deadline": "2026-10-14",
-      "Job Status": "Open",
-      "Notes": "Consolidated Sep 19 by requisition ID. End client: Ontario Government. Submission vendors observed: Russell Tobin; TechDoQuest; Quality IT Resourcing; Upstaff (older/expired channel). Use one vendor only.",
+      "Deadline": "2026-09-16",
+      "Job Status": "Closed/Expired",
+      "Notes": "Consolidated Sep 19 by requisition ID. End client: Ontario Government. Submission vendors observed: Russell Tobin; TechDoQuest; Quality IT Resourcing; Upstaff (older/expired channel). Use one vendor only. | Vendor submission deadline 2026-09-16; expired.",
       "Source Type": "Vendor"
     },
     {
@@ -674,7 +674,7 @@
     },
     {
       "Date Checked": "2026-09-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Product Designer, Buy, Fulfill & Assist",
       "Track": "Product Design / Enterprise & Commerce UX",
@@ -696,7 +696,7 @@
     },
     {
       "Date Checked": "2026-09-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Cayde AI",
       "Job Title": "Product Designer",
       "Track": "Product Design / AI / Design Systems",
@@ -718,7 +718,7 @@
     },
     {
       "Date Checked": "2026-09-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Tata Consultancy Services",
       "Job Title": "UI/UX Designer",
       "Track": "UX/UI Design / Enterprise",
@@ -740,7 +740,7 @@
     },
     {
       "Date Checked": "2026-09-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Russell Tobin",
       "Job Title": "UX Designer — Public Sector (Job ID 26-24821)",
       "Track": "UX Design / Public Sector",
@@ -759,6 +759,72 @@
       "Job Status": "Open",
       "Notes": "NEW Sep 26 LinkedIn discovery. Job ID 26-24821, 162 business days, public-sector client. Flagged for Ontario RQ duplicate check before application.",
       "Source Type": "LinkedIn / Vendor"
+    },
+    {
+      "Date Checked": "2026-10-09",
+      "New This Run": "Yes",
+      "Company": "Verifast",
+      "Job Title": "Junior Product Designer",
+      "Track": "UX / Product Design — Early Career",
+      "Company Type": "Canadian-headquartered B2B SaaS / PropTech / Financial verification",
+      "Location": "Toronto HQ; Canada-wide",
+      "Work Mode": "Hybrid or Remote depending on location",
+      "Experience Requirement": "1–3 years; no return-to-school requirement stated",
+      "Core Requirements": "Figma components/auto layout/prototyping; UX flows and application forms; design system; web UI; engineering handoff; ~70% product/30% marketing",
+      "Salary": "CAD $60,000–$75,000",
+      "Application Link": "https://ca.linkedin.com/jobs/view/junior-product-designer-at-verifast-4472822160",
+      "Match %": 98,
+      "Main Risks": "Official careers portal is JS-based and job-specific form not independently verifiable; ~30% marketing assets; smaller team",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open on LinkedIn; official ATS unverified",
+      "Notes": "NEW 2026-10-09 backfill; Canada-based Toronto HQ verified via employer site; no student-only requirement. Official careers: https://verifast.com/company -> VerifastHub portal; accessible page yielded no role text.",
+      "Source Type": "LinkedIn (official careers cross-check incomplete)"
+    },
+    {
+      "Date Checked": "2026-10-09",
+      "New This Run": "Yes",
+      "Company": "Verifast",
+      "Job Title": "Intermediate Product Designer",
+      "Track": "UX / Product Design — Stretch",
+      "Company Type": "Canadian-headquartered B2B SaaS / PropTech / Financial verification",
+      "Location": "Toronto HQ; Canada-wide",
+      "Work Mode": "Hybrid or Remote depending on location",
+      "Experience Requirement": "3–5 years; shipped end-to-end features",
+      "Core Requirements": "Figma; product flows; B2B SaaS; design system; independent feature ownership; dashboards/forms; stakeholder presentations",
+      "Salary": "CAD $80,000–$100,000",
+      "Application Link": "https://ca.linkedin.com/jobs/view/intermediate-product-designer-at-verifast-4472832008",
+      "Match %": 79,
+      "Main Risks": "3–5 years experience, independent ownership expected; official ATS not independently verified; ~30% marketing",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open on LinkedIn; official ATS unverified",
+      "Notes": "NEW 2026-10-09; separate title from Junior Product Designer; Canada-based confirmed; stretch priority.",
+      "Source Type": "LinkedIn (official careers cross-check incomplete)"
+    },
+    {
+      "Date Checked": "2026-10-09",
+      "New This Run": "Yes",
+      "Company": "Enercare",
+      "Job Title": "Junior UX Designer Intern",
+      "Track": "UX/UI Designer — Early Career / 1-year contract",
+      "Company Type": "Canadian home services / energy / Digital Transformation",
+      "Location": "Markham, ON",
+      "Work Mode": "Hybrid (4 days/week on-site)",
+      "Experience Requirement": "6+ months UX experience including co-op or equivalent; no return-to-school requirement stated in full posting",
+      "Core Requirements": "Figma auto layout/components/prototyping; user flows; mobile UI; Agile; accessibility; design systems; product & engineering collaboration; service/operational workflows",
+      "Salary": "CAD $23/hour",
+      "Application Link": "https://ca.indeed.com/q-ux-jr-l-pickering%2C-on-jobs.html",
+      "Match %": 96,
+      "Main Risks": "Intern title despite 1-year full-time contract; pay lower than typical designer role; official Dayforce portal inaccessible to verification; 4 office days",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open on Indeed; official ATS unverified",
+      "Notes": "NEW 2026-10-09 backfill. Not student-only on available full JD; confirm graduate eligibility before submission. Employer official career portal https://www.enercare.ca/about/careers links to Dayforce but tool redirect inaccessible.",
+      "Source Type": "Indeed (official Dayforce portal checked, form unverified)"
     }
   ]
 }
