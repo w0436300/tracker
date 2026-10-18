@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-18T08:05:30-04:00",
+    "lastUpdated": "2026-10-18T14:06:35-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-18_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-18_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 140,
+    "total": 142,
     "syncStatus": "GitHub synced",
     "lastScan": {
-      "timestamp": "2026-10-18T08:05:30-04:00",
-      "candidateCount": 40,
-      "new": 1,
-      "duplicates": 18,
+      "timestamp": "2026-10-18T14:06:35-04:00",
+      "candidateCount": 34,
+      "new": 2,
+      "duplicates": 14,
       "experienceFiltered": 10,
-      "closedFiltered": 3,
+      "closedFiltered": 4,
       "eligibilityFiltered": 2,
-      "locationFiltered": 1,
-      "otherFiltered": 5,
+      "locationFiltered": 2,
+      "otherFiltered": 0,
       "linkedinNativeFiltersComplete": false,
       "officialAtsExclusiveNew": 1,
       "opsDirectNew": 0,
@@ -119,7 +119,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-10-12",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Intermediate UX Designer",
@@ -625,7 +625,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -867,7 +867,7 @@
       "Source Type": "Official Careers / ATS"
     },
     {
-      "Date Checked": "2026-09-19",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Product Analyst — Growth & GTM",
@@ -1065,7 +1065,7 @@
       "Source Type": "Jobs.ca / Canada eligibility confirmed"
     },
     {
-      "Date Checked": "2026-10-09",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Jane App",
       "Job Title": "Product Designer – Communications",
@@ -1439,7 +1439,7 @@
       "Source Type": "LinkedIn / recruiter"
     },
     {
-      "Date Checked": "2026-10-11",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Product Analyst, Data Platform and Analytics",
@@ -1593,7 +1593,7 @@
       "Source Type": "Other / Aggregator"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "NetBrain Technologies Inc.",
       "Job Title": "Associate Product Manager",
@@ -2165,7 +2165,7 @@
       "Source Type": "Official Careers / SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-12 14:05 ET",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Ashby",
       "Job Title": "Junior Design Engineer - Canada",
@@ -2583,7 +2583,7 @@
       "New This Run": "No"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Robots & Pencils",
       "Job Title": "UX/UI Designer",
@@ -2957,7 +2957,7 @@
       "Source Type": "Indeed / employer description; official ATS unverified"
     },
     {
-      "Date Checked": "2026-10-16",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "CMiC",
       "Job Title": "Associate Product Manager (Project Controls / Job Costing)",
@@ -3045,7 +3045,7 @@
       "Source Type": "Official ATS / Greenhouse"
     },
     {
-      "Date Checked": "2026-10-17",
+      "Date Checked": "2026-10-18",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Senior UX Designer",
@@ -3090,7 +3090,7 @@
     },
     {
       "Date Checked": "2026-10-18",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Mastercard",
       "Job Title": "Senior Specialist, Product Experience Design (R-274700)",
       "Track": "UX / Product Design — 2+ Years / Stretch",
@@ -3109,6 +3109,50 @@
       "Job Status": "Official Workday listing shows Apply 2026-10-18; final submission form not independently verified",
       "Notes": "Historical backfill (Jobs.ca indicates May 27, 2026); not newly posted today. Strong financial-services enterprise UX and data-product match. Regular full-time, no graduation or return-to-school restriction. Canada office confirmed.",
       "Source Type": "Official ATS / Workday (Apply visible; form not verified)"
+    },
+    {
+      "Date Checked": "2026-10-18",
+      "New This Run": "Yes",
+      "Company": "Central Station Toronto",
+      "Job Title": "Digital Designer",
+      "Track": "UX/UI / Digital Experience / Web",
+      "Company Type": "Canadian Agency / Retail, B2B and Digital Marketing",
+      "Location": "Toronto, ON (14 Birch Ave; mostly remote)",
+      "Work Mode": "Remote-first Toronto; occasional office (<10 times/year)",
+      "Experience Requirement": "3–5+ years in digital design, UX/UI, product design or similar; professional graphic/web experience potentially relevant; not junior",
+      "Core Requirements": "Figma components, variables, auto layout, tokens, prototyping, design systems; UX/UI for responsive websites and digital products; accessibility; Adobe CC; HTML/CSS; AI design workflow; eCommerce and conversion optimization.",
+      "Salary": "CA$70,000–80,000",
+      "Application Link": "https://www.centralstationto.com/careers",
+      "Match %": 85,
+      "Main Risks": "3–5+ years requirement; substantial marketing campaign and conversion design rather than enterprise software; direct application submission path not independently verified.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Employer careers currently lists Digital Designer (2026-10-18); detailed application submission unverified",
+      "Notes": "NEW 2026-10-18. Employer LinkedIn listing and Indeed independently corroborate current recruitment. Official careers lists job and View Job Description; employer posted about role ~1 week earlier. Prior graphic design, Figma, web, and frontend experience are relevant. No student requirement.",
+      "Source Type": "Official employer Careers + Employer LinkedIn + Indeed; direct application form unverified"
+    },
+    {
+      "Date Checked": "2026-10-18",
+      "New This Run": "Yes",
+      "Company": "Pragmatica",
+      "Job Title": "Website Designer",
+      "Track": "UX/UI / Web Experience",
+      "Company Type": "Canadian Digital Agency / Nonprofit and Healthcare Web",
+      "Location": "Remote Canada",
+      "Work Mode": "Remote within Canada",
+      "Experience Requirement": "3+ years website or UI/UX design; agency/client-facing experience preferred; no graduate or return-to-school restriction",
+      "Core Requirements": "Accessible responsive website UX/UI; Figma/Adobe XD; wireframes, mockups, UI kits, prototypes; Adobe Creative Suite; typography; user-centred design; developer and client collaboration; WordPress/Drupal/Webflow useful.",
+      "Salary": "Not disclosed",
+      "Application Link": "https://jobs.talenthr.io/pragmatica/website-designer/3",
+      "Match %": 80,
+      "Main Risks": "TalentHR lists Contractor while employer site describes full-time; confirm employment/payroll terms. 3+ web UX years; role website-focused rather than SaaS product; final submit form unverified.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official employer careers and TalentHR vacancy listed (2026-10-18); final submission form unverified",
+      "Notes": "NEW backfill 2026-10-18; official employer career page links to this TalentHR posting. Contractor classification per TalentHR. Canada-based agency with Remote Canada work eligibility. Verify engagement type before applying.",
+      "Source Type": "Official employer Careers + TalentHR ATS (job page live; submit form unverified)"
     }
   ]
 }
