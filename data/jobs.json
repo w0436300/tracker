@@ -1,32 +1,38 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-19T08:14:00-04:00",
+    "lastUpdated": "2026-10-19T14:08:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-19_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-19_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 149,
-    "syncStatus": "GitHub main sync pending",
+    "total": 151,
+    "syncStatus": "GitHub main sync completed",
     "lastScan": {
-      "timestamp": "2026-10-19T08:14:00-04:00",
-      "candidateCount": 44,
-      "new": 4,
+      "timestamp": "2026-10-19T14:08:00-04:00",
+      "candidateCount": 35,
+      "new": 2,
       "duplicates": 12,
-      "experienceFiltered": 13,
-      "closedFiltered": 5,
-      "eligibilityFiltered": 4,
-      "locationFiltered": 3,
-      "otherFiltered": 3,
+      "experienceFiltered": 10,
+      "closedFiltered": 3,
+      "eligibilityFiltered": 2,
+      "locationFiltered": 2,
+      "otherFiltered": 4,
       "linkedinNativeFiltersComplete": false,
-      "officialAtsExclusiveNew": 2,
+      "linkedinWindows": [
+        "24h public index",
+        "7d public index",
+        "30d public index"
+      ],
+      "officialAtsExclusiveNew": 1,
       "opsDirectNew": 0,
       "graduateNew": 0,
-      "earlyCareerNew": 2,
-      "globalCanadaEligibleNew": 3
+      "earlyCareerNew": 1,
+      "globalCanadaEligibleNew": 0,
+      "notes": "Independent official ATS, LinkedIn index, third-party, and Graduate scans. Bell graduate 2016 bachelor / 2024 masters ineligible."
     }
   },
   "jobs": [
@@ -642,7 +648,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever job posting and Apply link confirmed 2026-10-15",
+      "Job Status": "Open — official Lever application and Submit application verified 2026-10-19",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested.",
       "Source Type": "Official ATS — Lever"
     },
@@ -1813,7 +1819,7 @@
       "Source Type": "Jobs.ca (link incomplete in GitHub)"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "Vena Solutions",
       "Job Title": "Associate Product Manager",
@@ -1830,8 +1836,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Listed — LinkedIn/Communitech active; employer form not independently verified",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Remote Canada; GTA candidates preferred for occasional Toronto meetings; EPM/FP&A knowledge gap.",
+      "Job Status": "Conflicting: Communitech listing has Apply Now; other aggregator says closed Oct 18; official ATS not verified",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Remote Canada; GTA candidates preferred for occasional Toronto meetings; EPM/FP&A knowledge gap. | 2026-10-19: Conflicting source statuses; do not claim Open without employer ATS.",
       "Source Type": "Employer careers link (previously recorded); LinkedIn/Communitech corroboration"
     },
     {
@@ -2231,7 +2237,7 @@
       "Source Type": "LinkedIn (employer posted; ATS not verified)"
     },
     {
-      "Date Checked": "2026-10-12 14:05 ET",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "Bank of China (Canada)",
       "Job Title": "Associate, Product Manager, Personal Deposit",
@@ -2847,7 +2853,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2864,7 +2870,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever Submit application verified 2026-10-18",
+      "Job Status": "Open — official Lever application and Submit application verified 2026-10-19",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed.",
       "Source Type": "Official ATS / Lever"
     },
@@ -3222,7 +3228,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Feathery",
       "Job Title": "Frontend Engineer, Early Career",
       "Track": "Early Career / Frontend Engineer — Product UI & UX",
@@ -3244,7 +3250,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Feathery",
       "Job Title": "Full Stack Engineer, Early Career",
       "Track": "Early Career / Product Engineering — Frontend + Backend (Adjacent)",
@@ -3266,7 +3272,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Netomi",
       "Job Title": "SDE II Frontend",
       "Track": "Frontend / Product UI Engineering — B2B AI CX",
@@ -3288,7 +3294,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Scotiabank",
       "Job Title": "Front-end Developer Associate (Req 273739)",
       "Track": "Frontend / Enterprise Product UI — Financial Services",
@@ -3307,6 +3313,50 @@
       "Job Status": "Employer LinkedIn listing 2026-10-19; official ATS unverified — not confirmed open",
       "Notes": "NEW 30-day backfill; Req 273739. Bank, accessibility, React, OWASP match; verify ATS before applying.",
       "Source Type": "Employer LinkedIn — Official ATS unverified"
+    },
+    {
+      "Date Checked": "2026-10-19",
+      "New This Run": "Yes",
+      "Company": "Bell",
+      "Job Title": "Product Manager 1 (Req 433036)",
+      "Track": "Early Career / Product Management — stretch",
+      "Company Type": "Telecommunications / Consumer & Small Business / Digital Transformation",
+      "Location": "Toronto / Mississauga / Ottawa, ON, Canada",
+      "Work Mode": "Hybrid — at least 3 days/week on-site",
+      "Experience Requirement": "No fixed minimum years; previous product development or product management experience expected; not a graduate program",
+      "Core Requirements": "Customer experience and product lifecycle, business cases, Agile/Scrum, requirements and user stories, cross-functional launch coordination, BI/customer data analysis, national fibre/network-access product strategy.",
+      "Salary": "Not disclosed",
+      "Application Link": "https://jobs.bce.ca/bell/job/Toronto-Product-Manager-1-ON/1436878600/",
+      "Match %": 79,
+      "Main Risks": "Telecom network-access/physical service product ownership; complex cross-functional launches; not primarily digital UX; official Apply now redirects to generic careers page in web inspection.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-20",
+      "Job Status": "Official Bell Careers listing live 2026-10-19; Apply now shown, final form NOT verified",
+      "Notes": "New backfill 2026-10-19 PM. Req 433036; published Oct 5. Not subject to Bell Graduate Program eligibility; normal full-time position. Deadline TOMORROW Oct 20; prioritize only if product management track is desired. Canada local employment.",
+      "Source Type": "Official Employer Careers / SAP SuccessFactors (listing verified; final form unverified)"
+    },
+    {
+      "Date Checked": "2026-10-19",
+      "New This Run": "Yes",
+      "Company": "Interac",
+      "Job Title": "Associate Product Manager (RTR Product Associate)",
+      "Track": "Early Career / Product Operations / Associate Product Management",
+      "Company Type": "Canadian Payments / Banking Infrastructure / Product Operations",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "3+ years in product, program or operations coordination; combined internship/contract experience inclusion not confirmed",
+      "Core Requirements": "Product execution and operational readiness; resource/milestone tracking in Planview; user onboarding and access; software license coordination; issue/risk/dependency reporting; requirements and defects; Jira; stakeholder communication.",
+      "Salary": "CA$90,000–120,000 + short-term incentive",
+      "Application Link": "https://www.jobs.ca/interac-corp/jobs/associate-product-manager-toronto-on-4c72a5bb0267",
+      "Match %": 83,
+      "Main Risks": "3+ years product/program/operations coordination; Planview not evidenced; operational resource/licensing work rather than UX design; employer official ATS and final submit unverified.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Jobs.ca employer-sourced listing and LinkedIn index; official employer ATS / final form unverified 2026-10-19",
+      "Notes": "New 30-day backfill; original listing Sep 2; Toronto hybrid; banking product ops and complex delivery workflows align with BMO EECOE + Intake Tracker. Not a graduate program. Verify employer application portal before submitting.",
+      "Source Type": "Jobs.ca + LinkedIn; employer official ATS unverified"
     }
   ]
 }
