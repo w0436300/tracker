@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-19T14:08:00-04:00",
+    "lastUpdated": "2026-10-19T20:08:52-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-19_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-19_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -12,27 +12,27 @@
     "total": 151,
     "syncStatus": "GitHub main sync completed",
     "lastScan": {
-      "timestamp": "2026-10-19T14:08:00-04:00",
+      "timestamp": "2026-10-19T20:08:52-04:00",
       "candidateCount": 35,
-      "new": 2,
-      "duplicates": 12,
-      "experienceFiltered": 10,
-      "closedFiltered": 3,
+      "new": 0,
+      "duplicates": 14,
+      "experienceFiltered": 9,
+      "closedFiltered": 5,
       "eligibilityFiltered": 2,
-      "locationFiltered": 2,
-      "otherFiltered": 4,
+      "locationFiltered": 0,
+      "otherFiltered": 5,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
         "7d public index",
         "30d public index"
       ],
-      "officialAtsExclusiveNew": 1,
+      "officialAtsExclusiveNew": 0,
       "opsDirectNew": 0,
       "graduateNew": 0,
-      "earlyCareerNew": 1,
+      "earlyCareerNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Independent official ATS, LinkedIn index, third-party, and Graduate scans. Bell graduate 2016 bachelor / 2024 masters ineligible."
+      "notes": "35 unique candidates reviewed; no net-new qualified job after dedupe. Official ATS, LinkedIn, Indeed/Jobs.ca/GOjobs, Graduate. Enercare and GenVoice already tracked. NetBrain official board no longer lists APM."
     }
   },
   "jobs": [
@@ -345,7 +345,7 @@
       "Source Type": "Official ATS / Workable"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "Gelenk Networks / GenVoice Telecom",
       "Job Title": "UI/UX Designer",
@@ -353,18 +353,18 @@
       "Company Type": "Telecom Technology",
       "Location": "Markham",
       "Work Mode": "On-site",
-      "Experience Requirement": "2–3 years discussed",
+      "Experience Requirement": "2–3 years preferred; application states 2 years required; English and written/typed Chinese required",
       "Core Requirements": "Markham; web/mobile, product+engineering collaboration, HTML/CSS; bilingual Chinese/English noted as advantage.",
       "Salary": "CA$50K+",
       "Application Link": "https://ca.indeed.com/viewjob?jk=e7b8118cd33f3ad5",
       "Match %": null,
-      "Main Risks": "Low salary; fully onsite; some WordPress/content work.",
+      "Main Risks": "CA$50K starting pay; Markham in person; employer lists 2 years required (2–3 preferred); direct Indeed apply available, official ATS not located.",
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open on employer's Indeed listing — Apply now shown 2026-10-14; official ATS not found",
-      "Notes": "Previously tracked — apply via Indeed if still available; do not count as new | Posted: 2026-09-16 | 2026-10-14: Indeed direct employer posting jk=e7b8118cd33f3ad5 has Apply, Markham, 2 years required and Chinese literacy required. Already tracked; not new. | PM recheck: Indeed has live Apply now; Chinese reading/typing required; 2 yrs required. Already tracked; NOT new.",
-      "Source Type": "Indeed / Direct employer listing"
+      "Job Status": "Employer Indeed Apply shown 2026-10-19; no official ATS verified",
+      "Notes": "Previously tracked — apply via Indeed if still available; do not count as new | Posted: 2026-09-16 | 2026-10-14: Indeed direct employer posting jk=e7b8118cd33f3ad5 has Apply, Markham, 2 years required and Chinese literacy required. Already tracked; not new. | PM recheck: Indeed has live Apply now; Chinese reading/typing required; 2 yrs required. Already tracked; NOT new. | 2026-10-19 rechecked: employer Indeed still shows Apply; Chinese written/typed required; English/Chinese bilingual candidate fit.",
+      "Source Type": "Employer Indeed / Job Bank (no official ATS found)"
     },
     {
       "Date Checked": "2026-10-09",
@@ -648,7 +648,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application and Submit application verified 2026-10-19",
+      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-19 evening",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested.",
       "Source Type": "Official ATS — Lever"
     },
@@ -1027,7 +1027,7 @@
       "Source Type": "LinkedIn / employer careers cross-check"
     },
     {
-      "Date Checked": "2026-10-09",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "Enercare",
       "Job Title": "Junior UX Designer Intern",
@@ -1035,18 +1035,18 @@
       "Company Type": "Energy / Home Services / Digital Transformation",
       "Location": "Markham, ON",
       "Work Mode": "Hybrid — 4 days in office",
-      "Experience Requirement": "6+ months UX, including co-op or equivalent; no return-to-school clause in accessible JD",
+      "Experience Requirement": "6+ months UX experience through co-op or equivalent assignment; no explicit student enrollment / return-to-school requirement in employer description",
       "Core Requirements": "Figma, mobile UI, service workflows, design system, accessibility, Agile; guidance from senior designer",
       "Salary": "CA$23/hour",
-      "Application Link": "https://ca.indeed.com/q-ux-jr-l-pickering%2C-on-jobs.html",
+      "Application Link": "https://jobs.dayforcehcm.com/en-US/enercare/CANDIDATEPORTAL/jobs/21013",
       "Match %": 96,
       "Main Risks": "Intern title and lower salary; Dayforce official ATS redirect not accessible; verify graduation eligibility",
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Indeed listed — official ATS unverified",
-      "Notes": "Apply through employer Dayforce or Indeed; confirm graduate eligibility | Posted: 2026-09-25",
-      "Source Type": "Indeed / official Dayforce careers checked"
+      "Job Status": "Official Dayforce job URL reachable; form dynamic/unverified; employer LinkedIn/Indeed listing active 2026-10-19",
+      "Notes": "Apply through employer Dayforce or Indeed; confirm graduate eligibility | Posted: 2026-09-25 | 2026-10-19: 1-year full-time contract; title Intern but employer text does not require return to school; graduation eligibility still must be confirmed; 4 days Markham office; CA$23/hr.",
+      "Source Type": "Official Dayforce URL (dynamic form unverified) + Employer LinkedIn / Indeed"
     },
     {
       "Date Checked": "2026-10-09",
@@ -1599,7 +1599,7 @@
       "Source Type": "Other / Aggregator"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-19",
       "New This Run": "No",
       "Company": "NetBrain Technologies Inc.",
       "Job Title": "Associate Product Manager",
@@ -1616,8 +1616,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application form and Submit confirmed 2026-10-15",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: 0–2 years; internship and academic projects considered; Toronto hybrid.",
+      "Job Status": "Unverified / removed from current official Greenhouse job board 2026-10-19; third-party still lists",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: 0–2 years; internship and academic projects considered; Toronto hybrid. | 2026-10-19 official Greenhouse board no longer lists Toronto Associate Product Manager; Jobs.ca has contradictory active and expired records. Do not recommend as confirmed Open until direct ATS revalidated.",
       "Source Type": "Official ATS — Greenhouse"
     },
     {
@@ -2870,7 +2870,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application and Submit application verified 2026-10-19",
+      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-19 evening",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed.",
       "Source Type": "Official ATS / Lever"
     },
@@ -3316,7 +3316,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Bell",
       "Job Title": "Product Manager 1 (Req 433036)",
       "Track": "Early Career / Product Management — stretch",
@@ -3338,7 +3338,7 @@
     },
     {
       "Date Checked": "2026-10-19",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Interac",
       "Job Title": "Associate Product Manager (RTR Product Associate)",
       "Track": "Early Career / Product Operations / Associate Product Management",
