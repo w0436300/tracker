@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-20T08:04:00-04:00",
+    "lastUpdated": "2026-10-20T08:14:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-20_Morning.xlsx",
     "priorityLocations": [
@@ -12,7 +12,7 @@
     "total": 154,
     "syncStatus": "GitHub main sync completed",
     "lastScan": {
-      "timestamp": "2026-10-20T08:04:00-04:00",
+      "timestamp": "2026-10-20T08:14:00-04:00",
       "candidateCount": 47,
       "new": 3,
       "duplicates": 14,
@@ -27,12 +27,12 @@
         "7d public index",
         "30d public index"
       ],
-      "officialAtsExclusiveNew": 1,
+      "officialAtsExclusiveNew": 0,
       "opsDirectNew": 0,
       "graduateNew": 0,
       "earlyCareerNew": 0,
-      "globalCanadaEligibleNew": 1,
-      "notes": "Hydro One Markham New Grad excluded: bachelor's 2016 and masters 2026 with >1-year gap; Hootsuite and LyricFind APM closed."
+      "globalCanadaEligibleNew": 2,
+      "notes": "Hydro One Markham New Grad excluded: bachelor's 2016 and masters 2026 with >1-year gap; Hootsuite and LyricFind APM closed. Harvey also appeared in LinkedIn, so no official-ATS-exclusive net-new listing."
     }
   },
   "jobs": [
