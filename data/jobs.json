@@ -1,25 +1,25 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-19T20:08:52-04:00",
+    "lastUpdated": "2026-10-20T08:04:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-19_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-20_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 151,
+    "total": 154,
     "syncStatus": "GitHub main sync completed",
     "lastScan": {
-      "timestamp": "2026-10-19T20:08:52-04:00",
-      "candidateCount": 35,
-      "new": 0,
+      "timestamp": "2026-10-20T08:04:00-04:00",
+      "candidateCount": 47,
+      "new": 3,
       "duplicates": 14,
-      "experienceFiltered": 9,
+      "experienceFiltered": 11,
       "closedFiltered": 5,
-      "eligibilityFiltered": 2,
-      "locationFiltered": 0,
+      "eligibilityFiltered": 5,
+      "locationFiltered": 4,
       "otherFiltered": 5,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -27,12 +27,12 @@
         "7d public index",
         "30d public index"
       ],
-      "officialAtsExclusiveNew": 0,
+      "officialAtsExclusiveNew": 1,
       "opsDirectNew": 0,
       "graduateNew": 0,
       "earlyCareerNew": 0,
-      "globalCanadaEligibleNew": 0,
-      "notes": "35 unique candidates reviewed; no net-new qualified job after dedupe. Official ATS, LinkedIn, Indeed/Jobs.ca/GOjobs, Graduate. Enercare and GenVoice already tracked. NetBrain official board no longer lists APM."
+      "globalCanadaEligibleNew": 1,
+      "notes": "Hydro One Markham New Grad excluded: bachelor's 2016 and masters 2026 with >1-year gap; Hootsuite and LyricFind APM closed."
     }
   },
   "jobs": [
@@ -631,7 +631,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-20",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -1027,7 +1027,7 @@
       "Source Type": "LinkedIn / employer careers cross-check"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-20",
       "New This Run": "No",
       "Company": "Enercare",
       "Job Title": "Junior UX Designer Intern",
@@ -1797,7 +1797,7 @@
       "Source Type": "Other / Aggregator (link incomplete)"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-20",
       "New This Run": "No",
       "Company": "Enercare",
       "Job Title": "Product Analyst – Water Portfolio",
@@ -2589,7 +2589,7 @@
       "New This Run": "No"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-20",
       "New This Run": "No",
       "Company": "Robots & Pencils",
       "Job Title": "UX/UI Designer",
@@ -2853,7 +2853,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-20",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -3357,6 +3357,72 @@
       "Job Status": "Jobs.ca employer-sourced listing and LinkedIn index; official employer ATS / final form unverified 2026-10-19",
       "Notes": "New 30-day backfill; original listing Sep 2; Toronto hybrid; banking product ops and complex delivery workflows align with BMO EECOE + Intake Tracker. Not a graduate program. Verify employer application portal before submitting.",
       "Source Type": "Jobs.ca + LinkedIn; employer official ATS unverified"
+    },
+    {
+      "Company": "Harvey",
+      "Job Title": "Product Designer, Design Systems",
+      "Track": "UX / Product Design / Design Systems — Stretch",
+      "Company Type": "US Legal AI / Enterprise SaaS / Toronto office",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid; office days unverified",
+      "Experience Requirement": "3–5 years Product/UI/Production/Design Systems design",
+      "Core Requirements": "Figma variables, auto layout, components, variants, design systems, QA, documentation, AI-assisted workflows, frontend collaboration",
+      "Salary": "Not disclosed",
+      "Application Link": "https://jobs.ashbyhq.com/harvey/7af73358-0a99-4d3a-8fde-b0f735045613",
+      "Match %": 89,
+      "Main Risks": "3–5 professional years; high craft bar; dynamic Ashby form not verified",
+      "Job Status": "Official Ashby listing; final submission unverified",
+      "Notes": "US company with Toronto office; Canada employment confirmed by location. No graduate eligibility restriction.",
+      "Source Type": "Official ATS / Ashby — listing confirmed",
+      "Date Checked": "2026-10-20",
+      "New This Run": "Yes",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null
+    },
+    {
+      "Company": "Affirm",
+      "Job Title": "Visual Designer II",
+      "Track": "Digital Product Visual Design / UX — Motion Stretch",
+      "Company Type": "US FinTech / Canada Remote",
+      "Location": "Remote Canada",
+      "Work Mode": "Remote Canada; in-person onboarding may be required",
+      "Experience Requirement": "3+ years professional motion/visual/communication/product design",
+      "Core Requirements": "Figma, Adobe Creative Suite, After Effects, Lottie/Rive, motion, illustration, visual storytelling, product design systems, accessibility",
+      "Salary": "CA$101,000–151,000",
+      "Application Link": "https://job-boards.greenhouse.io/affirm/jobs/7966043003",
+      "Match %": 77,
+      "Main Risks": "Motion/animation/illustration portfolio required; 3+ years; less core UX",
+      "Job Status": "Open — Greenhouse application and Submit verified 2026-10-20",
+      "Notes": "US company; explicitly Remote Canada, Canadian salary. Not a graduate role.",
+      "Source Type": "Official ATS / Greenhouse — form verified",
+      "Date Checked": "2026-10-20",
+      "New This Run": "Yes",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null
+    },
+    {
+      "Company": "Insight Global",
+      "Job Title": "User Experience Designer (North York Retail Contract)",
+      "Track": "UX / Product Design — Staffing Contract / Stretch",
+      "Company Type": "Staffing Agency / Enterprise Retail",
+      "Location": "North York, ON, Canada",
+      "Work Mode": "5 days on-site; 6-month contract plus possible extension",
+      "Experience Requirement": "4 years UX/UI; senior duties",
+      "Core Requirements": "Figma, research, retail/store operations UX, data-driven UX, change management, product/engineering collaboration",
+      "Salary": "CA$45–50/hour",
+      "Application Link": "https://ca.linkedin.com/jobs/view/user-experience-designer-at-insight-global-4448575792",
+      "Match %": 75,
+      "Main Risks": "4 years UX/UI; 5 days on-site; staffing vendor ATS not verified",
+      "Job Status": "LinkedIn employer listing; official ATS not verified — not confirmed open",
+      "Notes": "North York priority location, enterprise retail. Client undisclosed; verify vendor form.",
+      "Source Type": "Employer LinkedIn — official ATS unverified",
+      "Date Checked": "2026-10-20",
+      "New This Run": "Yes",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null
     }
   ]
 }
