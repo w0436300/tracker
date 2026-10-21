@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-21T14:14:00-04:00",
+    "lastUpdated": "2026-10-21T14:18:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-21_Afternoon.xlsx",
     "priorityLocations": [
@@ -9,13 +9,13 @@
       "North York",
       "Vaughan"
     ],
-    "total": 161,
+    "total": 160,
     "syncStatus": "GitHub main synced",
     "lastScan": {
-      "timestamp": "2026-10-21T14:14:00-04:00",
+      "timestamp": "2026-10-21T14:18:00-04:00",
       "candidateCount": 41,
-      "new": 2,
-      "duplicates": 13,
+      "new": 1,
+      "duplicates": 16,
       "experienceFiltered": 9,
       "closedFiltered": 5,
       "eligibilityFiltered": 4,
@@ -31,7 +31,7 @@
       "opsDirectNew": 0,
       "graduateNew": 0,
       "earlyCareerNew": 1,
-      "globalCanadaEligibleNew": 2,
+      "globalCanadaEligibleNew": 1,
       "notes": "Official ATS, LinkedIn, Jobs.ca/Indeed and independent graduate scans. McAfee explicitly 2026 graduate but remote/hybrid conflict. eBay R0074489 employer page says no longer available; excluded. Bell 432592 qualification conflict revised to review needed."
     }
   },
@@ -1511,26 +1511,26 @@
       "Source Type": "LinkedIn (Ashby source reported)"
     },
     {
-      "Date Checked": "2026-10-11",
+      "Date Checked": "2026-10-21",
       "New This Run": "No",
       "Company": "Intelerad",
       "Job Title": "UI/UX Researcher & Designer – Canada",
       "Track": "UX / Product Design",
       "Company Type": "Healthcare / Medical imaging SaaS",
       "Location": "Remote Canada",
-      "Work Mode": "Remote Canada",
+      "Work Mode": "Remote Canada (#LI-REMOTE; no travel)",
       "Experience Requirement": "4+ years UX design AND independent UX research",
       "Core Requirements": "Complex clinical workflows, research, accessibility, Figma, design standards; design-construction healthcare exposure helpful.",
-      "Salary": "CA$60,000–80,000",
+      "Salary": "CA$60,000–80,000/year",
       "Application Link": "https://jobs.smartrecruiters.com/Intelerad/744000154205699-ui-ux-researcher-designer-canada",
       "Match %": 70,
       "Main Risks": "4+ years independently leading research and mentoring; healthcare domain; salary modest relative to scope.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open listing — official SmartRecruiters; final submit unverified",
+      "Job Status": "Official SmartRecruiters listing accessible Oct 21 with 'I'm interested'; downstream submission not verified",
       "Notes": "Stretch; emphasize regulated workflows, clinical facility requirements, research. | Posted: 2026-10-09 (recent index)",
-      "Source Type": "Official ATS / SmartRecruiters"
+      "Source Type": "Official ATS / SmartRecruiters — listing and interest button verified"
     },
     {
       "Date Checked": "2026-10-11",
@@ -3555,28 +3555,6 @@
       "Job Status": "Official careers listing indexed Oct 21; final application submission unverified; Canada work mode conflict",
       "Notes": "NEW 2026-10-21 PM. Graduate/Early Career; start February 2027; explicitly graduated by Dec 2026, so user's 2026 graduation fits. Canada-based only; no relocation assistance. Job description contradicts itself on remote vs hybrid. Official career ID 1741. Not student-only.",
       "Source Type": "Official Careers (McAfee) + LinkedIn; application form unverified"
-    },
-    {
-      "Date Checked": "2026-10-21",
-      "New This Run": "Yes",
-      "Company": "Intelerad",
-      "Job Title": "UI/UX Researcher & Designer - Canada",
-      "Track": "UX / Product Design / Research — 4+ years Stretch",
-      "Company Type": "US/Canadian Healthcare Software / Medical Imaging SaaS",
-      "Location": "Remote Canada",
-      "Work Mode": "Remote Canada (#LI-REMOTE; no travel)",
-      "Experience Requirement": "4+ years UI/UX design AND UX research; independently lead research and design",
-      "Core Requirements": "Figma/Adobe, research planning/interviews/surveys/usability testing, journey maps, personas, wireframes, prototypes, design standards, accessibility, complex enterprise healthcare workflows",
-      "Salary": "CA$60,000–80,000/year",
-      "Application Link": "https://jobs.smartrecruiters.com/Intelerad/744000154205699-ui-ux-researcher-designer-canada",
-      "Match %": 79,
-      "Main Risks": "4+ years plus independent end-to-end research leadership; research repository and mentoring; salary lower than some alternatives",
-      "Application Status": "Not Applied",
-      "Application Date": null,
-      "Deadline": null,
-      "Job Status": "Official SmartRecruiters listing accessible Oct 21 with 'I'm interested'; downstream submission not verified",
-      "Notes": "NEW 2026-10-21 PM; Canada remote confirmed by official listing; clinical research domain new to candidate. Employer has Montreal office; US/Canadian entity supports Canada payroll. Prioritize only if research case study is compelling.",
-      "Source Type": "Official ATS / SmartRecruiters — listing and interest button verified"
     }
   ]
 }
