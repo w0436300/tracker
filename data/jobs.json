@@ -1,38 +1,38 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-21T08:07:42-04:00",
+    "lastUpdated": "2026-10-21T14:14:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-21_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-21_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 159,
+    "total": 161,
     "syncStatus": "GitHub main synced",
     "lastScan": {
-      "timestamp": "2026-10-21T08:07:42-04:00",
-      "candidateCount": 30,
+      "timestamp": "2026-10-21T14:14:00-04:00",
+      "candidateCount": 41,
       "new": 2,
       "duplicates": 13,
       "experienceFiltered": 9,
-      "closedFiltered": 2,
-      "eligibilityFiltered": 2,
-      "locationFiltered": 1,
-      "otherFiltered": 1,
+      "closedFiltered": 5,
+      "eligibilityFiltered": 4,
+      "locationFiltered": 2,
+      "otherFiltered": 4,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
-        "24h public search index",
-        "7d public search index",
-        "30d public search index"
+        "24h public index",
+        "7d public index",
+        "30d public index"
       ],
       "officialAtsExclusiveNew": 0,
       "opsDirectNew": 0,
       "graduateNew": 0,
       "earlyCareerNew": 1,
-      "globalCanadaEligibleNew": 0,
-      "notes": "Three discovery passes plus graduate scan. Bell 432880 role-specific eligibility re-evaluated as possibly compatible; Apply redirects. Veeva Vault Medical Connections expired/status conflict excluded. Empire Life employer ATS unverified; Loblaw 3-month non-payroll contract."
+      "globalCanadaEligibleNew": 2,
+      "notes": "Official ATS, LinkedIn, Jobs.ca/Indeed and independent graduate scans. McAfee explicitly 2026 graduate but remote/hybrid conflict. eBay R0074489 employer page says no longer available; excluded. Bell 432592 qualification conflict revised to review needed."
     }
   },
   "jobs": [
@@ -521,7 +521,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-21",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Enterprise Solutions, Advanced Technology (432592)",
@@ -529,17 +529,17 @@
       "Company Type": "Telecom / Enterprise Technology",
       "Location": "Toronto / Ottawa / Montreal",
       "Work Mode": "Hybrid ≥3 days",
-      "Experience Requirement": "Bell cohort 2027: bachelor's degree 2024–2026, OR current undergrad graduating by summer 2027, OR postgrad with ≤3 years from bachelor's to master's enrolment. 2016 bachelor's + 2024 master's start does not meet published conditions.",
+      "Experience Requirement": "Req 432592: STEM/business Bachelor's or Master's, OR recent college/post-grad credential; <3 years combined professional experience excluding internships. Candidate 2026 Master's and 2024 certificate potentially qualify; general Bell FAQ may impose other cohort rules.",
       "Core Requirements": "AI/cloud/BI/software/product rotations; UX+frontend background",
       "Salary": "Not disclosed",
       "Application Link": "https://jobs.bce.ca/bell/job/Montreal-2027-Graduate-Program%2C-Enterprise-Solutions-Advanced-Technology-QC/1429629000/",
       "Match %": null,
-      "Main Risks": "Eligibility conflict: Bell 2027 general FAQ excludes older bachelor/master's gaps, but requisition 432592 explicitly accepts a post-grad certificate completed within 3 years of application. User's 2024 NSCC certificate may fit this exception; confirm directly before applying.",
+      "Main Risks": "General Bell graduate FAQ vs requisition-specific eligibility differ; obtain written confirmation before treating as eligible. Official Apply redirects/submit not verified.",
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Eligibility not met — Bell 2027 Graduate FAQ",
-      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule.",
+      "Job Status": "Graduate eligibility conflict — requisition potentially fits 2026 Master's / 2024 certificate; final application unverified",
+      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-21: Official requisition rechecked; 2026 Master's and 2024 post-grad certificate appear within recency language. Correct prior categorical ineligible to Eligibility Review Needed; not yet confirmed eligible.",
       "Source Type": "Official Careers"
     },
     {
@@ -649,7 +649,7 @@
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Open — official application form verified 2026-10-21",
-      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested.",
+      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS — Lever"
     },
     {
@@ -2607,7 +2607,7 @@
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Open — official application form verified 2026-10-21",
-      "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location.",
+      "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Greenhouse"
     },
     {
@@ -2871,7 +2871,7 @@
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Open — official application form verified 2026-10-21",
-      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed.",
+      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever"
     },
     {
@@ -3492,7 +3492,7 @@
     },
     {
       "Date Checked": "2026-10-21",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Empire Life",
       "Job Title": "Digital Client Experience Specialist",
       "Track": "Digital Experience / Service Design — Financial Services",
@@ -3514,7 +3514,7 @@
     },
     {
       "Date Checked": "2026-10-21",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Associate - Digital Experience Strategy (R2000700663)",
       "Track": "Early Career / Digital Experience / Product Operations — Contract",
@@ -3533,6 +3533,50 @@
       "Job Status": "Official Loblaw Careers listing includes Apply Now 2026-10-21; final submit unverified",
       "Notes": "NEW 2026-10-21 historical backfill; Req R2000700663. Early Career adjacent Product Operations, no minimum experience or return-to-school requirement. Role explicitly 3-month non-payroll contract through 2026-12-31; no guarantee of extension. Canada-based Toronto work.",
       "Source Type": "Official Careers / Loblaw (listing + Apply Now; final submit unverified)"
+    },
+    {
+      "Date Checked": "2026-10-21",
+      "New This Run": "Yes",
+      "Company": "McAfee",
+      "Job Title": "UX Research Apprentice",
+      "Track": "Graduate / Early Career — UX Research Apprentice",
+      "Company Type": "US Consumer Cybersecurity / Canada-eligible",
+      "Location": "Waterloo, ON / Canada remote advertised",
+      "Work Mode": "Conflicting: job summary says Remote Canada; full description says Hybrid based in Canada / Waterloo office; confirm Toronto eligibility",
+      "Experience Requirement": "Graduated by December 2026; relevant applied UX research project/work experience; no return-to-school requirement",
+      "Core Requirements": "UX research, usability studies, experimental design, statistics, evidence-based recommendations, product team collaboration",
+      "Salary": "CA$50,345–68,115/year (official McAfee career page)",
+      "Application Link": "https://careers.mcafee.com/join/jobs/1741?lang=en-us",
+      "Match %": 87,
+      "Main Risks": "Remote Canada vs Hybrid Waterloo contradiction; official page fetch returned 403 for form verification; research/statistics depth required; Toronto work location eligibility unconfirmed",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official careers listing indexed Oct 21; final application submission unverified; Canada work mode conflict",
+      "Notes": "NEW 2026-10-21 PM. Graduate/Early Career; start February 2027; explicitly graduated by Dec 2026, so user's 2026 graduation fits. Canada-based only; no relocation assistance. Job description contradicts itself on remote vs hybrid. Official career ID 1741. Not student-only.",
+      "Source Type": "Official Careers (McAfee) + LinkedIn; application form unverified"
+    },
+    {
+      "Date Checked": "2026-10-21",
+      "New This Run": "Yes",
+      "Company": "Intelerad",
+      "Job Title": "UI/UX Researcher & Designer - Canada",
+      "Track": "UX / Product Design / Research — 4+ years Stretch",
+      "Company Type": "US/Canadian Healthcare Software / Medical Imaging SaaS",
+      "Location": "Remote Canada",
+      "Work Mode": "Remote Canada (#LI-REMOTE; no travel)",
+      "Experience Requirement": "4+ years UI/UX design AND UX research; independently lead research and design",
+      "Core Requirements": "Figma/Adobe, research planning/interviews/surveys/usability testing, journey maps, personas, wireframes, prototypes, design standards, accessibility, complex enterprise healthcare workflows",
+      "Salary": "CA$60,000–80,000/year",
+      "Application Link": "https://jobs.smartrecruiters.com/Intelerad/744000154205699-ui-ux-researcher-designer-canada",
+      "Match %": 79,
+      "Main Risks": "4+ years plus independent end-to-end research leadership; research repository and mentoring; salary lower than some alternatives",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official SmartRecruiters listing accessible Oct 21 with 'I'm interested'; downstream submission not verified",
+      "Notes": "NEW 2026-10-21 PM; Canada remote confirmed by official listing; clinical research domain new to candidate. Employer has Montreal office; US/Canadian entity supports Canada payroll. Prioritize only if research case study is compelling.",
+      "Source Type": "Official ATS / SmartRecruiters — listing and interest button verified"
     }
   ]
 }
