@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-22T08:08:00-04:00",
+    "lastUpdated": "2026-10-22T14:05:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-22_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-22_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -10,17 +10,17 @@
       "Vaughan"
     ],
     "total": 165,
-    "syncStatus": "GitHub main update pending verification",
+    "syncStatus": "GitHub main sync verified after readback",
     "lastScan": {
-      "timestamp": "2026-10-22T08:08:00-04:00",
-      "candidateCount": 34,
-      "new": 2,
-      "duplicates": 10,
+      "timestamp": "2026-10-22T14:05:00-04:00",
+      "candidateCount": 44,
+      "new": 0,
+      "duplicates": 22,
       "experienceFiltered": 10,
       "closedFiltered": 4,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 1,
-      "otherFiltered": 4,
+      "eligibilityFiltered": 2,
+      "locationFiltered": 3,
+      "otherFiltered": 3,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -32,7 +32,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Official employer ATS + public LinkedIn index + Indeed/Jobs.ca/GOjobs + independent graduate discovery. Two Micromart historical-backfill listings on current employer board; final application submission unverified. CIBC 2027 UI co-op, Interac 2027 design intern require current enrollment; Manulife 2027 design co-op closed. Bally's Product Designer absent from current official Toronto openings. Source index not exhaustive."
+      "notes": "No eligible new vacancies after independent official ATS, LinkedIn public index, Indeed/Jobs.ca/GOjobs and graduate searches. 44 candidates audited; duplicate and applied statuses retained. RAVL Front End Engineer explicitly future talent pipeline, not current vacancy. NDEAVOUR APM appears Bulgaria-only despite generic All Cities label. Homebase UX Engineer older listing expired and 4-7 years. Zip New Grad requires Dec 2026-Jun 2027 graduation and CS/CE degree; eligibility not confirmed. No claim of exhaustive native LinkedIn filtering."
     }
   },
   "jobs": [
@@ -3624,7 +3624,7 @@
     },
     {
       "Date Checked": "2026-10-22",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Micromart",
       "Job Title": "Product Engineer, Smart Store",
       "Track": "Frontend Engineer – Product UI / Store Technology",
@@ -3646,7 +3646,7 @@
     },
     {
       "Date Checked": "2026-10-22",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Micromart",
       "Job Title": "Frontend Engineer, Product UI",
       "Track": "Frontend Engineer – Product UI / Design Systems",
