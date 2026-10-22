@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-21T20:12:00-04:00",
+    "lastUpdated": "2026-10-22T08:08:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-21_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-22_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 163,
-    "syncStatus": "GitHub main synced",
+    "total": 165,
+    "syncStatus": "GitHub main update pending verification",
     "lastScan": {
-      "timestamp": "2026-10-21T20:12:00-04:00",
-      "candidateCount": 37,
-      "new": 3,
-      "duplicates": 12,
-      "experienceFiltered": 11,
-      "closedFiltered": 5,
-      "eligibilityFiltered": 4,
-      "locationFiltered": 2,
-      "otherFiltered": 0,
+      "timestamp": "2026-10-22T08:08:00-04:00",
+      "candidateCount": 34,
+      "new": 2,
+      "duplicates": 10,
+      "experienceFiltered": 10,
+      "closedFiltered": 4,
+      "eligibilityFiltered": 3,
+      "locationFiltered": 1,
+      "otherFiltered": 4,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -30,9 +30,9 @@
       "graduateNew": 0,
       "earlyCareerNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
-      "globalCanadaEligibleNew": 2,
-      "notes": "Three discovery passes: employer ATS, public LinkedIn 24h/7d/30d index, Jobs.ca/Indeed/GOjobs; separate Graduate scan. Official-only discovery count includes vvd but final Ashby submission not verified. Ratehub employer form verified. Konrad Associate and UX/UI Designer preserved Applied. All LinkedIn time windows index-based, not exhaustive native filters."
+      "officialAtsExclusiveNew": 0,
+      "globalCanadaEligibleNew": 0,
+      "notes": "Official employer ATS + public LinkedIn index + Indeed/Jobs.ca/GOjobs + independent graduate discovery. Two Micromart historical-backfill listings on current employer board; final application submission unverified. CIBC 2027 UI co-op, Interac 2027 design intern require current enrollment; Manulife 2027 design co-op closed. Bally's Product Designer absent from current official Toronto openings. Source index not exhaustive."
     }
   },
   "jobs": [
@@ -631,7 +631,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-22",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -2589,7 +2589,7 @@
       "New This Run": "No"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-22",
       "New This Run": "No",
       "Company": "Robots & Pencils",
       "Job Title": "UX/UI Designer",
@@ -2853,7 +2853,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-22",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2919,7 +2919,7 @@
       "Source Type": "LinkedIn / staffing vendor"
     },
     {
-      "Date Checked": "2026-10-16",
+      "Date Checked": "2026-10-22",
       "New This Run": "No",
       "Company": "Clariti Cloud Inc.",
       "Job Title": "Product Designer (Contract) — AI-Native Government UX",
@@ -2936,7 +2936,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Greenhouse job application page; final submit unverified",
+      "Job Status": "Closed — official Greenhouse link redirects to board error; no Product Designer among 11 listed jobs (rechecked 2026-10-22)",
       "Notes": "Distinct contract requisition from older expired Clariti role. Full-time contract through end of 2026.",
       "Source Type": "Official ATS / Greenhouse"
     },
@@ -3575,8 +3575,8 @@
       "Job Status": "Open — official employer JazzHR application with Submit Application verified 2026-10-21",
       "Notes": "Historic posting backfill; some aggregators say removed/expired in August, but current employer-controlled application explicitly says existing open vacancy and exposes Submit Application. Financial-services and design-systems experience relevant.",
       "Source Type": "Official employer ATS / JazzHR (ApplyToJob) — application form verified",
-      "Date Checked": "2026-10-21",
-      "New This Run": "Yes"
+      "Date Checked": "2026-10-22",
+      "New This Run": "No"
     },
     {
       "Company": "vvd",
@@ -3598,7 +3598,7 @@
       "Notes": "Explicit Canada eligibility on official ATS; no graduation-year restriction; experience not a gate, shipped personal/professional projects count. Relevant to React/Next.js, visual design, storytelling and AI tools. Posted earlier; historical gap fill.",
       "Source Type": "Official ATS / Ashby — listing indexed; final form unverified",
       "Date Checked": "2026-10-21",
-      "New This Run": "Yes"
+      "New This Run": "No"
     },
     {
       "Company": "Feathery",
@@ -3620,7 +3620,51 @@
       "Notes": "Distinct from previously tracked Feathery Frontend Engineer, Early Career. US company explicitly recruiting Toronto hybrid (Canada eligible). Financial-services onboarding/workflow and design+code match.",
       "Source Type": "Official ATS / Ashby — listing indexed; final form unverified",
       "Date Checked": "2026-10-21",
-      "New This Run": "Yes"
+      "New This Run": "No"
+    },
+    {
+      "Date Checked": "2026-10-22",
+      "New This Run": "Yes",
+      "Company": "Micromart",
+      "Job Title": "Product Engineer, Smart Store",
+      "Track": "Frontend Engineer – Product UI / Store Technology",
+      "Company Type": "Canadian retail technology / unattended commerce",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid Toronto; mostly remote development with occasional hands-on Smart Store collaboration",
+      "Experience Requirement": "No fixed years stated; strong production React/TypeScript experience required",
+      "Core Requirements": "React, TypeScript, state management, REST APIs, payments and checkout flows, connected retail, UX/product/engineering collaboration, frontend performance",
+      "Salary": "Not disclosed on employer board",
+      "Application Link": "https://micromart.applytojobs.ca/engineering/48514",
+      "Match %": 86,
+      "Main Risks": "Strong production app ownership expected; payments/hardware integration unfamiliar; employer form blocked (403) so final submission not independently verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official employer board lists position on 2026-10-22; final application form unverified",
+      "Notes": "Official Micromart board lists this June 11, 2026 posting; historical backfill, not newly posted. Canadian employer/Toronto. No student-only restriction.",
+      "Source Type": "Official employer ATS / ApplyToJobs — board listing confirmed"
+    },
+    {
+      "Date Checked": "2026-10-22",
+      "New This Run": "Yes",
+      "Company": "Micromart",
+      "Job Title": "Frontend Engineer, Product UI",
+      "Track": "Frontend Engineer – Product UI / Design Systems",
+      "Company Type": "Canadian retail technology / unattended commerce",
+      "Location": "Toronto, ON, Canada; Canada-remote variants also listed",
+      "Work Mode": "Remote Toronto listing on employer board; other Canada locations listed; occasional Toronto office collaboration may be needed",
+      "Experience Requirement": "No fixed years stated; job text describes senior-level production frontend ownership",
+      "Core Requirements": "React, React Native, TypeScript, web operator dashboards, POS UI, internal tools, state management, frontend performance, product collaboration",
+      "Salary": "Not disclosed on employer board",
+      "Application Link": "https://micromart.applytojobs.ca/",
+      "Match %": 81,
+      "Main Risks": "Role text calls for Senior Frontend Engineer despite title; strong production ownership; specific Toronto application URL not resolved; final submission unverified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official employer board lists Toronto remote position on 2026-10-22; final form unverified",
+      "Notes": "Official Micromart board lists Toronto Jan 14, 2026 and remote Canada location variants; historical backfill. Apply through employer board; Toronto-specific deep link not confirmed. Canada eligibility via employer Toronto/Canadian locations.",
+      "Source Type": "Official employer ATS / ApplyToJobs — board link only"
     }
   ]
 }
