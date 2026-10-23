@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-22T14:05:00-04:00",
+    "lastUpdated": "2026-10-23T08:08:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-22_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 165,
-    "syncStatus": "GitHub main sync verified after readback",
+    "total": 167,
+    "syncStatus": "GitHub main write attempted; readback pending",
     "lastScan": {
-      "timestamp": "2026-10-22T14:05:00-04:00",
-      "candidateCount": 44,
-      "new": 0,
-      "duplicates": 22,
-      "experienceFiltered": 10,
-      "closedFiltered": 4,
-      "eligibilityFiltered": 2,
+      "timestamp": "2026-10-23T08:08:00-04:00",
+      "candidateCount": 45,
+      "new": 1,
+      "duplicates": 17,
+      "experienceFiltered": 8,
+      "closedFiltered": 7,
+      "eligibilityFiltered": 5,
       "locationFiltered": 3,
-      "otherFiltered": 3,
+      "otherFiltered": 4,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 0,
+      "earlyCareerNew": 1,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "No eligible new vacancies after independent official ATS, LinkedIn public index, Indeed/Jobs.ca/GOjobs and graduate searches. 44 candidates audited; duplicate and applied statuses retained. RAVL Front End Engineer explicitly future talent pipeline, not current vacancy. NDEAVOUR APM appears Bulgaria-only despite generic All Cities label. Homebase UX Engineer older listing expired and 4-7 years. Zip New Grad requires Dec 2026-Jun 2027 graduation and CS/CE degree; eligibility not confirmed. No claim of exhaustive native LinkedIn filtering."
+      "notes": "Independent official ATS, LinkedIn public index, Indeed/Jobs.ca/GOjobs and graduate discovery; counts refer to audited named candidates, not exhaustive native LinkedIn filters. Oct 22 Certn and Interac Core Products were duplicate historical entries and consolidated. Canadian Tire JR163981 Oct repost but older official indexed deadline conflicts; final Workday form unverified. Ratehub contract official link HTTP 410 and removed from employer board. McGraw Hill Oct 22 local-only backfill synced."
     }
   },
   "jobs": [
@@ -631,7 +631,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-22",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -648,7 +648,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official application form verified 2026-10-21",
+      "Job Status": "Open — official Lever Apply link verified 2026-10-23",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS — Lever"
     },
@@ -1269,11 +1269,11 @@
       "Source Type": "Jobs.ca (direct apply) + LinkedIn; official Careers checked"
     },
     {
-      "Date Checked": "2026-10-10",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Certn",
       "Job Title": "Associate Product Manager",
-      "Track": "Product Management / APM",
+      "Track": "Early Career / Associate Product Management / Product Operations",
       "Company Type": "HR Tech / Identity Verification / B2B SaaS",
       "Location": "Remote Canada",
       "Work Mode": "Remote Canada",
@@ -1286,8 +1286,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Application form unverified — conflicting status",
-      "Notes": "High-priority lead — confirm that Ashby application form still accepts submissions. | Posted: 2026-09-11",
+      "Job Status": "Official partner Ashby listing states current vacancy; final JavaScript submission unverified",
+      "Notes": "High-priority lead — confirm that Ashby application form still accepts submissions. | Posted: 2026-09-11 | Oct 23: official recruiting-partner Ashby explicitly states current open position, Remote Canada, no return-to-school restriction; dynamic form not testable.",
       "Source Type": "Official partner Ashby / Inovia / LinkedIn"
     },
     {
@@ -1577,7 +1577,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-10-09 (GitHub snapshot)",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Interac",
       "Job Title": "Associate Product Manager, Core Products",
@@ -1588,15 +1588,15 @@
       "Experience Requirement": "Entry-level",
       "Core Requirements": "Preserved from GitHub historical tracker; role details require fresh verification.",
       "Salary": "CA$90K–120K",
-      "Application Link": "https://builtin.com/job/associate-product-manager-core-products/11162805",
+      "Application Link": "https://ca.linkedin.com/jobs/view/associate-product-manager-core-products-at-interac-corp-4465791863",
       "Match %": null,
       "Main Risks": "Historical import only; application status not reverified on 2026-10-11.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Closed/Expired",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical)",
-      "Source Type": "Other / Aggregator"
+      "Job Status": "Closed/Expired — employer LinkedIn explicitly says no longer accepting applications (2026-10-23); official ATS not verified",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 23: employer LinkedIn explicitly closed; prior Oct 22 rediscovery was duplicate, not new.",
+      "Source Type": "Employer LinkedIn — no longer accepting applications"
     },
     {
       "Date Checked": "2026-10-19",
@@ -2589,7 +2589,7 @@
       "New This Run": "No"
     },
     {
-      "Date Checked": "2026-10-22",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Robots & Pencils",
       "Job Title": "UX/UI Designer",
@@ -2606,7 +2606,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official application form verified 2026-10-21",
+      "Job Status": "Open — official Greenhouse application form verified 2026-10-23",
       "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Greenhouse"
     },
@@ -2853,7 +2853,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-22",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2870,7 +2870,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official application form verified 2026-10-21",
+      "Job Status": "Open — official Lever application form with Submit button verified 2026-10-23",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever"
     },
@@ -3572,10 +3572,10 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official employer JazzHR application with Submit Application verified 2026-10-21",
-      "Notes": "Historic posting backfill; some aggregators say removed/expired in August, but current employer-controlled application explicitly says existing open vacancy and exposes Submit Application. Financial-services and design-systems experience relevant.",
+      "Job Status": "Closed/Expired — original official JazzHR URL returns HTTP 410; employer's current openings list omits Product Designer (2026-10-23)",
+      "Notes": "Historic posting backfill; some aggregators say removed/expired in August, but current employer-controlled application explicitly says existing open vacancy and exposes Submit Application. Financial-services and design-systems experience relevant. | Oct 23: Do not recommend; official URL 410 and no Product Designer on live employer job board.",
       "Source Type": "Official employer ATS / JazzHR (ApplyToJob) — application form verified",
-      "Date Checked": "2026-10-22",
+      "Date Checked": "2026-10-23",
       "New This Run": "No"
     },
     {
@@ -3665,6 +3665,50 @@
       "Job Status": "Official employer board lists Toronto remote position on 2026-10-22; final form unverified",
       "Notes": "Official Micromart board lists Toronto Jan 14, 2026 and remote Canada location variants; historical backfill. Apply through employer board; Toronto-specific deep link not confirmed. Canada eligibility via employer Toronto/Canadian locations.",
       "Source Type": "Official employer ATS / ApplyToJobs — board link only"
+    },
+    {
+      "Date Checked": "2026-10-23",
+      "New This Run": "No",
+      "Company": "McGraw Hill",
+      "Job Title": "Product Associate (Req 51286)",
+      "Track": "Product Operations / Product Coordinator — Early Career, Low Priority",
+      "Company Type": "US EdTech / Educational Publishing — Canadian Product Team",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid (at least 1 day/week office), full-time",
+      "Experience Requirement": "2+ years administrative/operations/coordinator/editorial support; college certificate/diploma/bachelor or equivalent",
+      "Core Requirements": "Contracts, purchase orders, invoices, product metadata, catalogue/eCommerce coordination, accessibility requests, Smartsheet, QA, reporting, workflow documentation",
+      "Salary": "CA$59,000–65,000",
+      "Application Link": "https://ca.linkedin.com/jobs/view/product-associate-at-mcgraw-hill-4477337293",
+      "Match %": 63,
+      "Main Risks": "Primarily publishing administration, not digital product strategy or UX; invoice/PO/contract experience; official iCIMS form not verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Employer LinkedIn application visible 2026-10-23; official iCIMS final form unverified — not confirmed open",
+      "Notes": "Prior Oct 22 local-only backfill, not newly discovered Oct 23. Early Career compatible; no return-to-school rule. US employer explicitly hiring Toronto residents with Canadian work authorization.",
+      "Source Type": "Employer LinkedIn — official iCIMS not verified"
+    },
+    {
+      "Date Checked": "2026-10-23",
+      "New This Run": "Yes",
+      "Company": "Canadian Tire Corporation",
+      "Job Title": "Associate Product Manager & PI Planning Lead, eComm Fulfillment (JR163981)",
+      "Track": "Early Career / Associate Product Manager / Product Operations — Stretch",
+      "Company Type": "Canadian Retail / eCommerce / Store Technology / Digital Transformation",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid, full-time (office cadence unverified)",
+      "Experience Requirement": "2–5+ years in product, project/program management, business analysis or related discipline; internship/contract equivalency not specified",
+      "Core Requirements": "eCommerce fulfillment, customer communications, self-service, product requirements, user stories, PI planning, milestone/readiness tracking, dependencies, backlog, Jira, Confluence, stakeholder coordination, QA, launch",
+      "Salary": "CA$64,000–106,000 broadband; typical hiring CA$64,000–88,000",
+      "Application Link": "https://canadiantirecorporation.wd3.myworkdayjobs.com/en-US/Enterprise_External_Careers_Site/job/Associate-Product-Manager---PI-Planning-Lead--eComm-Fulfillment_JR163981",
+      "Match %": 84,
+      "Main Risks": "2–5+ years and SAFe/PI planning depth; Workday dynamic final form not verified; older official index showed Aug 27 deadline while Oct 2026 reposts indicate Oct 30; verify before applying",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-30 (third-party October repost; official Workday not confirmed)",
+      "Job Status": "LinkedIn employer repost Oct 2026; official Workday requisition exists but dynamic application and current deadline unverified — not confirmed open",
+      "Notes": "Oct 23 discovery, October LinkedIn employer repost. Older indexed Workday record had Aug 27 deadline; current third-party index says Oct 30, conflicting; do not claim confirmed open. No student-only or return-to-school requirement. Enterprise delivery and milestone workflows relevant to Intake Tracker and BMO EECOE.",
+      "Source Type": "Employer LinkedIn + official Workday listing — final form unverified"
     }
   ]
 }
