@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-23T08:08:00-04:00",
+    "lastUpdated": "2026-10-23T14:06:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 167,
-    "syncStatus": "GitHub main write attempted; readback pending",
+    "total": 168,
+    "syncStatus": "GitHub main update requested; verify readback",
     "lastScan": {
-      "timestamp": "2026-10-23T08:08:00-04:00",
-      "candidateCount": 45,
+      "timestamp": "2026-10-23T14:06:00-04:00",
+      "candidateCount": 42,
       "new": 1,
-      "duplicates": 17,
-      "experienceFiltered": 8,
+      "duplicates": 16,
+      "experienceFiltered": 7,
       "closedFiltered": 7,
-      "eligibilityFiltered": 5,
-      "locationFiltered": 3,
-      "otherFiltered": 4,
+      "eligibilityFiltered": 4,
+      "locationFiltered": 2,
+      "otherFiltered": 5,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 1,
+      "earlyCareerNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 0,
-      "notes": "Independent official ATS, LinkedIn public index, Indeed/Jobs.ca/GOjobs and graduate discovery; counts refer to audited named candidates, not exhaustive native LinkedIn filters. Oct 22 Certn and Interac Core Products were duplicate historical entries and consolidated. Canadian Tire JR163981 Oct repost but older official indexed deadline conflicts; final Workday form unverified. Ratehub contract official link HTTP 410 and removed from employer board. McGraw Hill Oct 22 local-only backfill synced."
+      "officialAtsExclusiveNew": 1,
+      "globalCanadaEligibleNew": 1,
+      "notes": "A official ATS, B LinkedIn 24h/7d/30d public index, C Jobs.ca/Indeed/GOjobs, and Graduate discovery. Homebase Toronto P2/P3 official Ashby listing; final form unverified. Geotab Design Systems LinkedIn result is absent from employer's current 6-page careers list; do not claim open. MaRS, PlanIT Search, Tim Hortons and other expired index results filtered."
     }
   },
   "jobs": [
@@ -675,7 +675,7 @@
       "Source Type": "Other / Verify"
     },
     {
-      "Date Checked": "2026-10-08",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "exacare ai",
       "Job Title": "Product Operations Analyst",
@@ -692,9 +692,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open",
+      "Job Status": "Listed on employer's official current Careers board on 2026-10-23; downstream application form not tested",
       "Notes": "Apply",
-      "Source Type": "Official ATS / Rippling"
+      "Source Type": "Official employer Careers — board verified, final form unverified"
     },
     {
       "Date Checked": "2026-10-07",
@@ -719,7 +719,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-13",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Fox Corporation / Supercast",
       "Job Title": "Product Designer (R50032284)",
@@ -736,9 +736,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Application form unverified",
+      "Job Status": "Official Fox Careers lists Canada Remote and Apply Now on 2026-10-23; downstream submission not verified",
       "Notes": "Stretch application only | Posted: 2026-05-28",
-      "Source Type": "Official Careers"
+      "Source Type": "Official employer Careers — Apply Now visible, final form unverified"
     },
     {
       "Date Checked": "2026-10-08",
@@ -2127,7 +2127,7 @@
       "Source Type": "Official employer Careers / Workable portal + CareerBeacon/Indeed"
     },
     {
-      "Date Checked": "2026-10-12",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "TribalScale",
       "Job Title": "AI Product Designer",
@@ -2144,9 +2144,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official employer careers lists vacancy; form unverified",
+      "Job Status": "Official Greenhouse listing shows Apply 2026-10-23; downstream submission not tested",
       "Notes": "Stretch application if interested in AI consulting and Toronto on-site. | Posted: 2026-08/09",
-      "Source Type": "Official employer Careers + Jobs.ca job details"
+      "Source Type": "Official ATS / Greenhouse — Apply visible"
     },
     {
       "Date Checked": "2026-10-12",
@@ -3690,7 +3690,7 @@
     },
     {
       "Date Checked": "2026-10-23",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Canadian Tire Corporation",
       "Job Title": "Associate Product Manager & PI Planning Lead, eComm Fulfillment (JR163981)",
       "Track": "Early Career / Associate Product Manager / Product Operations — Stretch",
@@ -3709,6 +3709,28 @@
       "Job Status": "LinkedIn employer repost Oct 2026; official Workday requisition exists but dynamic application and current deadline unverified — not confirmed open",
       "Notes": "Oct 23 discovery, October LinkedIn employer repost. Older indexed Workday record had Aug 27 deadline; current third-party index says Oct 30, conflicting; do not claim confirmed open. No student-only or return-to-school requirement. Enterprise delivery and milestone workflows relevant to Intake Tracker and BMO EECOE.",
       "Source Type": "Employer LinkedIn + official Workday listing — final form unverified"
+    },
+    {
+      "Date Checked": "2026-10-23",
+      "New This Run": "Yes",
+      "Company": "Homebase",
+      "Job Title": "UX Engineer (Hybrid) — Design Systems (Toronto P2/P3)",
+      "Track": "UX Engineer / Design Engineer / Frontend Design Systems — Stretch",
+      "Company Type": "US Workforce Management SaaS / Canadian hiring entity",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid; Toronto office Tuesday and Wednesday",
+      "Experience Requirement": "P2/P3 engineering levels; exact years not established from indexed official ATS listing",
+      "Core Requirements": "Design engineering; reusable design system components; close Figma-to-code handoff; frontend product UI; web/native design systems; cross-functional design and engineering collaboration",
+      "Salary": "Toronto P2 CA$108,000–128,000; Toronto P3 CA$130,000–160,000; equity",
+      "Application Link": "https://jobs.ashbyhq.com/homebase/df64d63b-b8e2-4133-8c18-36d0eb2411c1",
+      "Match %": 85,
+      "Main Risks": "P2/P3 may demand deeper production frontend/design-system engineering; exact experience requirement not independently established; official Ashby page indexed but final submit not verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby job listing indexed; final submission not verified — Open not confirmed",
+      "Notes": "Historical 30-day-plus backfill, not a claim of publication today. US-headquartered Homebase explicitly lists Toronto hybrid, Canadian pay bands, Canada benefits and Toronto office cadence, confirming Canada eligibility. Distinct P2/P3 Ashby posting; avoid duplicating another same-title Homebase UX Engineer listing (93ada7c8). No student-only/return-to-school restriction seen; detailed years unknown.",
+      "Source Type": "Official ATS / Ashby — listing indexed, final form unverified"
     }
   ]
 }
