@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 169,
-    "syncStatus": "Local Excel/JSON updated; GitHub sync pending verification",
+    "syncStatus": "GitHub main updated; readback verified (169 records, 15 Applied, 1 new)",
     "lastScan": {
       "timestamp": "2026-10-23T20:04:00-04:00",
       "candidateCount": 43,
