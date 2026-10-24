@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-23T14:06:00-04:00",
+    "lastUpdated": "2026-10-23T20:04:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 168,
-    "syncStatus": "GitHub main updated; readback verified (168 records, 15 Applied, 1 new)",
+    "total": 169,
+    "syncStatus": "Local Excel/JSON updated; GitHub sync pending verification",
     "lastScan": {
-      "timestamp": "2026-10-23T14:06:00-04:00",
-      "candidateCount": 42,
+      "timestamp": "2026-10-23T20:04:00-04:00",
+      "candidateCount": 43,
       "new": 1,
-      "duplicates": 16,
-      "experienceFiltered": 7,
-      "closedFiltered": 7,
-      "eligibilityFiltered": 4,
-      "locationFiltered": 2,
-      "otherFiltered": 5,
+      "duplicates": 25,
+      "experienceFiltered": 8,
+      "closedFiltered": 5,
+      "eligibilityFiltered": 1,
+      "locationFiltered": 0,
+      "otherFiltered": 3,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 0,
+      "earlyCareerNew": 1,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 1,
-      "globalCanadaEligibleNew": 1,
-      "notes": "A official ATS, B LinkedIn 24h/7d/30d public index, C Jobs.ca/Indeed/GOjobs, and Graduate discovery. Homebase Toronto P2/P3 official Ashby listing; final form unverified. Geotab Design Systems LinkedIn result is absent from employer's current 6-page careers list; do not claim open. MaRS, PlanIT Search, Tim Hortons and other expired index results filtered."
+      "globalCanadaEligibleNew": 0,
+      "notes": "A: official Careers/ATS, B: LinkedIn 24h/7d/30d public index, C: Indeed/Jobs.ca/GOjobs and vendor ATS; separate Graduate/Early Talent scan. RQ11618 newly surfaced with multiple vendor routes, no direct OPS listing. OCS UX Designer third-party freshness conflict (current Jobs.ca company board omits listing); no confirmed official application. City of Toronto Service Design Researcher deadline Oct 6. Deloitte Customer Strategy & Design graduate official SuccessFactors says unavailable. Some vendor ATS forms are JavaScript-only, final submission not independently verified."
     }
   },
   "jobs": [
@@ -692,8 +692,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Listed on employer's official current Careers board on 2026-10-23; downstream application form not tested",
-      "Notes": "Apply",
+      "Job Status": "Official employer careers and Rippling ATS list role with Apply now; final form submission not independently verified 2026-10-23",
+      "Notes": "Apply Oct 23: official Rippling confirms 1+ years Product/Product Ops/Customer Support/Implementation; Toronto hybrid; substantial frontline support/helpdesk responsibilities (not a core PM role).",
       "Source Type": "Official employer Careers — board verified, final form unverified"
     },
     {
@@ -2149,7 +2149,7 @@
       "Source Type": "Official ATS / Greenhouse — Apply visible"
     },
     {
-      "Date Checked": "2026-10-12",
+      "Date Checked": "2026-10-23",
       "New This Run": "No",
       "Company": "Deloitte",
       "Job Title": "Tech & Transformation — Customer Strategy & Design, New Grad 2027 (134519)",
@@ -2166,7 +2166,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-09-18",
-      "Job Status": "Closed / Expired — future cohort monitor only",
+      "Job Status": "Closed/Expired — Deloitte official SuccessFactors page says job not available 2026-10-23; future cohort monitor only",
       "Notes": "Watch next intake; do not recommend as currently open. | Posted: 2026-08-20",
       "Source Type": "Official Careers / SuccessFactors"
     },
@@ -3712,7 +3712,7 @@
     },
     {
       "Date Checked": "2026-10-23",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Homebase",
       "Job Title": "UX Engineer (Hybrid) — Design Systems (Toronto P2/P3)",
       "Track": "UX Engineer / Design Engineer / Frontend Design Systems — Stretch",
@@ -3731,6 +3731,28 @@
       "Job Status": "Official Ashby job listing indexed; final submission not verified — Open not confirmed",
       "Notes": "Historical 30-day-plus backfill, not a claim of publication today. US-headquartered Homebase explicitly lists Toronto hybrid, Canadian pay bands, Canada benefits and Toronto office cadence, confirming Canada eligibility. Distinct P2/P3 Ashby posting; avoid duplicating another same-title Homebase UX Engineer listing (93ada7c8). No student-only/return-to-school restriction seen; detailed years unknown.",
       "Source Type": "Official ATS / Ashby — listing indexed, final form unverified"
+    },
+    {
+      "Date Checked": "2026-10-23",
+      "New This Run": "Yes",
+      "Company": "Ontario Government — vendor requisition RQ11618",
+      "Job Title": "UX Designer — Junior (RQ11618)",
+      "Track": "UX / UI Designer — Early Career-compatible / Ontario Government Vendor Contract",
+      "Company Type": "Ontario Government (Government Services Integration Cluster) / staffing vendors; NOT OPS direct hire",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "On-site 5 days/week; contractor / incorporated engagement may be required",
+      "Experience Requirement": "Junior; vendor posting does not state a numerical minimum; Ontario public-sector experience preferred by some vendors, required by Lotus IT",
+      "Core Requirements": "Figma, Canvas, Ontario Design System, Ontario Digital Service Standard, user research recruitment-to-synthesis, stakeholder workshops, UX/UI web and mobile, journey maps, WCAG 2.1 AA, accessibility, design QA",
+      "Salary": "CA$50–55/hr incorporated via Analyst Technical Solutions; CA$63/hr quoted by Lotus IT (vendor-dependent, unverified take-home)",
+      "Application Link": "https://analystit.careers-page.com/jobs/5feeadbd-f70a-4059-8f50-88fc5e94d8e3",
+      "Match %": 84,
+      "Main Risks": "Five days onsite; incorporated contract; limited OPS-specific design-system experience; some vendors require public-sector experience; The Code Crackers closed its own application early; other vendors' final submit not verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-27 12:00 ET supplier closing per vendor; individual vendors may close earlier",
+      "Job Status": "Vendor ATS listing present 2026-10-23; some vendor application routes closed; final submit not verified — NOT OPS direct",
+      "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract.",
+      "Source Type": "Vendor official ATS / Analyst Technical Solutions; cross-check Lotus IT and The Code Crackers"
     }
   ]
 }
