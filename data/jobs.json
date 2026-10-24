@@ -1,25 +1,25 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-24T08:05:00-04:00",
+    "lastUpdated": "2026-10-24T14:09:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-24_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-24_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 171,
-    "syncStatus": "GitHub main updated; readback verified (171 records, 15 Applied, 2 new)",
+    "total": 172,
+    "syncStatus": "GitHub main updated; readback pending (172 records, 15 Applied, 1 new)",
     "lastScan": {
-      "timestamp": "2026-10-24T08:05:00-04:00",
-      "candidateCount": 49,
-      "new": 2,
-      "duplicates": 25,
-      "experienceFiltered": 8,
-      "closedFiltered": 8,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 2,
+      "timestamp": "2026-10-24T14:09:00-04:00",
+      "candidateCount": 34,
+      "new": 1,
+      "duplicates": 16,
+      "experienceFiltered": 12,
+      "closedFiltered": 2,
+      "eligibilityFiltered": 2,
+      "locationFiltered": 0,
       "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -28,12 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 1,
+      "earlyCareerNew": 0,
       "opsDirectNew": 0,
-      "ontarioLegislativeOfficeDirectNew": 1,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A: employer Careers and official ATS (including Elections Ontario employer PDF, SE Health employer Careers); B: LinkedIn public Jobs index 24h/7d/30d; C: Indeed, Jobs.ca, GOjobs and other third-party cross-checks; D: Graduate/Campus independent scan. LinkedIn native combinations not exhaustively accessible. New Elections Ontario direct legislative-office job (NOT GOjobs OPS); SE Health Markham 4–6 years stretch. No student-only co-ops. Rechecked Smile.io Lever, Veeva Lever, Robots & Pencils Greenhouse submit controls; Certn Ashby JS-only. All 15 Applied preserved. Unverified forms not labeled confirmed."
+      "notes": "A employer ATS (Lever, Ashby, Workday, Greenhouse and Bell graduate); B LinkedIn 24h/7d/30d public index; C Indeed/Jobs.ca/GOjobs; D Graduate. LinkedIn native full matrix inaccessible. BrokerLink employer LinkedIn job is fresh; direct Workday requisition/submit unverified. No graduate new. Historical Applied preserved."
     }
   },
   "jobs": [
@@ -649,7 +648,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever posting and Apply form accessible 2026-10-24",
+      "Job Status": "Open — official Lever application form with Submit application control reverified 2026-10-24",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever — application page verified 2026-10-24"
     },
@@ -2871,7 +2870,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application page and Submit application button reverified 2026-10-24",
+      "Job Status": "Open — official Lever application form with Submit application control reverified 2026-10-24",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
@@ -3757,7 +3756,7 @@
     },
     {
       "Date Checked": "2026-10-24",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Elections Ontario",
       "Job Title": "Process and Service Design Clerk (EO-2026-121)",
       "Track": "Service Design / Digital Transformation / Early Career-compatible — Government Direct",
@@ -3779,7 +3778,7 @@
     },
     {
       "Date Checked": "2026-10-24",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "SE Health",
       "Job Title": "Digital Experience Specialist (44393)",
       "Track": "Digital Experience / Service Design / Healthcare Digital Transformation — Experience Stretch",
@@ -3798,6 +3797,28 @@
       "Job Status": "Official employer Careers lists current FULLTIME posting dated 2026-10-21; final Apply/Submit step unverified — do not claim confirmed submission",
       "Notes": "Job Code 44393, employer site published Oct 21 2026, LinkedIn employer posting visible. Location Markham, hybrid. Strong digital transformation and enterprise UX match but 4–6 years means lower-priority stretch; no student-only/return-to-school requirement. Salary is total target compensation, not confirmed base.",
       "Source Type": "Official Employer / SE Health Careers (listing verified; application form unverified) + Employer LinkedIn"
+    },
+    {
+      "Date Checked": "2026-10-24",
+      "New This Run": "Yes",
+      "Company": "BrokerLink",
+      "Job Title": "Digital CX/UX Designer",
+      "Track": "UX / Product Design; Digital Experience",
+      "Company Type": "Canadian Insurance / Traditional Industry Digital Transformation",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid; permanent full-time",
+      "Experience Requirement": "3+ years digital product/web/UX; internship, contract and combined experience not explicitly excluded",
+      "Core Requirements": "Customer-facing insurance portals and quotes, self-service policy changes, claims UX, journey mapping, usability testing, Figma design systems, WCAG/AODA, analytics, cross-functional product/engineering collaboration",
+      "Salary": "CA$74,800–91,400 base salary; 7.5% target annual bonus",
+      "Application Link": "https://ca.linkedin.com/jobs/view/digital-cx-ux-designer-at-brokerlink-4483180065",
+      "Match %": 90,
+      "Main Risks": "3+ years requirement; end-to-end user research and delivery ownership; official employer Workday listing exists via careers search but exact role ATS submission could not be independently verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Employer LinkedIn currently accepting applications 2026-10-24; employer official Workday direct job URL/final Submit unverified",
+      "Notes": "Fresh employer LinkedIn listing indexed 2026-10-24. Insurance CX and customer/broker/employee portals; Canadian work eligibility required (Canadian PR qualifies). Official careers https://www.brokerlink.ca/about-us/careers routes to https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink; no exact Workday job URL found. Cross-checked Indeed listing https://ca.indeed.com/viewjob?jk=4ed94a751b99d484 . LinkedIn application link retained until exact official requisition verified. 2026-10-24 afternoon scan.",
+      "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
     }
   ]
 }
