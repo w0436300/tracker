@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-23T20:04:00-04:00",
+    "lastUpdated": "2026-10-24T08:05:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-23_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-24_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 169,
-    "syncStatus": "GitHub main updated; readback verified (169 records, 15 Applied, 1 new)",
+    "total": 171,
+    "syncStatus": "GitHub main updated; readback pending (171 records, 15 Applied, 2 new)",
     "lastScan": {
-      "timestamp": "2026-10-23T20:04:00-04:00",
-      "candidateCount": 43,
-      "new": 1,
+      "timestamp": "2026-10-24T08:05:00-04:00",
+      "candidateCount": 49,
+      "new": 2,
       "duplicates": 25,
       "experienceFiltered": 8,
-      "closedFiltered": 5,
-      "eligibilityFiltered": 1,
-      "locationFiltered": 0,
-      "otherFiltered": 3,
+      "closedFiltered": 8,
+      "eligibilityFiltered": 3,
+      "locationFiltered": 2,
+      "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -30,9 +30,10 @@
       "graduateNew": 0,
       "earlyCareerNew": 1,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
+      "ontarioLegislativeOfficeDirectNew": 1,
+      "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A: official Careers/ATS, B: LinkedIn 24h/7d/30d public index, C: Indeed/Jobs.ca/GOjobs and vendor ATS; separate Graduate/Early Talent scan. RQ11618 newly surfaced with multiple vendor routes, no direct OPS listing. OCS UX Designer third-party freshness conflict (current Jobs.ca company board omits listing); no confirmed official application. City of Toronto Service Design Researcher deadline Oct 6. Deloitte Customer Strategy & Design graduate official SuccessFactors says unavailable. Some vendor ATS forms are JavaScript-only, final submission not independently verified."
+      "notes": "A: employer Careers and official ATS (including Elections Ontario employer PDF, SE Health employer Careers); B: LinkedIn public Jobs index 24h/7d/30d; C: Indeed, Jobs.ca, GOjobs and other third-party cross-checks; D: Graduate/Campus independent scan. LinkedIn native combinations not exhaustively accessible. New Elections Ontario direct legislative-office job (NOT GOjobs OPS); SE Health Markham 4–6 years stretch. No student-only co-ops. Rechecked Smile.io Lever, Veeva Lever, Robots & Pencils Greenhouse submit controls; Certn Ashby JS-only. All 15 Applied preserved. Unverified forms not labeled confirmed."
     }
   },
   "jobs": [
@@ -631,7 +632,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -648,9 +649,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever Apply link verified 2026-10-23",
+      "Job Status": "Open — official Lever posting and Apply form accessible 2026-10-24",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
-      "Source Type": "Official ATS — Lever"
+      "Source Type": "Official ATS / Lever — application page verified 2026-10-24"
     },
     {
       "Date Checked": "2026-10-14",
@@ -1269,7 +1270,7 @@
       "Source Type": "Jobs.ca (direct apply) + LinkedIn; official Careers checked"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Certn",
       "Job Title": "Associate Product Manager",
@@ -1286,7 +1287,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official partner Ashby listing states current vacancy; final JavaScript submission unverified",
+      "Job Status": "Official partner Ashby listing remains indexed 2026-10-24; JavaScript-only application form not independently verified",
       "Notes": "High-priority lead — confirm that Ashby application form still accepts submissions. | Posted: 2026-09-11 | Oct 23: official recruiting-partner Ashby explicitly states current open position, Remote Canada, no return-to-school restriction; dynamic form not testable.",
       "Source Type": "Official partner Ashby / Inovia / LinkedIn"
     },
@@ -2589,7 +2590,7 @@
       "New This Run": "No"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Robots & Pencils",
       "Job Title": "UX/UI Designer",
@@ -2606,9 +2607,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application form verified 2026-10-23",
+      "Job Status": "Open — official Greenhouse full application form and Submit application button reverified 2026-10-24",
       "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
-      "Source Type": "Official ATS / Greenhouse"
+      "Source Type": "Official ATS / Greenhouse — Submit application verified 2026-10-24"
     },
     {
       "Date Checked": "2026-10-14",
@@ -2853,7 +2854,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2870,9 +2871,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form with Submit button verified 2026-10-23",
+      "Job Status": "Open — official Lever application page and Submit application button reverified 2026-10-24",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
-      "Source Type": "Official ATS / Lever"
+      "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
     {
       "Date Checked": "2026-10-16",
@@ -3711,7 +3712,7 @@
       "Source Type": "Employer LinkedIn + official Workday listing — final form unverified"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Homebase",
       "Job Title": "UX Engineer (Hybrid) — Design Systems (Toronto P2/P3)",
@@ -3719,22 +3720,22 @@
       "Company Type": "US Workforce Management SaaS / Canadian hiring entity",
       "Location": "Toronto, ON, Canada",
       "Work Mode": "Hybrid; Toronto office Tuesday and Wednesday",
-      "Experience Requirement": "P2/P3 engineering levels; exact years not established from indexed official ATS listing",
+      "Experience Requirement": "4–7 years frontend, UX engineering or design engineering (official related Ashby posting 93ada7c8); exact P2/P3 variant requirement not confirmed",
       "Core Requirements": "Design engineering; reusable design system components; close Figma-to-code handoff; frontend product UI; web/native design systems; cross-functional design and engineering collaboration",
       "Salary": "Toronto P2 CA$108,000–128,000; Toronto P3 CA$130,000–160,000; equity",
       "Application Link": "https://jobs.ashbyhq.com/homebase/df64d63b-b8e2-4133-8c18-36d0eb2411c1",
-      "Match %": 85,
-      "Main Risks": "P2/P3 may demand deeper production frontend/design-system engineering; exact experience requirement not independently established; official Ashby page indexed but final submit not verified",
+      "Match %": 70,
+      "Main Risks": "High stretch: related official Homebase Designbase UX Engineer listing explicitly requires 4–7 years, React Native and Storybook; exact P2/P3 variant may differ. Not early-career priority.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Official Ashby job listing indexed; final submission not verified — Open not confirmed",
-      "Notes": "Historical 30-day-plus backfill, not a claim of publication today. US-headquartered Homebase explicitly lists Toronto hybrid, Canadian pay bands, Canada benefits and Toronto office cadence, confirming Canada eligibility. Distinct P2/P3 Ashby posting; avoid duplicating another same-title Homebase UX Engineer listing (93ada7c8). No student-only/return-to-school restriction seen; detailed years unknown.",
+      "Notes": "Historical 30-day-plus backfill, not a claim of publication today. US-headquartered Homebase explicitly lists Toronto hybrid, Canadian pay bands, Canada benefits and Toronto office cadence, confirming Canada eligibility. Distinct P2/P3 Ashby posting; avoid duplicating another same-title Homebase UX Engineer listing (93ada7c8). No student-only/return-to-school restriction seen; detailed years unknown. | 2026-10-24: related official Homebase UX Engineer Ashby posting 93ada7c8 explicitly requires 4–7 years, Storybook, React Native. Downgraded priority; do not infer this is a junior P2 role.",
       "Source Type": "Official ATS / Ashby — listing indexed, final form unverified"
     },
     {
       "Date Checked": "2026-10-23",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Ontario Government — vendor requisition RQ11618",
       "Job Title": "UX Designer — Junior (RQ11618)",
       "Track": "UX / UI Designer — Early Career-compatible / Ontario Government Vendor Contract",
@@ -3753,6 +3754,50 @@
       "Job Status": "Vendor ATS listing present 2026-10-23; some vendor application routes closed; final submit not verified — NOT OPS direct",
       "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract.",
       "Source Type": "Vendor official ATS / Analyst Technical Solutions; cross-check Lotus IT and The Code Crackers"
+    },
+    {
+      "Date Checked": "2026-10-24",
+      "New This Run": "Yes",
+      "Company": "Elections Ontario",
+      "Job Title": "Process and Service Design Clerk (EO-2026-121)",
+      "Track": "Service Design / Digital Transformation / Early Career-compatible — Government Direct",
+      "Company Type": "Ontario Legislative Assembly independent office / Direct Government Employer (NOT OPS GOjobs ministry)",
+      "Location": "North York, Toronto, ON — 26 Prince Andrew Place, M3C 2H4",
+      "Work Mode": "On-site 5 days/week; permanent full-time (36.25 hours/week)",
+      "Experience Requirement": "No fixed minimum years; post-secondary design education preferred; service design/design thinking, workshops, Figma/Miro/Adobe, AI prototyping; legal Canadian work eligibility",
+      "Core Requirements": "Human-centred service design, journey mapping, service blueprints, co-creation, workshop facilitation, stakeholder research synthesis, process improvement, prototyping, Figma, Miro, Adobe, presentations and storytelling, AI-assisted prototyping",
+      "Salary": "CA$61,982–84,293/year",
+      "Application Link": "https://www.elections.on.ca/content/dam/NGW/sitecontent/2026/jobs/Process%20and%20Service%20Design%20Clerk.pdf",
+      "Match %": 94,
+      "Main Risks": "On-site five days/week in North York; 4 PM ET Oct 26 deadline; permanent public-service environment; must prepare cover letter and resume in one PDF and email; government background and social media checks",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-26 16:00 ET",
+      "Job Status": "Open — current employer Careers lists official PDF with application email and Oct 26 4 PM deadline; email submission channel confirmed (not form-submission tested)",
+      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping.",
+      "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
+    },
+    {
+      "Date Checked": "2026-10-24",
+      "New This Run": "Yes",
+      "Company": "SE Health",
+      "Job Title": "Digital Experience Specialist (44393)",
+      "Track": "Digital Experience / Service Design / Healthcare Digital Transformation — Experience Stretch",
+      "Company Type": "Canadian Healthcare / Home Care Social Enterprise / Enterprise Digital Transformation",
+      "Location": "Markham, ON, Canada",
+      "Work Mode": "Hybrid, full-time; office cadence not stated",
+      "Experience Requirement": "4–6 years progressive digital experience, UX, content strategy, digital communications or service design; equivalent education and portfolio considered; experience minimum exceeds 0–3 target",
+      "Core Requirements": "User research, journey maps, service blueprints, IA, Figma wireframes and prototypes, portals and digital channels, WCAG/AODA accessibility, design systems, CMS and content strategy, analytics/KPIs, QA, stakeholder facilitation, privacy/security and governance",
+      "Salary": "CA$72,000–91,000 total target compensation (not necessarily base salary)",
+      "Application Link": "https://careers.sehc.com/current-positions/digital-experience-specialist",
+      "Match %": 79,
+      "Main Risks": "4–6 years progressive experience (stretch); significant content strategy/CMS and regulated healthcare delivery responsibilities; employer career page indexed but dynamic application submission could not be independently tested",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official employer Careers lists current FULLTIME posting dated 2026-10-21; final Apply/Submit step unverified — do not claim confirmed submission",
+      "Notes": "Job Code 44393, employer site published Oct 21 2026, LinkedIn employer posting visible. Location Markham, hybrid. Strong digital transformation and enterprise UX match but 4–6 years means lower-priority stretch; no student-only/return-to-school requirement. Salary is total target compensation, not confirmed base.",
+      "Source Type": "Official Employer / SE Health Careers (listing verified; application form unverified) + Employer LinkedIn"
     }
   ]
 }
