@@ -30,9 +30,9 @@
       "graduateNew": 0,
       "earlyCareerNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
+      "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS/Lever/Greenhouse/Ashby/Workday; B LinkedIn public search indexes 24h/7d/30d, keywords/geographies sampled (native exhaustive matrix inaccessible); C Jobs.ca/Indeed/GOjobs; D Graduate/Early Career. Brickeye official Lever form Submit control confirmed. 4+ years senior stretch flagged. Applied and Closed historical records retained. Official ATS exclusive means not first discovered via LinkedIn this run."
+      "notes": "A official ATS/Lever/Greenhouse/Ashby/Workday; B LinkedIn public search indexes 24h/7d/30d, keywords/geographies sampled (native exhaustive matrix inaccessible); C Jobs.ca/Indeed/GOjobs; D Graduate/Early Career. Brickeye official Lever form Submit control confirmed. 4+ years senior stretch flagged. Applied and Closed historical records retained. Brickeye was also indexed on LinkedIn; official ATS exclusive new = 0."
     }
   },
   "jobs": [
@@ -3772,7 +3772,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-26 16:00 ET",
-      "Job Status": "Previously verified official email application; Oct 26 16:00 ET deadline; not re-tested 2026-10-25",
+      "Job Status": "Open — employer-authored LinkedIn listing reconfirmed 2026-10-25; official email application closes 2026-10-26 16:00 ET",
       "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping.",
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
