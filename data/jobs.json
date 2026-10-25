@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-24T14:09:00-04:00",
+    "lastUpdated": "2026-10-24T20:00:44-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-24_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-24_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 172,
-    "syncStatus": "GitHub main updated; readback verified (172 records, 15 Applied, 1 new)",
+    "total": 173,
+    "syncStatus": "GitHub main updated; readback pending (173 records, 15 Applied, 1 new)",
     "lastScan": {
-      "timestamp": "2026-10-24T14:09:00-04:00",
-      "candidateCount": 34,
+      "timestamp": "2026-10-24T20:00:44-04:00",
+      "candidateCount": 43,
       "new": 1,
-      "duplicates": 16,
-      "experienceFiltered": 12,
-      "closedFiltered": 2,
-      "eligibilityFiltered": 2,
-      "locationFiltered": 0,
-      "otherFiltered": 1,
+      "duplicates": 23,
+      "experienceFiltered": 10,
+      "closedFiltered": 3,
+      "eligibilityFiltered": 3,
+      "locationFiltered": 1,
+      "otherFiltered": 2,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 0,
+      "earlyCareerNew": 1,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 0,
-      "notes": "A employer ATS (Lever, Ashby, Workday, Greenhouse and Bell graduate); B LinkedIn 24h/7d/30d public index; C Indeed/Jobs.ca/GOjobs; D Graduate. LinkedIn native full matrix inaccessible. BrokerLink employer LinkedIn job is fresh; direct Workday requisition/submit unverified. No graduate new. Historical Applied preserved."
+      "officialAtsExclusiveNew": 1,
+      "globalCanadaEligibleNew": 1,
+      "notes": "A official ATS (Greenhouse/Lever/Workday/Ashby), B LinkedIn public indexes for 24h/7d/30d and locations, C Indeed/Jobs.ca/GOjobs, D graduate pass. Full native LinkedIn keyword x geography matrix unavailable. Mercury Frontend Engineer - Design Systems posted Oct 23, official Greenhouse accessible; final Submit not tested. Vena and Canadian Tire PI statuses downgraded on contrary evidence. Applied preserved."
     }
   },
   "jobs": [
@@ -1819,7 +1819,7 @@
       "Source Type": "Jobs.ca (link incomplete in GitHub)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Vena Solutions",
       "Job Title": "Associate Product Manager",
@@ -1836,8 +1836,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Conflicting: Communitech listing has Apply Now; other aggregator says closed Oct 18; official ATS not verified",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Remote Canada; GTA candidates preferred for occasional Toronto meetings; EPM/FP&A knowledge gap. | 2026-10-19: Conflicting source statuses; do not claim Open without employer ATS.",
+      "Job Status": "Closed/Expired — Built In says removed 2026-10-16; Communitech says no longer accepting; official ATS not independently re-opened",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Remote Canada; GTA candidates preferred for occasional Toronto meetings; EPM/FP&A knowledge gap. | 2026-10-19: Conflicting source statuses; do not claim Open without employer ATS. | 2026-10-24 evening: Built In removed Oct 16, Communitech closed; LinkedIn/Jobs.ca indexed copies are stale. Do not recommend without new employer ATS listing.",
       "Source Type": "Employer careers link (previously recorded); LinkedIn/Communitech corroboration"
     },
     {
@@ -3689,7 +3689,7 @@
       "Source Type": "Employer LinkedIn — official iCIMS not verified"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-24",
       "New This Run": "No",
       "Company": "Canadian Tire Corporation",
       "Job Title": "Associate Product Manager & PI Planning Lead, eComm Fulfillment (JR163981)",
@@ -3706,8 +3706,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-30 (third-party October repost; official Workday not confirmed)",
-      "Job Status": "LinkedIn employer repost Oct 2026; official Workday requisition exists but dynamic application and current deadline unverified — not confirmed open",
-      "Notes": "Oct 23 discovery, October LinkedIn employer repost. Older indexed Workday record had Aug 27 deadline; current third-party index says Oct 30, conflicting; do not claim confirmed open. No student-only or return-to-school requirement. Enterprise delivery and milestone workflows relevant to Intake Tracker and BMO EECOE.",
+      "Job Status": "Closed/Expired or status conflict — official Workday index shows end date 2026-08-27; later third-party repost does not establish reopened requisition",
+      "Notes": "Oct 23 discovery, October LinkedIn employer repost. Older indexed Workday record had Aug 27 deadline; current third-party index says Oct 30, conflicting; do not claim confirmed open. No student-only or return-to-school requirement. Enterprise delivery and milestone workflows relevant to Intake Tracker and BMO EECOE. | 2026-10-24 evening: Workday English and French listing both show Aug 27 end date; do not recommend without confirmed reopened official application.",
       "Source Type": "Employer LinkedIn + official Workday listing — final form unverified"
     },
     {
@@ -3800,7 +3800,7 @@
     },
     {
       "Date Checked": "2026-10-24",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "BrokerLink",
       "Job Title": "Digital CX/UX Designer",
       "Track": "UX / Product Design; Digital Experience",
@@ -3819,6 +3819,28 @@
       "Job Status": "Employer LinkedIn currently accepting applications 2026-10-24; employer official Workday direct job URL/final Submit unverified",
       "Notes": "Fresh employer LinkedIn listing indexed 2026-10-24. Insurance CX and customer/broker/employee portals; Canadian work eligibility required (Canadian PR qualifies). Official careers https://www.brokerlink.ca/about-us/careers routes to https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink; no exact Workday job URL found. Cross-checked Indeed listing https://ca.indeed.com/viewjob?jk=4ed94a751b99d484 . LinkedIn application link retained until exact official requisition verified. 2026-10-24 afternoon scan.",
       "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
+    },
+    {
+      "Date Checked": "2026-10-24",
+      "New This Run": "Yes",
+      "Company": "Mercury",
+      "Job Title": "Frontend Engineer - Design Systems",
+      "Track": "UX Engineering / Frontend Design Systems; Early Career-compatible",
+      "Company Type": "US Fintech / SaaS; explicit Canada payroll and Remote Canada eligibility",
+      "Location": "Remote Canada (also US office options)",
+      "Work Mode": "Remote Canada; full-time",
+      "Experience Requirement": "Early-career or intermediate frontend engineers explicitly welcomed; no fixed minimum years stated in official posting",
+      "Core Requirements": "React, TypeScript, accessible reusable UI components, design tokens, component documentation, design systems, designer-engineer collaboration, code-based prototyping and frontend product UI.",
+      "Salary": "CA$115,700–149,700 base (Canadian employees; official); USD range separately listed for US employees",
+      "Application Link": "https://job-boards.greenhouse.io/mercury/jobs/6233910004",
+      "Match %": 88,
+      "Main Risks": "Requires strong production-quality React/TypeScript frontend implementation and reusable component testing; experience at enterprise product scale may be scrutinized; final application submission was not tested.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open listing on official Greenhouse 2026-10-24; final Submit Application action not independently tested",
+      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery.",
+      "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     }
   ]
 }
