@@ -1,25 +1,25 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-25T08:08:00-04:00",
+    "lastUpdated": "2026-10-25T14:06:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-25_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-25_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 175,
-    "syncStatus": "GitHub main updated; readback verified (175 records, 15 Applied, 2 new)",
+    "total": 176,
+    "syncStatus": "GitHub main updated; readback pending",
     "lastScan": {
-      "timestamp": "2026-10-25T08:08:00-04:00",
-      "candidateCount": 40,
-      "new": 2,
-      "duplicates": 17,
-      "experienceFiltered": 10,
+      "timestamp": "2026-10-25T14:06:00-04:00",
+      "candidateCount": 30,
+      "new": 1,
+      "duplicates": 11,
+      "experienceFiltered": 8,
       "closedFiltered": 5,
       "eligibilityFiltered": 3,
-      "locationFiltered": 2,
+      "locationFiltered": 1,
       "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 1,
+      "earlyCareerNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 1,
-      "notes": "A official ATS/Workday/Lever/Greenhouse/Ashby; B LinkedIn public search indexes (24h/7d/30d, titles/geographies); C Indeed/Jobs.ca/GOjobs/Randstad; D Graduate programs. LinkedIn native exhaustive keyword x location matrix not accessible. OPENLANE official Workday link found via job board; RQ11617 distinct from RQ11618 and vendor-listed, Randstad RQ match not confirmed. Existing Applied unchanged; no final application submitted."
+      "officialAtsExclusiveNew": 1,
+      "globalCanadaEligibleNew": 0,
+      "notes": "A official ATS/Lever/Greenhouse/Ashby/Workday; B LinkedIn public search indexes 24h/7d/30d, keywords/geographies sampled (native exhaustive matrix inaccessible); C Jobs.ca/Indeed/GOjobs; D Graduate/Early Career. Brickeye official Lever form Submit control confirmed. 4+ years senior stretch flagged. Applied and Closed historical records retained. Official ATS exclusive means not first discovered via LinkedIn this run."
     }
   },
   "jobs": [
@@ -648,7 +648,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever job listing and Apply for this job link verified 2026-10-25",
+      "Job Status": "Open — official Lever role and Apply control verified 2026-10-25",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever — application page verified 2026-10-24"
     },
@@ -2870,7 +2870,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form and Submit application control verified 2026-10-25",
+      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-25",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
@@ -3844,7 +3844,7 @@
     },
     {
       "Date Checked": "2026-10-25",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
@@ -3866,7 +3866,7 @@
     },
     {
       "Date Checked": "2026-10-25",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-27 10:00 ET (supplier social posting; NOT confirmed on Lotus ATS)",
@@ -3885,6 +3885,28 @@
       "Job Status": "Vendor listing posted 2026-10-23 with 'Sign in to apply'; submit gated/unverified; not OPS direct",
       "Notes": "RQ11617 is distinct from previously tracked RQ11618 and RQ11616; deduplicate by requisition ID. Lotus source https://www.lotusit.ca/Jobs/Details/270 . A Randstad Junior UX Designer post dated Oct 24 has very similar government design-system requirements but omits RQ ID; probable related vendor lead, not conclusively the same requisition: https://www.randstad.ca/jobs/junior-ux-designer_toronto_47644696/ . Vendor deadline Oct 27 10am ET comes from contemporaneous recruiter LinkedIn post, not official supplier site. Contract end 2027-05-06. No student-only restriction.",
       "Source Type": "Official staffing vendor listing / Lotus IT Solutions; Randstad employer listing corroborates similar opportunity but RQ match unverified"
+    },
+    {
+      "Date Checked": "2026-10-25",
+      "New This Run": "Yes",
+      "Company": "Brickeye",
+      "Job Title": "Senior Product Designer",
+      "Track": "UX / Product Design — 4+ years stretch",
+      "Company Type": "Construction IoT / Industrial B2B SaaS",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "4+ years product design; Senior title; web/mobile software plus physical/industrial design portfolio",
+      "Core Requirements": "End-to-end UX, complex field workflows and live IoT dashboards; Figma, design systems, user interviews; industrial hardware enclosures, 3D CAD/printing; Claude/Cursor AI-assisted prototyping; engineer collaboration",
+      "Salary": "CA$100,000–130,000 base / year",
+      "Application Link": "https://jobs.lever.co/Brickeye/6fe2557e-1af8-4e7f-8d22-a55ead4b368b/apply",
+      "Match %": 77,
+      "Main Risks": "4+ years and Senior ownership; industrial hardware portfolio and CAD/manufacturability expected. Stretch, not core 0–3-year target.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — official Lever application form and Submit application control verified 2026-10-25",
+      "Notes": "Historical posting resurfaced via official ATS; not newly posted today. Strong niche relevance to design/construction client work and personal 3D printing, but 4+ years Senior stretch. Canada location confirmed Toronto.",
+      "Source Type": "Official ATS / Lever (application form verified)"
     }
   ]
 }
