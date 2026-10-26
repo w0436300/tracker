@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-25T20:09:00-04:00",
+    "lastUpdated": "2026-10-26T08:14:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-25_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 177,
-    "syncStatus": "GitHub main updated; readback verified (177 records, 15 Applied, 1 new)",
+    "total": 178,
+    "syncStatus": "GitHub main updated; readback pending",
     "lastScan": {
-      "timestamp": "2026-10-25T20:09:00-04:00",
-      "candidateCount": 32,
+      "timestamp": "2026-10-26T08:14:00-04:00",
+      "candidateCount": 31,
       "new": 1,
-      "duplicates": 14,
+      "duplicates": 18,
       "experienceFiltered": 6,
-      "closedFiltered": 5,
-      "eligibilityFiltered": 2,
-      "locationFiltered": 3,
-      "otherFiltered": 1,
+      "closedFiltered": 2,
+      "eligibilityFiltered": 0,
+      "locationFiltered": 0,
+      "otherFiltered": 3,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,12 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 1,
+      "earlyCareerNew": 0,
+      "earlyCareerCompatibleNew": 2,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 1,
-      "notes": "A employer/official ATS, B LinkedIn public indexes 24h/7d/30d (not exhaustive native matrix), C Indeed/Jobs.ca/GOjobs, D Graduate. EliseAI Toronto official Ashby indexed, final submit unverified. Existing Applied statuses preserved; closed history retained. One historical 30-day backfill; no new 2026-10-25 posting confirmed."
+      "globalCanadaEligibleNew": 0,
+      "notes": "A official ATS, B LinkedIn public index, C Indeed/Jobs.ca/GOjobs, D Graduate. 31 unique candidate audit rows; LinkedIn native filter matrix not exhaustively accessible. OCS Dayforce JS shell unverified; Empire Life employer Indeed active but official ATS not located. McAfee source conflict. 2026 graduation eligibility checked."
     }
   },
   "jobs": [
@@ -2853,7 +2854,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2870,7 +2871,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-25",
+      "Job Status": "Open — official Lever application form and Submit application button verified 2026-10-26",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
       "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
@@ -3535,7 +3536,7 @@
       "Source Type": "Official Careers / Loblaw (listing + Apply Now; final submit unverified)"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "McAfee",
       "Job Title": "UX Research Apprentice",
@@ -3552,8 +3553,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official careers listing indexed Oct 21; final application submission unverified; Canada work mode conflict",
-      "Notes": "NEW 2026-10-21 PM. Graduate/Early Career; start February 2027; explicitly graduated by Dec 2026, so user's 2026 graduation fits. Canada-based only; no relocation assistance. Job description contradicts itself on remote vs hybrid. Official career ID 1741. Not student-only.",
+      "Job Status": "Status conflict — official careers.mcafee.com/jobs/1741 returns 403 in public fetch; LinkedIn/Indeed active but NewGrad-Jobs marks closed. NOT confirmed Open",
+      "Notes": "NEW 2026-10-21 PM. Graduate/Early Career; start February 2027; explicitly graduated by Dec 2026, so user's 2026 graduation fits. Canada-based only; no relocation assistance. Job description contradicts itself on remote vs hybrid. Official career ID 1741. Not student-only. | 2026-10-26: graduated by Dec 2026 eligible; official submission unavailable; do not recommend until verified.",
       "Source Type": "Official Careers (McAfee) + LinkedIn; application form unverified"
     },
     {
@@ -3755,7 +3756,7 @@
       "Source Type": "Vendor official ATS / Analyst Technical Solutions; cross-check Lotus IT and The Code Crackers"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Elections Ontario",
       "Job Title": "Process and Service Design Clerk (EO-2026-121)",
@@ -3772,8 +3773,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-26 16:00 ET",
-      "Job Status": "Open — official email application, deadline 2026-10-26 16:00 ET; prior verification carried forward",
-      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping.",
+      "Job Status": "Open — official Elections Ontario PDF reconfirmed 2026-10-26; email application closes 16:00 ET today",
+      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping. | 2026-10-26: official PDF checked; deadline 4PM ET.",
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
     {
@@ -3821,7 +3822,7 @@
       "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Mercury",
       "Job Title": "Frontend Engineer - Design Systems",
@@ -3838,7 +3839,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse full application and Submit application control verified 2026-10-25",
+      "Job Status": "Open — official Greenhouse application form and Submit application button verified 2026-10-26",
       "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery.",
       "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     },
@@ -3910,7 +3911,7 @@
     },
     {
       "Date Checked": "2026-10-25",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "EliseAI",
       "Job Title": "Product Strategy and Operations, Senior Associate - New Verticals | Housing",
       "Track": "Product Operations / Early Career-compatible",
@@ -3929,6 +3930,28 @@
       "Job Status": "Official Ashby job listing indexed; application submission unverified 2026-10-25",
       "Notes": "Historical posting discovered in 30-day backfill (Sep 29 / Oct 1); not newly posted today. Early-career-compatible 1–4 years, no student/return-to-school restriction. Toronto Canadian position with CAD compensation. Strong alignment with enterprise workflows, project milestones and cross-functional delivery. Salary and eligibility verified from official Ashby text index and third-party current listings.",
       "Source Type": "Official ATS / Ashby (indexed; form unverified)"
+    },
+    {
+      "Date Checked": "2026-10-26",
+      "New This Run": "Yes",
+      "Company": "OCS Ontario Cannabis Store",
+      "Job Title": "UX Designer (12-Month Fixed Term Contract)",
+      "Track": "UX / Product Design; Early Career compatible",
+      "Company Type": "Ontario Crown agency / Retail eCommerce / B2B wholesale",
+      "Location": "Toronto — York Mills & Yonge / North York",
+      "Work Mode": "Office location York Mills; precise hybrid cadence not specified",
+      "Experience Requirement": "1–2 years UX design with professional design platforms; postsecondary design education or equivalent; no return-to-school requirement",
+      "Core Requirements": "B2B/B2C portal UX, research, journey maps, Figma, IA, prototypes, usability, WCAG/AODA, design systems, Shopify nice-to-have, developer collaboration",
+      "Salary": "CA$76,814–82,000 target hiring; CA$76,814–93,884 grade range",
+      "Application Link": "https://jobs.dayforcehcm.com/en-US/ocs/candidateportal/jobs/3362",
+      "Match %": 95,
+      "Main Risks": "12-month fixed-term; official Dayforce JS shell loads but application form/Submit could not be independently verified; actual office cadence not specified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-11-05",
+      "Job Status": "Official Dayforce job URL resolves, current employer listing corroborated by Indeed/LinkedIn; final Submit unverified — Open not fully confirmed",
+      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362",
+      "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     }
   ]
 }
