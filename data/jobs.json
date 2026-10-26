@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-26T14:09:00-04:00",
+    "lastUpdated": "2026-10-26T14:11:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Afternoon.xlsx",
     "priorityLocations": [
@@ -10,17 +10,17 @@
       "Vaughan"
     ],
     "total": 178,
-    "syncStatus": "GitHub main updated; readback pending (1 new FutureFit AI)",
+    "syncStatus": "GitHub main corrected; 178 historical records, 15 Applied, 0 confirmed new; FutureFit status conflict",
     "lastScan": {
       "timestamp": "2026-10-26T14:09:00-04:00",
       "candidateCount": 34,
-      "new": 1,
+      "new": 0,
       "duplicates": 21,
       "experienceFiltered": 7,
       "closedFiltered": 3,
       "eligibilityFiltered": 1,
       "locationFiltered": 0,
-      "otherFiltered": 1,
+      "otherFiltered": 2,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 1,
+      "earlyCareerCompatibleNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
+      "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS; B LinkedIn public 24h/7d/30d index; C Jobs.ca/Indeed/GOjobs; D Graduate. LinkedIn native matrix incomplete. FutureFit Ashby new backfill, not newly posted. Bell 2027 FAQ eligibility issue confirmed. No Applied overwritten."
+      "notes": "No confirmed new open vacancy. FutureFit TPM older Ashby indexed but employer careers says no active roles, Torre lists TPM closed; retained as status conflict historical watch. Bell Graduate FAQ eligibility risk updated. A ATS/B LinkedIn public 24h/7d/30d/C Jobs.ca/Indeed/GOjobs/D Graduate; native LinkedIn matrix incomplete."
     }
   },
   "jobs": [
@@ -3932,24 +3932,24 @@
     },
     {
       "Date Checked": "2026-10-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "FutureFit AI",
       "Job Title": "Technical Product Manager — Talent Journey",
-      "Track": "Product Management / Early Career-compatible (non-graduate)",
+      "Track": "Product Management / Experienced stretch — status conflict",
       "Company Type": "AI / Workforce Technology / B2G SaaS",
       "Location": "Toronto or Remote Canada",
       "Work Mode": "Remote Canada; Toronto office available",
       "Experience Requirement": "No fixed years or prior PM title required; deep workforce-services domain knowledge is essential",
       "Core Requirements": "AI-native PM/prototyping (Claude/Cursor), UX research, job-seeker journeys, PRDs/user stories, stakeholder alignment, BI/data literacy, rapid prototyping, engineering collaboration; WIOA/Workforce Pell/ETPL",
-      "Salary": "Not disclosed",
+      "Salary": "CA$165,000–200,000 (Toronto; Ashby listing)",
       "Application Link": "https://jobs.ashbyhq.com/futurefitai/d8da96c9-b271-484b-9e46-60fde3928e7b",
-      "Match %": 78,
-      "Main Risks": "Requires US workforce agency/policy expertise (WIOA/ETPL) and high-intensity AI-native execution; prior PM title waived but domain requirement may be hard screen",
+      "Match %": 63,
+      "Main Risks": "Employer careers says no active roles and third-party marks TPM closed; substantial domain expertise in US workforce policy (WIOA/ETPL), multi-quarter roadmap ownership and senior-level scope",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby ATS live; Apply for this Job visible 2026-10-26; actual submission not tested",
-      "Notes": "Newly discovered by official ATS backfill 2026-10-26 PM; posting date unverified. Not a Graduate Program; prior PM title not required. Canada eligibility explicit: residents anywhere in Canada or US; Toronto office at 325 Front St W. 2026 graduation compatible; no return-to-school requirement.",
+      "Job Status": "Status conflict / NOT confirmed Open — employer careers says no active roles, Torre marks TPM Closed; older Ashby job detail still indexed; submission not verified",
+      "Notes": "Newly discovered by official ATS backfill 2026-10-26 PM; posting date unverified. Not a Graduate Program; prior PM title not required. Canada eligibility explicit: residents anywhere in Canada or US; Toronto office at 325 Front St W. 2026 graduation compatible; no return-to-school requirement. | 2026-10-26 PM second verification: employer careers reports no active roles; Torre marks TPM Closed; older Ashby page alone insufficient to establish active applications. Do NOT recommend as Open; monitor only.",
       "Source Type": "Official ATS / Ashby (ATS-exclusive discovery)"
     }
   ]
