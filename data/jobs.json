@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 177,
-    "syncStatus": "GitHub main updated; 177 records, 15 Applied, 1 new (OCS); alias dedup; readback pending",
+    "syncStatus": "GitHub main updated; readback verified (177 records, 15 Applied, 1 new OCS, Empire Life alias dedup)",
     "lastScan": {
       "timestamp": "2026-10-26T08:16:00-04:00",
       "candidateCount": 31,
