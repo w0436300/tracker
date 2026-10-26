@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-26T08:16:00-04:00",
+    "lastUpdated": "2026-10-26T14:09:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 177,
-    "syncStatus": "GitHub main updated; readback verified (177 records, 15 Applied, 1 new OCS, Empire Life alias dedup)",
+    "total": 178,
+    "syncStatus": "GitHub main updated; readback pending (1 new FutureFit AI)",
     "lastScan": {
-      "timestamp": "2026-10-26T08:16:00-04:00",
-      "candidateCount": 31,
+      "timestamp": "2026-10-26T14:09:00-04:00",
+      "candidateCount": 34,
       "new": 1,
-      "duplicates": 19,
-      "experienceFiltered": 6,
-      "closedFiltered": 2,
-      "eligibilityFiltered": 0,
+      "duplicates": 21,
+      "experienceFiltered": 7,
+      "closedFiltered": 3,
+      "eligibilityFiltered": 1,
       "locationFiltered": 0,
-      "otherFiltered": 3,
+      "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,12 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 0,
       "earlyCareerCompatibleNew": 1,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
+      "officialAtsExclusiveNew": 1,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS, B LinkedIn public index, C Indeed/Jobs.ca/GOjobs, D Graduate. 31 unique candidate audit rows; LinkedIn native filter matrix not exhaustively accessible. OCS Dayforce JS shell unverified; Empire Life employer Indeed active but official ATS not located. McAfee source conflict. 2026 graduation eligibility checked. Empire Life alias duplicate merged into prior 2026-10-21 record; no new Empire Life vacancy."
+      "notes": "A official ATS; B LinkedIn public 24h/7d/30d index; C Jobs.ca/Indeed/GOjobs; D Graduate. LinkedIn native matrix incomplete. FutureFit Ashby new backfill, not newly posted. Bell 2027 FAQ eligibility issue confirmed. No Applied overwritten."
     }
   },
   "jobs": [
@@ -324,7 +323,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Centah",
       "Job Title": "Product Designer",
@@ -341,7 +340,7 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workable listing; final submit not tested 2026-10-14",
+      "Job Status": "Official Workable ATS listing accessible 2026-10-26; submission untested",
       "Notes": "Priority: official Workable application now found | Posted: 2026-09-17 | Official ATS listing rechecked Oct 13 evening.",
       "Source Type": "Official ATS / Workable"
     },
@@ -522,7 +521,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Enterprise Solutions, Advanced Technology (432592)",
@@ -539,12 +538,12 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Graduate eligibility conflict — requisition potentially fits 2026 Master's / 2024 certificate; final application unverified",
-      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-21: Official requisition rechecked; 2026 Master's and 2024 post-grad certificate appear within recency language. Correct prior categorical ineligible to Eligibility Review Needed; not yet confirmed eligible.",
+      "Job Status": "Graduate eligibility review: Bell 2027 FAQ likely excludes 2016 bachelor's + 2024 postgraduate enrolment (8-year gap); exception unverified",
+      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-21: Official requisition rechecked; 2026 Master's and 2024 post-grad certificate appear within recency language. Correct prior categorical ineligible to Eligibility Review Needed; not yet confirmed eligible. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Enterprise Solutions, Business Technology (432593)",
@@ -562,11 +561,11 @@
       "Application Date": null,
       "Deadline": "2026-11-16",
       "Job Status": "Eligibility not met — Bell 2027 Graduate FAQ",
-      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule.",
+      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Consumer & Small Business, Channels (432877)",
@@ -584,11 +583,11 @@
       "Application Date": null,
       "Deadline": "2026-11-16",
       "Job Status": "Eligibility not met — Bell 2027 Graduate FAQ",
-      "Notes": "Reassess eligibility from this requisition rather than generic FAQ; apply if education accepted | Posted: 2026-09-16 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule.",
+      "Notes": "Reassess eligibility from this requisition rather than generic FAQ; apply if education accepted | Posted: 2026-09-16 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Consumer & Small Business, Marketing (432880)",
@@ -605,12 +604,12 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Official Bell Graduate listing current; role-specific eligibility appears compatible with 2026 graduate; Apply redirects to general careers — submission unverified",
-      "Notes": "2026-10-21 reassessment: Req 432880's role-specific eligibility accepts bachelor's/master's/college diploma in Business/Marketing or related completed before program start; it does not itself specify graduation-year window or degree-gap cap. Candidate has 2026 MDTI and prior Business diploma; possible eligibility. Generic Bell Graduate FAQ has stricter rules and may supersede role-specific text. Treat as eligibility unconfirmed, not categorically excluded. Apply Now redirects to generic careers page. Req 432880; deadline Nov 16 2026.",
+      "Job Status": "Graduate eligibility review: Bell 2027 FAQ likely excludes 2016 bachelor's + 2024 postgraduate enrolment (8-year gap); exception unverified",
+      "Notes": "2026-10-21 reassessment: Req 432880's role-specific eligibility accepts bachelor's/master's/college diploma in Business/Marketing or related completed before program start; it does not itself specify graduation-year window or degree-gap cap. Candidate has 2026 MDTI and prior Business diploma; possible eligibility. Generic Bell Graduate FAQ has stricter rules and may supersede role-specific text. Treat as eligibility unconfirmed, not categorically excluded. Apply Now redirects to generic careers page. Req 432880; deadline Nov 16 2026. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate – Technology Services, Product & Initiative Management (432669)",
@@ -628,7 +627,7 @@
       "Application Date": null,
       "Deadline": "2026-11-16",
       "Job Status": "Eligibility not met — Bell 2027 Graduate FAQ",
-      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-18 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15 check: 2027 Graduate, Req 432669; deadline Nov 16 2026; less than 3 years combined professional experience excluding internships; separate Bell Graduate FAQ education timing restriction may disqualify candidate. Toronto eligible. | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule.",
+      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-18 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15 check: 2027 Graduate, Req 432669; deadline Nov 16 2026; less than 3 years combined professional experience excluding internships; separate Bell Graduate FAQ education timing restriction may disqualify candidate. Toronto eligible. | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
@@ -962,7 +961,7 @@
       "Source Type": "Aggregator / Built In"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Leap Tools",
       "Job Title": "UI/UX Designer",
@@ -979,8 +978,8 @@
       "Application Status": "Applied",
       "Application Date": "2026-09-24",
       "Deadline": null,
-      "Job Status": "Historical — recheck availability",
-      "Notes": "Applied 2026-09-24 — track only | Posted: 2026-09-18 | 2026-10-14: Gem application form remains visible on Communitech employer board; already Applied, do not recommend again.",
+      "Job Status": "Official Gem ATS application form visible 2026-10-26; already Applied",
+      "Notes": "Applied 2026-09-24 — track only | Posted: 2026-09-18 | 2026-10-14: Gem application form remains visible on Communitech employer board; already Applied, do not recommend again. | 2026-10-26: Official Gem ATS R58 active; retain Applied.",
       "Source Type": "Jobs.ca"
     },
     {
@@ -1754,7 +1753,7 @@
       "Source Type": "Jobs.ca (link incomplete in GitHub)"
     },
     {
-      "Date Checked": "2026-10-09 (GitHub snapshot)",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Leap Tools",
       "Job Title": "Associate Product Manager",
@@ -2392,7 +2391,7 @@
       "Source Type": "LinkedIn / Employer email"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate Program - Media (432441)",
@@ -2410,7 +2409,7 @@
       "Application Date": null,
       "Deadline": "2026-11-16",
       "Job Status": "Eligibility not met — Bell 2027 Graduate FAQ",
-      "Notes": "Eligibility review: calculate non-internship professional years before applying; submit before Nov 16 if eligible | Posted: 2026-10-13 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule.",
+      "Notes": "Eligibility review: calculate non-internship professional years before applying; submit before Nov 16 if eligible | Posted: 2026-10-13 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception.",
       "Source Type": "Official Careers / Bell"
     },
     {
@@ -3752,7 +3751,7 @@
       "Application Date": null,
       "Deadline": "2026-10-26 16:00 ET",
       "Job Status": "Open — official Elections Ontario PDF reconfirmed 2026-10-26; email application closes 16:00 ET today",
-      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping. | 2026-10-26: official PDF checked; deadline 4PM ET.",
+      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping. | 2026-10-26: official PDF checked; deadline 4PM ET. | 2026-10-26 PM: Official deadline 16:00 ET today; not known Applied.",
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
     {
@@ -3911,7 +3910,7 @@
     },
     {
       "Date Checked": "2026-10-26",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "OCS Ontario Cannabis Store",
       "Job Title": "UX Designer (12-Month Fixed Term Contract)",
       "Track": "UX / Product Design; Early Career compatible",
@@ -3930,6 +3929,28 @@
       "Job Status": "Official Dayforce job URL resolves, current employer listing corroborated by Indeed/LinkedIn; final Submit unverified — Open not fully confirmed",
       "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
+    },
+    {
+      "Date Checked": "2026-10-26",
+      "New This Run": "Yes",
+      "Company": "FutureFit AI",
+      "Job Title": "Technical Product Manager — Talent Journey",
+      "Track": "Product Management / Early Career-compatible (non-graduate)",
+      "Company Type": "AI / Workforce Technology / B2G SaaS",
+      "Location": "Toronto or Remote Canada",
+      "Work Mode": "Remote Canada; Toronto office available",
+      "Experience Requirement": "No fixed years or prior PM title required; deep workforce-services domain knowledge is essential",
+      "Core Requirements": "AI-native PM/prototyping (Claude/Cursor), UX research, job-seeker journeys, PRDs/user stories, stakeholder alignment, BI/data literacy, rapid prototyping, engineering collaboration; WIOA/Workforce Pell/ETPL",
+      "Salary": "Not disclosed",
+      "Application Link": "https://jobs.ashbyhq.com/futurefitai/d8da96c9-b271-484b-9e46-60fde3928e7b",
+      "Match %": 78,
+      "Main Risks": "Requires US workforce agency/policy expertise (WIOA/ETPL) and high-intensity AI-native execution; prior PM title waived but domain requirement may be hard screen",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby ATS live; Apply for this Job visible 2026-10-26; actual submission not tested",
+      "Notes": "Newly discovered by official ATS backfill 2026-10-26 PM; posting date unverified. Not a Graduate Program; prior PM title not required. Canada eligibility explicit: residents anywhere in Canada or US; Toronto office at 325 Front St W. 2026 graduation compatible; no return-to-school requirement.",
+      "Source Type": "Official ATS / Ashby (ATS-exclusive discovery)"
     }
   ]
 }
