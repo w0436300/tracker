@@ -1,25 +1,25 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-25T14:06:00-04:00",
+    "lastUpdated": "2026-10-25T20:09:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-25_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-25_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 176,
-    "syncStatus": "GitHub main updated; readback verified (176 records, 15 Applied, 1 new)",
+    "total": 177,
+    "syncStatus": "GitHub main updated — readback verification pending",
     "lastScan": {
-      "timestamp": "2026-10-25T14:06:00-04:00",
-      "candidateCount": 30,
+      "timestamp": "2026-10-25T20:09:00-04:00",
+      "candidateCount": 32,
       "new": 1,
-      "duplicates": 11,
-      "experienceFiltered": 8,
+      "duplicates": 14,
+      "experienceFiltered": 6,
       "closedFiltered": 5,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 1,
+      "eligibilityFiltered": 2,
+      "locationFiltered": 3,
       "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerNew": 0,
+      "earlyCareerNew": 1,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS/Lever/Greenhouse/Ashby/Workday; B LinkedIn public search indexes 24h/7d/30d, keywords/geographies sampled (native exhaustive matrix inaccessible); C Jobs.ca/Indeed/GOjobs; D Graduate/Early Career. Brickeye official Lever form Submit control confirmed. 4+ years senior stretch flagged. Applied and Closed historical records retained. Brickeye was also indexed on LinkedIn; official ATS exclusive new = 0."
+      "globalCanadaEligibleNew": 1,
+      "notes": "A employer/official ATS, B LinkedIn public indexes 24h/7d/30d (not exhaustive native matrix), C Indeed/Jobs.ca/GOjobs, D Graduate. EliseAI Toronto official Ashby indexed, final submit unverified. Existing Applied statuses preserved; closed history retained. One historical 30-day backfill; no new 2026-10-25 posting confirmed."
     }
   },
   "jobs": [
@@ -1885,7 +1885,7 @@
       "Source Type": "Other / Aggregator"
     },
     {
-      "Date Checked": "2026-10-16",
+      "Date Checked": "2026-10-25",
       "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Product Designer",
@@ -1907,7 +1907,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-25",
       "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Product Designer, Buy, Fulfill & Assist",
@@ -1924,7 +1924,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — employer Careers shows Apply Now; downstream submission unverified",
+      "Job Status": "Open — official employer Careers listing and Apply Now present 2026-10-25; downstream submission unverified",
       "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca.",
       "Source Type": "Official Careers — Loblaw"
     },
@@ -3513,7 +3513,7 @@
       "Source Type": "Employer LinkedIn + Indeed Easy Apply — official ATS unverified"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-25",
       "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Associate - Digital Experience Strategy (R2000700663)",
@@ -3772,7 +3772,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-26 16:00 ET",
-      "Job Status": "Open — employer-authored LinkedIn listing reconfirmed 2026-10-25; official email application closes 2026-10-26 16:00 ET",
+      "Job Status": "Open — official email application, deadline 2026-10-26 16:00 ET; prior verification carried forward",
       "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping.",
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
@@ -3888,7 +3888,7 @@
     },
     {
       "Date Checked": "2026-10-25",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Brickeye",
       "Job Title": "Senior Product Designer",
       "Track": "UX / Product Design — 4+ years stretch",
@@ -3907,6 +3907,28 @@
       "Job Status": "Open — official Lever application form and Submit application control verified 2026-10-25",
       "Notes": "Historical posting resurfaced via official ATS; not newly posted today. Strong niche relevance to design/construction client work and personal 3D printing, but 4+ years Senior stretch. Canada location confirmed Toronto.",
       "Source Type": "Official ATS / Lever (application form verified)"
+    },
+    {
+      "Date Checked": "2026-10-25",
+      "New This Run": "Yes",
+      "Company": "EliseAI",
+      "Job Title": "Product Strategy and Operations, Senior Associate - New Verticals | Housing",
+      "Track": "Product Operations / Early Career-compatible",
+      "Company Type": "AI SaaS / Housing & Healthcare",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "On-site 4–5 days/week",
+      "Experience Requirement": "1–4 years consulting, corporate strategy, product management or related high-growth tech role",
+      "Core Requirements": "Coordinate Product/Engineering/GTM/Ops/CS launches; client workflow analysis, product adoption and feedback, performance metrics, strategic research, milestone and deliverable tracking, cross-functional execution.",
+      "Salary": "CA$100,000–160,000 base/year + equity",
+      "Application Link": "https://jobs.ashbyhq.com/eliseai/a99c415c-cf07-4bde-a232-85b52b9803ec",
+      "Match %": 81,
+      "Main Risks": "Toronto office 4–5 days weekly; intense high-growth environment and GTM/strategy expectations; exact final Ashby form submission not independently verified.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby job listing indexed; application submission unverified 2026-10-25",
+      "Notes": "Historical posting discovered in 30-day backfill (Sep 29 / Oct 1); not newly posted today. Early-career-compatible 1–4 years, no student/return-to-school restriction. Toronto Canadian position with CAD compensation. Strong alignment with enterprise workflows, project milestones and cross-functional delivery. Salary and eligibility verified from official Ashby text index and third-party current listings.",
+      "Source Type": "Official ATS / Ashby (indexed; form unverified)"
     }
   ]
 }
