@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-26T08:14:00-04:00",
+    "lastUpdated": "2026-10-26T08:16:00-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Morning.xlsx",
     "priorityLocations": [
@@ -9,13 +9,13 @@
       "North York",
       "Vaughan"
     ],
-    "total": 178,
-    "syncStatus": "GitHub main updated; readback pending",
+    "total": 177,
+    "syncStatus": "GitHub main updated; 177 records, 15 Applied, 1 new (OCS); alias dedup; readback pending",
     "lastScan": {
-      "timestamp": "2026-10-26T08:14:00-04:00",
+      "timestamp": "2026-10-26T08:16:00-04:00",
       "candidateCount": 31,
       "new": 1,
-      "duplicates": 18,
+      "duplicates": 19,
       "experienceFiltered": 6,
       "closedFiltered": 2,
       "eligibilityFiltered": 0,
@@ -29,11 +29,11 @@
       ],
       "graduateNew": 0,
       "earlyCareerNew": 0,
-      "earlyCareerCompatibleNew": 2,
+      "earlyCareerCompatibleNew": 1,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS, B LinkedIn public index, C Indeed/Jobs.ca/GOjobs, D Graduate. 31 unique candidate audit rows; LinkedIn native filter matrix not exhaustively accessible. OCS Dayforce JS shell unverified; Empire Life employer Indeed active but official ATS not located. McAfee source conflict. 2026 graduation eligibility checked."
+      "notes": "A official ATS, B LinkedIn public index, C Indeed/Jobs.ca/GOjobs, D Graduate. 31 unique candidate audit rows; LinkedIn native filter matrix not exhaustively accessible. OCS Dayforce JS shell unverified; Empire Life employer Indeed active but official ATS not located. McAfee source conflict. 2026 graduation eligibility checked. Empire Life alias duplicate merged into prior 2026-10-21 record; no new Empire Life vacancy."
     }
   },
   "jobs": [
@@ -2086,28 +2086,6 @@
     {
       "Date Checked": "2026-10-12",
       "New This Run": "No",
-      "Company": "The Empire Life Insurance Company",
-      "Job Title": "Digital Client Experience Specialist",
-      "Track": "Digital Experience / Product Operations",
-      "Company Type": "Insurance / Financial Services / Digital Transformation",
-      "Location": "North York / Toronto (York Mills) or Kingston",
-      "Work Mode": "Hybrid",
-      "Experience Requirement": "3+ years digital marketing / product support / UX journey mapping; post-secondary related field",
-      "Core Requirements": "Customer journeys, personas, portal UX, mobile experience, Figma/Lucidchart, product owner collaboration, business processes, data and digital adoption.",
-      "Salary": "CA$79,200–126,500 total target compensation incl. bonus",
-      "Application Link": "https://www.simplyhired.ca/job/4oX2pTyEE5-0pJL-nwgc4ctq2YHIcLawX2EWnmt0PlIei_5Yn7VrXw",
-      "Match %": 87,
-      "Main Risks": "3+ years; hybrid; marketing/CX more than pure visual UI; official job-specific ATS form unverified.",
-      "Application Status": "Not Applied",
-      "Application Date": null,
-      "Deadline": null,
-      "Job Status": "Listed on Indeed / SimplyHired; employer ATS not verified",
-      "Notes": "Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed)",
-      "Source Type": "Indeed / SimplyHired + employer careers cross-check"
-    },
-    {
-      "Date Checked": "2026-10-12",
-      "New This Run": "No",
       "Company": "CIeNET International",
       "Job Title": "Software Developer - Frontend Enterprise Web Applications Development",
       "Track": "UX Engineering / Product UI",
@@ -3492,26 +3470,26 @@
       "Source Type": "Official Careers / SuccessFactors (listing verified, final application unverified)"
     },
     {
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Empire Life",
       "Job Title": "Digital Client Experience Specialist",
       "Track": "Digital Experience / Service Design — Financial Services",
       "Company Type": "Canadian Insurance / Group Benefits / Digital Transformation",
-      "Location": "North York, ON (36 York Mills Rd); Kingston alternative",
-      "Work Mode": "Hybrid — Toronto (York Mills) / Kingston",
+      "Location": "North York — 36 York Mills Rd / Kingston alternative",
+      "Work Mode": "Hybrid (York Mills / Kingston)",
       "Experience Requirement": "3+ years digital marketing, digital product support, or UX/journey mapping; no student/return-to-school requirement; internships/contract inclusion not specified",
       "Core Requirements": "End-to-end customer journey mapping, personas, Figma/Lucidchart, web portal and mobile UX, VoC research, digital adoption analytics/GA, business cases, stakeholder management, Agile, financial services/insurance.",
       "Salary": "CA$79,200–126,500 total target compensation incl. target bonus (not base salary)",
-      "Application Link": "https://ca.indeed.com/q-digital-client-experience-specialist-empire-life-l-north-york,-on-jobs.html",
+      "Application Link": "https://ca.indeed.com/viewjob?jk=bc76bdfa5a65ba83",
       "Match %": 91,
       "Main Risks": "3+ years combined relevant experience may be scrutinized; role within Marketing and client experience rather than hands-on product UI; base pay is lower than total target range; official employer ATS not verified.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer LinkedIn + Indeed Easy Apply listing active 2026-10-21; official employer ATS not independently verified",
-      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role.",
-      "Source Type": "Employer LinkedIn + Indeed Easy Apply — official ATS unverified"
+      "Job Status": "Employer-provided Indeed listing explicitly states active vacancy, Apply now visible 2026-10-26; official ATS/final submission unverified",
+      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role. | 2026-10-26: employer Indeed listing rechecked; previously also recorded under alias 'The Empire Life Insurance Company' (2026-10-12); older notes: Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed)",
+      "Source Type": "Indeed / employer-provided listing (official ATS not found)"
     },
     {
       "Date Checked": "2026-10-25",
