@@ -9,8 +9,8 @@
       "North York",
       "Vaughan"
     ],
-    "total": 178,
-    "syncStatus": "GitHub main synced; 178 historical records; Applied preserved; 1 newly tracked vendor ATS listing, submission unverified",
+    "total": 179,
+    "syncStatus": "GitHub main synced; 179 historical records; 15 Applied preserved; 1 new employer-verified listing, final submission unverified",
     "lastScan": {
       "timestamp": "2026-10-27T08:14:00-04:00",
       "candidateCount": 36,
@@ -28,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 1,
+      "earlyCareerCompatibleNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
+      "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Pass A official employer/vendor ATS; Pass B LinkedIn 24h/7d/30d public index; Pass C GOjobs/Indeed/Jobs.ca; Pass D Graduate/Early Talent. New vendor TalentNest Compu-Vision Junior UX MSON #13 (posted Oct 14), 0-3 years; final submit and client vacancy unverified. Bell cohort FAQ confirms 2016 Bachelor's + 2024 Master's enrolment does not meet 2027 graduate criteria. Smile.io Lever and Mercury Greenhouse forms reconfirmed. 36 distinct candidate leads reviewed, LinkedIn native matrix not exhaustive."
+      "notes": "Pass A official employer/ATS, Pass B LinkedIn public 24h/7d/30d index, Pass C Indeed/Jobs.ca/GOjobs, Pass D graduate/early talent. New: Intercept Interactive Designer (Sep 30 posting; Remote Canada; Jobs.ca employer verified + company Careers says hiring; final submit unverified). Compu-Vision MSON #13 and McGraw Hill Req 51286 were ALREADY tracked; not counted new. Bell 2027 FAQ eligibility excludes 2016 bachelor's + 2024 master's enrolment. Smile Lever and Mercury Greenhouse forms reverified. 36 distinct leads audited, LinkedIn native matrix not exhaustive."
     }
   },
   "jobs": [
@@ -2765,7 +2765,7 @@
       "Source Type": "Official ATS — Ashby"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
@@ -2782,8 +2782,8 @@
       "Match %": 94,
       "Main Risks": "Vendor and end client unconfirmed; form unverified",
       "Deadline": "2026-11-14",
-      "Job Status": "Vendor ATS indexed; form unverified",
-      "Notes": "Posted Oct 14; one listing across GTA cities, not OPS direct; RQ unknown",
+      "Job Status": "Official vendor TalentNest listing live 2026-10-27; 0–3 years; final Submit and end client unverified",
+      "Notes": "Posted Oct 14; one listing across GTA cities, not OPS direct; RQ unknown | 2026-10-27: Rechecked official TalentNest; posted 2026-10-14, closes 2026-11-14, no RQ identifier; remains historical (NOT newly discovered).",
       "Source Type": "Vendor ATS / TalentNest"
     },
     {
@@ -3951,6 +3951,28 @@
       "Job Status": "Status conflict / NOT confirmed Open — employer careers says no active roles, Torre marks TPM Closed; older Ashby job detail still indexed; submission not verified",
       "Notes": "Newly discovered by official ATS backfill 2026-10-26 PM; posting date unverified. Not a Graduate Program; prior PM title not required. Canada eligibility explicit: residents anywhere in Canada or US; Toronto office at 325 Front St W. 2026 graduation compatible; no return-to-school requirement. | 2026-10-26 PM second verification: employer careers reports no active roles; Torre marks TPM Closed; older Ashby page alone insufficient to establish active applications. Do NOT recommend as Open; monitor only.",
       "Source Type": "Official ATS / Ashby (ATS-exclusive discovery)"
+    },
+    {
+      "Date Checked": "2026-10-27",
+      "New This Run": "Yes",
+      "Company": "Intercept",
+      "Job Title": "Interactive Designer",
+      "Track": "Interaction / Digital Experience Design — B2B / Web (3–5y stretch)",
+      "Company Type": "Canadian B2B technology marketing agency / Digital Experience",
+      "Location": "Remote Canada (Toronto-based company)",
+      "Work Mode": "Fully Remote — Canada",
+      "Experience Requirement": "3–5 years in agency digital, interactive, web or visual design; includes visual/graphic design; no student/return-to-school restriction",
+      "Core Requirements": "Figma, Adobe Creative Suite, digital/interactive experiences, CMS, responsive websites, B2B technology, accessibility/ARIA, design systems, visual storytelling, wireframes/prototypes, AI workflows, developer collaboration",
+      "Salary": "CA$75,000–85,000/year",
+      "Application Link": "https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474",
+      "Match %": 82,
+      "Main Risks": "More B2B marketing/content design than SaaS product UX; 3–5 years agency experience expected; frequent campaigns/presentations and tight deadlines; official employer Careers confirms recruiting but role-specific final application submit not verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Employer Careers confirms hiring and Jobs.ca employer-verified live listing 2026-10-27; role-specific final application form unverified",
+      "Notes": "Backfill first tracked 2026-10-27; posting originally 2026-09-30 (not published today). Strong match to earlier visual communication design + Figma, Adobe, B2B digital experiences, front-end knowledge, AI workflows. Canada eligibility explicit: fully remote Canada, Toronto-based employer. 2026 graduation eligible; not Graduate Program. Official employer Careers https://interceptgroup.com/careers/ currently says roles open across creative/technology; verified employer listing https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474 . Company application path not independently tested.",
+      "Source Type": "Employer Careers corroborated + Jobs.ca Verified Job Source (official downstream submit unverified)"
     }
   ]
 }
