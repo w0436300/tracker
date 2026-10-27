@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-27T08:14:00-04:00",
+    "lastUpdated": "2026-10-27T14:06:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-27_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-27_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 179,
-    "syncStatus": "GitHub main synced; 179 historical records; 15 Applied preserved; 1 new employer-verified listing, final submission unverified",
+    "total": 180,
+    "syncStatus": "GitHub main synced; 180 historical records; 15 Applied preserved; 1 new LinkedIn employer-listed role, official ATS submit unverified",
     "lastScan": {
-      "timestamp": "2026-10-27T08:14:00-04:00",
-      "candidateCount": 36,
+      "timestamp": "2026-10-27T14:06:00-04:00",
+      "candidateCount": 34,
       "new": 1,
-      "duplicates": 17,
+      "duplicates": 16,
       "experienceFiltered": 9,
-      "closedFiltered": 3,
+      "closedFiltered": 4,
       "eligibilityFiltered": 3,
       "locationFiltered": 1,
-      "otherFiltered": 2,
+      "otherFiltered": 0,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -32,7 +32,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Pass A official employer/ATS, Pass B LinkedIn public 24h/7d/30d index, Pass C Indeed/Jobs.ca/GOjobs, Pass D graduate/early talent. New: Intercept Interactive Designer (Sep 30 posting; Remote Canada; Jobs.ca employer verified + company Careers says hiring; final submit unverified). Compu-Vision MSON #13 and McGraw Hill Req 51286 were ALREADY tracked; not counted new. Bell 2027 FAQ eligibility excludes 2016 bachelor's + 2024 master's enrolment. Smile Lever and Mercury Greenhouse forms reverified. 36 distinct leads audited, LinkedIn native matrix not exhaustive."
+      "notes": "A: employer/official ATS; B: LinkedIn public 24h/7d/30d index; C: Indeed/Jobs.ca/GOjobs; D: graduate/early talent. New: Flywheel Product Designer (Perpetua), Toronto Hybrid 3+ days, 3–5y, CAD120–140k; employer LinkedIn listing only, official ATS final submit unverified. CMiC Associate Product Manager was ALREADY tracked Oct18, not counted new; rechecked active Indeed. Smile Lever and Mercury Greenhouse submit forms confirmed today. Excluded Manulife APM JR26090978 because official required qualifications simultaneously state minimum 5 years and 2–4 years; treat as 5+ risk. Bell grad FAQ excludes candidate, CIBC/Manulife/Loblaw coops student-only. LinkedIn native matrix not exhaustive."
     }
   },
   "jobs": [
@@ -2149,7 +2149,7 @@
       "Source Type": "Official Careers / SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Ashby",
       "Job Title": "Junior Design Engineer - Canada",
@@ -2166,7 +2166,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official ATS indexed; submit form unverified",
+      "Job Status": "Official Ashby ATS listing accessible, final application JS-only/unverified 2026-10-27",
       "Notes": "Eligibility first: verify whether prior graphic design employment counts toward 2-year cap; if eligible, apply with Figma-to-React production demo. | Posted: Backfill ≤30d not verified",
       "Source Type": "Official ATS / Ashby (JS form unverified)"
     },
@@ -2848,8 +2848,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application fields and Submit application button verified 2026-10-27",
-      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada.",
+      "Job Status": "Open — official application form and Submit button visible 2026-10-27",
+      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
     {
@@ -2941,7 +2941,7 @@
       "Source Type": "Indeed / employer description; official ATS unverified"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "CMiC",
       "Job Title": "Associate Product Manager (Project Controls / Job Costing)",
@@ -2958,8 +2958,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer LinkedIn active 2026-10-16; official role-specific ATS form unverified",
-      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement.",
+      "Job Status": "Employer Indeed listing active 2026-10-27; 'Apply on company site'; final employer ATS submit unverified",
+      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement. | 2026-10-27 14:06 ET reverified Indeed employer posting; not new, already tracked since Oct 18.",
       "Source Type": "Employer LinkedIn / official HiBob portal located (role form unverified)"
     },
     {
@@ -3816,8 +3816,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application fields and Submit application button verified 2026-10-27",
-      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery.",
+      "Job Status": "Open — official application form and Submit button visible 2026-10-27",
+      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     },
     {
@@ -3954,7 +3954,7 @@
     },
     {
       "Date Checked": "2026-10-27",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Intercept",
       "Job Title": "Interactive Designer",
       "Track": "Interaction / Digital Experience Design — B2B / Web (3–5y stretch)",
@@ -3973,6 +3973,28 @@
       "Job Status": "Employer Careers confirms hiring and Jobs.ca employer-verified live listing 2026-10-27; role-specific final application form unverified",
       "Notes": "Backfill first tracked 2026-10-27; posting originally 2026-09-30 (not published today). Strong match to earlier visual communication design + Figma, Adobe, B2B digital experiences, front-end knowledge, AI workflows. Canada eligibility explicit: fully remote Canada, Toronto-based employer. 2026 graduation eligible; not Graduate Program. Official employer Careers https://interceptgroup.com/careers/ currently says roles open across creative/technology; verified employer listing https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474 . Company application path not independently tested.",
       "Source Type": "Employer Careers corroborated + Jobs.ca Verified Job Source (official downstream submit unverified)"
+    },
+    {
+      "Date Checked": "2026-10-27",
+      "New This Run": "Yes",
+      "Company": "Flywheel",
+      "Job Title": "Product Designer (Perpetua)",
+      "Track": "UX / Product Design — B2B SaaS / eCommerce / AI-assisted product UI (3–5y stretch)",
+      "Company Type": "Global digital commerce / advertising technology (Omnicom group)",
+      "Location": "Toronto, Ontario, Canada",
+      "Work Mode": "Hybrid — Toronto office 3+ days/week (employer may increase office attendance)",
+      "Experience Requirement": "3–5 years UX/UI design on software product team; no student or return-to-school requirement; 2026 graduate eligible",
+      "Core Requirements": "End-to-end product UX/UI for Perpetua retail advertising SaaS, web and native mobile, complex analytics/dashboard and advertising campaign workflows, Figma, design systems/component libraries, user research and usability testing, AI design tools, cross-functional product/engineering collaboration, visual craft",
+      "Salary": "CA$120,000–140,000/year (employer LinkedIn listing)",
+      "Application Link": "https://ca.linkedin.com/jobs/view/product-designer-at-flywheel-4453262198",
+      "Match %": 85,
+      "Main Risks": "3–5 years software product UX/UI and native mobile experience requested; first/founding designer with independent ownership; 3+ days office with potential increase; employer ATS/final submit not independently verified; LinkedIn employer listing may be reposted",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "LinkedIn employer job listing active/indexed 2026-10-27; final official ATS submit unverified",
+      "Notes": "2026-10-27 14:06 ET 30-day LinkedIn backfill; LinkedIn listing shows employer-provided description, salary and existing vacancy; job indexed/reposted in last week, original date uncertain. Perpetua product (Flywheel Commerce Network) helps SMB brands manage complex eCommerce retail advertising; role spans dashboard/workflow design, Figma design systems, research, React/front-end engineering collaboration, AI-assisted ideation. Toronto/Canada eligibility confirmed by employer listing and CAD salary. Does not require school enrollment. Distinct from already tracked Flywheel Design Specialist, eCommerce. Source https://ca.linkedin.com/jobs/view/product-designer-at-flywheel-4453262198; secondary corroboration https://www.jobleads.com/ca/job/product-designer--toronto--ecbf4d85994b3a7e1c8bb01ef26cb70c4; employer final ATS not verified.",
+      "Source Type": "LinkedIn employer-posted (Canada/Toronto verified) + third-party corroboration; official ATS not found/final submit unverified"
     }
   ]
 }
