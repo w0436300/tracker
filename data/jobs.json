@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-26T14:11:00-04:00",
+    "lastUpdated": "2026-10-26T20:03:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-26_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -10,17 +10,17 @@
       "Vaughan"
     ],
     "total": 178,
-    "syncStatus": "GitHub main corrected; 178 historical records, 15 Applied, 0 confirmed new; FutureFit status conflict",
+    "syncStatus": "GitHub main synced; 178 historical records, Applied preserved; 0 confirmed new openings this run",
     "lastScan": {
-      "timestamp": "2026-10-26T14:09:00-04:00",
-      "candidateCount": 34,
+      "timestamp": "2026-10-26T20:03:00-04:00",
+      "candidateCount": 40,
       "new": 0,
-      "duplicates": 21,
-      "experienceFiltered": 7,
+      "duplicates": 24,
+      "experienceFiltered": 10,
       "closedFiltered": 3,
       "eligibilityFiltered": 1,
-      "locationFiltered": 0,
-      "otherFiltered": 2,
+      "locationFiltered": 1,
+      "otherFiltered": 1,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -32,7 +32,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "No confirmed new open vacancy. FutureFit TPM older Ashby indexed but employer careers says no active roles, Torre lists TPM closed; retained as status conflict historical watch. Bell Graduate FAQ eligibility risk updated. A ATS/B LinkedIn public 24h/7d/30d/C Jobs.ca/Indeed/GOjobs/D Graduate; native LinkedIn matrix incomplete."
+      "notes": "Pass A official Careers/ATS (Workday, Lever, Greenhouse, Ashby, Dayforce); B LinkedIn public job index 24h/7d/30d, all role families and priority GTA locations; C Indeed/Jobs.ca/GOjobs; D graduate and campus. No fully confirmed new eligible opening; Revvity Associate UX Designer indexed but stale (10 months) and no current official ATS confirmation; EvenUp Product Operations Associate and Paires Design Engineer official URLs returned 404; Mycroft Junior Product Designer historical Closed not reopened. 40 unique candidates manually audited; native LinkedIn matrix not exhaustive. Elections Ontario EO-2026-121 deadline passed 16:00 ET."
     }
   },
   "jobs": [
@@ -389,7 +389,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-09-23",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Mycroft",
       "Job Title": "Junior Product Designer",
@@ -407,7 +407,7 @@
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Closed / removed",
-      "Notes": "Closed — watch company | Posted: 2026-08",
+      "Notes": "Closed — watch company | Posted: 2026-08 | 2026-10-26 PM: older indexed Ashby job page resolves only JS shell; no reliable evidence employer reopened. Retain Closed; not a new listing.",
       "Source Type": "Other / Verify"
     },
     {
@@ -697,7 +697,7 @@
       "Source Type": "Official employer Careers — board verified, final form unverified"
     },
     {
-      "Date Checked": "2026-10-07",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Questrade Financial Group",
       "Job Title": "Associate Product Manager",
@@ -714,8 +714,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open",
-      "Notes": "Apply | Posted: 2026-09-30",
+      "Job Status": "LinkedIn and Jobs.ca listings active; employer ATS role-specific Submit unverified",
+      "Notes": "Apply | Posted: 2026-09-30 | 2026-10-26 20:03 ET: Questrade APM North York hybrid 3 days; $70–90k; 0–1 product, BA, Figma/analytics. Existing record, not new. Employer Careers redirects to openings; role-specific ATS not independently tested.",
       "Source Type": "Jobs.ca"
     },
     {
@@ -1995,7 +1995,7 @@
       "Source Type": "Official ATS — Ashby (form JS unverified)"
     },
     {
-      "Date Checked": "2026-10-11",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Fidelity Investments Canada",
       "Job Title": "Digital Product Analyst, Marketing Automation (J69975)",
@@ -2012,8 +2012,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Workday listing indexed; application form unverified",
-      "Notes": "Verify Workday application availability; apply with BMO + requirements/UAT experience. | Posted: 2026-08-12 / LinkedIn recent repost",
+      "Job Status": "Official Workday listing indexed; final submission unverified",
+      "Notes": "Verify Workday application availability; apply with BMO + requirements/UAT experience. | Posted: 2026-08-12 / LinkedIn recent repost | 2026-10-26 20:03 ET: Official Fidelity Workday J69975 reconfirmed; 1–2 years marketing automation platform experience is a significant skill gap. Hybrid Toronto, moves to Mississauga late 2026.",
       "Source Type": "Official ATS — Workday (form unverified)"
     },
     {
@@ -2848,8 +2848,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form and Submit application button verified 2026-10-26",
-      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
+      "Job Status": "Open — official Lever application form and Submit button verified 2026-10-26 PM",
+      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada.",
       "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
     },
     {
@@ -2963,7 +2963,7 @@
       "Source Type": "Employer LinkedIn / official HiBob portal located (role form unverified)"
     },
     {
-      "Date Checked": "2026-10-16",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Prodigy Education",
       "Job Title": "UI/UX Designer II",
@@ -2980,8 +2980,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer LinkedIn listing indexed as active; official ATS form unverified",
-      "Notes": "NEW backfill 2026-10-16; employer LinkedIn listing surfaced again, originally indexed months ago. Do not call newly published. Verify current official careers posting and Canadian work arrangement before applying.",
+      "Job Status": "Official Ashby indexed; JS shell only — final application not verified",
+      "Notes": "NEW backfill 2026-10-16; employer LinkedIn listing surfaced again, originally indexed months ago. Do not call newly published. Verify current official careers posting and Canadian work arrangement before applying. | 2026-10-26 PM: public Ashby job text still indexed; live page JS-only, cannot confirm Submit.",
       "Source Type": "Employer LinkedIn (official ATS unverified)"
     },
     {
@@ -3139,7 +3139,7 @@
       "Source Type": "Official employer Careers + TalentHR ATS (job page live; submit form unverified)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-26",
       "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Associate Consultant (Spring 2027 Graduate Program)",
@@ -3156,8 +3156,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — employer form verified 2026-10-18; eligibility review needed",
-      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles.",
+      "Job Status": "Open — official Konrad form Submit Application verified 2026-10-26; graduate eligibility not explicitly restricted",
+      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles. | 2026-10-26 20:03 ET: Official application form accepts submission and asks current school; no explicit 2026/2027 graduation cut-off stated on job description. Applicant finished 2026, no return-to-school condition shown. Do not infer definitive eligibility.",
       "Source Type": "Official Employer Careers / embedded application form verified"
     },
     {
@@ -3750,8 +3750,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-26 16:00 ET",
-      "Job Status": "Open — official Elections Ontario PDF reconfirmed 2026-10-26; email application closes 16:00 ET today",
-      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping. | 2026-10-26: official PDF checked; deadline 4PM ET. | 2026-10-26 PM: Official deadline 16:00 ET today; not known Applied.",
+      "Job Status": "Closed / expired — official application deadline passed 2026-10-26 16:00 ET",
+      "Notes": "Official employer Employment Centre lists posting on 2026-10-24; posted Oct 20, 2026. Apply by email to jobs@elections.on.ca, one PDF combining cover letter and resume; subject #EO-2026-121, First Name Last Name. Permanent and no student-only/return-to-school requirement. Elections Ontario is an independent legislative office, not an OPS ministry / GOjobs position. Strong fit: BMO enterprise workflows, Intake Tracker, service blueprints, design documentation, Figma/Miro/Adobe and AI prototyping. | 2026-10-26: official PDF checked; deadline 4PM ET. | 2026-10-26 PM: Official deadline 16:00 ET today; not known Applied. | 2026-10-26 20:03 ET: Official 4 PM ET deadline has passed. Historical record retained; not recommended as open.",
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
     {
