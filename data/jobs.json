@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-27T20:03:00-04:00",
+    "lastUpdated": "2026-10-28T08:06:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-27_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 181,
-    "syncStatus": "GitHub main updated; 181 historical records; 15 Applied preserved; 1 new North York Product Analyst stretch; LinkedIn native filter matrix incomplete",
+    "total": 183,
+    "syncStatus": "GitHub main updated; 183 historical records; 15 Applied preserved; 1 new Bally's Interactive Toronto Product Designer (official submit unverified); 1 Arup Graduate closed cohort watch; LinkedIn native filter matrix incomplete",
     "lastScan": {
-      "timestamp": "2026-10-27T20:03:00-04:00",
-      "candidateCount": 52,
+      "timestamp": "2026-10-28T08:06:00-04:00",
+      "candidateCount": 41,
       "new": 1,
-      "duplicates": 26,
-      "experienceFiltered": 14,
-      "closedFiltered": 5,
-      "eligibilityFiltered": 4,
+      "duplicates": 19,
+      "experienceFiltered": 9,
+      "closedFiltered": 4,
+      "eligibilityFiltered": 3,
       "locationFiltered": 2,
-      "otherFiltered": 0,
+      "otherFiltered": 3,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -32,7 +32,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS/Careers, B LinkedIn public index 24h/7d/30d, C Indeed/Jobs.ca/GOjobs, D Graduate/Early Talent; 52 unique candidate audit. Added STAN AI Product Analyst, North York, employer JOIN ATS with Apply now visible, 3–6y analytics-heavy stretch, CA$81k–110k. Official Lever rechecked Simple Ventures and Caseware, Loblaw Careers verified, Enercare Dayforce shell only. Priceline Applied job URL 404; Applied retained. No confirmed Graduate Program additions. LinkedIn native filters not exhaustively accessible."
+      "notes": "A official ATS/Careers, B LinkedIn 24h/7d/30d public indexes, C Indeed/Jobs.ca/GOjobs, D Graduate. Found Bally's Interactive Product Designer via employer Indeed (ATS final submit unverified), added Arup TOR0001QG as confirmed CLOSED cohort monitor despite misleading LinkedIn listing. Rechecked Smile.io Lever Submit, Caseware intermediate (Applied preserved), Centah Workable, OCS Dayforce shell, Gelenk and Bare Brand Indeed. Full native LinkedIn keyword x geography matrix not accessible."
     }
   },
   "jobs": [
@@ -125,7 +125,7 @@
       "Source Type": "Indeed"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Intermediate UX Designer",
@@ -142,9 +142,9 @@
       "Application Status": "Applied",
       "Application Date": "2026-09-23",
       "Deadline": null,
-      "Job Status": "Open — official Lever Submit application verified; already Applied",
-      "Notes": "Already applied — do not reapply | Posted: 2026-09",
-      "Source Type": "Official ATS / Lever (form verified)"
+      "Job Status": "Open — official Lever Toronto careers board lists role 2026-10-28; final individual Submit not verified",
+      "Notes": "Already applied — do not reapply | Posted: 2026-09 | 2026-10-28 official Lever listing rechecked; Applied retained.",
+      "Source Type": "Official ATS / Lever (job listing current; final submit unverified)"
     },
     {
       "Date Checked": "2026-10-08",
@@ -323,7 +323,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-26",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Centah",
       "Job Title": "Product Designer",
@@ -340,12 +340,12 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Workable ATS listing accessible 2026-10-26; submission untested",
+      "Job Status": "Official employer Workable posting live 2026-10-28; final apply form inaccessible to automated verification",
       "Notes": "Priority: official Workable application now found | Posted: 2026-09-17 | Official ATS listing rechecked Oct 13 evening.",
-      "Source Type": "Official ATS / Workable"
+      "Source Type": "Official ATS / Workable (role page live; final submit unverified)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Gelenk Networks / GenVoice Telecom",
       "Job Title": "UI/UX Designer",
@@ -362,9 +362,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer Indeed Apply shown 2026-10-19; no official ATS verified",
+      "Job Status": "Employer Indeed Easy Apply listing present 2026-10-28; employer ATS not located; final submit unverified",
       "Notes": "Previously tracked — apply via Indeed if still available; do not count as new | Posted: 2026-09-16 | 2026-10-14: Indeed direct employer posting jk=e7b8118cd33f3ad5 has Apply, Markham, 2 years required and Chinese literacy required. Already tracked; not new. | PM recheck: Indeed has live Apply now; Chinese reading/typing required; 2 yrs required. Already tracked; NOT new. | 2026-10-19 rechecked: employer Indeed still shows Apply; Chinese written/typed required; English/Chinese bilingual candidate fit.",
-      "Source Type": "Employer Indeed / Job Bank (no official ATS found)"
+      "Source Type": "Employer Indeed / Job Bank syndication (official ATS not found)"
     },
     {
       "Date Checked": "2026-10-09",
@@ -2017,7 +2017,7 @@
       "Source Type": "Official ATS — Workday (form unverified)"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Bare Brand",
       "Job Title": "Intermediate UX/UI Designer",
@@ -2034,9 +2034,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer Indeed listing with Apply visible 2026-10-18; final submission unverified",
+      "Job Status": "Employer Indeed Easy Apply listing still indexed 2026-10-28; final application submission not verified",
       "Notes": "Apply as a stretch if interested in agency/client work; use current Quick Apply. | Posted: 2026-09-20 (reposted Oct 2026) | 2026-10-18 employer-origin Indeed listing/Job Bank rechecked; 3–4 years, CAD70–85k; no official ATS.",
-      "Source Type": "Indeed / SimplyHired (no employer ATS found)"
+      "Source Type": "Employer Indeed / Job Bank syndication (official ATS not found)"
     },
     {
       "Date Checked": "2026-10-11",
@@ -2831,7 +2831,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-27",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2848,9 +2848,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official application form and Submit button visible 2026-10-27",
+      "Job Status": "Open — official Lever application form with Submit application visible 2026-10-28",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
-      "Source Type": "Official ATS / Lever — Submit application verified 2026-10-24"
+      "Source Type": "Official ATS / Lever (application form and Submit verified)"
     },
     {
       "Date Checked": "2026-10-16",
@@ -3799,7 +3799,7 @@
       "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
     },
     {
-      "Date Checked": "2026-10-27",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "Mercury",
       "Job Title": "Frontend Engineer - Design Systems",
@@ -3816,7 +3816,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official application form and Submit button visible 2026-10-27",
+      "Job Status": "Official Greenhouse application historically verified 2026-10-27; NOT re-tested today",
       "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     },
@@ -3909,7 +3909,7 @@
       "Source Type": "Official ATS / Ashby (indexed; form unverified)"
     },
     {
-      "Date Checked": "2026-10-26",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "OCS Ontario Cannabis Store",
       "Job Title": "UX Designer (12-Month Fixed Term Contract)",
@@ -3926,7 +3926,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce job URL resolves, current employer listing corroborated by Indeed/LinkedIn; final Submit unverified — Open not fully confirmed",
+      "Job Status": "Official Dayforce job URL still resolves 2026-10-28 but JS shell only; Nov 5 deadline; final application submit NOT independently verified",
       "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     },
@@ -3998,7 +3998,7 @@
     },
     {
       "Date Checked": "2026-10-27",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "STAN AI",
       "Job Title": "Product Analyst",
       "Track": "Product Analyst / Product Operations — analytics-heavy (3–6y stretch)",
@@ -4017,6 +4017,50 @@
       "Job Status": "Employer-operated JOIN recruitment page shows Apply now 2026-10-27; final form submission not tested",
       "Notes": "2026-10-27 20:03 ET: 30-day LinkedIn backfill discovered a distinct Product Analyst opening at STAN AI (not its already-tracked Product Manager role). LinkedIn employer post https://ca.linkedin.com/jobs/view/product-analyst-at-stan-ai-4478910809; employer recruitment portal JOIN confirms North York 2255 Sheppard Ave E, hybrid 4 days onsite, 37 hours/week, CAD81k–110k, apply-by 2026-11-30. Canada employment eligible via Toronto location; not student-only, 2026 graduation allowed, but 3–6 years and analytics skill gap make this a lower-priority stretch. Source Type: Employer-operated JOIN ATS with LinkedIn corroboration.",
       "Source Type": "Employer ATS / JOIN (Apply now visible) + LinkedIn employer listing"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Company": "Bally's Interactive",
+      "Job Title": "Product Designer — Bally Sports Live",
+      "Track": "UX / Product Design — consumer streaming / sports media (mid-level stretch)",
+      "Company Type": "Sports streaming / interactive media / global digital entertainment",
+      "Location": "Toronto, ON, Canada (M5H 3G8)",
+      "Work Mode": "Hybrid — Toronto (exact in-office cadence unverified)",
+      "Experience Requirement": "Employer job description does not state a fixed years minimum; independent index estimates mid-level 2–5 years, NOT an employer-confirmed requirement; no student-only restriction",
+      "Core Requirements": "End-to-end product UX/UI for Bally Sports Live across connected TV, mobile and web; user research, testing, product analytics, interaction design, prototypes, strong visual craft, Figma, collaboration with PM and Engineering.",
+      "Salary": "CA$100,000–145,000/year (employer-provided Indeed listing)",
+      "Application Link": "https://designproject.io/jobs/product-designer-at-ballys-interactive-rane1s",
+      "Match %": 77,
+      "Main Risks": "Consumer streaming and TV UI experience less directly relevant than enterprise UX; hybrid Toronto; salary/role corroborated by Indeed but official employer ATS/UltiPro form not found or verified; DO NOT mark as confirmed Open until employer submission is checked.",
+      "Job Status": "Employer-provided Indeed Apply now listing visible 2026-10-28; official ATS/final submission UNVERIFIED — Open not fully confirmed",
+      "Notes": "2026-10-28 08 ET: Found via Indeed 30-day backfill. Originally posted around 2026-10-01, not newly published today. Employer Indeed job card shows Toronto Hybrid and CA$100k–145k. Bally Sports Live role covers streaming TV/mobile/web. Independent role detail https://designproject.io/jobs/product-designer-at-ballys-interactive-rane1s ; Indeed employer listing https://ca.indeed.com/q-new-grad-product-designer-l-toronto%2C-on-jobs.html ; company jobs https://www.gamblingcareers.com/company/630/bally-s-interactive/ . Source Type is non-official until ATS verified. Canada eligibility confirmed via Toronto employment location and CAD salary.",
+      "Source Type": "Employer-provided Indeed job listing + syndicated direct role page; official ATS not verified"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "No",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Company": "Arup",
+      "Job Title": "Graduate Digital Consultant (User-Centered Design) (Available 2027) — TOR0001QG",
+      "Track": "Graduate / Early Career — Digital Experience / Service Design (closed cohort monitor only)",
+      "Company Type": "Engineering / Infrastructure / Digital Transformation Consultancy",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Flexible / Toronto; specific days not confirmed",
+      "Experience Requirement": "Graduate: no more than 12 months of full-time experience in comparable role; most recent related degree completed before start; recent graduate; eligible to work in Canada without sponsorship; 2026 graduation potentially fits, full-time experience eligibility requires individual review",
+      "Core Requirements": "User-centered digital service research, stakeholder interviews, process and journey mapping, service design, Figma/Miro, user stories, wireframes, prototypes, client workshops, digital transformation in infrastructure/energy/transportation",
+      "Salary": "CA$72,250–74,250/year Toronto",
+      "Application Link": "https://jobs.arup.com/jobs/graduate-digital-consultant-user-centered-design-available-2027-35690",
+      "Match %": 89,
+      "Main Risks": "OFFICIAL ARUP ATS EXPLICITLY SAYS CLOSED on 2026-10-28 despite LinkedIn and aggregators still advertising Nov 12 deadline; not currently apply-able. Also full-time comparable experience <=12 months may need assessment.",
+      "Job Status": "Closed / Expired — official Arup Careers says position closed; DO NOT recommend as open",
+      "Notes": "Historical cohort monitor only. Requisition TOR0001QG. LinkedIn misleadingly displays active with 2026-11-12 advertised deadline, but official ATS explicitly says CLOSED. 2026 graduation is potentially eligible, no return-to-school rule, <=12 months full-time comparable experience limit. Source https://ca.linkedin.com/jobs/view/graduate-digital-consultant-user-centered-design-available-2027-at-arup-4480500798",
+      "Source Type": "Official Arup Careers / Taleo — confirmed closed"
     }
   ]
 }
