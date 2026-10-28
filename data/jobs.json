@@ -1,25 +1,25 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-27T14:06:00-04:00",
+    "lastUpdated": "2026-10-27T20:03:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-27_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-27_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 180,
-    "syncStatus": "GitHub main synced; 180 historical records; 15 Applied preserved; 1 new LinkedIn employer-listed role, official ATS submit unverified",
+    "total": 181,
+    "syncStatus": "GitHub main updated; 181 historical records; 15 Applied preserved; 1 new North York Product Analyst stretch; LinkedIn native filter matrix incomplete",
     "lastScan": {
-      "timestamp": "2026-10-27T14:06:00-04:00",
-      "candidateCount": 34,
+      "timestamp": "2026-10-27T20:03:00-04:00",
+      "candidateCount": 52,
       "new": 1,
-      "duplicates": 16,
-      "experienceFiltered": 9,
-      "closedFiltered": 4,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 1,
+      "duplicates": 26,
+      "experienceFiltered": 14,
+      "closedFiltered": 5,
+      "eligibilityFiltered": 4,
+      "locationFiltered": 2,
       "otherFiltered": 0,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -32,7 +32,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "A: employer/official ATS; B: LinkedIn public 24h/7d/30d index; C: Indeed/Jobs.ca/GOjobs; D: graduate/early talent. New: Flywheel Product Designer (Perpetua), Toronto Hybrid 3+ days, 3–5y, CAD120–140k; employer LinkedIn listing only, official ATS final submit unverified. CMiC Associate Product Manager was ALREADY tracked Oct18, not counted new; rechecked active Indeed. Smile Lever and Mercury Greenhouse submit forms confirmed today. Excluded Manulife APM JR26090978 because official required qualifications simultaneously state minimum 5 years and 2–4 years; treat as 5+ risk. Bell grad FAQ excludes candidate, CIBC/Manulife/Loblaw coops student-only. LinkedIn native matrix not exhaustive."
+      "notes": "A official ATS/Careers, B LinkedIn public index 24h/7d/30d, C Indeed/Jobs.ca/GOjobs, D Graduate/Early Talent; 52 unique candidate audit. Added STAN AI Product Analyst, North York, employer JOIN ATS with Apply now visible, 3–6y analytics-heavy stretch, CA$81k–110k. Official Lever rechecked Simple Ventures and Caseware, Loblaw Careers verified, Enercare Dayforce shell only. Priceline Applied job URL 404; Applied retained. No confirmed Graduate Program additions. LinkedIn native filters not exhaustively accessible."
     }
   },
   "jobs": [
@@ -873,7 +873,7 @@
       "Source Type": "Official Careers / ATS"
     },
     {
-      "Date Checked": "2026-10-18",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Caseware",
       "Job Title": "Product Analyst — Growth & GTM",
@@ -890,8 +890,8 @@
       "Application Status": "Applied",
       "Application Date": "2026-09-23",
       "Deadline": null,
-      "Job Status": "Historical — recheck availability",
-      "Notes": "Applied 2026-09-23 — track only | Posted: 2026-09-01",
+      "Job Status": "Open — official Lever Apply for this job verified 2026-10-27",
+      "Notes": "Applied 2026-09-23 — track only | Posted: 2026-09-01 | 2026-10-27 evening recheck: 3–5y growth/product analytics; already Applied, preserve Applied.",
       "Source Type": "Jobs.ca"
     },
     {
@@ -1027,7 +1027,7 @@
       "Source Type": "LinkedIn / employer careers cross-check"
     },
     {
-      "Date Checked": "2026-10-20",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Enercare",
       "Job Title": "Junior UX Designer Intern",
@@ -1044,8 +1044,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Dayforce job URL reachable; form dynamic/unverified; employer LinkedIn/Indeed listing active 2026-10-19",
-      "Notes": "Apply through employer Dayforce or Indeed; confirm graduate eligibility | Posted: 2026-09-25 | 2026-10-19: 1-year full-time contract; title Intern but employer text does not require return to school; graduation eligibility still must be confirmed; 4 days Markham office; CA$23/hr.",
+      "Job Status": "Official Dayforce job URL resolves (JS shell); Indeed active 2026-10-27; final submission unverified",
+      "Notes": "Apply through employer Dayforce or Indeed; confirm graduate eligibility | Posted: 2026-09-25 | 2026-10-19: 1-year full-time contract; title Intern but employer text does not require return to school; graduation eligibility still must be confirmed; 4 days Markham office; CA$23/hr. | 2026-10-27 evening recheck: One-year fixed-term; no explicit return-to-school requirement found, but intern eligibility needs confirmation.",
       "Source Type": "Official Dayforce URL (dynamic form unverified) + Employer LinkedIn / Indeed"
     },
     {
@@ -1225,7 +1225,7 @@
       "Source Type": "Official Employer Careers / Job ID 10507222"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Priceline",
       "Job Title": "Product Designer (R5842)",
@@ -1242,8 +1242,8 @@
       "Application Status": "Applied",
       "Application Date": "2026-09-23",
       "Deadline": null,
-      "Job Status": "Open — employer Careers has Apply Now; Applied / declined, do not re-recommend",
-      "Notes": "Applied 2026-09-23; Priceline declined 2026-10-07. Do not recommend or reapply to the same requisition. | Posted: 2026-10-07 | Oct 15 check: Application Status Applied must be retained; employer current R5842 is open but user was declined.",
+      "Job Status": "Official role URL returned 404 on 2026-10-27; possible closed / submission not confirmed; Applied preserved",
+      "Notes": "Applied 2026-09-23; Priceline declined 2026-10-07. Do not recommend or reapply to the same requisition. | Posted: 2026-10-07 | Oct 15 check: Application Status Applied must be retained; employer current R5842 is open but user was declined. | 2026-10-27 evening recheck: Keep historical Applied; do not re-recommend.",
       "Source Type": "Official Careers → Workday"
     },
     {
@@ -1643,7 +1643,7 @@
       "Source Type": "Other / Aggregator"
     },
     {
-      "Date Checked": "2026-10-09 (GitHub snapshot)",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Simple Ventures",
       "Job Title": "Product & Design Associate",
@@ -1660,8 +1660,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Previously Open — recheck needed",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical)",
+      "Job Status": "Open — official Lever Apply for this job verified 2026-10-27",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | 2026-10-27 evening recheck: Official Lever listing includes full-time hybrid Toronto and no student-only requirement.",
       "Source Type": "Official ATS / Lever"
     },
     {
@@ -1907,7 +1907,7 @@
       "Source Type": "Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-27",
       "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Product Designer, Buy, Fulfill & Assist",
@@ -1924,8 +1924,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official employer Careers listing and Apply Now present 2026-10-25; downstream submission unverified",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca.",
+      "Job Status": "Open — official employer Careers listing verified 2026-10-27; final downstream submit not tested",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca. | 2026-10-27 evening recheck: Employer requisition R2000708557 remains on careers.loblaw.ca; 2–4y.",
       "Source Type": "Official Careers — Loblaw"
     },
     {
@@ -3976,7 +3976,7 @@
     },
     {
       "Date Checked": "2026-10-27",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Flywheel",
       "Job Title": "Product Designer (Perpetua)",
       "Track": "UX / Product Design — B2B SaaS / eCommerce / AI-assisted product UI (3–5y stretch)",
@@ -3995,6 +3995,28 @@
       "Job Status": "LinkedIn employer job listing active/indexed 2026-10-27; final official ATS submit unverified",
       "Notes": "2026-10-27 14:06 ET 30-day LinkedIn backfill; LinkedIn listing shows employer-provided description, salary and existing vacancy; job indexed/reposted in last week, original date uncertain. Perpetua product (Flywheel Commerce Network) helps SMB brands manage complex eCommerce retail advertising; role spans dashboard/workflow design, Figma design systems, research, React/front-end engineering collaboration, AI-assisted ideation. Toronto/Canada eligibility confirmed by employer listing and CAD salary. Does not require school enrollment. Distinct from already tracked Flywheel Design Specialist, eCommerce. Source https://ca.linkedin.com/jobs/view/product-designer-at-flywheel-4453262198; secondary corroboration https://www.jobleads.com/ca/job/product-designer--toronto--ecbf4d85994b3a7e1c8bb01ef26cb70c4; employer final ATS not verified.",
       "Source Type": "LinkedIn employer-posted (Canada/Toronto verified) + third-party corroboration; official ATS not found/final submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-27",
+      "New This Run": "Yes",
+      "Company": "STAN AI",
+      "Job Title": "Product Analyst",
+      "Track": "Product Analyst / Product Operations — analytics-heavy (3–6y stretch)",
+      "Company Type": "Canadian PropTech / AI SaaS / Property Management",
+      "Location": "North York — 2255 Sheppard Ave E, Toronto, ON",
+      "Work Mode": "Hybrid — 4 days/week on-site",
+      "Experience Requirement": "3–6 years data/product analytics/BI/data strategy; strong SQL and Python/R; 2026 graduates not excluded, but experience stretch",
+      "Core Requirements": "Product adoption and customer health metrics, usage analytics, AI conversation insights, SQL, Python/R, Power BI/Tableau/Looker, dashboards, data quality/governance, stakeholder communication, B2B SaaS workflows",
+      "Salary": "CA$81,000–110,000 base/year",
+      "Application Link": "https://join.com/companies/stan/16839369-product-analyst",
+      "Match %": 68,
+      "Main Risks": "3–6 years dedicated analytics experience and strong SQL/Python expected; primarily analytics rather than UX; 4 days/week in North York office; Join Apply now button visible but final completed submission not tested",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-11-30 (Join job details; confirm with employer)",
+      "Job Status": "Employer-operated JOIN recruitment page shows Apply now 2026-10-27; final form submission not tested",
+      "Notes": "2026-10-27 20:03 ET: 30-day LinkedIn backfill discovered a distinct Product Analyst opening at STAN AI (not its already-tracked Product Manager role). LinkedIn employer post https://ca.linkedin.com/jobs/view/product-analyst-at-stan-ai-4478910809; employer recruitment portal JOIN confirms North York 2255 Sheppard Ave E, hybrid 4 days onsite, 37 hours/week, CAD81k–110k, apply-by 2026-11-30. Canada employment eligible via Toronto location; not student-only, 2026 graduation allowed, but 3–6 years and analytics skill gap make this a lower-priority stretch. Source Type: Employer-operated JOIN ATS with LinkedIn corroboration.",
+      "Source Type": "Employer ATS / JOIN (Apply now visible) + LinkedIn employer listing"
     }
   ]
 }
