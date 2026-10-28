@@ -1,26 +1,28 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-28T08:06:00-04:00",
+    "lastUpdated": "2026-10-28T14:07:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 183,
-    "syncStatus": "GitHub main updated; 183 historical records; 15 Applied preserved; 1 new Bally's Interactive Toronto Product Designer (official submit unverified); 1 Arup Graduate closed cohort watch; LinkedIn native filter matrix incomplete",
+    "total": 185,
+    "syncStatus": "GitHub main updated; 185 historical records; 15 Applied preserved; 2 new tracker leads (1 provisional official ATS Product Designer + 1 contractor talent roster, NOT a live vacancy); LinkedIn native filter matrix incomplete",
     "lastScan": {
-      "timestamp": "2026-10-28T08:06:00-04:00",
-      "candidateCount": 41,
-      "new": 1,
-      "duplicates": 19,
-      "experienceFiltered": 9,
-      "closedFiltered": 4,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 2,
-      "otherFiltered": 3,
+      "timestamp": "2026-10-28T14:07:00-04:00",
+      "candidateCount": 44,
+      "new": 2,
+      "newCurrentVacancyLeads": 1,
+      "newRosterOnly": 1,
+      "duplicates": 18,
+      "experienceFiltered": 15,
+      "closedFiltered": 2,
+      "eligibilityFiltered": 4,
+      "locationFiltered": 1,
+      "otherFiltered": 2,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -30,9 +32,9 @@
       "graduateNew": 0,
       "earlyCareerCompatibleNew": 0,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
+      "officialAtsExclusiveNew": 1,
       "globalCanadaEligibleNew": 0,
-      "notes": "A official ATS/Careers, B LinkedIn 24h/7d/30d public indexes, C Indeed/Jobs.ca/GOjobs, D Graduate. Found Bally's Interactive Product Designer via employer Indeed (ATS final submit unverified), added Arup TOR0001QG as confirmed CLOSED cohort monitor despite misleading LinkedIn listing. Rechecked Smile.io Lever Submit, Caseware intermediate (Applied preserved), Centah Workable, OCS Dayforce shell, Gelenk and Bare Brand Indeed. Full native LinkedIn keyword x geography matrix not accessible."
+      "notes": "A official Careers/ATS; B LinkedIn public 24h/7d/30d listings; C GOjobs/Indeed/Jobs.ca; D Graduate. 44 unique candidates categorized (18 duplicates, 15 experience, 2 closed, 4 eligibility, 1 location, 2 other, 2 new). Decoda Health official Ashby listing indexed, final submit unverified, posting old. Crowdlinker employer Trakstar application form live but open talent roster only, not immediate vacancy. Rechecked Mercury Greenhouse Submit and OCS Dayforce JS shell. Bell cohort eligibility not met, Manulife co-op requires current enrolment."
     }
   },
   "jobs": [
@@ -3816,8 +3818,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Greenhouse application historically verified 2026-10-27; NOT re-tested today",
-      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
+      "Job Status": "Open — official Greenhouse application and Submit application visible 2026-10-28 (submission not performed)",
+      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present.",
       "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     },
     {
@@ -3926,8 +3928,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce job URL still resolves 2026-10-28 but JS shell only; Nov 5 deadline; final application submit NOT independently verified",
-      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362",
+      "Job Status": "Official Dayforce posting indexed 2026-10-28 with Nov 5 deadline; JS page only; final application submit NOT independently verified",
+      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5.",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     },
     {
@@ -4020,7 +4022,7 @@
     },
     {
       "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
@@ -4061,6 +4063,50 @@
       "Job Status": "Closed / Expired — official Arup Careers says position closed; DO NOT recommend as open",
       "Notes": "Historical cohort monitor only. Requisition TOR0001QG. LinkedIn misleadingly displays active with 2026-11-12 advertised deadline, but official ATS explicitly says CLOSED. 2026 graduation is potentially eligible, no return-to-school rule, <=12 months full-time comparable experience limit. Source https://ca.linkedin.com/jobs/view/graduate-digital-consultant-user-centered-design-available-2027-at-arup-4480500798",
       "Source Type": "Official Arup Careers / Taleo — confirmed closed"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Company": "Decoda Health",
+      "Job Title": "Product Designer",
+      "Track": "UX / Product Design — Healthcare SaaS / Internal Tools (3+ years stretch)",
+      "Company Type": "Canadian/US HealthTech / AI Medical Practice Operations SaaS",
+      "Location": "Toronto, ON — Toronto office",
+      "Work Mode": "On-site, full-time",
+      "Experience Requirement": "3+ years product design in desktop/web SaaS; 2026 graduates not explicitly excluded; no return-to-school requirement",
+      "Core Requirements": "Own SaaS UX end to end, complex clinic workflows (scheduling, payments, communication, charting), Figma, information architecture, navigation, UI patterns, design systems, customer discovery, developer collaboration and documentation.",
+      "Salary": "CA$140,000–180,000/year + equity",
+      "Application Link": "https://jobs.ashbyhq.com/decodahealth/5d90f7ca-eae1-406e-a4cf-461e7a30886c/",
+      "Match %": 79,
+      "Main Risks": "3+ years of shipped SaaS product design, high ownership and on-site culture; salary/scope imply demanding mid-level; ATS indexed but dynamic final submit not independently tested; older job posting (June 2026), current vacancy requires employer confirmation.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby job listing indexed 2026-10-28; Apply for this Job shown in indexed page; live form submission NOT independently verified — status provisional",
+      "Notes": "2026-10-28 PM official ATS historical backfill, NOT a newly published posting. Healthcare operational workflows and design systems align with BMO/Intake Tracker background; 3+ SaaS years stretch. Toronto on-site and CA$140–180K. No student/return-to-school restriction. Canada employment explicit (Toronto office and CAD pay). Source https://jobs.ashbyhq.com/decodahealth/5d90f7ca-eae1-406e-a4cf-461e7a30886c/ ; dynamic Ashby page cannot confirm final submit, so not marked verified open.",
+      "Source Type": "Official ATS / Ashby (job indexed; final application unverified)"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Company": "Crowdlinker",
+      "Job Title": "UX/UI Designer (Remote, Open Roster Contract Opportunity)",
+      "Track": "UX / Product Design — Remote Contractor Talent Roster (NOT a current vacancy)",
+      "Company Type": "Canadian Digital Product Studio / Agency",
+      "Location": "Toronto-based employer — Remote (EST overlap preferred)",
+      "Work Mode": "Remote contract / hourly — open roster only",
+      "Experience Requirement": "No fixed years established in available posting; UX/UI/product design and web/mobile delivery experience; 2026 graduate eligible; no school return requirement",
+      "Core Requirements": "UX, interaction/visual/product design, web and mobile product flows, prototypes, Figma, collaboration with designers, engineers and product leads; design agency delivery.",
+      "Salary": "Not disclosed; contract hourly",
+      "Application Link": "https://crowdlinker.hire.trakstar.com/jobs/fk0vxnv/?apply=true",
+      "Match %": 82,
+      "Main Risks": "Talent pool/open roster for future projects, NOT an active confirmed vacancy or guaranteed contract; compensation, availability and minimum experience not disclosed; form present but submission not attempted.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open contractor talent roster — official Trakstar application form visible 2026-10-28; NOT a current hiring requisition",
+      "Notes": "2026-10-28 PM discovery from Indeed and employer-operated Trakstar. Official application form has name/email/phone/resume fields, but posting explicitly says open roster for FUTURE hourly remote contracts. Do not present as immediate job vacancy. Canada eligibility: employer and posting explicitly Toronto, Ontario, Canada; remote EST preferred. Graduate 2026 not excluded. Source https://crowdlinker.hire.trakstar.com/jobs/fk0vxnv/?apply=true",
+      "Source Type": "Employer ATS / Trakstar Hire — open roster (official form visible)"
     }
   ]
 }
