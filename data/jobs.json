@@ -1,26 +1,27 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-28T20:04:00-04:00",
+    "lastUpdated": "2026-10-29T08:11:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Evening.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-29_Morning.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 188,
-    "syncStatus": "GitHub main updated; 188 historical records; 15 Applied preserved; 3 new role records (Achievers official Lever Submit verified, Psiphon Indeed Apply visible, RLDatix employer Careers active); LinkedIn native filters incomplete",
+    "total": 190,
+    "syncStatus": "GitHub main updated; 190 historical records; 15 Applied preserved; 2 newly found ATS-indexed leads (Reflow, SearchApi), final Ashby Submit unverified; existing Smile.io/Mercury Submit confirmed",
     "lastScan": {
-      "timestamp": "2026-10-28T20:04:00-04:00",
-      "candidateCount": 37,
-      "new": 3,
-      "duplicates": 18,
-      "experienceFiltered": 9,
+      "timestamp": "2026-10-29T08:11:00-04:00",
+      "candidateCount": 42,
+      "new": 2,
+      "confirmedSubmitNew": 0,
+      "duplicates": 17,
+      "experienceFiltered": 12,
       "closedFiltered": 3,
       "eligibilityFiltered": 3,
-      "locationFiltered": 1,
-      "otherFiltered": 0,
+      "locationFiltered": 3,
+      "otherFiltered": 2,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -28,11 +29,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 3,
+      "earlyCareerCompatibleNew": 1,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 1,
-      "notes": "Pass A: official Careers/ATS including Achievers Lever, RLDatix Careers, OCS Dayforce, Ashby, Veeva, Smile.io. Pass B: LinkedIn 24h/7d/30d public indexes, native filter matrix not exhaustive. Pass C: Indeed, Jobs.ca, GOjobs. Pass D: Graduate / Early Career. Psiphon job-specific direct Indeed submission unverified. 37 distinct leads audited; 3 new, 18 tracked, 9 experience, 3 closed, 3 student eligibility, 1 US-only. Existing Applied preserved. TribalScale employer Greenhouse job link now redirects error=true."
+      "officialAtsExclusiveNew": 2,
+      "globalCanadaEligibleNew": 2,
+      "notes": "Pass A official ATS including Ashby, Lever, Greenhouse, Workday, Dayforce, Workable; Pass B independent LinkedIn public search over 24h/7d/30d and locations; native matrix not exhaustive; Pass C Indeed/Jobs.ca/GOjobs; Pass D graduate/early talent. Reflow and SearchApi official Ashby listings indexed, company Careers points to Ashby for Reflow, but final submission forms are JS-only and NOT verified. Do not represent as confirmed open applications. Historical backfills. Kraken product operations closed Oct 28 per direct ATS tracking; EvenUp official Ashby 404. Applied preserved."
     }
   },
   "jobs": [
@@ -2831,7 +2832,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-29",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2848,7 +2849,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application still visible 2026-10-28; no application submitted",
+      "Job Status": "Open — official Lever form and Submit application verified 2026-10-29; no application submitted",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Lever (application form and Submit verified)"
     },
@@ -3139,7 +3140,7 @@
       "Source Type": "Official employer Careers + TalentHR ATS (job page live; submit form unverified)"
     },
     {
-      "Date Checked": "2026-10-26",
+      "Date Checked": "2026-10-29",
       "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Associate Consultant (Spring 2027 Graduate Program)",
@@ -3156,8 +3157,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Konrad form Submit Application verified 2026-10-26; graduate eligibility not explicitly restricted",
-      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles. | 2026-10-26 20:03 ET: Official application form accepts submission and asks current school; no explicit 2026/2027 graduation cut-off stated on job description. Applicant finished 2026, no return-to-school condition shown. Do not infer definitive eligibility.",
+      "Job Status": "Open — official Konrad application form and Submit Application verified 2026-10-29; 2026 graduate eligibility not explicitly restricted; school field required",
+      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles. | 2026-10-26 20:03 ET: Official application form accepts submission and asks current school; no explicit 2026/2027 graduation cut-off stated on job description. Applicant finished 2026, no return-to-school condition shown. Do not infer definitive eligibility. | 2026-10-29: Official form still available; eligibility not explicitly limited by graduation year. No return-to-school requirement stated.",
       "Source Type": "Official Employer Careers / embedded application form verified"
     },
     {
@@ -3799,7 +3800,7 @@
       "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-29",
       "New This Run": "No",
       "Company": "Mercury",
       "Job Title": "Frontend Engineer - Design Systems",
@@ -3816,7 +3817,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application and Submit application visible 2026-10-28 (submission not performed)",
+      "Job Status": "Open — official Greenhouse full form and Submit application verified 2026-10-29; Remote Canada explicitly eligible",
       "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present.",
       "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
     },
@@ -3909,7 +3910,7 @@
       "Source Type": "Official ATS / Ashby (indexed; form unverified)"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-29",
       "New This Run": "No",
       "Company": "OCS Ontario Cannabis Store",
       "Job Title": "UX Designer (12-Month Fixed Term Contract)",
@@ -3926,7 +3927,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce job details still listed 2026-10-28; Nov 5 deadline; final Submit unverified",
+      "Job Status": "Official Dayforce link reachable 2026-10-29 but JS job details/final submit not independently verified; previously listed deadline 2026-11-05",
       "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5.",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     },
@@ -4108,7 +4109,7 @@
     },
     {
       "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Achievers",
       "Job Title": "Product Designer",
       "Track": "UX / Product Design — Early Career compatible (2+ years)",
@@ -4130,7 +4131,7 @@
     },
     {
       "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Psiphon Inc.",
       "Job Title": "Junior UX/UI Designer",
       "Track": "UX / Product Design — Junior / Early Career (1+ years)",
@@ -4151,8 +4152,8 @@
       "Source Type": "Employer-provided Indeed Easy Apply listing + SimplyHired cross-check; employer ATS not found"
     },
     {
-      "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "Date Checked": "2026-10-29",
+      "New This Run": "No",
       "Company": "RLDatix",
       "Job Title": "UI/UX Designer",
       "Track": "UX / Digital Experience — Early Career compatible (no fixed years stated)",
@@ -4168,9 +4169,53 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — employer official Careers Canada board lists role 2026-10-28; final application Submit not verified",
+      "Job Status": "Open — official employer Careers page still lists Toronto role 2026-10-29; final submit not independently verified",
       "Notes": "Newly visible Oct 27/28; official employer Careers lists 4 Canada roles and this one. Global company explicitly hires Toronto-based employees; Canadian employment confirmed. 1 day office per week. LinkedIn employer job https://ca.linkedin.com/jobs/view/ui-ux-designer-at-rldatix-4482213141 ; LinkedIn labels Entry level but employer gives no fixed years. Salary interpreted using employer LinkedIn because official career page typo.",
       "Source Type": "Official Employer Careers + LinkedIn employer job; final application unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Reflow",
+      "Job Title": "Product Operations",
+      "Track": "Product Operations / Early Career-compatible (experience not fixed)",
+      "Company Type": "US/Global B2B SaaS / Enterprise Workflow Intelligence",
+      "Location": "Remote Canada / United States",
+      "Work Mode": "Fully remote — Canada expressly included",
+      "Experience Requirement": "Product operations, program management, product management or technical operations experience; no fixed minimum years or student/return-to-school restriction in employer description; Jobs.ca labels 2+ years",
+      "Core Requirements": "Product roadmap prioritization, scoping, milestone tracking, engineering delivery coordination, partner onboarding, cross-functional launch execution, operational process improvement, B2B workflow SaaS.",
+      "Salary": "Not disclosed; compensation adjusted by location",
+      "Application Link": "https://jobs.ashbyhq.com/reflow/1baf100d-6ae6-4494-9389-45a46f1ab1a7/",
+      "Match %": 88,
+      "Main Risks": "Startup high autonomy, product operations rather than hands-on UX; official Ashby listing is JS-only in automated reader, final application Submit cannot be verified; posted Sep 2026, historical backfill not new posting.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby indexed and linked from company careers 2026-10-29; application form / final Submit NOT independently verified — lead, not confirmed apply-able",
+      "Notes": "Historical backfill. Company site reflow.ai links to Ashby board; employer role lists Canada/US remote. Jobs.ca employer-sourced listing Sep 19, 2026; independent Wellfound listing shows Toronto remote. Strong overlap with Intake Tracker and workflow/project operations. Canada eligibility explicit, employment/payroll mechanism not separately stated.",
+      "Source Type": "Official ATS / Ashby + employer Careers link; final Submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "SearchApi",
+      "Job Title": "Frontend Engineer & UI Designer (Developer Tooling)",
+      "Track": "UX Engineering / UI Engineering / Figma-to-code",
+      "Company Type": "US/Global Developer Tools / API SaaS",
+      "Location": "Remote Canada (among eligible countries)",
+      "Work Mode": "Fully remote — Canada explicitly listed",
+      "Experience Requirement": "No fixed years; production frontend designed and built by candidate; strong server-rendered component stack (Ruby on Rails + Hotwire preferred), Figma and Tailwind; not student-only",
+      "Core Requirements": "Design and implement developer dashboard, API playground, docs and marketing UI; Figma, Tailwind, semantic HTML, JavaScript, reusable components, data visualization, design systems, AI coding tools Cursor/Claude, production quality and testing.",
+      "Salary": "Not disclosed officially; third-party estimates excluded",
+      "Application Link": "https://jobs.ashbyhq.com/searchapi/597a1f05-d9bd-4827-82f1-794c0d861fff/",
+      "Match %": 80,
+      "Main Risks": "Ruby on Rails/Hotwire/Stimulus instead of React/Next.js is major stack gap; broad ownership and production shipped frontend expected; official Ashby page JS-only, final Submit not verified; original posting Aug 2026, historical backfill.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby job indexed with Remote Canada and third-party live mirror 2026-10-29; final application Submit NOT independently verified — lead only",
+      "Notes": "Older still-visible posting discovered through official ATS pass. Canada explicitly included among remote hiring countries, payroll/EOR details not stated. User's Figma, React, Tailwind, design system and enterprise dashboard portfolio relevant; substantial Hotwire-specific learning needed. Application requests two live self-designed/self-built UI links and a specific attention-check phrase (see employer posting).",
+      "Source Type": "Official ATS / Ashby + third-party corroboration; final Submit unverified"
     }
   ]
 }
