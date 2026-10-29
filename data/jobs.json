@@ -1,28 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-28T14:07:00-04:00",
+    "lastUpdated": "2026-10-28T20:04:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-28_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 185,
-    "syncStatus": "GitHub main updated; 185 historical records; 15 Applied preserved; 2 new tracker leads (1 provisional official ATS Product Designer + 1 contractor talent roster, NOT a live vacancy); LinkedIn native filter matrix incomplete",
+    "total": 188,
+    "syncStatus": "GitHub main updated; 188 historical records; 15 Applied preserved; 3 new role records (Achievers official Lever Submit verified, Psiphon Indeed Apply visible, RLDatix employer Careers active); LinkedIn native filters incomplete",
     "lastScan": {
-      "timestamp": "2026-10-28T14:07:00-04:00",
-      "candidateCount": 44,
-      "new": 2,
-      "newCurrentVacancyLeads": 1,
-      "newRosterOnly": 1,
+      "timestamp": "2026-10-28T20:04:00-04:00",
+      "candidateCount": 37,
+      "new": 3,
       "duplicates": 18,
-      "experienceFiltered": 15,
-      "closedFiltered": 2,
-      "eligibilityFiltered": 4,
+      "experienceFiltered": 9,
+      "closedFiltered": 3,
+      "eligibilityFiltered": 3,
       "locationFiltered": 1,
-      "otherFiltered": 2,
+      "otherFiltered": 0,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -30,11 +28,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 0,
+      "earlyCareerCompatibleNew": 3,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 1,
-      "globalCanadaEligibleNew": 0,
-      "notes": "A official Careers/ATS; B LinkedIn public 24h/7d/30d listings; C GOjobs/Indeed/Jobs.ca; D Graduate. 44 unique candidates categorized (18 duplicates, 15 experience, 2 closed, 4 eligibility, 1 location, 2 other, 2 new). Decoda Health official Ashby listing indexed, final submit unverified, posting old. Crowdlinker employer Trakstar application form live but open talent roster only, not immediate vacancy. Rechecked Mercury Greenhouse Submit and OCS Dayforce JS shell. Bell cohort eligibility not met, Manulife co-op requires current enrolment."
+      "officialAtsExclusiveNew": 0,
+      "globalCanadaEligibleNew": 1,
+      "notes": "Pass A: official Careers/ATS including Achievers Lever, RLDatix Careers, OCS Dayforce, Ashby, Veeva, Smile.io. Pass B: LinkedIn 24h/7d/30d public indexes, native filter matrix not exhaustive. Pass C: Indeed, Jobs.ca, GOjobs. Pass D: Graduate / Early Career. Psiphon job-specific direct Indeed submission unverified. 37 distinct leads audited; 3 new, 18 tracked, 9 experience, 3 closed, 3 student eligibility, 1 US-only. Existing Applied preserved. TribalScale employer Greenhouse job link now redirects error=true."
     }
   },
   "jobs": [
@@ -2107,7 +2105,7 @@
       "Source Type": "Official employer Careers / Workable portal + CareerBeacon/Indeed"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-28",
       "New This Run": "No",
       "Company": "TribalScale",
       "Job Title": "AI Product Designer",
@@ -2124,8 +2122,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Greenhouse listing shows Apply 2026-10-23; downstream submission not tested",
-      "Notes": "Stretch application if interested in AI consulting and Toronto on-site. | Posted: 2026-08/09",
+      "Job Status": "Closed / Expired — employer Greenhouse job URL now redirects to general job board with error=true; 2026-10-28",
+      "Notes": "Stretch application if interested in AI consulting and Toronto on-site. | Posted: 2026-08/09 | 2026-10-28 20 ET: official Greenhouse direct job redirects to general board error=true; do not recommend.",
       "Source Type": "Official ATS / Greenhouse — Apply visible"
     },
     {
@@ -2850,7 +2848,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form with Submit application visible 2026-10-28",
+      "Job Status": "Open — official Lever application still visible 2026-10-28; no application submitted",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Lever (application form and Submit verified)"
     },
@@ -3928,7 +3926,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce posting indexed 2026-10-28 with Nov 5 deadline; JS page only; final application submit NOT independently verified",
+      "Job Status": "Official Dayforce job details still listed 2026-10-28; Nov 5 deadline; final Submit unverified",
       "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5.",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     },
@@ -4066,7 +4064,7 @@
     },
     {
       "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Decoda Health",
       "Job Title": "Product Designer",
       "Track": "UX / Product Design — Healthcare SaaS / Internal Tools (3+ years stretch)",
@@ -4088,7 +4086,7 @@
     },
     {
       "Date Checked": "2026-10-28",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Crowdlinker",
       "Job Title": "UX/UI Designer (Remote, Open Roster Contract Opportunity)",
       "Track": "UX / Product Design — Remote Contractor Talent Roster (NOT a current vacancy)",
@@ -4107,6 +4105,72 @@
       "Job Status": "Open contractor talent roster — official Trakstar application form visible 2026-10-28; NOT a current hiring requisition",
       "Notes": "2026-10-28 PM discovery from Indeed and employer-operated Trakstar. Official application form has name/email/phone/resume fields, but posting explicitly says open roster for FUTURE hourly remote contracts. Do not present as immediate job vacancy. Canada eligibility: employer and posting explicitly Toronto, Ontario, Canada; remote EST preferred. Graduate 2026 not excluded. Source https://crowdlinker.hire.trakstar.com/jobs/fk0vxnv/?apply=true",
       "Source Type": "Employer ATS / Trakstar Hire — open roster (official form visible)"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Company": "Achievers",
+      "Job Title": "Product Designer",
+      "Track": "UX / Product Design — Early Career compatible (2+ years)",
+      "Company Type": "Canadian B2B SaaS / HRTech / Employee Experience",
+      "Location": "Toronto, ON — Liberty Village",
+      "Work Mode": "Hybrid — 2–3 days/week in office (official Lever application screening)",
+      "Experience Requirement": "2+ years hands-on product design across responsive web, iOS or Android; internship/contract experience not expressly excluded; no return-to-school requirement",
+      "Core Requirements": "End-to-end web/mobile UX for employee recognition and campaigns; Figma, design systems, accessibility, user research, usability testing, agile product triad, analytics, UI craft, engineering handoff; B2B SaaS and HTML/CSS/JavaScript bonuses.",
+      "Salary": "CA$100,000–120,000/year",
+      "Application Link": "https://jobs.lever.co/achievers/737e4388-add0-46de-aa91-bff6c9eab40c/apply",
+      "Match %": 94,
+      "Main Risks": "2+ years product design preferred; must demonstrate shipped mobile/web experiences and research outcomes; Toronto hybrid 2–3 days; salary level competitive.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — official Lever job page and full application form with Submit application verified 2026-10-28",
+      "Notes": "Published around 2026-10-27; discovered via official Lever and LinkedIn 24h/7d scans. Toronto-based employer hiring on Canadian payroll. Strong enterprise UX + design systems + frontend background fit; no student-only restriction. Application form explicitly requires Canada work authorization, portfolio/resume and salary expectations. https://ca.linkedin.com/jobs/view/product-designer-at-achievers-4484255355",
+      "Source Type": "Official ATS / Lever — full form and Submit button confirmed; LinkedIn cross-checked"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Company": "Psiphon Inc.",
+      "Job Title": "Junior UX/UI Designer",
+      "Track": "UX / Product Design — Junior / Early Career (1+ years)",
+      "Company Type": "Canadian Consumer Software / Privacy / Internet Access Technology",
+      "Location": "Downtown Toronto, ON",
+      "Work Mode": "Hybrid — downtown Toronto; employer lists in-person and hybrid, exact cadence unconfirmed",
+      "Experience Requirement": "1+ years designing mobile or desktop app interfaces; UX/Interaction/Graphic Design degree, diploma, certificate or equivalent; no return-to-school requirement",
+      "Core Requirements": "iOS/Android/desktop UX/UI, user flows, wireframes, prototypes, Figma components and auto-layout, design systems, localization, accessibility/usability, developer handoff, testing and iteration.",
+      "Salary": "CA$65,000–70,000/year",
+      "Application Link": "https://ca.indeed.com/q-junior-ux-ui-designer-l-toronto%2C-on-jobs.html",
+      "Match %": 93,
+      "Main Risks": "Portfolio must include at least one mobile or desktop app design project; global multilingual/RTL interfaces preferred; exact Indeed job-specific link and final submission unverified; compensation lower than other top matches.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Employer-provided Indeed Apply now listing visible 2026-10-28; direct job-specific submit and official employer ATS unverified",
+      "Notes": "Freshly advertised ~2026-10-28 (SimplyHired showed 12–15 hours). 1+ years app UX; Figma, design system, app UX, localization. Canadian entity and downtown Toronto job explicit. Employer listing https://ca.indeed.com/Ux-Ui-Designer-Junior-jobs-in-Toronto%2C-ON ; full description https://fr.simplyhired.ca/job/XrdxpUGV5biJ-Q0EfilVDVjejwu2si8K5Jy4JKl8N_5Ci90mX6AkfQ . Employer official career/ATS link not located; do not treat Indeed search listing as verified final Submit.",
+      "Source Type": "Employer-provided Indeed Easy Apply listing + SimplyHired cross-check; employer ATS not found"
+    },
+    {
+      "Date Checked": "2026-10-28",
+      "New This Run": "Yes",
+      "Company": "RLDatix",
+      "Job Title": "UI/UX Designer",
+      "Track": "UX / Digital Experience — Early Career compatible (no fixed years stated)",
+      "Company Type": "Global Healthcare Technology / Medical Operations SaaS",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "Hybrid — 1 day/week in Toronto office",
+      "Experience Requirement": "No fixed minimum years in official posting; strong portfolio of live websites, advanced Figma, CMS and frontend handoff; no student/return-to-school restriction",
+      "Core Requirements": "Own global marketing website UX/UI, responsive web, IA, navigation, reusable Figma design system components, accessibility, website performance, HTML/CSS collaboration, design QA, CMS/WordPress, stakeholder alignment.",
+      "Salary": "CA$99,350–103,138/year (employer LinkedIn range; official Careers shows unformatted 99,350-10,3138)",
+      "Application Link": "https://careers.rldatix.com/jobs/ui-ux-designer-toronto-on-canada",
+      "Match %": 89,
+      "Main Risks": "Marketing website UX rather than core product SaaS design; requires strong examples of live website ownership and CMS implementation; official job detail exists but final submission form/button not independently verified.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — employer official Careers Canada board lists role 2026-10-28; final application Submit not verified",
+      "Notes": "Newly visible Oct 27/28; official employer Careers lists 4 Canada roles and this one. Global company explicitly hires Toronto-based employees; Canadian employment confirmed. 1 day office per week. LinkedIn employer job https://ca.linkedin.com/jobs/view/ui-ux-designer-at-rldatix-4482213141 ; LinkedIn labels Entry level but employer gives no fixed years. Salary interpreted using employer LinkedIn because official career page typo.",
+      "Source Type": "Official Employer Careers + LinkedIn employer job; final application unverified"
     }
   ]
 }
