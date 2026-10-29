@@ -31,9 +31,9 @@
       "graduateNew": 0,
       "earlyCareerCompatibleNew": 1,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 2,
+      "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 2,
-      "notes": "Pass A official ATS including Ashby, Lever, Greenhouse, Workday, Dayforce, Workable; Pass B independent LinkedIn public search over 24h/7d/30d and locations; native matrix not exhaustive; Pass C Indeed/Jobs.ca/GOjobs; Pass D graduate/early talent. Reflow and SearchApi official Ashby listings indexed, company Careers points to Ashby for Reflow, but final submission forms are JS-only and NOT verified. Do not represent as confirmed open applications. Historical backfills. Kraken product operations closed Oct 28 per direct ATS tracking; EvenUp official Ashby 404. Applied preserved."
+      "notes": "Pass A official ATS including Ashby, Lever, Greenhouse, Workday, Dayforce, Workable; Pass B independent LinkedIn public search over 24h/7d/30d and locations; native matrix not exhaustive; Pass C Indeed/Jobs.ca/GOjobs; Pass D graduate/early talent. Reflow and SearchApi official Ashby listings indexed, company Careers points to Ashby for Reflow, but final submission forms are JS-only and NOT verified. Do not represent as confirmed open applications. Historical backfills. Kraken product operations closed Oct 28 per direct ATS tracking; EvenUp official Ashby 404. Applied preserved. Both new roles have third-party corroboration, so official-ATS-exclusive count is 0."
     }
   },
   "jobs": [
