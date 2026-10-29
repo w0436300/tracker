@@ -1,26 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-29T08:11:00-04:00",
+    "lastUpdated": "2026-10-29T14:08:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-29_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-29_Afternoon.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 190,
-    "syncStatus": "GitHub main updated; 190 historical records; 15 Applied preserved; 2 newly found ATS-indexed leads (Reflow, SearchApi), final Ashby Submit unverified; existing Smile.io/Mercury Submit confirmed",
+    "total": 191,
+    "syncStatus": "GitHub main updated; 191 historical records; 15 Applied preserved; 1 historical backfill lead (Jerry.ai APM Growth), final Ashby Submit unverified; Smile.io/Mercury Submit verified",
     "lastScan": {
-      "timestamp": "2026-10-29T08:11:00-04:00",
-      "candidateCount": 42,
-      "new": 2,
+      "timestamp": "2026-10-29T14:08:00-04:00",
+      "candidateCount": 35,
+      "new": 1,
       "confirmedSubmitNew": 0,
       "duplicates": 17,
-      "experienceFiltered": 12,
-      "closedFiltered": 3,
-      "eligibilityFiltered": 3,
-      "locationFiltered": 3,
+      "experienceFiltered": 7,
+      "closedFiltered": 4,
+      "eligibilityFiltered": 2,
+      "locationFiltered": 2,
       "otherFiltered": 2,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
@@ -32,8 +32,8 @@
       "earlyCareerCompatibleNew": 1,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 2,
-      "notes": "Pass A official ATS including Ashby, Lever, Greenhouse, Workday, Dayforce, Workable; Pass B independent LinkedIn public search over 24h/7d/30d and locations; native matrix not exhaustive; Pass C Indeed/Jobs.ca/GOjobs; Pass D graduate/early talent. Reflow and SearchApi official Ashby listings indexed, company Careers points to Ashby for Reflow, but final submission forms are JS-only and NOT verified. Do not represent as confirmed open applications. Historical backfills. Kraken product operations closed Oct 28 per direct ATS tracking; EvenUp official Ashby 404. Applied preserved. Both new roles have third-party corroboration, so official-ATS-exclusive count is 0."
+      "globalCanadaEligibleNew": 1,
+      "notes": "Pass A official ATS Workday/Greenhouse/Lever/Ashby/Dayforce; Pass B independent LinkedIn public indexes across 24h/7d/30d and Toronto/GTA/Remote Canada; native matrix not exhaustive. Pass C GOjobs/Indeed/Jobs.ca. Pass D Graduate/Early Talent. Jerry.ai official Ashby lists Toronto, Wellfound Remote Canada; final Submit not independently tested. 17 previously tracked candidates not duplicated. Excluded Embross 8+ years, Elastic Path ~5+, Fidelity mutual-fund experience, Bell grad eligibility, TD London-only and closed cohorts. Existing Smile.io and Mercury live application forms confirmed."
     }
   },
   "jobs": [
@@ -2849,9 +2849,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever form and Submit application verified 2026-10-29; no application submitted",
+      "Job Status": "Open — official Lever application form and Submit application button verified 2026-10-29",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
-      "Source Type": "Official ATS / Lever (application form and Submit verified)"
+      "Source Type": "Official ATS / Lever; Submit application confirmed"
     },
     {
       "Date Checked": "2026-10-16",
@@ -3817,9 +3817,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse full form and Submit application verified 2026-10-29; Remote Canada explicitly eligible",
+      "Job Status": "Open — official Greenhouse application form and Submit application button verified 2026-10-29",
       "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present.",
-      "Source Type": "Official ATS / Greenhouse; independently corroborated by Oct 23, 2026 job-board index"
+      "Source Type": "Official ATS / Greenhouse; Submit application confirmed"
     },
     {
       "Date Checked": "2026-10-25",
@@ -4175,7 +4175,7 @@
     },
     {
       "Date Checked": "2026-10-29",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Reflow",
       "Job Title": "Product Operations",
       "Track": "Product Operations / Early Career-compatible (experience not fixed)",
@@ -4197,7 +4197,7 @@
     },
     {
       "Date Checked": "2026-10-29",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "SearchApi",
       "Job Title": "Frontend Engineer & UI Designer (Developer Tooling)",
       "Track": "UX Engineering / UI Engineering / Figma-to-code",
@@ -4216,6 +4216,28 @@
       "Job Status": "Official Ashby job indexed with Remote Canada and third-party live mirror 2026-10-29; final application Submit NOT independently verified — lead only",
       "Notes": "Older still-visible posting discovered through official ATS pass. Canada explicitly included among remote hiring countries, payroll/EOR details not stated. User's Figma, React, Tailwind, design system and enterprise dashboard portfolio relevant; substantial Hotwire-specific learning needed. Application requests two live self-designed/self-built UI links and a specific attention-check phrase (see employer posting).",
       "Source Type": "Official ATS / Ashby + third-party corroboration; final Submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Jerry.ai",
+      "Job Title": "Associate Product Manager, Growth",
+      "Track": "Product Management / Early Career-compatible (2–3 years; not Graduate Program)",
+      "Company Type": "US/Global AI Consumer FinTech / Automotive Insurance",
+      "Location": "Toronto, Ontario; Remote Canada explicitly included",
+      "Work Mode": "Remote — Canada/US hiring; Toronto listed among eligible locations",
+      "Experience Requirement": "Ideal 2–3 years in consulting, product management, product/business operations; no student or return-to-school restriction",
+      "Core Requirements": "Map growth funnels and user journeys, synthesize user feedback, prioritize bug fixes, lead scoped product launches, A/B tests, requirements and roadmap, partner with design/engineering/analytics and China-based engineers; Mandarin plus.",
+      "Salary": "$110,000–$140,000 base (currency not specified on employer listing; Canada-specific band unverified) + equity",
+      "Application Link": "https://jobs.ashbyhq.com/jerry.ai/3bb81006-7e34-434d-83e1-9d93f1e00df3",
+      "Match %": 82,
+      "Main Risks": "Product growth/PM role, not UX design; ideal consulting/PM experience; requires 3–4 hours overlap with China business hours; employer salary currency/Canada payroll not separately stated; final dynamic Ashby Submit not verified; older historical backfill.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Official Ashby role still indexed with Apply for this Job; live dynamic final Submit NOT independently verified — lead only",
+      "Notes": "Historical backfill, not new posting. Toronto listed in official Ashby locations; official benefits explicitly mention Canadian RRSP and Wellfound specifies Remote Canada/US. User's enterprise workflow design, Intake Tracker, cross-functional product delivery and Mandarin relevant. No recent-grad cutoff; Early Career-compatible, not formal Graduate. Two official Ashby IDs for same company/title found; consolidated by Company+Title.",
+      "Source Type": "Official ATS / Ashby + Wellfound Canada hiring corroboration; final Submit unverified"
     }
   ]
 }
