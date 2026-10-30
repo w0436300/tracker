@@ -2,7 +2,7 @@
   "meta": {
     "lastUpdated": "2026-10-30T14:04:51-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_0904.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_1404.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -10,24 +10,25 @@
       "Vaughan"
     ],
     "total": 202,
-    "syncStatus": "GitHub main updated; 201 records; 15 Applied preserved; 0 new suitable open roles; 1 new senior Ontario Government vendor requisition (RQ11539) recorded as filtered; OCS, OPENLANE, BrokerLink and McGraw Hill rechecked; no new eligible Graduate/Early Career or OPS direct hire.",
+    "syncStatus": "GitHub main updated; 202 jobs; 15 Applied preserved; 1 new provisional SmartSource UX Designer lead; 0 new confirmed submit-ready roles; Excel updated to 202 rows.",
     "lastScan": {
-      "timestamp": "2026-10-30T09:04:32-04:00",
-      "candidateCount": 24,
-      "linkedinCandidateCount": 16,
-      "officialAtsCandidateCount": 7,
-      "supplementalCandidateCount": 10,
-      "graduateCandidateCount": 6,
-      "new": 0,
+      "timestamp": "2026-10-30T14:04:51-04:00",
+      "candidateCount": 42,
+      "officialAtsCandidateCount": 16,
+      "linkedinCandidateCount": 20,
+      "supplementalCandidateCount": 12,
+      "graduateCandidateCount": 15,
+      "new": 1,
       "newSuitable": 0,
-      "newFilteredRecords": 1,
+      "newProvisional": 1,
+      "newFilteredRecords": 0,
       "confirmedSubmitNew": 0,
-      "duplicates": 14,
-      "experienceFiltered": 6,
-      "closedFiltered": 2,
+      "duplicates": 15,
+      "experienceFiltered": 10,
+      "closedFiltered": 5,
       "eligibilityFiltered": 1,
-      "locationFiltered": 1,
-      "otherFiltered": 0,
+      "locationFiltered": 3,
+      "otherFiltered": 7,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -39,7 +40,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Delta discovery since 2026-10-30 08:56 ET. Pass A: official employer Careers/ATS recheck across Dayforce, Workday, Lever, Greenhouse and Ashby; OCS Req #836 reconfirmed as a current 1–2 year UX contract with Nov 5 23:59 ET deadline; OPENLANE R-255175-1 official Workday Apply route resolved but LinkedIn reports no longer accepting applications; BrokerLink official Workday career board reconfirmed, exact R156246 role/Submit not surfaced. Pass B: 16 distinct LinkedIn-index candidates assessed across 24h/7d/30d public results and UX/Product/Design Engineering/APM/Product Operations terms with Toronto, Markham, Richmond Hill, North York, Vaughan, GTA and Remote Canada location terms; native LinkedIn filter matrix was not fully accessible, so this is not exhaustive. Pass C: 10 Jobs.ca/GOjobs/Indeed/Workus/MovoJobs candidates. Separate Graduate/Early Career pass reviewed 6 current program/apprentice results; 0 eligible new programs or roles. McGraw Hill Product Associate Req 51286 appeared as a fresh employer LinkedIn repost but is a duplicate by Company + Job Title; official iCIMS final form remains unverified. New canonical Ontario Government vendor requisition RQ11539 added once, with S M Software Solutions Inc, CCI, A.T. Consulting & Recruiting Inc. and Maarut grouped; current S M Software intake deadline Oct 30 10:00 ET, senior profile specifies >10 years, 5 days onsite, not direct OPS and filtered. Elections Ontario Process and Service Design Clerk remains closed (Oct 26 deadline). RQ11617/RQ11618 vendor reposts remain closed/uncertain because supplier cutoff and Oct 27 start have passed. No net-new suitable open positions; no new OPS direct, Graduate, Official ATS-exclusive or US/global Canada-eligible recommendations. 15 Applied records preserved."
+      "notes": "Three independent discovery passes completed. A) Official employer Careers/ATS review across Workday, Greenhouse, Lever, Ashby, Dayforce and Teamtailor; live official Submit controls verified for existing Smile.io, Mercury, Achievers, Brafton and Veeva roles. RLDatix official role page remains live (Toronto hybrid one day/week; application route not exposed). OCS official Dayforce board lists UX Designer Req#837, posted Oct 22, deadline Nov 5 23:59 ET; detail page remains JS-only and final Submit is unverified. Bally's official Careers page shows Apply now; UKG sign-in prevents final form verification. Thumbtack official Careers page states role filled. B) 20 distinct LinkedIn public-index candidates reviewed across 24h/7d/30d for UX/Product Design, UX/Design Engineering, UI Engineering, APM, Product Analyst/Coordinator/Operations and the requested GTA/Remote Canada locations; native LinkedIn filter matrix was not fully accessible, so scan is not exhaustive. SmartSource Electronics User Experience Designer (Mississauga onsite) is the only new tracker lead, but remains provisional: LinkedIn-only, Mid-Senior label, no official ATS or final submission route found. C) 12 supplemental candidates from Indeed, Jobs.ca, GOjobs, MovoJobs and related listings; added missing historical backfill rows for Publicis, Silk & Snow and Insight Global, and retained Ontario Government RQ11744/RQ11539 as closed/senior vendor records. Separate Graduate/Early Career pass reviewed 15 target employer/program pages; 0 new eligible roles. Bell 2027 cohort eligibility not met; Konrad Spring 2027 Graduate Program remains an existing conditional lead because a school-attendance field is required but no explicit graduation-year/return-to-school restriction is stated. Rechecked high-priority existing roles: Smile.io, Mercury, Achievers, Veeva and Brafton have live official Submit controls; Empire Life employer Indeed listing remains active but job-specific ATS/submit is unverified; Trader Interactive Teamtailor Apply modal is visible but final Submit not loaded; Loblaw APM official page remains live; Feathery Full Stack Engineer Early Career remains indexed but is backend-heavy. Seven older Ashby direct URLs returned 404 and are not treated as confirmed Open: 1Password Product Designer, Absorb Product Designer, Feathery Frontend Engineer Early Career, PAR APM, Infisical Design Engineer Brand, vvd Design Engineer and Decoda Health Product Designer. Homebase UX Engineer deadline Oct 10 passed. Ontario Government RQ11744 supplier cutoff Oct 29 passed; RQ11539 supplier cutoff Oct 30 10:00 ET passed; RQ11617/RQ11618 remain closed after supplier cutoff and Oct 27 estimated start. OCS is a Crown agency, not a direct OPS hire; no OPS direct new role. No new Graduate/Early Career, Official ATS-exclusive, or US/global Canada-eligible recommendation. 15 Applied records preserved; no Applied role re-recommended."
     }
   },
   "jobs": [
@@ -3487,7 +3488,7 @@
       "Experience Requirement": "3+ years digital marketing, digital product support, or UX/journey mapping; no student/return-to-school requirement; internships/contract inclusion not specified",
       "Core Requirements": "End-to-end customer journey mapping, personas, Figma/Lucidchart, web portal and mobile UX, VoC research, digital adoption analytics/GA, business cases, stakeholder management, Agile, financial services/insurance.",
       "Salary": "CA$79,200–126,500 total target compensation incl. target bonus (not base salary)",
-      "Application Link": "https://ca.indeed.com/q-empire-life-digital-client-experience-specialist-jobs.html",
+      "Application Link": "https://ca.indeed.com/viewjob?jk=bc76bdfa5a65ba83",
       "Match %": 91,
       "Main Risks": "3+ years combined relevant experience may be scrutinized; role within Marketing and client experience rather than hands-on product UI; base pay is lower than total target range; official employer ATS not verified.",
       "Application Status": "Not Applied",
