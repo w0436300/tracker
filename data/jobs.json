@@ -1,31 +1,33 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-30T08:56:13-04:00",
+    "lastUpdated": "2026-10-30T09:04:32-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_Morning.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_0904.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 200,
-    "syncStatus": "GitHub main updated; 200 records; 15 Applied preserved; 4 new active leads (0 new final-Submit verified); 11 closure statuses refreshed; RQ11617/RQ11618/RQ11744 canonicalized by requisition ID; 0 OPS direct, 0 eligible Graduate, 0 new US/global Canada-eligible.",
+    "total": 201,
+    "syncStatus": "GitHub main updated; 201 records; 15 Applied preserved; 0 new suitable open roles; 1 new senior Ontario Government vendor requisition (RQ11539) recorded as filtered; OCS, OPENLANE, BrokerLink and McGraw Hill rechecked; no new eligible Graduate/Early Career or OPS direct hire.",
     "lastScan": {
-      "timestamp": "2026-10-30T08:56:13-04:00",
-      "candidateCount": 58,
-      "linkedinCandidateCount": 31,
-      "officialAtsCandidateCount": 18,
-      "supplementalCandidateCount": 16,
-      "graduateCandidateCount": 9,
-      "new": 4,
+      "timestamp": "2026-10-30T09:04:32-04:00",
+      "candidateCount": 24,
+      "linkedinCandidateCount": 16,
+      "officialAtsCandidateCount": 7,
+      "supplementalCandidateCount": 10,
+      "graduateCandidateCount": 6,
+      "new": 0,
+      "newSuitable": 0,
+      "newFilteredRecords": 1,
       "confirmedSubmitNew": 0,
-      "duplicates": 17,
-      "experienceFiltered": 14,
-      "closedFiltered": 11,
-      "eligibilityFiltered": 4,
-      "locationFiltered": 0,
-      "otherFiltered": 8,
+      "duplicates": 14,
+      "experienceFiltered": 6,
+      "closedFiltered": 2,
+      "eligibilityFiltered": 1,
+      "locationFiltered": 1,
+      "otherFiltered": 0,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -33,11 +35,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 2,
+      "earlyCareerCompatibleNew": 0,
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Pass A: 18 employer Careers/ATS roles rechecked across official Workday, Greenhouse, Lever, Ashby, Teamtailor, Rippling, Workable and employer career pages. Pass B: 31 distinct public LinkedIn-index candidates assessed across 24h/7d/30d and UX/Product/Design Engineering/APM/Product Ops keywords with Toronto, Markham, Richmond Hill, North York, Vaughan, GTA and Remote Canada terms; native LinkedIn keyword×location filters were not available, so the public-index pass is not exhaustive. Pass C: 16 Jobs.ca/GOjobs/Indeed/JobLeads/MovoJobs candidates. Separate Graduate pass reviewed 9 program postings across 17 priority employers; 0 eligible new graduate programs due Bell cohort education recency/experience rules, student-only return-to-school constraints, expiry or role mismatch. New leads: Publicis Intermediate UI/UX Designer; Silk & Snow E-Commerce Coordinator; Silk & Snow Product Operations Coordinator (Retail); Insight Global Product Operations Specialist. Two new roles are early-career-compatible; none are confirmed official-ATS-submit-ready. Rechecked priority existing roles including Mercury, Smile.io, Achievers, Veeva, RLDatix, Brafton, Trader Interactive, Loblaw Product Designer and APM Enterprise Initiatives, Interac APM, Questrade APM, Reflow and exacare. 11 closure updates: Homebase UX Engineer, Scotiabank GWM Product Designer, Enercare Junior UX Intern, Vretta Product Analyst, Pigment Product Operations Specialist, APPLY Agentic UX Designer, Loblaw Associate Digital Experience Strategy, Bell Technical Product Manager I, OPS vendor RQ11617, RQ11618 and RQ11744. Bell Product Manager 1 remains unverified because Apply Now redirects to generic Careers despite an earlier Oct20 deadline. OPS direct hires: 0. Official ATS-exclusive new: 0. New US/global Canada-eligible: 0. All 15 Applied records preserved."
+      "notes": "Delta discovery since 2026-10-30 08:56 ET. Pass A: official employer Careers/ATS recheck across Dayforce, Workday, Lever, Greenhouse and Ashby; OCS Req #836 reconfirmed as a current 1–2 year UX contract with Nov 5 23:59 ET deadline; OPENLANE R-255175-1 official Workday Apply route resolved but LinkedIn reports no longer accepting applications; BrokerLink official Workday career board reconfirmed, exact R156246 role/Submit not surfaced. Pass B: 16 distinct LinkedIn-index candidates assessed across 24h/7d/30d public results and UX/Product/Design Engineering/APM/Product Operations terms with Toronto, Markham, Richmond Hill, North York, Vaughan, GTA and Remote Canada location terms; native LinkedIn filter matrix was not fully accessible, so this is not exhaustive. Pass C: 10 Jobs.ca/GOjobs/Indeed/Workus/MovoJobs candidates. Separate Graduate/Early Career pass reviewed 6 current program/apprentice results; 0 eligible new programs or roles. McGraw Hill Product Associate Req 51286 appeared as a fresh employer LinkedIn repost but is a duplicate by Company + Job Title; official iCIMS final form remains unverified. New canonical Ontario Government vendor requisition RQ11539 added once, with S M Software Solutions Inc, CCI, A.T. Consulting & Recruiting Inc. and Maarut grouped; current S M Software intake deadline Oct 30 10:00 ET, senior profile specifies >10 years, 5 days onsite, not direct OPS and filtered. Elections Ontario Process and Service Design Clerk remains closed (Oct 26 deadline). RQ11617/RQ11618 vendor reposts remain closed/uncertain because supplier cutoff and Oct 27 start have passed. No net-new suitable open positions; no new OPS direct, Graduate, Official ATS-exclusive or US/global Canada-eligible recommendations. 15 Applied records preserved."
     }
   },
   "jobs": [
@@ -3650,7 +3652,7 @@
       "Source Type": "Official employer ATS / ApplyToJobs — board link only"
     },
     {
-      "Date Checked": "2026-10-23",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "McGraw Hill",
       "Job Title": "Product Associate (Req 51286)",
@@ -3663,12 +3665,12 @@
       "Salary": "CA$59,000–65,000",
       "Application Link": "https://ca.linkedin.com/jobs/view/product-associate-at-mcgraw-hill-4477337293",
       "Match %": 63,
-      "Main Risks": "Primarily publishing administration, not digital product strategy or UX; invoice/PO/contract experience; official iCIMS form not verified",
+      "Main Risks": "Primarily publishing administration rather than digital product strategy/UX; explicit invoice, purchase-order and contract processing may be a gap; official iCIMS direct link and final form unverified.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer LinkedIn application visible 2026-10-23; official iCIMS final form unverified — not confirmed open",
-      "Notes": "Prior Oct 22 local-only backfill, not newly discovered Oct 23. Early Career compatible; no return-to-school rule. US employer explicitly hiring Toronto residents with Canadian work authorization.",
+      "Job Status": "Employer LinkedIn repost for the same Req 51286 surfaced again on Oct 30; 2+ years operations/coordinator requirement; official iCIMS direct application and final Submit still unverified — not confirmed open in ATS.",
+      "Notes": "Prior Oct 22 local-only backfill, not newly discovered Oct 23. Early Career compatible; no return-to-school rule. US employer explicitly hiring Toronto residents with Canadian work authorization. | 2026-10-30 09:04 ET: Fresh employer LinkedIn repost for the same Req 51286 surfaced in the 24h index; treated as duplicate by Company + Job Title, not a new role. Toronto hybrid, CA$59K–65K, 2+ years administrative/operations/coordinator support. Restaurant management and retail operations are transferable; invoice/PO/contract processing is not evidenced in the current profile. Exact iCIMS application route remains unverified.",
       "Source Type": "Employer LinkedIn — official iCIMS not verified"
     },
     {
@@ -3782,7 +3784,7 @@
       "Source Type": "Official Employer / SE Health Careers (listing verified; application form unverified) + Employer LinkedIn"
     },
     {
-      "Date Checked": "2026-10-24",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "BrokerLink",
       "Job Title": "Digital CX/UX Designer",
@@ -3793,15 +3795,15 @@
       "Experience Requirement": "3+ years digital product/web/UX; internship, contract and combined experience not explicitly excluded",
       "Core Requirements": "Customer-facing insurance portals and quotes, self-service policy changes, claims UX, journey mapping, usability testing, Figma design systems, WCAG/AODA, analytics, cross-functional product/engineering collaboration",
       "Salary": "CA$74,800–91,400 base salary; 7.5% target annual bonus",
-      "Application Link": "https://ca.linkedin.com/jobs/view/digital-cx-ux-designer-at-brokerlink-4483180065",
-      "Match %": 90,
-      "Main Risks": "3+ years requirement; end-to-end user research and delivery ownership; official employer Workday listing exists via careers search but exact role ATS submission could not be independently verified",
+      "Application Link": "https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink",
+      "Match %": 84,
+      "Main Risks": "3+ years digital product/web/UX; advanced Figma and design-system proficiency; specific insurance experience is an asset; exact Workday requisition page and final Submit were not surfaced; hybrid attendance cadence unspecified.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer LinkedIn currently accepting applications 2026-10-24; employer official Workday direct job URL/final Submit unverified",
-      "Notes": "Fresh employer LinkedIn listing indexed 2026-10-24. Insurance CX and customer/broker/employee portals; Canadian work eligibility required (Canadian PR qualifies). Official careers https://www.brokerlink.ca/about-us/careers routes to https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink; no exact Workday job URL found. Cross-checked Indeed listing https://ca.indeed.com/viewjob?jk=4ed94a751b99d484 . LinkedIn application link retained until exact official requisition verified. 2026-10-24 afternoon scan.",
-      "Source Type": "LinkedIn / employer-authored listing + Indeed corroboration; official employer Workday ATS route verified, exact job application unverified"
+      "Job Status": "Employer listing posted Oct 22 and still surfaced with Apply Now; official BrokerLink Careers routes to the Workday board; search by R156246; exact Workday job page/final Submit not independently verified — likely live, not confirmed submit-ready.",
+      "Notes": "Fresh employer LinkedIn listing indexed 2026-10-24. Insurance CX and customer/broker/employee portals; Canadian work eligibility required (Canadian PR qualifies). Official careers https://www.brokerlink.ca/about-us/careers routes to https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink; no exact Workday job URL found. Cross-checked Indeed listing https://ca.indeed.com/viewjob?jk=4ed94a751b99d484 . LinkedIn application link retained until exact official requisition verified. 2026-10-24 afternoon scan. | 2026-10-30 09:04 ET: BrokerLink Careers page reconfirmed and routes to Workday board https://intactfc.wd3.myworkdayjobs.com/en-US/brokerlink. Employer-authored R156246 listing remains visible with Apply Now; 3+ years, Toronto hybrid, CA$74,800–91,400 plus 7.5% target bonus. Search Workday by R156246; exact direct role URL was not surfaced. User's prior graphic/web design, Kyndryl UX internship and current freelance product work are transferable, but the 3+ year threshold is a stretch.",
+      "Source Type": "Official Employer Careers / Workday board + employer-authored listing; exact ATS role and final Submit unverified."
     },
     {
       "Date Checked": "2026-10-30",
@@ -3826,7 +3828,7 @@
       "Source Type": "Official ATS / Greenhouse; Submit application confirmed"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
@@ -3840,12 +3842,12 @@
       "Experience Requirement": "2–5 years Product Designer or similar; internship, freelance and contract not expressly excluded",
       "Core Requirements": "End-to-end UX, user research, interviews, usability testing, wireframes, prototypes, flows, high-fidelity UI, design systems, B2B enterprise workflows, collaboration with product and engineers",
       "Salary": "CA$120,000–140,000 base annually (job posting)",
-      "Application Link": "https://openlane.wd115.myworkdayjobs.com/OPENLANE_Careers/job/CAN---ON---Toronto-AutoVIN-OPENLANE-TradeRev/Product-Designer_R-255175-1",
-      "Match %": 93,
-      "Main Risks": "2–5 years product-design experience may be strictly assessed; must demonstrate end-to-end research and polished visual design; Workday page is JS-rendered so final Apply/Submit could not be tested",
-      "Job Status": "Official Workday requisition linked from current employer posting 2026-10-25; final application form unverified",
-      "Notes": "New Oct 24/25 public job-board discovery (not necessarily first publication). Employer job text says remote despite physical offices; Toronto requisition and CAD salary support Canada employment. R-255175-1. Original job listing https://advancemint.com/jobs/product-designer/toronto/25bf67b8-cf82-4223-8577-0421694d40bd links directly to official Workday; corroboration https://remotive.com/remote/jobs/design/product-designer-6355479 . Canada eligibility: explicit remote Canada, RRSP Canada. No student or return-to-school requirement.",
-      "Source Type": "Official ATS / Workday direct requisition (form JS unverified); employer-linked job-board discovery"
+      "Application Link": "https://openlane.wd115.myworkdayjobs.com/en-US/openlane_careers/job/CAN---ON---Toronto-AutoVIN-OPENLANE-TradeRev/Product-Designer_R-255175-1/apply",
+      "Match %": 90,
+      "Main Risks": "2–5 years Product Designer or similar may be strictly assessed; candidate's combined graphic/web design, UX internship and freelance product work may be considered but is not a guaranteed 2+ years of product design; LinkedIn status conflicts with accessible Workday Apply route; final Submit unverified.",
+      "Job Status": "Official Workday Apply route resolves; job-board monitor checked 7h ago shows Open 6d, but LinkedIn listing says no longer accepting applications; final Workday Submit not verified — provisional status conflict, not confirmed open.",
+      "Notes": "New Oct 24/25 public job-board discovery (not necessarily first publication). Employer job text says remote despite physical offices; Toronto requisition and CAD salary support Canada employment. R-255175-1. Original job listing https://advancemint.com/jobs/product-designer/toronto/25bf67b8-cf82-4223-8577-0421694d40bd links directly to official Workday; corroboration https://remotive.com/remote/jobs/design/product-designer-6355479 . Canada eligibility: explicit remote Canada, RRSP Canada. No student or return-to-school requirement. | 2026-10-30 09:04 ET: Direct Workday Apply route resolved from current employer-linked posting; Hiretik monitor last checked 7h ago says Open 6d, while LinkedIn says no longer accepting applications. Remote Canada, Toronto requisition, CA$120K–140K, 2–5 years Product Designer or similar. Treat as a high-value but status-conflicted lead; final Workday Submit not verified.",
+      "Source Type": "Official ATS / Workday direct Apply route + LinkedIn status conflict; final Submit unverified."
     },
     {
       "Date Checked": "2026-10-30",
@@ -3914,7 +3916,7 @@
       "Source Type": "Official ATS / Ashby (indexed; form unverified)"
     },
     {
-      "Date Checked": "2026-10-29",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "OCS Ontario Cannabis Store",
       "Job Title": "UX Designer (12-Month Fixed Term Contract)",
@@ -3927,13 +3929,13 @@
       "Salary": "CA$76,814–82,000 target hiring; CA$76,814–93,884 grade range",
       "Application Link": "https://jobs.dayforcehcm.com/en-US/ocs/candidateportal/jobs/3362",
       "Match %": 95,
-      "Main Risks": "12-month fixed-term; official Dayforce JS shell loads but application form/Submit could not be independently verified; actual office cadence not specified",
+      "Main Risks": "12-month fixed-term; Dayforce page is JS-rendered so final Submit could not be independently checked; exact in-office cadence not specified; Shopify/e-commerce experience is an asset.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce job URL reachable 2026-10-29; JS role details and final Submit cannot be verified; deadline previously 2026-11-05",
-      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5.",
-      "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
+      "Job Status": "Official Dayforce listing currently indexed; Req #836; posted Oct 22; expires 2026-11-06 04:59 UTC (2026-11-05 23:59 ET); 1–2 years UX; final Submit not independently verified.",
+      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5. | 2026-10-30 09:04 ET: Official Dayforce job summary reconfirmed; 1–2 years UX; 36.25 hours/week; 12-month contract; target CA$76,814–82,000; deadline displays Nov 6 04:59 UTC (Nov 5 23:59 ET); no student/return-to-school requirement; final form remains JS-only and Submit unverified.",
+      "Source Type": "Official ATS / Dayforce; current listing, eligibility and deadline verified; final Submit unverified."
     },
     {
       "Date Checked": "2026-10-26",
@@ -4440,6 +4442,28 @@
       "Job Status": "Closed/Expired — supplier submission deadline passed; syndicated vendor page remains indexed but does not override the supplier cutoff.",
       "Notes": "Canonical RQ11744 record; merge by requisition ID. Vendors found: S M Software Solutions Inc and Maarut. Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start 2026-11-09; end 2027-09-28; 225 business days. Not direct OPS. Excluded for senior scope and deadline.",
       "Source Type": "Vendor LinkedIn + MovoJobs; Ontario Government client requisition, not direct OPS"
+    },
+    {
+      "Date Checked": "2026-10-30",
+      "New This Run": "No",
+      "Company": "Ontario Government — vendor requisition RQ11539",
+      "Job Title": "UX Designer — Senior (RQ11539)",
+      "Track": "UX / Product Design — Senior vendor contract; filtered by experience",
+      "Company Type": "Ontario Public Service contract via multiple staffing vendors; not direct OPS employment",
+      "Location": "Toronto, ON, Canada",
+      "Work Mode": "On-site — 5 days/week",
+      "Experience Requirement": "Senior; S M Software vendor profile specifies greater than 10 years; requires leading UX projects and stakeholder workshops. Prior OPS/public-sector experience is desirable.",
+      "Core Requirements": "Web/mobile GUI design, user research, interaction design, Figma/Canva, workshops and stakeholder alignment, user flows, wireframes, prototypes, usability testing, accessibility/WCAG 2.1 AA, collaboration with developers and QA.",
+      "Salary": "Not disclosed; third-party annual estimate CA$84K–91K is unverified and not an official contract rate",
+      "Application Link": "https://www.smsoftconsulting.com/Job_Detail/RQ11539-%E2%80%93-UX-Designer-%E2%80%93-Senior?id=CfDJ8BjIZSHTBKBIogszcjiKwLF-63s3KEiB8Wm4lZRe0gkOa2OgZDBhi4KIXqaDHCD4qFfEQ6lA8fL3_V4xBxo8_0wa_3VIPaq6Qw23fAblS-e8kdG-wgZo44qFVJHwiJp3RQ",
+      "Match %": 35,
+      "Main Risks": "Senior title; S M Software listing specifies >10 years; five days onsite; contract start date Sep 21 has passed; deadline Oct 30 at 10:00 ET; no direct OPS employment; not aligned with the user's early-career experience.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": "2026-10-30 10:00 ET",
+      "Job Status": "Vendor intake listed open until 2026-10-30 10:00 ET via S M Software; current CCI LinkedIn repost; other vendor listings are older/closed. Filtered by seniority and not recommended.",
+      "Notes": "Canonical RQ11539 record; do not create one row per vendor. Vendors found: S M Software Solutions Inc. (current intake, deadline Oct 30 10:00 ET), CCI / Computer Consultants International Inc. (LinkedIn repost), A.T. Consulting & Recruiting Inc. (older RQ11538/RQ11539/RQ11541 post, no longer accepting), and Maarut (older listing with Oct 9 cutoff). Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start Sep 21, 2026; estimated end Oct 1, 2027; five days onsite in Toronto. S M Software profile lists greater than 10 years' experience. Not a direct OPS employee position. | 2026-10-30 09:04 ET: Added as one canonical historical/vendor requisition after new CCI and S M Software listings were found; not a suitable early-career recommendation.",
+      "Source Type": "Multiple staffing vendors / LinkedIn / vendor ATS; not direct OPS"
     }
   ]
 }
