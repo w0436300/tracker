@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-30T09:04:32-04:00",
+    "lastUpdated": "2026-10-30T14:04:51-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_0904.xlsx",
     "priorityLocations": [
@@ -9,7 +9,7 @@
       "North York",
       "Vaughan"
     ],
-    "total": 201,
+    "total": 202,
     "syncStatus": "GitHub main updated; 201 records; 15 Applied preserved; 0 new suitable open roles; 1 new senior Ontario Government vendor requisition (RQ11539) recorded as filtered; OCS, OPENLANE, BrokerLink and McGraw Hill rechecked; no new eligible Graduate/Early Career or OPS direct hire.",
     "lastScan": {
       "timestamp": "2026-10-30T09:04:32-04:00",
@@ -1056,7 +1056,7 @@
       "Source Type": "Official Dayforce URL (dynamic form unverified) + Employer LinkedIn / Indeed"
     },
     {
-      "Date Checked": "2026-10-09",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Thumbtack",
       "Job Title": "Product Designer, Partnerships and Brand Experience",
@@ -1067,15 +1067,15 @@
       "Experience Requirement": "3–5 years product design; advanced motion/prototyping",
       "Core Requirements": "Figma advanced prototypes, product experience, brand systems, UI motion, GTM demos; Canadian compensation",
       "Salary": "CA$131,800–170,500 total cash",
-      "Application Link": "https://www.jobs.ca/thumbtack-5a92fceeb471/jobs/product-designer-partnerships-and-brand-experience-remote-british-columbia-canada-ontario-canada-3eb97adbeda7",
+      "Application Link": "https://careers.thumbtack.com/jobs/f3f09440-b21d-4e3d-bc7b-5bd44e416630",
       "Match %": 78,
       "Main Risks": "Stretch: 3–5 years, high bar on motion/brand visual craft; official employer ATS not verified",
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Jobs.ca listed — official ATS unverified",
-      "Notes": "Stretch; only after higher-match early-career applications | Posted: 2026-10-02",
-      "Source Type": "Jobs.ca / Canada eligibility confirmed"
+      "Job Status": "Closed / Filled — official Thumbtack Careers page states this role has been filled (2026-10-30); do not apply.",
+      "Notes": "Stretch; only after higher-match early-career applications | Posted: 2026-10-02 | 2026-10-30: Official Thumbtack Careers page explicitly states 'This role has been filled'; previous Ashby application URL returned 404. Canada eligibility and Ontario remote location were confirmed, but role is now closed.",
+      "Source Type": "Official Employer Careers / Ashby; role marked filled"
     },
     {
       "Date Checked": "2026-10-18",
@@ -2156,7 +2156,7 @@
       "Source Type": "Official Careers / SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-27",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Ashby",
       "Job Title": "Junior Design Engineer - Canada",
@@ -2173,9 +2173,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby ATS listing accessible, final application JS-only/unverified 2026-10-27",
-      "Notes": "Eligibility first: verify whether prior graphic design employment counts toward 2-year cap; if eligible, apply with Figma-to-React production demo. | Posted: Backfill ≤30d not verified",
-      "Source Type": "Official ATS / Ashby (JS form unverified)"
+      "Job Status": "Official Ashby listing remains indexed; direct page is JavaScript-only and final Submit cannot be verified. Eligibility risk: Junior level requires no more than 2 years industry experience as a designer or engineer.",
+      "Notes": "Eligibility first: verify whether prior graphic design employment counts toward 2-year cap; if eligible, apply with Figma-to-React production demo. | Posted: Backfill ≤30d not verified | 2026-10-30: Official Ashby description confirms Junior cap of ≤2 years industry experience as designer or engineer, TypeScript/React/CSS, and projects with at least a couple of users. Prior 2017–18 graphic-design employment may count toward the cap; eligibility is uncertain. Do not prioritize until the experience-counting issue is resolved.",
+      "Source Type": "Official ATS / Ashby; current index, final form unverified"
     },
     {
       "Date Checked": "2026-10-12 14:05 ET",
@@ -2288,7 +2288,7 @@
       "Source Type": "Official Early Talent / Program"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "1Password",
       "Job Title": "Product Designer",
@@ -2305,8 +2305,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official ATS listing found 2026-10-14; final submission not tested",
-      "Notes": "Apply first — strong UX/product fit | Posted: Backfill / date not verified",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "Apply first — strong UX/product fit | Posted: Backfill / date not verified | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older official ATS index remains, but current active application cannot be confirmed.",
       "Source Type": "Official ATS / Ashby (application panel JS)"
     },
     {
@@ -2464,7 +2464,7 @@
       "Source Type": "LinkedIn / Recruiter"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Absorb Software",
       "Job Title": "Product Designer",
@@ -2481,8 +2481,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official ATS listing found 2026-10-14; final submission not tested",
-      "Notes": "Newly backfilled Oct 13 evening. Explicit Remote CAN; Canadian work authorization required; no return-to-school requirement. Suitable for 2026 graduates with relevant experience.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "Newly backfilled Oct 13 evening. Explicit Remote CAN; Canadian work authorization required; no return-to-school requirement. Suitable for 2026 graduates with relevant experience. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older official ATS index remains, but current active application cannot be confirmed.",
       "Source Type": "Official ATS / Ashby"
     },
     {
@@ -2662,7 +2662,7 @@
       "Source Type": "Jobs.ca / third-party; employer ATS unverified"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "PAR Technology",
       "Job Title": "Associate Product Manager",
@@ -2679,8 +2679,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official ATS indexed; Canada eligibility confirmed; final submission unverified",
-      "Notes": "New Oct 15 backfill; PAR is restaurant SaaS with POS, ordering, loyalty, back-office; user has restaurant supervisor and enterprise UX/full-stack experience. Remote - Canada explicitly listed; not US-only.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "New Oct 15 backfill; PAR is restaurant SaaS with POS, ordering, loyalty, back-office; user has restaurant supervisor and enterprise UX/full-stack experience. Remote - Canada explicitly listed; not US-only. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older indexed listing shows Remote Canada, but current application cannot be confirmed.",
       "Source Type": "Official ATS — Ashby (indexed; JS form unverified)"
     },
     {
@@ -2706,7 +2706,7 @@
       "Source Type": "Jobs.ca — third-party, employer ATS unverified"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Infisical",
       "Job Title": "Design Engineer, Brand",
@@ -2723,8 +2723,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby indexed — dynamic application form not independently verified",
-      "Notes": "US/global company; explicitly Canada eligible. Strong alignment with graphic design + frontend + UX. Posting date not confirmed.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "US/global company; explicitly Canada eligible. Strong alignment with graphic design + frontend + UX. Posting date not confirmed. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older indexed listing shows US/Canada remote, but current application cannot be confirmed.",
       "Source Type": "Official ATS — Ashby"
     },
     {
@@ -3146,7 +3146,7 @@
       "Source Type": "Official employer Careers + TalentHR ATS (job page live; submit form unverified)"
     },
     {
-      "Date Checked": "2026-10-29",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Associate Consultant (Spring 2027 Graduate Program)",
@@ -3163,9 +3163,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Konrad application form and Submit Application verified 2026-10-29; 2026 graduate eligibility not explicitly restricted; school field required",
-      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles. | 2026-10-26 20:03 ET: Official application form accepts submission and asks current school; no explicit 2026/2027 graduation cut-off stated on job description. Applicant finished 2026, no return-to-school condition shown. Do not infer definitive eligibility. | 2026-10-29: Official form still available; eligibility not explicitly limited by graduation year. No return-to-school requirement stated.",
-      "Source Type": "Official Employer Careers / embedded application form verified"
+      "Job Status": "Official Konrad Careers application form remains available; 2026 graduate eligibility still ambiguous because school-attendance field is required, but no explicit graduation-year or return-to-school restriction found.",
+      "Notes": "Backfill 2026-10-18. 2026 graduates not explicitly excluded; no return-to-school requirement. Separate from Applied Konrad design roles. | 2026-10-26 20:03 ET: Official application form accepts submission and asks current school; no explicit 2026/2027 graduation cut-off stated on job description. Applicant finished 2026, no return-to-school condition shown. Do not infer definitive eligibility. | 2026-10-29: Official form still available; eligibility not explicitly limited by graduation year. No return-to-school requirement stated. | 2026-10-30: Graduate program remains a live official listing. School field is required; description does not state a graduation-year cut-off or return-to-school requirement. A 2026 graduate may be considered, but eligibility is not confirmed; keep as conditional early-career lead, not a confirmed match.",
+      "Source Type": "Official Employer Careers / application form"
     },
     {
       "Date Checked": "2026-10-19",
@@ -3212,7 +3212,7 @@
       "Source Type": "Employer LinkedIn + Jobs.ca (official ATS unverified)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Feathery",
       "Job Title": "Frontend Engineer, Early Career",
@@ -3229,12 +3229,12 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby listing indexed 2026-10-19; final form unverified",
-      "Notes": "NEW Early Career 30-day backfill. B2B insurance/wealth management intake workflows match user experience. US-based employer explicitly hires Toronto; Canadian payroll details not listed.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "NEW Early Career 30-day backfill. B2B insurance/wealth management intake workflows match user experience. US-based employer explicitly hires Toronto; Canadian payroll details not listed. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; no current employer listing or application form confirmed.",
       "Source Type": "Official Ashby ATS (job indexed; final submit unverified)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Feathery",
       "Job Title": "Full Stack Engineer, Early Career",
@@ -3251,9 +3251,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby listing indexed 2026-10-19; final form unverified",
-      "Notes": "NEW Early Career adjacent. Toronto Canadian hiring; no student-only requirement; finance/insurance onboarding UX and React/Node align.",
-      "Source Type": "Official Ashby ATS (job indexed; final submit unverified)"
+      "Job Status": "Official Ashby listing currently indexed and detailed role page available; final Submit not independently verified.",
+      "Notes": "NEW Early Career adjacent. Toronto Canadian hiring; no student-only requirement; finance/insurance onboarding UX and React/Node align. | 2026-10-30: Separate Full Stack Engineer, Early Career role remains listed in Toronto hybrid; CA$70K–100K, internships/co-ops/projects accepted. Backend/API/AWS/distributed-systems emphasis makes this a product-engineering stretch rather than a pure UX/UI role.",
+      "Source Type": "Official ATS / Ashby; current indexed listing, final form unverified"
     },
     {
       "Date Checked": "2026-10-19",
@@ -3476,7 +3476,7 @@
       "Source Type": "Official Careers / SuccessFactors (listing verified, final application unverified)"
     },
     {
-      "Date Checked": "2026-10-26",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Empire Life",
       "Job Title": "Digital Client Experience Specialist",
@@ -3487,15 +3487,15 @@
       "Experience Requirement": "3+ years digital marketing, digital product support, or UX/journey mapping; no student/return-to-school requirement; internships/contract inclusion not specified",
       "Core Requirements": "End-to-end customer journey mapping, personas, Figma/Lucidchart, web portal and mobile UX, VoC research, digital adoption analytics/GA, business cases, stakeholder management, Agile, financial services/insurance.",
       "Salary": "CA$79,200–126,500 total target compensation incl. target bonus (not base salary)",
-      "Application Link": "https://ca.indeed.com/viewjob?jk=bc76bdfa5a65ba83",
+      "Application Link": "https://ca.indeed.com/q-empire-life-digital-client-experience-specialist-jobs.html",
       "Match %": 91,
       "Main Risks": "3+ years combined relevant experience may be scrutinized; role within Marketing and client experience rather than hands-on product UI; base pay is lower than total target range; official employer ATS not verified.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer-provided Indeed listing explicitly states active vacancy, Apply now visible 2026-10-26; official ATS/final submission unverified",
-      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role. | 2026-10-26: employer Indeed listing rechecked; previously also recorded under alias 'The Empire Life Insurance Company' (2026-10-12); older notes: Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed)",
-      "Source Type": "Indeed / employer-provided listing (official ATS not found)"
+      "Job Status": "Open — employer-provided Indeed listing explicitly states current open vacancy and Apply now; direct final submission and job-specific employer ATS not verified.",
+      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role. | 2026-10-26: employer Indeed listing rechecked; previously also recorded under alias 'The Empire Life Insurance Company' (2026-10-12); older notes: Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed) | 2026-10-30: Indeed employer listing confirms North York York Mills hybrid, active current vacancy, Apply now, $79,200–126,500 total target compensation incl. target bonus (permanent roles only), 3+ years digital marketing/digital product support/UX journey mapping; Figma, Lucidchart, portal/mobile app management, personas, analytics, product-owner collaboration. Final submit/official job-specific ATS not verified.",
+      "Source Type": "Indeed employer-provided job listing; official Empire Life careers portal cross-checked"
     },
     {
       "Date Checked": "2026-10-30",
@@ -3579,10 +3579,10 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby listing indexed 2026-10-21; final application form unverified — Open not confirmed",
-      "Notes": "Explicit Canada eligibility on official ATS; no graduation-year restriction; experience not a gate, shipped personal/professional projects count. Relevant to React/Next.js, visual design, storytelling and AI tools. Posted earlier; historical gap fill.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "Explicit Canada eligibility on official ATS; no graduation-year restriction; experience not a gate, shipped personal/professional projects count. Relevant to React/Next.js, visual design, storytelling and AI tools. Posted earlier; historical gap fill. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older indexed listing shows Canada remote, but current application cannot be confirmed.",
       "Source Type": "Official ATS / Ashby — listing indexed; final form unverified",
-      "Date Checked": "2026-10-21",
+      "Date Checked": "2026-10-30",
       "New This Run": "No"
     },
     {
@@ -3933,9 +3933,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce listing currently indexed; Req #836; posted Oct 22; expires 2026-11-06 04:59 UTC (2026-11-05 23:59 ET); 1–2 years UX; final Submit not independently verified.",
-      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5. | 2026-10-30 09:04 ET: Official Dayforce job summary reconfirmed; 1–2 years UX; 36.25 hours/week; 12-month contract; target CA$76,814–82,000; deadline displays Nov 6 04:59 UTC (Nov 5 23:59 ET); no student/return-to-school requirement; final form remains JS-only and Submit unverified.",
-      "Source Type": "Official ATS / Dayforce; current listing, eligibility and deadline verified; final Submit unverified."
+      "Job Status": "Open — official Dayforce board lists UX Designer Req#837; posted 2026-10-22; expires 2026-11-06 04:59 UTC (2026-11-05 23:59 ET). Dayforce detail page is JS-only; final Submit not independently verified.",
+      "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362; official board requisition Req#837. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5. | 2026-10-30 14:04 ET: Official Dayforce job board confirms Req#837, posted Oct 22, expires Nov 6 04:59 UTC (Nov 5 23:59 ET); 1–2 years UX, 12-month fixed term, Toronto York Mills, CA$76,814–82,000 target range; final Submit remains unverified because job-detail page is JS-only.",
+      "Source Type": "Official ATS / Dayforce; current board listing and eligibility verified; final Submit unverified"
     },
     {
       "Date Checked": "2026-10-26",
@@ -4026,7 +4026,7 @@
       "Source Type": "Employer ATS / JOIN (Apply now visible) + LinkedIn employer listing"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
@@ -4040,12 +4040,12 @@
       "Experience Requirement": "Employer job description does not state a fixed years minimum; independent index estimates mid-level 2–5 years, NOT an employer-confirmed requirement; no student-only restriction",
       "Core Requirements": "End-to-end product UX/UI for Bally Sports Live across connected TV, mobile and web; user research, testing, product analytics, interaction design, prototypes, strong visual craft, Figma, collaboration with PM and Engineering.",
       "Salary": "CA$100,000–145,000/year (employer-provided Indeed listing)",
-      "Application Link": "https://designproject.io/jobs/product-designer-at-ballys-interactive-rane1s",
+      "Application Link": "https://careers.ballys.com/job/ballys-canada/toronto/ontario/canada/interactive/product-designer/29b7b655-50ee-4d3a-90f2-3897cfeadf06",
       "Match %": 77,
       "Main Risks": "Consumer streaming and TV UI experience less directly relevant than enterprise UX; hybrid Toronto; salary/role corroborated by Indeed but official employer ATS/UltiPro form not found or verified; DO NOT mark as confirmed Open until employer submission is checked.",
-      "Job Status": "Employer-provided Indeed Apply now listing visible 2026-10-28; official ATS/final submission UNVERIFIED — Open not fully confirmed",
-      "Notes": "2026-10-28 08 ET: Found via Indeed 30-day backfill. Originally posted around 2026-10-01, not newly published today. Employer Indeed job card shows Toronto Hybrid and CA$100k–145k. Bally Sports Live role covers streaming TV/mobile/web. Independent role detail https://designproject.io/jobs/product-designer-at-ballys-interactive-rane1s ; Indeed employer listing https://ca.indeed.com/q-new-grad-product-designer-l-toronto%2C-on-jobs.html ; company jobs https://www.gamblingcareers.com/company/630/bally-s-interactive/ . Source Type is non-official until ATS verified. Canada eligibility confirmed via Toronto employment location and CAD salary.",
-      "Source Type": "Employer-provided Indeed job listing + syndicated direct role page; official ATS not verified"
+      "Job Status": "Open — official Bally's Careers page shows Apply now; UKG/UltiPro redirects to sign-in, so final application form not independently accessible.",
+      "Notes": "2026-10-28 08 ET: Found via Indeed 30-day backfill. Originally posted around 2026-10-01, not newly published today. Employer Indeed job card shows Toronto Hybrid and CA$100k–145k. Bally Sports Live role covers streaming TV/mobile/web. Independent role detail https://designproject.io/jobs/product-designer-at-ballys-interactive-rane1s ; Indeed employer listing https://ca.indeed.com/q-new-grad-product-designer-l-toronto%2C-on-jobs.html ; company jobs https://www.gamblingcareers.com/company/630/bally-s-interactive/ . Source Type is non-official until ATS verified. Canada eligibility confirmed via Toronto employment location and CAD salary. | 2026-10-30: Official Bally's Careers confirms Toronto, full-time hybrid, Bally Media/Bally Sports Live streaming products, CA$100K–145K CAD, 3+ years consumer product design with shipped features; Apply now opens UKG sign-in, final form not accessible. Role remains a stretch because direct shipped consumer app experience and multi-platform TV/mobile depth are required.",
+      "Source Type": "Official Employer Careers / UKG (Apply now visible; final form gated)"
     },
     {
       "Date Checked": "2026-10-28",
@@ -4070,7 +4070,7 @@
       "Source Type": "Official Arup Careers / Taleo — confirmed closed"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Decoda Health",
       "Job Title": "Product Designer",
@@ -4087,8 +4087,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Ashby job listing indexed 2026-10-28; Apply for this Job shown in indexed page; live form submission NOT independently verified — status provisional",
-      "Notes": "2026-10-28 PM official ATS historical backfill, NOT a newly published posting. Healthcare operational workflows and design systems align with BMO/Intake Tracker background; 3+ SaaS years stretch. Toronto on-site and CA$140–180K. No student/return-to-school restriction. Canada employment explicit (Toronto office and CAD pay). Source https://jobs.ashbyhq.com/decodahealth/5d90f7ca-eae1-406e-a4cf-461e7a30886c/ ; dynamic Ashby page cannot confirm final submit, so not marked verified open.",
+      "Job Status": "Not confirmed Open — direct official Ashby URL returned 404 on 2026-10-30; older search index may be stale. Do not recommend until employer listing/form is restored.",
+      "Notes": "2026-10-28 PM official ATS historical backfill, NOT a newly published posting. Healthcare operational workflows and design systems align with BMO/Intake Tracker background; 3+ SaaS years stretch. Toronto on-site and CA$140–180K. No student/return-to-school restriction. Canada employment explicit (Toronto office and CAD pay). Source https://jobs.ashbyhq.com/decodahealth/5d90f7ca-eae1-406e-a4cf-461e7a30886c/ ; dynamic Ashby page cannot confirm final submit, so not marked verified open. | 2026-10-30: Direct Ashby URL returned 404 on 2026-10-30; older indexed listing remains, but current application cannot be confirmed.",
       "Source Type": "Official ATS / Ashby (job indexed; final application unverified)"
     },
     {
@@ -4464,6 +4464,28 @@
       "Job Status": "Vendor intake listed open until 2026-10-30 10:00 ET via S M Software; current CCI LinkedIn repost; other vendor listings are older/closed. Filtered by seniority and not recommended.",
       "Notes": "Canonical RQ11539 record; do not create one row per vendor. Vendors found: S M Software Solutions Inc. (current intake, deadline Oct 30 10:00 ET), CCI / Computer Consultants International Inc. (LinkedIn repost), A.T. Consulting & Recruiting Inc. (older RQ11538/RQ11539/RQ11541 post, no longer accepting), and Maarut (older listing with Oct 9 cutoff). Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start Sep 21, 2026; estimated end Oct 1, 2027; five days onsite in Toronto. S M Software profile lists greater than 10 years' experience. Not a direct OPS employee position. | 2026-10-30 09:04 ET: Added as one canonical historical/vendor requisition after new CCI and S M Software listings were found; not a suitable early-career recommendation.",
       "Source Type": "Multiple staffing vendors / LinkedIn / vendor ATS; not direct OPS"
+    },
+    {
+      "Date Checked": "2026-10-30",
+      "New This Run": "Yes",
+      "Company": "SmartSource Electronics",
+      "Job Title": "User Experience Designer",
+      "Track": "UX / Product Design",
+      "Company Type": "Canadian Retail / Refurbished Consumer Electronics",
+      "Location": "Mississauga, ON — Greater Toronto Area",
+      "Work Mode": "On-site",
+      "Experience Requirement": "No numeric minimum stated; LinkedIn classifies role Mid-Senior. Portfolio must show end-to-end UX process and shipped digital products; e-commerce/consumer-facing experience preferred.",
+      "Core Requirements": "User research, interviews/surveys/usability testing, user flows, wireframes, interactive prototypes, Figma/Sketch/Adobe XD, responsive web/mobile UX, interaction design, information architecture, accessibility, analytics, collaboration with product, engineering and marketing.",
+      "Salary": "Not disclosed",
+      "Application Link": "https://ca.linkedin.com/jobs/view/user-experience-designer-at-smartsource-electronics-4481147429",
+      "Match %": 74,
+      "Main Risks": "LinkedIn seniority marked Mid-Senior despite no numeric experience minimum; portfolio must demonstrate shipped consumer/e-commerce product; on-site Mississauga is outside preferred submarkets; no official employer ATS or job-specific application form found.",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Provisional lead — LinkedIn job listing visible and accepting applicants; no official employer ATS or final submission route found. Open not independently confirmed beyond LinkedIn.",
+      "Notes": "Posted 2026-10-22; within the 30-day backfill window. Canadian retailer specializing in refurbished phones, tablets, laptops and gaming consoles. User's graphic design, UX research, visual design and Decathlon retail background are relevant. Treat as lower-priority GTA option due Mississauga on-site and Mid-Senior classification. No numeric years requirement disclosed.",
+      "Source Type": "LinkedIn Jobs only; employer Careers/ATS not found"
     }
   ]
 }
