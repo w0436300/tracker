@@ -1,27 +1,27 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-29T14:08:00-04:00",
+    "lastUpdated": "2026-10-29T20:03:00-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-29_Afternoon.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-29_Evening.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 191,
-    "syncStatus": "GitHub main updated; 191 historical records; 15 Applied preserved; 1 historical backfill lead (Jerry.ai APM Growth), final Ashby Submit unverified; Smile.io/Mercury Submit verified",
+    "total": 195,
+    "syncStatus": "GitHub main updated; 195 historical records; 15 Applied preserved; 4 new employer-confirmed postings; Veeva/Smile.io/Mercury final Submit verified",
     "lastScan": {
-      "timestamp": "2026-10-29T14:08:00-04:00",
-      "candidateCount": 35,
-      "new": 1,
-      "confirmedSubmitNew": 0,
-      "duplicates": 17,
-      "experienceFiltered": 7,
-      "closedFiltered": 4,
+      "timestamp": "2026-10-29T20:03:00-04:00",
+      "candidateCount": 34,
+      "new": 4,
+      "confirmedSubmitNew": 1,
+      "duplicates": 16,
+      "experienceFiltered": 4,
+      "closedFiltered": 3,
       "eligibilityFiltered": 2,
-      "locationFiltered": 2,
-      "otherFiltered": 2,
+      "locationFiltered": 0,
+      "otherFiltered": 5,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -29,11 +29,11 @@
         "30d public index"
       ],
       "graduateNew": 0,
-      "earlyCareerCompatibleNew": 1,
+      "earlyCareerCompatibleNew": 2,
       "opsDirectNew": 0,
-      "officialAtsExclusiveNew": 0,
-      "globalCanadaEligibleNew": 1,
-      "notes": "Pass A official ATS Workday/Greenhouse/Lever/Ashby/Dayforce; Pass B independent LinkedIn public indexes across 24h/7d/30d and Toronto/GTA/Remote Canada; native matrix not exhaustive. Pass C GOjobs/Indeed/Jobs.ca. Pass D Graduate/Early Talent. Jerry.ai official Ashby lists Toronto, Wellfound Remote Canada; final Submit not independently tested. 17 previously tracked candidates not duplicated. Excluded Embross 8+ years, Elastic Path ~5+, Fidelity mutual-fund experience, Bell grad eligibility, TD London-only and closed cohorts. Existing Smile.io and Mercury live application forms confirmed."
+      "officialAtsExclusiveNew": 1,
+      "globalCanadaEligibleNew": 2,
+      "notes": "Pass A official employer Careers and ATS (Lever, Greenhouse, Workday, Ashby, Teamtailor, Paradox, Dayforce); Pass B independent LinkedIn public 24h/7d/30d indexes for UX/Product/Design Engineering/APM/Experience across GTA and Remote Canada (native keyword×location matrix not exhaustive); Pass C Indeed/Jobs.ca/GOjobs; Pass D Graduate/Early Talent including Bell, RBC, Intact, others. New Brafton, Trader Interactive, Loblaw APM Enterprise Initiatives, Loblaw Digital Designer. Veeva APM already tracked; Submit verified. Excluded First National UX (deadline Oct22), RBC WM Generalist (Oct26), Terumo APM expired, Bell 2027 grad eligibility, Intact student-only co-op, eBay Experience Designer III evergreen non-vacancy. Beanfield web specialist 3–5y CMS/paid acquisition not added due weak UX fit."
     }
   },
   "jobs": [
@@ -632,7 +632,7 @@
       "Source Type": "Official Careers — SuccessFactors"
     },
     {
-      "Date Checked": "2026-10-25",
+      "Date Checked": "2026-10-29",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -649,9 +649,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever role and Apply control verified 2026-10-25",
+      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-29; recent graduates with strong internships explicitly encouraged",
       "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass.",
-      "Source Type": "Official ATS / Lever — application page verified 2026-10-24"
+      "Source Type": "Official ATS / Lever; Submit application verified 2026-10-29"
     },
     {
       "Date Checked": "2026-10-14",
@@ -2849,7 +2849,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form and Submit application button verified 2026-10-29",
+      "Job Status": "Open — official Lever application form and Submit application verified 2026-10-29",
       "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted.",
       "Source Type": "Official ATS / Lever; Submit application confirmed"
     },
@@ -3817,7 +3817,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application form and Submit application button verified 2026-10-29",
+      "Job Status": "Open — official Greenhouse application form and Submit application verified 2026-10-29",
       "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present.",
       "Source Type": "Official ATS / Greenhouse; Submit application confirmed"
     },
@@ -3927,7 +3927,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-05",
-      "Job Status": "Official Dayforce link reachable 2026-10-29 but JS job details/final submit not independently verified; previously listed deadline 2026-11-05",
+      "Job Status": "Official Dayforce job URL reachable 2026-10-29; JS role details and final Submit cannot be verified; deadline previously 2026-11-05",
       "Notes": "New 2026-10-26 discovery; 1–2y fits internship+contract background. Ontario Cannabis Store public-sector agency but not GOjobs/OPS direct. Employer job ID 3362. 2026 graduation eligible (no student-only condition). Source https://www.landthatrole.com/job/df-ocs-candidateportal-3362 | 2026-10-28 PM: official Dayforce job summary still indexed; full page JS shell prevents form verification; application deadline Nov 5.",
       "Source Type": "Official ATS / Dayforce (JS shell; LinkedIn + Indeed corroborated)"
     },
@@ -4169,7 +4169,7 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official employer Careers page still lists Toronto role 2026-10-29; final submit not independently verified",
+      "Job Status": "Open — official employer Careers role confirmed 2026-10-29; downstream submit not independently verified",
       "Notes": "Newly visible Oct 27/28; official employer Careers lists 4 Canada roles and this one. Global company explicitly hires Toronto-based employees; Canadian employment confirmed. 1 day office per week. LinkedIn employer job https://ca.linkedin.com/jobs/view/ui-ux-designer-at-rldatix-4482213141 ; LinkedIn labels Entry level but employer gives no fixed years. Salary interpreted using employer LinkedIn because official career page typo.",
       "Source Type": "Official Employer Careers + LinkedIn employer job; final application unverified"
     },
@@ -4219,7 +4219,7 @@
     },
     {
       "Date Checked": "2026-10-29",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Jerry.ai",
       "Job Title": "Associate Product Manager, Growth",
       "Track": "Product Management / Early Career-compatible (2–3 years; not Graduate Program)",
@@ -4238,6 +4238,94 @@
       "Job Status": "Official Ashby role still indexed with Apply for this Job; live dynamic final Submit NOT independently verified — lead only",
       "Notes": "Historical backfill, not new posting. Toronto listed in official Ashby locations; official benefits explicitly mention Canadian RRSP and Wellfound specifies Remote Canada/US. User's enterprise workflow design, Intake Tracker, cross-functional product delivery and Mandarin relevant. No recent-grad cutoff; Early Career-compatible, not formal Graduate. Two official Ashby IDs for same company/title found; consolidated by Company+Title.",
       "Source Type": "Official ATS / Ashby + Wellfound Canada hiring corroboration; final Submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Brafton",
+      "Job Title": "Remote Digital Experience Specialist - Canada",
+      "Track": "Digital Experience / UX Consulting / Early Career-compatible",
+      "Company Type": "US/Global Digital Content & UX Consulting (Canada-eligible)",
+      "Location": "Remote across Canada (ATS location Vancouver, BC)",
+      "Work Mode": "Remote Canada — full-time",
+      "Experience Requirement": "Minimum 2 years UX, web design, digital strategy or content marketing; no return-to-school requirement",
+      "Core Requirements": "UX and content audits, IA, website redesign, journey mapping, CRO/A-B testing, WordPress/Webflow/HubSpot, CSS, QA, client collaboration",
+      "Salary": "CA$45,000–55,000 base + commission",
+      "Application Link": "https://jobs.lever.co/brafton/a8a40896-bf48-4f65-b528-c78ea0887172/apply",
+      "Match %": 83,
+      "Main Risks": "Salary below target; website/marketing consulting rather than enterprise SaaS; CMS and CRO tools important; client deadlines",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — official Lever full application and Submit application verified 2026-10-29",
+      "Notes": "Official job says open to candidates across Canada, Canadian salary and benefits; 2026 graduate eligible based on experience, no student-only restriction. Official ATS exclusive discovery this run. Historical backfill / first found in this run, posting date not verified.",
+      "Source Type": "Official ATS / Lever; final Submit control verified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Trader Interactive",
+      "Job Title": "Digital Designer (B2B / Industry)",
+      "Track": "Digital Experience / Interactive Design",
+      "Company Type": "US/Global Digital Marketplaces / Automotive & Transportation (Canada-based Toronto role)",
+      "Location": "Toronto, Ontario",
+      "Work Mode": "Hybrid — minimum 3 days/week Toronto office",
+      "Experience Requirement": "3+ years graphic, digital design or online advertising (combined design experience potentially relevant)",
+      "Core Requirements": "B2B dealer marketing design, landing pages, Figma, Adobe Creative Suite, design systems, WCAG, HTML/CSS, WordPress/Drupal, A/B testing, motion/video",
+      "Salary": "CA$70,000–85,000",
+      "Application Link": "https://careers.traderinteractive.com/jobs/722026-digital-designer-b2b-industry",
+      "Match %": 78,
+      "Main Risks": "Marketing/motion-heavy rather than SaaS product UX; 3+ years; Premiere/After Effects, Drupal and HubSpot requirements; onsite 3 days; dynamic Teamtailor form not fully verified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — employer Teamtailor careers lists live Toronto vacancy and Apply for this job 2026-10-29; final modal submit unverified",
+      "Notes": "Posted about 2026-10-19; US-based company explicitly has Toronto team and role, Canadian salary; not US-only. Visual communication and digital UX experience may count toward 3+ years. Found on LinkedIn then cross-verified employer Teamtailor.",
+      "Source Type": "Official Careers / Teamtailor + LinkedIn; Apply button verified, final Submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Loblaw Companies Limited",
+      "Job Title": "Associate Product Manager, Enterprise Initiatives (R2000723824)",
+      "Track": "Product Operations / Associate Product Management / Early Career-compatible",
+      "Company Type": "Canadian Retail / Consumer Brands & Enterprise Initiatives",
+      "Location": "Brampton, Ontario — 1 Presidents Choice Circle",
+      "Work Mode": "On-site/hybrid not specified by employer; Brampton office",
+      "Experience Requirement": "Post-secondary education; project management experience an asset, no fixed minimum years; no student-only/return-to-school requirement",
+      "Core Requirements": "Vendor and stakeholder coordination, project milestones, timelines, design kick-offs, packaging and artwork circulation, risk reporting, Power BI/SAP/Excel, cross-functional delivery",
+      "Salary": "CA$52,000–71,500",
+      "Application Link": "https://careers.loblaw.ca/associate-product-manager-enterprise-initiatives/job/R2000723824",
+      "Match %": 77,
+      "Main Risks": "12-month contract; consumer packaged goods/packaging delivery rather than digital software product management; office arrangement and downstream submission unverified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — employer Careers live posting says existing vacancy and Apply Now 2026-10-29; downstream submit unverified",
+      "Notes": "12-month contract. Employer requisition R2000723824 distinct from existing President's Choice APM R2000715094. 2026 graduate eligible by published criteria, no student-only restriction. Strong cross-functional project coordination and delivery fit.",
+      "Source Type": "Official Employer Careers / Paradox + LinkedIn; final Submit unverified"
+    },
+    {
+      "Date Checked": "2026-10-29",
+      "New This Run": "Yes",
+      "Company": "Loblaw Companies Limited",
+      "Job Title": "Digital Designer (R2000722531)",
+      "Track": "Digital Experience / Visual & Interactive Design",
+      "Company Type": "Canadian Retail / eCommerce & Digital Marketing",
+      "Location": "Toronto — 500 Lake Shore Boulevard West",
+      "Work Mode": "Toronto office; hybrid days not specified",
+      "Experience Requirement": "3–5 years graphic/digital design in marketing; bachelor's design or equivalent; no student-only restriction",
+      "Core Requirements": "Adobe Creative Suite, Figma, typography, digital campaigns, editorial and marketing collateral, brand systems, pre-press, visual design, cross-functional creative collaboration",
+      "Salary": "CA$60,000–82,500",
+      "Application Link": "https://careers.loblaw.ca/digital-designer/job/R2000722531",
+      "Match %": 72,
+      "Main Risks": "Primarily brand/marketing design, not UX/product; 3–5 years digital marketing and pre-press expected; official downstream form unverified",
+      "Application Status": "Not Applied",
+      "Application Date": null,
+      "Deadline": null,
+      "Job Status": "Open — employer Careers live existing vacancy and Apply Now 2026-10-29; downstream submit unverified",
+      "Notes": "Shoppers Drug Mart digital marketing designer at Loblaw Digital. Distinct requisition from previously tracked Loblaw Digital Product Designer. Historical LinkedIn backfill / date first posted not verified.",
+      "Source Type": "Official Employer Careers / Paradox; final Submit unverified"
     }
   ]
 }
