@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-30T08:49:00-04:00",
+    "lastUpdated": "2026-10-30T08:56:13-04:00",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-30_Morning.xlsx",
     "priorityLocations": [
@@ -10,9 +10,9 @@
       "Vaughan"
     ],
     "total": 200,
-    "syncStatus": "GitHub main updated; 200 records; 15 Applied preserved; 4 new active leads (0 new final-Submit verified); 12 closure statuses refreshed; RQ11617/RQ11618/RQ11744 canonicalized by requisition ID; 0 OPS direct, 0 eligible Graduate, 0 new US/global Canada-eligible.",
+    "syncStatus": "GitHub main updated; 200 records; 15 Applied preserved; 4 new active leads (0 new final-Submit verified); 11 closure statuses refreshed; RQ11617/RQ11618/RQ11744 canonicalized by requisition ID; 0 OPS direct, 0 eligible Graduate, 0 new US/global Canada-eligible.",
     "lastScan": {
-      "timestamp": "2026-10-30T08:49:00-04:00",
+      "timestamp": "2026-10-30T08:56:13-04:00",
       "candidateCount": 58,
       "linkedinCandidateCount": 31,
       "officialAtsCandidateCount": 18,
@@ -22,10 +22,10 @@
       "confirmedSubmitNew": 0,
       "duplicates": 17,
       "experienceFiltered": 14,
-      "closedFiltered": 12,
+      "closedFiltered": 11,
       "eligibilityFiltered": 4,
       "locationFiltered": 0,
-      "otherFiltered": 7,
+      "otherFiltered": 8,
       "linkedinNativeFiltersComplete": false,
       "linkedinWindows": [
         "24h public index",
@@ -37,7 +37,7 @@
       "opsDirectNew": 0,
       "officialAtsExclusiveNew": 0,
       "globalCanadaEligibleNew": 0,
-      "notes": "Pass A: 18 employer Careers/ATS roles rechecked across official Workday, Greenhouse, Lever, Ashby, Teamtailor, Rippling, Workable and employer career pages. Pass B: 31 distinct public LinkedIn-index candidates assessed across 24h/7d/30d and UX/Product/Design Engineering/APM/Product Ops keywords with Toronto, Markham, Richmond Hill, North York, Vaughan, GTA and Remote Canada terms; native LinkedIn keyword×location filters were not available, so the public-index pass is not exhaustive. Pass C: 16 Jobs.ca/GOjobs/Indeed/JobLeads/MovoJobs candidates. Separate Graduate pass reviewed 9 program postings across 17 priority employers; 0 eligible new graduate programs due Bell cohort education recency/experience rules, student-only return-to-school constraints, expiry or role mismatch. New leads: Publicis Intermediate UI/UX Designer; Silk & Snow E-Commerce Coordinator; Silk & Snow Product Operations Coordinator (Retail); Insight Global Product Operations Specialist. Two new roles are early-career-compatible; none are confirmed official-ATS-submit-ready. Rechecked priority existing roles including Mercury, Smile.io, Achievers, Veeva, RLDatix, Brafton, Trader Interactive, Loblaw Product Designer and APM Enterprise Initiatives, Interac APM, Questrade APM, Reflow and exacare. Closed/expired: Homebase UX Engineer, Scotiabank GWM Product Designer, Enercare Junior UX Intern, Vretta Product Analyst, Pigment Product Operations Specialist, APPLY Agentic UX Designer, Loblaw Associate Digital Experience Strategy, Bell Technical Product Manager I, Loblaw APM R2000711631, OPS vendor RQ11617, RQ11618 and RQ11744. Bell Product Manager 1 remains unverified because Apply Now redirects to generic Careers despite an earlier Oct20 deadline. OPS direct hires: 0. Official ATS-exclusive new: 0. New US/global Canada-eligible: 0. All 15 Applied records preserved."
+      "notes": "Pass A: 18 employer Careers/ATS roles rechecked across official Workday, Greenhouse, Lever, Ashby, Teamtailor, Rippling, Workable and employer career pages. Pass B: 31 distinct public LinkedIn-index candidates assessed across 24h/7d/30d and UX/Product/Design Engineering/APM/Product Ops keywords with Toronto, Markham, Richmond Hill, North York, Vaughan, GTA and Remote Canada terms; native LinkedIn keyword×location filters were not available, so the public-index pass is not exhaustive. Pass C: 16 Jobs.ca/GOjobs/Indeed/JobLeads/MovoJobs candidates. Separate Graduate pass reviewed 9 program postings across 17 priority employers; 0 eligible new graduate programs due Bell cohort education recency/experience rules, student-only return-to-school constraints, expiry or role mismatch. New leads: Publicis Intermediate UI/UX Designer; Silk & Snow E-Commerce Coordinator; Silk & Snow Product Operations Coordinator (Retail); Insight Global Product Operations Specialist. Two new roles are early-career-compatible; none are confirmed official-ATS-submit-ready. Rechecked priority existing roles including Mercury, Smile.io, Achievers, Veeva, RLDatix, Brafton, Trader Interactive, Loblaw Product Designer and APM Enterprise Initiatives, Interac APM, Questrade APM, Reflow and exacare. 11 closure updates: Homebase UX Engineer, Scotiabank GWM Product Designer, Enercare Junior UX Intern, Vretta Product Analyst, Pigment Product Operations Specialist, APPLY Agentic UX Designer, Loblaw Associate Digital Experience Strategy, Bell Technical Product Manager I, OPS vendor RQ11617, RQ11618 and RQ11744. Bell Product Manager 1 remains unverified because Apply Now redirects to generic Careers despite an earlier Oct20 deadline. OPS direct hires: 0. Official ATS-exclusive new: 0. New US/global Canada-eligible: 0. All 15 Applied records preserved."
     }
   },
   "jobs": [
@@ -4245,7 +4245,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Brafton",
       "Job Title": "Remote Digital Experience Specialist - Canada",
       "Track": "Digital Experience / UX Consulting / Early Career-compatible",
@@ -4267,7 +4267,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Trader Interactive",
       "Job Title": "Digital Designer (B2B / Industry)",
       "Track": "Digital Experience / Interactive Design",
@@ -4289,7 +4289,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Loblaw Companies Limited",
       "Job Title": "Associate Product Manager, Enterprise Initiatives (R2000723824)",
       "Track": "Product Operations / Associate Product Management / Early Career-compatible",
@@ -4311,7 +4311,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Loblaw Companies Limited",
       "Job Title": "Digital Designer (R2000722531)",
       "Track": "Digital Experience / Visual & Interactive Design",
