@@ -1,98 +1,122 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31 08:09 ET",
+    "lastUpdated": "2026-10-31T08:37:04-04:00",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_0809.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_0837.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
       "North York",
       "Vaughan"
     ],
-    "total": 238,
-    "syncStatus": "GitHub main updated 2026-10-30 20:37 ET; Excel tracker to be synced in this run; Applied statuses preserved; no site code files changed.",
+    "total": 250,
+    "syncStatus": "GitHub main updated; Excel workbook will be generated from this exact JSON and uploaded to Library in this run. Applied statuses preserved; no config.js/index.html/styles.css/app.js changes.",
     "lastScan": {
-      "runDate": "2026-10-31 08:09 ET",
+      "runAt": "2026-10-31T08:37:04-04:00",
+      "date": "2026-10-31",
       "timezone": "America/Toronto",
       "discoveryPasses": {
         "officialATS": {
-          "candidateCount": 37,
-          "ats": "Company Careers / Workday / Greenhouse / Lever / Ashby / SmartRecruiters / iCIMS / SuccessFactors / Dayforce / BambooHR / Rippling"
+          "candidatesScreened": 38,
+          "newTrackerRecords": 10,
+          "alreadyTrackedOrDuplicate": 14,
+          "closedOrExpiredNotAdded": 6,
+          "filteredByEligibilitySeniorityLocationOrScopeNotAdded": 8
         },
         "linkedinJobs": {
-          "candidateCount": 43,
-          "windows": [
-            "24 hours",
-            "7 days",
-            "30 days"
+          "timeWindows": [
+            "24h",
+            "7d",
+            "30d"
           ],
-          "note": "Independent public-index scans by role cluster and Toronto/Markham/Richmond Hill/North York/Vaughan/GTA/Remote Canada; native LinkedIn platform-wide totals are not exposed."
+          "roleClusters": [
+            "UX/Product/UXUI/Interaction/Experience Designer",
+            "UX/Design/UI Engineer and Frontend Design Systems",
+            "APM/Product Analyst/Product Coordinator/Product Operations"
+          ],
+          "locationClusters": [
+            "Toronto/GTA",
+            "Markham",
+            "Richmond Hill",
+            "North York",
+            "Vaughan",
+            "Remote Canada"
+          ],
+          "candidatesScreened": 43,
+          "newTrackerRecords": 2,
+          "alreadyTrackedOrDuplicate": 26,
+          "closedExpiredOrUnverified": 7,
+          "filteredBySeniorityEligibilityOrScope": 8
         },
-        "supplemental": {
-          "candidateCount": 25,
+        "supplementary": {
           "sources": [
             "GOjobs",
             "Indeed",
             "Jobs.ca",
             "MovoJobs",
-            "Edtech.com",
+            "Built In",
             "MapleStack",
-            "TalentNest",
-            "RoleFinder",
-            "BuiltIn",
+            "Edtech.com",
             "Prosple"
-          ]
-        },
-        "earlyCareerGraduate": {
-          "candidateCount": 22,
-          "newEligibleCohorts": 0,
-          "currentEligible": 2,
-          "currentConditional": 1,
-          "notes": "Canadian Tire NGT remains eligible; Bell Channels likely eligible and Bell Marketing conditional; RBC Amplify BA is student-only; Konrad Spring 2027 graduate cohort expired; other Bell streams fail stream-specific eligibility."
-        },
-        "traditionalIndustryDigitalTransformation": {
-          "candidateCount": 18,
-          "focus": [
-            "banking/insurance",
-            "retail/eCommerce",
-            "telecom",
-            "healthcare",
-            "internal tools",
-            "B2B portals",
-            "digital experience",
-            "service design"
-          ]
+          ],
+          "candidatesScreened": 25,
+          "newTrackerRecords": 1,
+          "alreadyTrackedOrDuplicate": 10,
+          "closedOrExpired": 6,
+          "filteredByExperienceScopeOrSource": 8
         }
       },
-      "totalPassHits": 127,
-      "uniqueCandidates": 74,
-      "crossPassDuplicates": 53,
-      "filteredByExperienceOrSeniority": 16,
-      "filteredByEligibility": 6,
-      "filteredByClosedExpiredOrUnverified": 12,
-      "filteredByLocationUSOnlyOrOther": 7,
-      "newRecords": 7,
-      "newOpenEligibleOrConditional": 2,
+      "graduateEarlyCareerPass": {
+        "candidatesScreened": 22,
+        "newTrackerRecords": 7,
+        "eligibleOpenNew": 0,
+        "openButIneligible": 2,
+        "closedOrExpiredNew": 3,
+        "monitorOnlyNew": 2,
+        "notes": "RBC Amplify and CIBC TGRP were already in tracker and reverified closed; Bell graduate roles remain open but user does not meet Bell's degree-gap/professional-experience criteria. Intact New Grad Tech and Manulife Marketing & Strategy are monitor-only."
+      },
+      "traditionalIndustryPass": {
+        "candidatesScreened": 18,
+        "newOpenRoles": 4,
+        "existingOpenRolesReverified": 5,
+        "filteredOrClosed": 9,
+        "industries": [
+          "banking/insurance",
+          "telecom",
+          "retail/eCommerce",
+          "construction/engineering",
+          "healthcare"
+        ]
+      },
+      "totalPassHits": 106,
+      "newThisRunCount": 13,
+      "newOpenEligibleOrConditional": 6,
       "newOpenFiltered": 2,
-      "newClosedOrUnverified": 3,
-      "newPostingUpdates": 2,
-      "reverifiedOpenExisting": 1,
-      "recheckedExistingCount": 44,
-      "stillRecommendedCount": 31,
-      "stillOpenConditionalCount": 48,
-      "appliedPreserved": 15,
-      "closedExpiredCount": 66,
-      "openCount": 109,
-      "newThisRunCount": 9,
+      "newClosedOrExpired": 3,
+      "newMonitorOnly": 2,
+      "newPostingUpdates": 52,
+      "recheckedExistingCount": 67,
+      "reverifiedOpenExistingCount": 35,
+      "stillRecommendedCount": 38,
+      "stillOpenConditionalCount": 21,
+      "openCount": 108,
+      "closedExpiredCount": 69,
+      "appliedPreservedCount": 15,
+      "officialATSCurrentOpenCount": 80,
+      "officialATSExclusiveNewOpenCount": 5,
+      "usGlobalCanadaEligibleCurrentOpenCount": 36,
+      "usGlobalCanadaEligibleNewCount": 2,
       "opsDirectHireCount": 0,
       "opsVerifiedOpenRQCount": 0,
       "opsUnverifiedOrClosedRQCount": 6,
-      "opsJuniorVendorContractNoRQCount": 1,
-      "officialATSExclusiveNewOpenCount": 0,
-      "officialATSCurrentOpenCount": 76,
-      "usGlobalCanadaEligibleCurrentOpenCount": 34,
-      "usGlobalCanadaEligibleNewCount": 1,
-      "notes": "New open leads: Compu-Vision Junior UX Designer MSON #13 (vendor, no RQ ID) and Let's Roam AI-Native Product Designer (Remote Canada). Konrad Product Analyst expired Oct 3. First National UX Designer repost is 5+ years and filtered. Homebase UX Engineer repost is conditional (mid-level/senior). Bell Channels/Marketing streams are current but eligibility is conditional on related-field criteria; Bell CX and RBC Amplify BA are ineligible. Applied statuses preserved."
+      "opsJuniorVendorContractNoRQCount": 2,
+      "notes": [
+        "New current roles: Rogers Sr Analyst Wireline eCommerce; Rogers Product Manager Wireline eCommerce; Randstad Junior UX Designer; Swoon UX/UI Designer (construction tech); Intact Product Owner IGA; McGraw Hill Associate Portfolio Manager.",
+        "McGraw Hill Digital Technology Specialist was re-opened based on official iCIMS page; Product Associate remains current via Jobs.ca/LinkedIn employer listing.",
+        "Compu-Vision MSON #13 duplicate rows merged; deadline Nov 14.",
+        "Canadian Tire NGT and RBC Amplify BA are closed; CIBC TGRP closed; Bell graduate postings are open but eligibility-filtered.",
+        "No OPS direct-hire UX/Product role confirmed; current OPS RQ vendor records remain closed/unverified or senior-filtered."
+      ]
     }
   },
   "jobs": [
@@ -164,7 +188,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "First National Financial",
       "Job Title": "UX Designer, Application Development",
       "Track": "UX / Product Design — Enterprise Financial Services",
@@ -312,8 +336,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-09-16",
-      "Job Status": "Closed/Expired — deadline Sep 16 passed; junior UX vendor mirror stale",
-      "Notes": "Canonical requisition record retained. RQ11616 vendor aliases surfaced this run: 2iSolutions, S M Software Solutions, Joblinxsapp; fresh LinkedIn snippets were stale. Akkodis junior UX post had no RQ ID and is tracked separately as expired; possible overlap, do not count as a second OPS requisition. | 2026-10-31: Vendor aliases consolidated by RQ11616: 2iSolutions; S M Software Solutions; Joblinxsapp. No direct OPS application route.",
+      "Job Status": "Closed/Expired/Unverified — no confirmed live vendor submission in this pass",
+      "Notes": "Canonical requisition record retained. RQ11616 vendor aliases surfaced this run: 2iSolutions, S M Software Solutions, Joblinxsapp; fresh LinkedIn snippets were stale. Akkodis junior UX post had no RQ ID and is tracked separately as expired; possible overlap, do not count as a second OPS requisition. | 2026-10-31: Vendor aliases consolidated by RQ11616: 2iSolutions; S M Software Solutions; Joblinxsapp. No direct OPS application route.\n[2026-10-31 recheck] Rechecked Oct 31: no verified live application route; retain as historical RQ record.",
       "Source Type": "LinkedIn"
     },
     {
@@ -598,8 +622,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; eligibility not met (<3 years combined professional experience required)",
-      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-21: Official requisition rechecked; 2026 Master's and 2024 post-grad certificate appear within recency language. Correct prior categorical ineligible to Eligibility Review Needed; not yet confirmed eligible. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-30 recheck: no eligible Bell graduate pathway identified; do not recommend without written exception. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "Do not treat as confirmed eligible; request clarification on 2024 postgraduate certificate exception. | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-21: Official requisition rechecked; 2026 Master's and 2024 post-grad certificate appear within recency language. Correct prior categorical ineligible to Eligibility Review Needed; not yet confirmed eligible. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-30 recheck: no eligible Bell graduate pathway identified; do not recommend without written exception. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -620,8 +644,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; eligibility not met (degree-gap and professional-experience criteria)",
-      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: published degree-gap/professional-experience criteria exclude user; keep monitor-only.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-14 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: published degree-gap/professional-experience criteria exclude user; keep monitor-only.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -642,8 +666,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; deadline Nov 16; likely eligible if Digital Transformation & Innovation is accepted as a related field",
-      "Notes": "Reassess eligibility from this requisition rather than generic FAQ; apply if education accepted | Posted: 2026-09-16 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 role-specific page rechecked: no student-only/return-to-school requirement or experience cap; retail/operations/project experience is relevant.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "Reassess eligibility from this requisition rather than generic FAQ; apply if education accepted | Posted: 2026-09-16 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 role-specific page rechecked: no student-only/return-to-school requirement or experience cap; retail/operations/project experience is relevant.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -664,8 +688,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; deadline Nov 16; conditional on degree/marketing-related field interpretation",
-      "Notes": "2026-10-21 reassessment: Req 432880's role-specific eligibility accepts bachelor's/master's/college diploma in Business/Marketing or related completed before program start; it does not itself specify graduation-year window or degree-gap cap. Candidate has 2026 MDTI and prior Business diploma; possible eligibility. Generic Bell Graduate FAQ has stricter rules and may supersede role-specific text. Treat as eligibility unconfirmed, not categorically excluded. Apply Now redirects to generic careers page. Req 432880; deadline Nov 16 2026. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 role-specific page rechecked: no student-only/return-to-school requirement or professional-experience cap; related-field interpretation remains the risk.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "2026-10-21 reassessment: Req 432880's role-specific eligibility accepts bachelor's/master's/college diploma in Business/Marketing or related completed before program start; it does not itself specify graduation-year window or degree-gap cap. Candidate has 2026 MDTI and prior Business diploma; possible eligibility. Generic Bell Graduate FAQ has stricter rules and may supersede role-specific text. Treat as eligibility unconfirmed, not categorically excluded. Apply Now redirects to generic careers page. Req 432880; deadline Nov 16 2026. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 role-specific page rechecked: no student-only/return-to-school requirement or professional-experience cap; related-field interpretation remains the risk.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -686,8 +710,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; eligibility not met (<3 years combined professional experience required)",
-      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-18 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15 check: 2027 Graduate, Req 432669; deadline Nov 16 2026; less than 3 years combined professional experience excluding internships; separate Bell Graduate FAQ education timing restriction may disqualify candidate. Toronto eligible. | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "Exclude: Bell graduate eligibility mismatch | Posted: 2026-09-18 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15 check: 2027 Graduate, Req 432669; deadline Nov 16 2026; less than 3 years combined professional experience excluding internships; separate Bell Graduate FAQ education timing restriction may disqualify candidate. Toronto eligible. | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -708,9 +732,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application page live; Toronto on-site; 1+ years",
-      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Product work includes APIs, user stories, acceptance criteria, backlog and data-platform workflows. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internship/technical experience welcomed. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internships welcome; complete Lever Submit verified. | 2026-10-31: 2026-10-31 rechecked; recent graduates with strong internships encouraged; Network MDM product role.",
-      "Source Type": "Official Lever ATS"
+      "Job Status": "Open — official Lever application page active; Toronto, Canada",
+      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Product work includes APIs, user stories, acceptance criteria, backlog and data-platform workflows. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internship/technical experience welcomed. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internships welcome; complete Lever Submit verified. | 2026-10-31: 2026-10-31 rechecked; recent graduates with strong internships encouraged; Network MDM product role.\n[2026-10-31 recheck] Rechecked: official Lever application page remains active; 1+ year in software/consulting/technical field, recent graduates with strong internships encouraged; Toronto on-site; CAD $70k–$100k.",
+      "Source Type": "Official ATS (Lever)"
     },
     {
       "Date Checked": "2026-10-14",
@@ -774,9 +798,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Provisional — employer listing current; official Dayforce board exists but job-specific submission not verified",
-      "Notes": "2026-10-30 recheck: entry/junior APM, no student/return-to-school restriction stated; product delivery, functional specs, feature management, analytics and UX principles. Strong early-career fit; verify final employer form. | 2026-10-30 recheck: Toronto hybrid ~3 days/week; early-career APM, 0+ years shown; use Jobs.ca employer listing and search official Dayforce board by title. | 2026-10-31: 2026-10-31 rechecked; entry-level APM, financial services, Toronto hybrid; verify application route.",
-      "Source Type": "Jobs.ca / Dayforce employer board"
+      "Job Status": "Open/Provisional — Jobs.ca Verified Employer Source current; apply-on-employer-site link present; job-specific Dayforce page not resolved",
+      "Notes": "2026-10-30 recheck: entry/junior APM, no student/return-to-school restriction stated; product delivery, functional specs, feature management, analytics and UX principles. Strong early-career fit; verify final employer form. | 2026-10-30 recheck: Toronto hybrid ~3 days/week; early-career APM, 0+ years shown; use Jobs.ca employer listing and search official Dayforce board by title. | 2026-10-31: 2026-10-31 rechecked; entry-level APM, financial services, Toronto hybrid; verify application route.\n[2026-10-31 recheck] Rechecked: direct Jobs.ca posting remains active; Toronto hybrid, entry-level/0+ years, CAD $70k–$90k, product/BA/project coordination exposure. Official Dayforce job-specific application was not located; use employer-site link from listing.",
+      "Source Type": "Jobs.ca Verified Employer Source (official Dayforce job-specific link not found)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -823,7 +847,7 @@
       "Source Type": "LinkedIn"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "eBay",
       "Job Title": "Product Designer - Design Systems (Job ID 2395038258)",
@@ -840,9 +864,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — current LinkedIn employer listing/repost visible; Apply button shown; Workday job ID 2395038258 referenced by secondary index, direct ATS URL not resolved.",
-      "Notes": "Closed / expired — do not apply via stale aggregator | Posted: 2026-10-02 | 2026-10-30 recheck: new/current LinkedIn listing for the same company/title; previous R0075258 requisition was closed, so update this canonical row rather than duplicate.",
-      "Source Type": "LinkedIn Jobs + Workday requisition ID 2395038258 (direct ATS URL unresolved)"
+      "Job Status": "Not Confirmed Open — LinkedIn direct page now redirects to search; no current official ATS application found",
+      "Notes": "Closed / expired — do not apply via stale aggregator | Posted: 2026-10-02 | 2026-10-30 recheck: new/current LinkedIn listing for the same company/title; previous R0075258 requisition was closed, so update this canonical row rather than duplicate.\n[2026-10-31 recheck] Rechecked: direct LinkedIn URL redirects to general search and official ATS listing was not found. Remove from current apply shortlist until a live requisition is confirmed.",
+      "Source Type": "LinkedIn Jobs (stale/unverified)"
     },
     {
       "Date Checked": "2026-10-08",
@@ -1390,9 +1414,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Provisional Open — Jobs.ca verified listing remains active; official Capco ATS page not located",
-      "Notes": "Verify employer ATS and apply if comfortable with frontend depth | Posted: 2026-08-27 | Rechecked employer LinkedIn Oct 16: CA$92K–118K, React/TS, WebSockets, design systems; no minimum years stated there. | 2026-10-31: 2026-10-31 Jobs.ca listing still active; posted Aug 27; final employer submission not independently verified.",
-      "Source Type": "Jobs.ca verified employer listing"
+      "Job Status": "Open/Provisional — LinkedIn job page active; official ATS not found; third-party listing is older",
+      "Notes": "Verify employer ATS and apply if comfortable with frontend depth | Posted: 2026-08-27 | Rechecked employer LinkedIn Oct 16: CA$92K–118K, React/TS, WebSockets, design systems; no minimum years stated there. | 2026-10-31: 2026-10-31 Jobs.ca listing still active; posted Aug 27; final employer submission not independently verified.\n[2026-10-31 recheck] Rechecked: LinkedIn posting still active; React/TypeScript/UI-heavy role. Official Capco ATS job-specific link not found; confirm application route before prioritizing.",
+      "Source Type": "LinkedIn Jobs"
     },
     {
       "Date Checked": "2026-10-31",
@@ -1412,9 +1436,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workday ATS listing live; 4+ years product design; Toronto/Vancouver",
-      "Notes": "Stretch: emphasize BMO documents and complex enterprise workflows | Posted: 2026-09-05 | 2026-10-31: 2026-10-31 rechecked; strong enterprise/product craft fit but 4+ years is a stretch.",
-      "Source Type": "Official Workday ATS"
+      "Job Status": "Open/Provisional — official Workday job URL live; page text extraction limited; 4+ years requirement makes it a stretch",
+      "Notes": "Stretch: emphasize BMO documents and complex enterprise workflows | Posted: 2026-09-05 | 2026-10-31: 2026-10-31 rechecked; strong enterprise/product craft fit but 4+ years is a stretch.\n[2026-10-31 recheck] Rechecked: official Workday requisition remains live; Toronto/Vancouver hybrid, 4+ years product design, document workflows/AI. Stretch on years.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-10",
@@ -1720,9 +1744,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form live; Toronto hybrid",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | 2026-10-27 evening recheck: Official Lever listing includes full-time hybrid Toronto and no student-only requirement. | 2026-10-31: Previous application link retained in history: https://jobs.lever.co/simpleventures/4523d9c6-0934-43e3-9c5d-344e28195b49 | 2026-10-31: 2026-10-31 official Lever form live; strong product/design/AI-assisted prototyping match.",
-      "Source Type": "Official Lever ATS"
+      "Job Status": "Open — official Lever application form live",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | 2026-10-27 evening recheck: Official Lever listing includes full-time hybrid Toronto and no student-only requirement. | 2026-10-31: Previous application link retained in history: https://jobs.lever.co/simpleventures/4523d9c6-0934-43e3-9c5d-344e28195b49 | 2026-10-31: 2026-10-31 official Lever form live; strong product/design/AI-assisted prototyping match.\n[2026-10-31 recheck] Rechecked: official Lever application form remains live; Toronto hybrid, product/design generalist role; review current scope before applying.",
+      "Source Type": "Official ATS (Lever)"
     },
     {
       "Date Checked": "2026-10-09 (GitHub snapshot)",
@@ -1962,9 +1986,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workday ATS listing live; 2–4 years; Toronto hybrid",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca. | 2026-10-27 evening recheck: Employer requisition R2000708557 remains on careers.loblaw.ca; 2–4y. | 2026-10-30: Rechecked 2026-10-30: excellent alignment with complex retail/customer and colleague workflows, design systems, accessibility, AI-fluent product design, research, validation and product/engineering collaboration. | 2026-10-30 recheck: official R2000708557 is the Buy, Fulfill & Assist product role; generic Jobs.ca Product Designer listing merged here. | Merged duplicate generic Loblaw Digital 'Product Designer' Jobs.ca listing into canonical R2000708557 row; prior listing https://www.jobs.ca/loblaw-digital/jobs/product-designer-toronto-on-d2e177ffb4fb. | 2026-10-31: 2026-10-31 rechecked; strong digital product fit, but 2–4 years requirement is a stretch.",
-      "Source Type": "Official Workday ATS"
+      "Job Status": "Open/Provisional — official Workday requisition indexed/current; application page live but submit state not fully confirmed",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca. | 2026-10-27 evening recheck: Employer requisition R2000708557 remains on careers.loblaw.ca; 2–4y. | 2026-10-30: Rechecked 2026-10-30: excellent alignment with complex retail/customer and colleague workflows, design systems, accessibility, AI-fluent product design, research, validation and product/engineering collaboration. | 2026-10-30 recheck: official R2000708557 is the Buy, Fulfill & Assist product role; generic Jobs.ca Product Designer listing merged here. | Merged duplicate generic Loblaw Digital 'Product Designer' Jobs.ca listing into canonical R2000708557 row; prior listing https://www.jobs.ca/loblaw-digital/jobs/product-designer-toronto-on-d2e177ffb4fb. | 2026-10-31: 2026-10-31 rechecked; strong digital product fit, but 2–4 years requirement is a stretch.\n[2026-10-31 recheck] Rechecked: Toronto hybrid Product Designer remains on official careers site; 2–4 years, Figma, research, product collaboration. Strong match.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -2204,9 +2228,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Conditional — official Ashby page is active and application form is visible; Remote Canada",
-      "Notes": "Eligibility first: verify whether prior graphic design employment counts toward 2-year cap; if eligible, apply with Figma-to-React production demo. | Posted: Backfill ≤30d not verified | 2026-10-30: Official Ashby description confirms Junior cap of ≤2 years industry experience as designer or engineer, TypeScript/React/CSS, and projects with at least a couple of users. Prior 2017–18 graphic-design employment may count toward the cap; eligibility is uncertain. Do not prioritize until the experience-counting issue is resolved. | 2026-10-30 recheck: exact tracked Ashby job URL returned 404; no confirmed current application route. | 2026-10-31: Reverified official Ashby application page active; previously marked 404, corrected. Eligibility is conditional on the 2-year industry-experience cap.",
-      "Source Type": "Official Ashby ATS"
+      "Job Status": "Open/Provisional — official Ashby listing indexed as active; direct job page returned 404, final submit not verified",
+      "Notes": "Eligibility first: verify whether prior graphic design employment counts toward 2-year cap; if eligible, apply with Figma-to-React production demo. | Posted: Backfill ≤30d not verified | 2026-10-30: Official Ashby description confirms Junior cap of ≤2 years industry experience as designer or engineer, TypeScript/React/CSS, and projects with at least a couple of users. Prior 2017–18 graphic-design employment may count toward the cap; eligibility is uncertain. Do not prioritize until the experience-counting issue is resolved. | 2026-10-30 recheck: exact tracked Ashby job URL returned 404; no confirmed current application route. | 2026-10-31: Reverified official Ashby application page active; previously marked 404, corrected. Eligibility is conditional on the 2-year industry-experience cap.\n[2026-10-31 recheck] Rechecked: official Ashby search result still shows the Junior Design Engineer role, remote Canada, ≤2 years industry experience; direct job page returned 404 in this pass.",
+      "Source Type": "Official ATS (Ashby)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -2363,7 +2387,7 @@
       "Source Type": "Official Careers → RisePeople ATS"
     },
     {
-      "Date Checked": "2026-10-13",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Vretta",
       "Job Title": "Technical Project Coordinator",
@@ -2380,9 +2404,9 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — employer Careers links to RisePeople position",
-      "Notes": "Apply if open to product/project coordination | Posted: Backfill / date not verified",
-      "Source Type": "Official Careers → RisePeople ATS"
+      "Job Status": "Open/Provisional — official RisePeople posting URL remains listed; direct submit state not independently confirmed",
+      "Notes": "Apply if open to product/project coordination | Posted: Backfill / date not verified\n[2026-10-31 recheck] Rechecked: Toronto education-tech project coordination role remains listed; transferable to product delivery, stakeholder coordination and digital workflow projects.",
+      "Source Type": "Official ATS / RisePeople"
     },
     {
       "Date Checked": "2026-10-13",
@@ -2446,8 +2470,8 @@
       "Application Status": "Not recorded",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; eligibility not met (<3 years combined professional experience required)",
-      "Notes": "Eligibility review: calculate non-internship professional years before applying; submit before Nov 16 if eligible | Posted: 2026-10-13 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "Eligibility review: calculate non-internship professional years before applying; submit before Nov 16 if eligible | Posted: 2026-10-13 | 2026-10-14: Bell official graduate FAQ requires Bachelor 2024–2026, or postgrad by 2027 with limited gap between Bachelor and Master. Candidate Bachelor 2016 and Master enrolment 2024 (approx 8-year gap); general rule appears NOT met. Do not recommend without requisition-specific written exception. Official FAQ pages show inconsistent gap limits (1 vs 3 years). | Oct 15: Bell 2027 FAQ requires bachelor's degree 2024–2026, or postgraduate with ≤3-year gap between bachelor's and master's enrollment. Candidate bachelor's 2016; not eligible under general rule. | 2026-10-26: Bell FAQ: bachelor's 2024–26 OR postgraduate within 3 years of bachelor's; 2016 BA + 2024 postgrad normally ineligible. Do not recommend without employer exception. | 2026-10-27 eligibility verified from Bell official campus FAQ: Bachelor's 2016 + Master's enrolment 2024 (8-year gap) do not satisfy 2027 cohort criteria; earlier role-specific wording does not supersede cohort FAQ. Do not recommend without written Bell exception. | 2026-10-30: 2026-10-30 recheck: cohort FAQ still excludes 2016 Bachelor's + 2024 postgraduate enrolment gap; professional work-experience cap also excludes several streams. No eligible new Bell Graduate recommendation. | 2026-10-30 recheck: published degree-timing and combined-work-experience eligibility pathways still do not appear to fit; do not recommend. | 2026-10-31: 2026-10-31 eligibility recheck: stream-specific professional-experience cap excludes user; keep monitor-only.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers"
     },
     {
@@ -2517,7 +2541,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-13",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Thomson Reuters",
       "Job Title": "Senior UX Designer, Marketing Experience (JREQ203576)",
@@ -2534,9 +2558,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-30",
-      "Job Status": "Official Workday listing with Apply; final form unverified",
-      "Notes": "Newly backfilled Oct 13 evening. Explicit Toronto Canadian hiring location and Ontario CAD salary. Not US-only; prioritize below 0–3 year roles.",
-      "Source Type": "Official ATS / Workday"
+      "Job Status": "Open — official Workday requisition live; Toronto hybrid",
+      "Notes": "Newly backfilled Oct 13 evening. Explicit Toronto Canadian hiring location and Ontario CAD salary. Not US-only; prioritize below 0–3 year roles.\n[2026-10-31 recheck] Rechecked: official Workday role remains open through Nov 27; 3–5 years UX/UI, marketing experience, Figma/Adobe, design systems and HTML/CSS. Stretch on AEM/marketing platform experience.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Company": "Stripe",
@@ -2622,9 +2646,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse ATS listing live; 2+ years; Remote Canada",
-      "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-31: 2026-10-31 rechecked; Canada eligibility explicit; user experience is near the lower bound.",
-      "Source Type": "Official Greenhouse ATS"
+      "Job Status": "Open — official Greenhouse listing live; Remote Canada",
+      "Notes": "NEW 2026-10-14 PM (30-day backfill, posted ~Sep 15). Canada-only applicants explicitly stated. Greenhouse form has required fields and Submit application. Enterprise UX, Figma design systems, AI-assisted design and financial/industrial clients align with portfolio. Canada payroll/eligibility confirmed by location. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-31: 2026-10-31 rechecked; Canada eligibility explicit; user experience is near the lower bound.\n[2026-10-31 recheck] Rechecked: official Greenhouse application listing remains live; Canada-remote UX/UI role, 2+ years; strong enterprise/product collaboration fit.",
+      "Source Type": "Official ATS (Greenhouse)"
     },
     {
       "Date Checked": "2026-10-14",
@@ -2649,7 +2673,7 @@
       "Source Type": "Official Careers / Employer"
     },
     {
-      "Date Checked": "2026-10-14",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Jobber",
       "Job Title": "Senior Product Designer, UX Foundations",
@@ -2666,9 +2690,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Ashby job listing, final submit not tested",
-      "Notes": "2026-10-14 discovery. Strong UX/design-system/frontend overlap; Stretch despite 2–5 band. Canada/Toronto eligible. Not a Graduate program.",
-      "Source Type": "Official ATS / Ashby"
+      "Job Status": "Open/Provisional — official Ashby listing indexed; application page extraction limited; 2–5 years listed despite Senior title",
+      "Notes": "2026-10-14 discovery. Strong UX/design-system/frontend overlap; Stretch despite 2–5 band. Canada/Toronto eligible. Not a Graduate program.\n[2026-10-31 recheck] Rechecked: UX Foundations/design-system role remains indexed; 2–5 years, systems thinking/accessibility; stretch because role expects senior-level influence and design-system ownership.",
+      "Source Type": "Official ATS (Ashby)"
     },
     {
       "Date Checked": "2026-10-14",
@@ -2803,29 +2827,29 @@
       "Source Type": "Official ATS — Ashby"
     },
     {
-      "Date Checked": "2026-10-27",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Application Status": "Not Applied",
-      "Application Date": null,
+      "Application Date": "",
       "Company": "Compu-Vision Consulting Inc.",
       "Job Title": "UX Designer – Junior (MSON #13)",
-      "Track": "UX Design / Early Career",
-      "Company Type": "Vendor / government contract",
-      "Location": "Toronto/Vaughan/GTA",
-      "Work Mode": "On-site to confirm",
-      "Experience Requirement": "0–3 years",
-      "Core Requirements": "Figma; UX research; journeys; WCAG; JAWS; Azure DevOps",
-      "Salary": "CAD $400–600/day",
+      "Track": "UX/Product Design — Junior / Vendor Contract",
+      "Company Type": "Canadian staffing/vendor contract; client undisclosed",
+      "Location": "Toronto / Vaughan / Brampton / Mississauga / Hamilton, ON",
+      "Work Mode": "Not specified; Ontario locations listed",
+      "Experience Requirement": "0–3 years / junior UX; relevant UX/UI experience, research, accessibility and Figma",
+      "Core Requirements": "Figma; WCAG 2.1 AA/AODA; user research; wireframes and prototypes; usability testing; design systems; Miro/Visio; Agile/DevOps/Azure DevOps; documentation",
+      "Salary": "CAD $400–$600/day (contract; terms not confirmed)",
       "Application Link": "https://compuvis.talentnest.com/en/posting/244418",
-      "Match %": 94,
-      "Main Risks": "Vendor and end client unconfirmed; form unverified",
+      "Match %": 89,
+      "Main Risks": "Client undisclosed; vendor contract; work mode not specified; MSON #13 not mapped to an OPS RQ; deadline Nov 14",
       "Deadline": "2026-11-14",
-      "Job Status": "Official vendor TalentNest listing live 2026-10-27; 0–3 years; final Submit and end client unverified",
-      "Notes": "Posted Oct 14; one listing across GTA cities, not OPS direct; RQ unknown | 2026-10-27: Rechecked official TalentNest; posted 2026-10-14, closes 2026-11-14, no RQ identifier; remains historical (NOT newly discovered).",
+      "Job Status": "Open — TalentNest posting active; deadline 2026-11-14; application form available",
+      "Notes": "Posted Oct 14; one listing across GTA cities, not OPS direct; RQ unknown | 2026-10-27: Rechecked official TalentNest; posted 2026-10-14, closes 2026-11-14, no RQ identifier; remains historical (NOT newly discovered).\n[Merged duplicate row]\nNew 2026-10-31. Strong enterprise UX/accessibility match; not counted as OPS direct hire because client/RQ ID are not disclosed.\n[2026-10-31 recheck] Duplicate Compu-Vision MSON #13 rows merged; direct TalentNest posting rechecked and remains open through Nov 14. Client/RQ not disclosed.",
       "Source Type": "Vendor ATS / TalentNest"
     },
     {
-      "Date Checked": "2026-10-15",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
@@ -2842,9 +2866,9 @@
       "Match %": 80,
       "Main Risks": "3–5 years and Sitecore; 12-month contract",
       "Deadline": "2026-12-07",
-      "Job Status": "Open — recruiter official careers",
-      "Notes": "Posted Oct 6; backfill",
-      "Source Type": "Official recruiter careers / Randstad"
+      "Job Status": "Open — Randstad job page current; 12-month contract; hybrid",
+      "Notes": "Posted Oct 6; backfill\n[2026-10-31 recheck] Rechecked: Toronto junior UI/UX developer listing remains current; 3–5 years, React/TypeScript, accessibility, Sitecore preferred; CAD $36.39–$43.10/hour. Stretch on years/Sitecore.",
+      "Source Type": "Randstad Careers"
     },
     {
       "Date Checked": "2026-10-15",
@@ -2869,7 +2893,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2886,9 +2910,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form/Submit verified.",
-      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Screening asks about project retrospection, AI use and product-design judgment. | 2026-10-30 recheck: Remote Canada; junior; portfolio/projects and internship experience accepted. | 2026-10-30 recheck: Remote Canada; CA$85K–95K; complete Lever form and Submit button verified.",
-      "Source Type": "Official Lever ATS"
+      "Job Status": "Open — official Lever application page active; Remote Canada",
+      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Screening asks about project retrospection, AI use and product-design judgment. | 2026-10-30 recheck: Remote Canada; junior; portfolio/projects and internship experience accepted. | 2026-10-30 recheck: Remote Canada; CA$85K–95K; complete Lever form and Submit button verified.\n[2026-10-31 recheck] Rechecked: official Lever application page remains live; 0–3 years, Canada-remote, CAD $85k–$95k; high-priority junior product design fit.",
+      "Source Type": "Official ATS (Lever)"
     },
     {
       "Date Checked": "2026-10-16",
@@ -2974,12 +2998,12 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — LinkedIn employer listing active; Fall 2026/Spring 2027 graduates eligible; no return-to-school requirement stated",
-      "Notes": "Graduate / Early Career; June 2027 full-time start. Must attach unofficial transcript. If graduation was Spring/Summer 2026, eligibility may fail; no return-to-school requirement. Traditional retail digital transformation. | 2026-10-31: Previous application link retained in history: https://ca.indeed.com/viewjob?jk=2e3831e2f14b449b | 2026-10-31: 2026-10-31 LinkedIn employer listing still shows Apply; 2026 graduate window fits; no official ATS link located.",
-      "Source Type": "LinkedIn employer listing"
+      "Job Status": "Closed/Expired — Jobs.ca mirror reports applications closed; LinkedIn still displays Apply, but no official ATS submission was verified",
+      "Notes": "Graduate / Early Career; June 2027 full-time start. Must attach unofficial transcript. If graduation was Spring/Summer 2026, eligibility may fail; no return-to-school requirement. Traditional retail digital transformation. | 2026-10-31: Previous application link retained in history: https://ca.indeed.com/viewjob?jk=2e3831e2f14b449b | 2026-10-31: 2026-10-31 LinkedIn employer listing still shows Apply; 2026 graduate window fits; no official ATS link located.\n[2026-10-31 recheck] Rechecked: LinkedIn employer listing still indexed, but Jobs.ca mirror reports applications closed; official ATS application route not found. Do not recommend until a live employer application is confirmed.",
+      "Source Type": "LinkedIn Jobs + Jobs.ca (official ATS job-specific link not found)"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "CMiC",
       "Job Title": "Associate Product Manager (Project Controls / Job Costing)",
@@ -2996,9 +3020,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — employer Indeed/LinkedIn listings active; official HiBob careers portal accessible but job-specific ATS URL/final submit not verified.",
-      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement. | 2026-10-27 14:06 ET reverified Indeed employer posting; not new, already tracked since Oct 18. | 2026-10-30 recheck: active employer listing; construction software is a strong bridge to the current design/build internal-platform project.",
-      "Source Type": "LinkedIn Jobs + Indeed employer listing + official HiBob careers portal"
+      "Job Status": "Open/Provisional — LinkedIn employer listing active; official job-specific CMiC ATS page not resolved",
+      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement. | 2026-10-27 14:06 ET reverified Indeed employer posting; not new, already tracked since Oct 18. | 2026-10-30 recheck: active employer listing; construction software is a strong bridge to the current design/build internal-platform project.\n[2026-10-31 recheck] Rechecked: Toronto/Canada APM listing remains active on LinkedIn; 1–3 years, construction project controls/job-costing software. Strong domain fit with current design-build platform work; verify employer application route.",
+      "Source Type": "LinkedIn Jobs"
     },
     {
       "Date Checked": "2026-10-26",
@@ -3023,7 +3047,7 @@
       "Source Type": "Employer LinkedIn (official ATS unverified)"
     },
     {
-      "Date Checked": "2026-10-17",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Affirm",
       "Job Title": "Software Engineer I, Frontend (Upfunnel)",
@@ -3040,9 +3064,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application form and Submit verified 2026-10-17",
-      "Notes": "Early Career / Junior frontend; Sep 2026 backfill. US/global company, Ontario eligible for Canada payroll. Internship experience accepted.",
-      "Source Type": "Official ATS / Greenhouse"
+      "Job Status": "Open — official Greenhouse application page live; Remote Canada",
+      "Notes": "Early Career / Junior frontend; Sep 2026 backfill. US/global company, Ontario eligible for Canada payroll. Internship experience accepted.\n[2026-10-31 recheck] Rechecked: official Greenhouse listing remains live; frontend/product UI role with React/TypeScript; user has relevant projects but less professional frontend tenure.",
+      "Source Type": "Official ATS (Greenhouse)"
     },
     {
       "Date Checked": "2026-10-17",
@@ -3199,7 +3223,7 @@
       "Source Type": "Official Konrad Careers page + Jobs.ca/Prosple (expired mirrors)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Nex",
       "Job Title": "Frontend Engineer - Marketing & Digital Experience",
@@ -3216,9 +3240,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse Submit verified 2026-10-18",
-      "Notes": "Backfill 2026-10-18; global company explicitly hires in Toronto/Vancouver/Montreal, not US-only.",
-      "Source Type": "Official Greenhouse ATS / submission form verified"
+      "Job Status": "Closed/Expired — official Greenhouse job-specific page no longer resolves / role not present on current board",
+      "Notes": "Backfill 2026-10-18; global company explicitly hires in Toronto/Vancouver/Montreal, not US-only.\n[2026-10-31 recheck] Rechecked: Greenhouse job-specific page no longer resolves; no current application form found.",
+      "Source Type": "Official ATS (Greenhouse)"
     },
     {
       "Date Checked": "2026-10-19",
@@ -3370,9 +3394,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Conditional — employer listing current; 3+ years; Toronto hybrid",
-      "Notes": "2026-10-30 recheck: 3+ years product/program/operations/delivery coordination; combined operations experience may be relevant. Strong product-operations bridge, but direct product-delivery evidence and Planview/ITSM familiarity are risks. | 2026-10-30 recheck: Toronto financial-services product role; relevant enterprise workflow experience but payments domain is a stretch. | 2026-10-30 recheck: product-operations adjacent role; experience and payments domain remain stretch. | 2026-10-31: 2026-10-31 rechecked; product associate/RTR operations role; 3+ years requirement is a stretch.",
-      "Source Type": "Employer listing / Jobs.ca"
+      "Job Status": "Open/Provisional — Jobs.ca employer listing current; official Interac job-specific ATS page not resolved",
+      "Notes": "2026-10-30 recheck: 3+ years product/program/operations/delivery coordination; combined operations experience may be relevant. Strong product-operations bridge, but direct product-delivery evidence and Planview/ITSM familiarity are risks. | 2026-10-30 recheck: Toronto financial-services product role; relevant enterprise workflow experience but payments domain is a stretch. | 2026-10-30 recheck: product-operations adjacent role; experience and payments domain remain stretch. | 2026-10-31: 2026-10-31 rechecked; product associate/RTR operations role; 3+ years requirement is a stretch.\n[2026-10-31 recheck] Rechecked: RTR Product Associate listing remains current; 3+ years product/program/operations/delivery coordination, Toronto hybrid. Stretch based on formal product/financial-services experience.",
+      "Source Type": "Jobs.ca Verified Employer Source"
     },
     {
       "Company": "Harvey",
@@ -3524,9 +3548,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-08",
-      "Job Status": "Open — LinkedIn employer listing active; deadline Nov 8; 3+ years digital experience requirement is borderline",
-      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role. | 2026-10-26: employer Indeed listing rechecked; previously also recorded under alias 'The Empire Life Insurance Company' (2026-10-12); older notes: Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed) | 2026-10-30: Indeed employer listing confirms North York York Mills hybrid, active current vacancy, Apply now, $79,200–126,500 total target compensation incl. target bonus (permanent roles only), 3+ years digital marketing/digital product support/UX journey mapping; Figma, Lucidchart, portal/mobile app management, personas, analytics, product-owner collaboration. Final submit/official job-specific ATS not verified. | 2026-10-30 14:04 ET: Direct Indeed job ID 401d9086e02d4c0d confirms hybrid at 36 York Mills Rd, North York; $79,200–126,500 total target compensation (permanent roles only); explicitly current/open; 3+ years in digital marketing, digital product support or UX/journey mapping; Figma/Lucidchart, portals/mobile apps, digital product-owner collaboration, analytics. Apply now redirects to Indeed SmartApply; form text not accessible. | 2026-10-30 recheck: North York hybrid; 3+ years digital marketing/product support/UX journey mapping; stretch on experience threshold. | 2026-10-30 recheck: North York hybrid; current employer listing says vacancy remains open; final SmartApply not verified. | 2026-10-31: 2026-10-31 North York hybrid role still accepting applications; 3+ years digital marketing/product support/UX journey mapping; salary CAD $79.2k–$126.5k.",
-      "Source Type": "LinkedIn employer listing + MovoJobs"
+      "Job Status": "Open/Provisional — current Indeed employer listing visible; official ATS job-specific link not resolved",
+      "Notes": "NEW 2026-10-21 historical backfill (posted ~Oct 2026). North York priority. Strong BMO journey mapping/financial UX and cross-functional workflow relevance. Indeed displays Apply now and company describes current vacancy. Source is Indeed employer listing; verify final submission. Canadian payroll and local work authorization inferred from Ontario role. | 2026-10-26: employer Indeed listing rechecked; previously also recorded under alias 'The Empire Life Insurance Company' (2026-10-12); older notes: Check employer application; prioritize if CX/digital experience track is acceptable. | Posted: 2026-10 (listed) | 2026-10-30: Indeed employer listing confirms North York York Mills hybrid, active current vacancy, Apply now, $79,200–126,500 total target compensation incl. target bonus (permanent roles only), 3+ years digital marketing/digital product support/UX journey mapping; Figma, Lucidchart, portal/mobile app management, personas, analytics, product-owner collaboration. Final submit/official job-specific ATS not verified. | 2026-10-30 14:04 ET: Direct Indeed job ID 401d9086e02d4c0d confirms hybrid at 36 York Mills Rd, North York; $79,200–126,500 total target compensation (permanent roles only); explicitly current/open; 3+ years in digital marketing, digital product support or UX/journey mapping; Figma/Lucidchart, portals/mobile apps, digital product-owner collaboration, analytics. Apply now redirects to Indeed SmartApply; form text not accessible. | 2026-10-30 recheck: North York hybrid; 3+ years digital marketing/product support/UX journey mapping; stretch on experience threshold. | 2026-10-30 recheck: North York hybrid; current employer listing says vacancy remains open; final SmartApply not verified. | 2026-10-31: 2026-10-31 North York hybrid role still accepting applications; 3+ years digital marketing/product support/UX journey mapping; salary CAD $79.2k–$126.5k.\n[2026-10-31 recheck] Rechecked: North York hybrid Digital Client Experience Specialist remains listed; 3+ years digital experience, CAD $79.2k–$126.5k. Stretch due insurance/CMS/analytics experience.",
+      "Source Type": "Indeed employer listing"
     },
     {
       "Date Checked": "2026-10-30",
@@ -3700,9 +3724,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Provisional — employer listing posted Oct 29; official job-specific ATS page not found; final submission not verified",
-      "Notes": "2026-10-30 recheck: 2+ years administrative/operations/coordinator support; transferable from management/retail, but invoice/PO/contract processing is not evidenced. Apply only if those duties can be substantiated. | 2026-10-30 recheck: LinkedIn employer repost is current; Toronto hybrid 1 day/week, CA$59K–65K; strong product-operations bridge. | 2026-10-31: 2026-10-31 listing remains current; 2+ years admin/operations/coordinator experience; Toronto hybrid; salary CAD $59k–$65k.",
-      "Source Type": "Jobs.ca / Edtech.com employer listing"
+      "Job Status": "Open/Provisional — current employer listing on Jobs.ca and LinkedIn; apply-on-employer-site route present, job-specific iCIMS link not resolved",
+      "Notes": "2026-10-30 recheck: 2+ years administrative/operations/coordinator support; transferable from management/retail, but invoice/PO/contract processing is not evidenced. Apply only if those duties can be substantiated. | 2026-10-30 recheck: LinkedIn employer repost is current; Toronto hybrid 1 day/week, CA$59K–65K; strong product-operations bridge. | 2026-10-31: 2026-10-31 listing remains current; 2+ years admin/operations/coordinator experience; Toronto hybrid; salary CAD $59k–$65k.\n[2026-10-31 recheck] Rechecked: current Toronto hybrid Product Associate listing remains visible; 2+ years in administrative/operations/coordinator support, product records/contracts/POs; Canada work authorization. Treat as secondary Product Operations fit; confirm employer portal before submit.",
+      "Source Type": "LinkedIn Jobs + Jobs.ca Verified Employer Source"
     },
     {
       "Date Checked": "2026-10-24",
@@ -3728,7 +3752,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Homebase",
       "Job Title": "UX Engineer (Hybrid) — Design Systems (Toronto P2/P3)",
       "Track": "UX Engineer / Design Systems / Product UI",
@@ -3766,8 +3790,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-27",
-      "Job Status": "Closed/Expired — vendor submission cutoff passed; no active route",
-      "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract. | 2026-10-30: 2026-10-30: canonical RQ11618; vendors found: S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code, The Code Crackers. Treat Oct27 supplier cutoff as controlling; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11618 vendors S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code and The Code Crackers. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: Bevertec LinkedIn Junior UX Designer repost 4482751055 appears to match RQ11618/RQ11617 scope; exact RQ not stated, start date/cutoff passed; no separate OPS row. | 2026-10-31: Vendor aliases consolidated by RQ11617: S M Software Solutions; Lotus IT Solutions; AMANST. No direct OPS application route. | 2026-10-31: Vendor aliases consolidated by RQ11618: S M Software Solutions; vendor mirrors. No direct OPS application route.",
+      "Job Status": "Closed/Expired — vendor deadline Oct 27 passed; Lotus listing remains indexed but no live submission confirmed; public-sector experience required per Lotus",
+      "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract. | 2026-10-30: 2026-10-30: canonical RQ11618; vendors found: S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code, The Code Crackers. Treat Oct27 supplier cutoff as controlling; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11618 vendors S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code and The Code Crackers. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: Bevertec LinkedIn Junior UX Designer repost 4482751055 appears to match RQ11618/RQ11617 scope; exact RQ not stated, start date/cutoff passed; no separate OPS row. | 2026-10-31: Vendor aliases consolidated by RQ11617: S M Software Solutions; Lotus IT Solutions; AMANST. No direct OPS application route. | 2026-10-31: Vendor aliases consolidated by RQ11618: S M Software Solutions; vendor mirrors. No direct OPS application route.\n[2026-10-31 recheck] Rechecked: Lotus/S M vendor sources disagree on live state; S M deadline passed. Randstad Junior UX Designer may be related but no RQ ID is disclosed, so kept separate.",
       "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
@@ -3793,7 +3817,7 @@
       "Source Type": "Official Employer / Elections Ontario Careers PDF + direct employer email application (verified)"
     },
     {
-      "Date Checked": "2026-10-24",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "SE Health",
       "Job Title": "Digital Experience Specialist (44393)",
@@ -3810,9 +3834,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official employer Careers lists current FULLTIME posting dated 2026-10-21; final Apply/Submit step unverified — do not claim confirmed submission",
-      "Notes": "Job Code 44393, employer site published Oct 21 2026, LinkedIn employer posting visible. Location Markham, hybrid. Strong digital transformation and enterprise UX match but 4–6 years means lower-priority stretch; no student-only/return-to-school requirement. Salary is total target compensation, not confirmed base.",
-      "Source Type": "Official Employer / SE Health Careers (listing verified; application form unverified) + Employer LinkedIn"
+      "Job Status": "Open/Provisional — official careers listing indexed/current; direct page fetch returned 502, final submit not verified",
+      "Notes": "Job Code 44393, employer site published Oct 21 2026, LinkedIn employer posting visible. Location Markham, hybrid. Strong digital transformation and enterprise UX match but 4–6 years means lower-priority stretch; no student-only/return-to-school requirement. Salary is total target compensation, not confirmed base.\n[2026-10-31 recheck] Rechecked: Markham hybrid listing remains indexed; 4–6 years progressive digital experience, salary CAD $72k–$91k. Stretch due years and CMS/content/analytics requirements; confirm application form before submit.",
+      "Source Type": "Official Careers / ATS + Indeed employer listing"
     },
     {
       "Date Checked": "2026-10-30",
@@ -3854,9 +3878,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Greenhouse application form live; early-career/intermediate accepted; Remote within Canada or US",
-      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present. | 2026-10-30: Rechecked 2026-10-30: React, TypeScript, HTML/CSS, Figma-to-code, accessible components, design systems and AI coding tools; one of the strongest technical-UX matches. | 2026-10-30 recheck: Remote Canada; React/TypeScript, design systems, accessibility; early-career/intermediate scope. | 2026-10-30 recheck: Remote Canada; explicit early-career pathway and internship/coursework experience accepted. | 2026-10-31: Rechecked official Greenhouse page today; early-career/intermediate language and Canada salary range confirmed.",
-      "Source Type": "Official Greenhouse ATS"
+      "Job Status": "Open — official Greenhouse listing live; Remote Canada eligibility stated",
+      "Notes": "Discovered in Oct 23 posting backfill via official Greenhouse; specifically early-career/intermediate. Canada eligibility explicitly confirmed (remote Canada and CAD employee compensation). Employer job post has no explicit graduate date/return-to-school condition. Third-party Nov 22 deadline not confirmed by official posting. 2026-10-24 evening discovery. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-28 14:07 ET: Greenhouse job page confirmed current; Canadian employee pay CA$115,700–149,700 and early-career eligibility including internships/coursework; Submit application present. | 2026-10-30: Rechecked 2026-10-30: React, TypeScript, HTML/CSS, Figma-to-code, accessible components, design systems and AI coding tools; one of the strongest technical-UX matches. | 2026-10-30 recheck: Remote Canada; React/TypeScript, design systems, accessibility; early-career/intermediate scope. | 2026-10-30 recheck: Remote Canada; explicit early-career pathway and internship/coursework experience accepted. | 2026-10-31: Rechecked official Greenhouse page today; early-career/intermediate language and Canada salary range confirmed.\n[2026-10-31 recheck] Rechecked: official Greenhouse listing remains live; frontend/design systems role, Canada-remote, React/TypeScript and component-library focus.",
+      "Source Type": "Official ATS (Greenhouse)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -3881,7 +3905,7 @@
       "Source Type": "LinkedIn Jobs + official Workday careers board cross-check"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Application Status": "Not Applied",
       "Application Date": null,
@@ -3898,8 +3922,8 @@
       "Application Link": "https://www.lotusit.ca/Jobs/Details/270",
       "Match %": 79,
       "Main Risks": "Lotus requires prior OPS/public-sector experience, which may be disqualifying; fully onsite Toronto; vendor requires account sign-in; final application submission unverified; other vendor deadlines vary",
-      "Job Status": "Closed/Expired — supplier cutoff Oct27 10:00 ET and estimated start date passed; retain one canonical RQ11617 record.",
-      "Notes": "RQ11617 is distinct from previously tracked RQ11618 and RQ11616; deduplicate by requisition ID. Lotus source https://www.lotusit.ca/Jobs/Details/270 . A Randstad Junior UX Designer post dated Oct 24 has very similar government design-system requirements but omits RQ ID; probable related vendor lead, not conclusively the same requisition: https://www.randstad.ca/jobs/junior-ux-designer_toronto_47644696/ . Vendor deadline Oct 27 10am ET comes from contemporaneous recruiter LinkedIn post, not official supplier site. Contract end 2027-05-06. No student-only restriction. | 2026-10-30: 2026-10-30: canonical RQ11617; vendors found: S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Similar vendor mirrors do not create separate requisitions; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11617 vendors S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: vendors merged under RQ11617 include S M Software Solutions, Lotus IT Solutions, AMANST and other mirrors; cutoff/start date passed.",
+      "Job Status": "Closed/Expired — vendor deadline Oct 27 passed; Lotus listing remains indexed but no live submission confirmed; public-sector experience required per Lotus",
+      "Notes": "RQ11617 is distinct from previously tracked RQ11618 and RQ11616; deduplicate by requisition ID. Lotus source https://www.lotusit.ca/Jobs/Details/270 . A Randstad Junior UX Designer post dated Oct 24 has very similar government design-system requirements but omits RQ ID; probable related vendor lead, not conclusively the same requisition: https://www.randstad.ca/jobs/junior-ux-designer_toronto_47644696/ . Vendor deadline Oct 27 10am ET comes from contemporaneous recruiter LinkedIn post, not official supplier site. Contract end 2027-05-06. No student-only restriction. | 2026-10-30: 2026-10-30: canonical RQ11617; vendors found: S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Similar vendor mirrors do not create separate requisitions; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11617 vendors S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: vendors merged under RQ11617 include S M Software Solutions, Lotus IT Solutions, AMANST and other mirrors; cutoff/start date passed.\n[2026-10-31 recheck] Rechecked: Lotus/S M vendor sources disagree on live state; S M deadline passed. Randstad Junior UX Designer may be related but no RQ ID is disclosed, so kept separate.",
       "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
@@ -4013,7 +4037,7 @@
       "Source Type": "Employer Careers corroborated + Jobs.ca Verified Job Source (official downstream submit unverified)"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Flywheel",
       "Job Title": "Product Designer (Perpetua)",
@@ -4030,9 +4054,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workday requisition R10733 live; Apply route available; final form not submitted.",
-      "Notes": "2026-10-27 14:06 ET 30-day LinkedIn backfill; LinkedIn listing shows employer-provided description, salary and existing vacancy; job indexed/reposted in last week, original date uncertain. Perpetua product (Flywheel Commerce Network) helps SMB brands manage complex eCommerce retail advertising; role spans dashboard/workflow design, Figma design systems, research, React/front-end engineering collaboration, AI-assisted ideation. Toronto/Canada eligibility confirmed by employer listing and CAD salary. Does not require school enrollment. Distinct from already tracked Flywheel Design Specialist, eCommerce. Source https://ca.linkedin.com/jobs/view/product-designer-at-flywheel-4453262198; secondary corroboration https://www.jobleads.com/ca/job/product-designer--toronto--ecbf4d85994b3a7e1c8bb01ef26cb70c4; employer final ATS not verified. | 2026-10-30 recheck: direct Workday R10733 application page verified; Toronto hybrid, CAD salary range retained.",
-      "Source Type": "Official Workday ATS + MaRS listing"
+      "Job Status": "Open/Provisional — official Workday requisition indexed; direct page returned 502; final submit not verified",
+      "Notes": "2026-10-27 14:06 ET 30-day LinkedIn backfill; LinkedIn listing shows employer-provided description, salary and existing vacancy; job indexed/reposted in last week, original date uncertain. Perpetua product (Flywheel Commerce Network) helps SMB brands manage complex eCommerce retail advertising; role spans dashboard/workflow design, Figma design systems, research, React/front-end engineering collaboration, AI-assisted ideation. Toronto/Canada eligibility confirmed by employer listing and CAD salary. Does not require school enrollment. Distinct from already tracked Flywheel Design Specialist, eCommerce. Source https://ca.linkedin.com/jobs/view/product-designer-at-flywheel-4453262198; secondary corroboration https://www.jobleads.com/ca/job/product-designer--toronto--ecbf4d85994b3a7e1c8bb01ef26cb70c4; employer final ATS not verified. | 2026-10-30 recheck: direct Workday R10733 application page verified; Toronto hybrid, CAD salary range retained.\n[2026-10-31 recheck] Rechecked: Toronto Product Designer listing remains indexed; 3+ years, ad-tech/product workflows. Direct Workday page fetch failed in this pass; confirm submit state.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4123,7 +4147,7 @@
       "Source Type": "Official ATS / Ashby (job indexed; final application unverified)"
     },
     {
-      "Date Checked": "2026-10-28",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Crowdlinker",
       "Job Title": "UX/UI Designer (Remote, Open Roster Contract Opportunity)",
@@ -4140,9 +4164,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open contractor talent roster — official Trakstar application form visible 2026-10-28; NOT a current hiring requisition",
-      "Notes": "2026-10-28 PM discovery from Indeed and employer-operated Trakstar. Official application form has name/email/phone/resume fields, but posting explicitly says open roster for FUTURE hourly remote contracts. Do not present as immediate job vacancy. Canada eligibility: employer and posting explicitly Toronto, Ontario, Canada; remote EST preferred. Graduate 2026 not excluded. Source https://crowdlinker.hire.trakstar.com/jobs/fk0vxnv/?apply=true",
-      "Source Type": "Employer ATS / Trakstar Hire — open roster (official form visible)"
+      "Job Status": "Open Roster — application form live, but not a specific active requisition",
+      "Notes": "2026-10-28 PM discovery from Indeed and employer-operated Trakstar. Official application form has name/email/phone/resume fields, but posting explicitly says open roster for FUTURE hourly remote contracts. Do not present as immediate job vacancy. Canada eligibility: employer and posting explicitly Toronto, Ontario, Canada; remote EST preferred. Graduate 2026 not excluded. Source https://crowdlinker.hire.trakstar.com/jobs/fk0vxnv/?apply=true\n[2026-10-31 recheck] Rechecked: open UX/UI talent roster remains available; not counted as a current job requisition.",
+      "Source Type": "Official ATS / Trakstar roster"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4162,12 +4186,12 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever ATS listing live; 2+ years; Toronto hybrid",
-      "Notes": "Published around 2026-10-27; discovered via official Lever and LinkedIn 24h/7d scans. Toronto-based employer hiring on Canadian payroll. Strong enterprise UX + design systems + frontend background fit; no student-only restriction. Application form explicitly requires Canada work authorization, portfolio/resume and salary expectations. https://ca.linkedin.com/jobs/view/product-designer-at-achievers-4484255355 | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified; full-time permanent Toronto role. Hybrid attendance and salary expectations are required screening questions. | 2026-10-30 recheck: Toronto hybrid; 2+ years; enterprise UX/design systems. | 2026-10-30 recheck: Toronto hybrid; complete Lever form and Submit button verified. | 2026-10-31: 2026-10-31 rechecked; design systems/accessibility and product collaboration; experience threshold is borderline.",
-      "Source Type": "Official Lever ATS"
+      "Job Status": "Open — official Lever application page live; Toronto hybrid",
+      "Notes": "Published around 2026-10-27; discovered via official Lever and LinkedIn 24h/7d scans. Toronto-based employer hiring on Canadian payroll. Strong enterprise UX + design systems + frontend background fit; no student-only restriction. Application form explicitly requires Canada work authorization, portfolio/resume and salary expectations. https://ca.linkedin.com/jobs/view/product-designer-at-achievers-4484255355 | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified; full-time permanent Toronto role. Hybrid attendance and salary expectations are required screening questions. | 2026-10-30 recheck: Toronto hybrid; 2+ years; enterprise UX/design systems. | 2026-10-30 recheck: Toronto hybrid; complete Lever form and Submit button verified. | 2026-10-31: 2026-10-31 rechecked; design systems/accessibility and product collaboration; experience threshold is borderline.\n[2026-10-31 recheck] Rechecked: official Lever application page remains live; 2+ years product design, Toronto hybrid; strong enterprise UX fit.",
+      "Source Type": "Official ATS (Lever)"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Psiphon Inc.",
       "Job Title": "Junior UX/UI Designer",
@@ -4184,9 +4208,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Employer-provided Indeed listing visible Oct 28; direct job-specific submit and official employer ATS unverified.",
-      "Notes": "2026-10-30 recheck: Toronto hybrid, CA$65K–70K, 1+ year app-interface design; portfolio must include a mobile/desktop app. Strong fit; Indeed listing remains the accessible route.",
-      "Source Type": "Employer-provided Indeed Easy Apply listing + SimplyHired cross-check; employer ATS not found"
+      "Job Status": "Open/Provisional — current Indeed employer listing visible; direct job-specific ATS/application URL not found",
+      "Notes": "2026-10-30 recheck: Toronto hybrid, CA$65K–70K, 1+ year app-interface design; portfolio must include a mobile/desktop app. Strong fit; Indeed listing remains the accessible route.\n[2026-10-31 recheck] Rechecked: Toronto hybrid Junior UX/UI Designer listing remains visible; 1+ year app design, CAD $65k–$70k. Employer ATS/direct application route not independently resolved; apply through the employer listing if still available.",
+      "Source Type": "Indeed employer listing"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4206,9 +4230,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official careers listing live; Toronto hybrid (1 day/week); no fixed years found",
-      "Notes": "Newly visible Oct 27/28; official employer Careers lists 4 Canada roles and this one. Global company explicitly hires Toronto-based employees; Canadian employment confirmed. 1 day office per week. LinkedIn employer job https://ca.linkedin.com/jobs/view/ui-ux-designer-at-rldatix-4482213141 ; LinkedIn labels Entry level but employer gives no fixed years. Salary interpreted using employer LinkedIn because official career page typo. | 2026-10-30: Rechecked 2026-10-30: role owns global marketing-website UX/UI, responsive journeys, Figma, reusable components, accessibility, developer handoff, QA and launch; portfolio must show live marketing websites and individual ownership. | 2026-10-30 recheck: Toronto hybrid one day/week; marketing websites, Figma systems, accessibility and developer QA. | 2026-10-30 recheck: Toronto hybrid one day/week; live marketing websites and accessibility are key portfolio proof points. | 2026-10-31: 2026-10-31 rechecked; enterprise healthcare UX, Figma, accessibility and design-system fit.",
-      "Source Type": "Official RLDatix Careers"
+      "Job Status": "Open — official careers listing live; Toronto hybrid",
+      "Notes": "Newly visible Oct 27/28; official employer Careers lists 4 Canada roles and this one. Global company explicitly hires Toronto-based employees; Canadian employment confirmed. 1 day office per week. LinkedIn employer job https://ca.linkedin.com/jobs/view/ui-ux-designer-at-rldatix-4482213141 ; LinkedIn labels Entry level but employer gives no fixed years. Salary interpreted using employer LinkedIn because official career page typo. | 2026-10-30: Rechecked 2026-10-30: role owns global marketing-website UX/UI, responsive journeys, Figma, reusable components, accessibility, developer handoff, QA and launch; portfolio must show live marketing websites and individual ownership. | 2026-10-30 recheck: Toronto hybrid one day/week; marketing websites, Figma systems, accessibility and developer QA. | 2026-10-30 recheck: Toronto hybrid one day/week; live marketing websites and accessibility are key portfolio proof points. | 2026-10-31: 2026-10-31 rechecked; enterprise healthcare UX, Figma, accessibility and design-system fit.\n[2026-10-31 recheck] Rechecked: official Canada careers page still lists UI/UX Designer; Toronto hybrid, design systems/accessibility/front-end collaboration; no explicit years minimum found.",
+      "Source Type": "Official Careers / ATS"
     },
     {
       "Date Checked": "2026-10-30",
@@ -4250,9 +4274,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Conditional — official Ashby page live (JS-rendered); Remote Canada listed; form not independently rendered",
-      "Notes": "Older still-visible posting discovered through official ATS pass. Canada explicitly included among remote hiring countries, payroll/EOR details not stated. User's Figma, React, Tailwind, design system and enterprise dashboard portfolio relevant; substantial Hotwire-specific learning needed. Application requests two live self-designed/self-built UI links and a specific attention-check phrase (see employer posting). | 2026-10-30: Rechecked 2026-10-30: Remote Canada is stated in the existing role description; Ruby on Rails/Hotwire is a significant stack gap against the user's React/Next.js background. | 2026-10-31: 2026-10-31 official Ashby listing current; design-to-code and AI tooling fit, but Rails/Hotwire/Tailwind stack differs from React/Next.",
-      "Source Type": "Official Ashby ATS"
+      "Job Status": "Open/Provisional — official Ashby listing indexed; page is JS-rendered and final submit not verified",
+      "Notes": "Older still-visible posting discovered through official ATS pass. Canada explicitly included among remote hiring countries, payroll/EOR details not stated. User's Figma, React, Tailwind, design system and enterprise dashboard portfolio relevant; substantial Hotwire-specific learning needed. Application requests two live self-designed/self-built UI links and a specific attention-check phrase (see employer posting). | 2026-10-30: Rechecked 2026-10-30: Remote Canada is stated in the existing role description; Ruby on Rails/Hotwire is a significant stack gap against the user's React/Next.js background. | 2026-10-31: 2026-10-31 official Ashby listing current; design-to-code and AI tooling fit, but Rails/Hotwire/Tailwind stack differs from React/Next.\n[2026-10-31 recheck] Rechecked: Ashby listing remains indexed; frontend/UI role, Canada eligibility needs confirmation in application portal.",
+      "Source Type": "Official ATS (Ashby)"
     },
     {
       "Date Checked": "2026-10-29",
@@ -4338,9 +4362,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workday ATS listing live; 12-month contract; Brampton",
-      "Notes": "12-month contract. Employer requisition R2000723824 distinct from existing President's Choice APM R2000715094. 2026 graduate eligible by published criteria, no student-only restriction. Strong cross-functional project coordination and delivery fit. | 2026-10-30: Rechecked 2026-10-30: 12-month contract; project timelines, milestones, vendors, design kick-offs, packaging/agency coordination and progress reporting. Good project-coordination bridge, but physical product development rather than software product. | 2026-10-31: 2026-10-31 rechecked; APM/enterprise initiatives and cross-functional project coordination.",
-      "Source Type": "Official Workday ATS"
+      "Job Status": "Open — official Workday requisition live; Brampton hybrid/contract",
+      "Notes": "12-month contract. Employer requisition R2000723824 distinct from existing President's Choice APM R2000715094. 2026 graduate eligible by published criteria, no student-only restriction. Strong cross-functional project coordination and delivery fit. | 2026-10-30: Rechecked 2026-10-30: 12-month contract; project timelines, milestones, vendors, design kick-offs, packaging/agency coordination and progress reporting. Good project-coordination bridge, but physical product development rather than software product. | 2026-10-31: 2026-10-31 rechecked; APM/enterprise initiatives and cross-functional project coordination.\n[2026-10-31 recheck] Rechecked: official Workday APM Enterprise Initiatives posting remains live; 12-month contract, Brampton; strong product coordination/enterprise transformation fit.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -4387,7 +4411,7 @@
       "Source Type": "LinkedIn Jobs (employer-posted; Apply button) + Jobs.ca mirror; official ATS not located"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Silk & Snow",
       "Job Title": "E-Commerce Coordinator",
@@ -4404,9 +4428,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-18",
-      "Job Status": "Current open position per MovoJobs; posted 2026-10-19; apply-by 2026-11-18; LinkedIn application link available; employer ATS/final submit not verified.",
-      "Notes": "New 2026-10-30; Early Career (1–3 years). Explicitly accepts work, internship and co-op experience. Good bridge between UX, retail, website operations and eCommerce: website navigation, product pages, launches, promotions and analytics. User's Decathlon retail experience, graphic/website design, UX and data-analysis background are transferable. Application link routes to LinkedIn.",
-      "Source Type": "MovoJobs employer listing + LinkedIn Jobs application route; official ATS not located"
+      "Job Status": "Open — LinkedIn employer listing current; deadline Nov 18, 2026",
+      "Notes": "New 2026-10-30; Early Career (1–3 years). Explicitly accepts work, internship and co-op experience. Good bridge between UX, retail, website operations and eCommerce: website navigation, product pages, launches, promotions and analytics. User's Decathlon retail experience, graphic/website design, UX and data-analysis background are transferable. Application link routes to LinkedIn.\n[2026-10-31 recheck] Rechecked: Toronto hybrid e-commerce coordinator listing remains active; 1–3 years, deadline Nov 18. Secondary retail/product operations fit.",
+      "Source Type": "LinkedIn Jobs"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4470,8 +4494,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-29",
-      "Job Status": "Unverified/likely closed — S M supplier cutoff Oct 29 passed; alternate vendor mirrors show conflicting dates and no verified submission route",
-      "Notes": "Canonical RQ11744 record; merge by requisition ID. Vendors found: S M Software Solutions Inc and Maarut. Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start 2026-11-09; end 2027-09-28; 225 business days. Not direct OPS. Excluded for senior scope and deadline. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: S M Software Solutions LinkedIn repost and Maarut/MovoJobs mirrors merged under RQ11744; supplier-authored Oct29 10:00 ET cutoff overrides later aggregator date; no separate vendor rows. | 2026-10-30 recheck: S M Software Solutions LinkedIn repost and Maarut/MovoJobs mirrors merged under RQ11744; vendor deadline Oct29 10:00 ET overrides later aggregator date. | 2026-10-31: Vendor aliases consolidated by RQ11744: S M Software Solutions; Lotus IT Solutions; Procom; Maarut; Softline Technology; Compu-Vision MGON #14 mirror is similar but RQ match not confirmed. Not direct OPS hire.",
+      "Job Status": "Open — vendor posting indexed/current; filtered by 5+ years/seniority",
+      "Notes": "Canonical RQ11744 record; merge by requisition ID. Vendors found: S M Software Solutions Inc and Maarut. Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start 2026-11-09; end 2027-09-28; 225 business days. Not direct OPS. Excluded for senior scope and deadline. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: S M Software Solutions LinkedIn repost and Maarut/MovoJobs mirrors merged under RQ11744; supplier-authored Oct29 10:00 ET cutoff overrides later aggregator date; no separate vendor rows. | 2026-10-30 recheck: S M Software Solutions LinkedIn repost and Maarut/MovoJobs mirrors merged under RQ11744; vendor deadline Oct29 10:00 ET overrides later aggregator date. | 2026-10-31: Vendor aliases consolidated by RQ11744: S M Software Solutions; Lotus IT Solutions; Procom; Maarut; Softline Technology; Compu-Vision MGON #14 mirror is similar but RQ match not confirmed. Not direct OPS hire.\n[2026-10-31 recheck] Rechecked Oct 31: senior vendor requisition remains outside the 0–3/2+ year target; not recommended.",
       "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
@@ -4492,8 +4516,8 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-30",
-      "Job Status": "Closed/Expired — vendor submission cutoff Oct 30 passed",
-      "Notes": "Canonical RQ11539 record; do not create one row per vendor. Vendors found: S M Software Solutions Inc. (current intake, deadline Oct 30 10:00 ET), CCI / Computer Consultants International Inc. (LinkedIn repost), A.T. Consulting & Recruiting Inc. (older RQ11538/RQ11539/RQ11541 post, no longer accepting), and Maarut (older listing with Oct 9 cutoff). Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start Sep 21, 2026; estimated end Oct 1, 2027; five days onsite in Toronto. S M Software profile lists greater than 10 years' experience. Not a direct OPS employee position. | 2026-10-30 09:04 ET: Added as one canonical historical/vendor requisition after new CCI and S M Software listings were found; not a suitable early-career recommendation. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: vendors merged under RQ11539 include S M Software Solutions, CCI/Computer Consultants International, A.T. Consulting & Recruiting, Maarut and Lotus IT Solutions; cutoff Oct30 10:00 ET passed. | 2026-10-31: Vendor aliases consolidated by RQ11539: S M Software Solutions; CCI; A.T. Consulting & Recruiting; Maarut; Lotus IT Solutions. No direct OPS application route.",
+      "Job Status": "Closed/Expired/Unverified — no confirmed live vendor submission in this pass",
+      "Notes": "Canonical RQ11539 record; do not create one row per vendor. Vendors found: S M Software Solutions Inc. (current intake, deadline Oct 30 10:00 ET), CCI / Computer Consultants International Inc. (LinkedIn repost), A.T. Consulting & Recruiting Inc. (older RQ11538/RQ11539/RQ11541 post, no longer accepting), and Maarut (older listing with Oct 9 cutoff). Client: Ministry of Public and Business Service Delivery and Procurement. Estimated start Sep 21, 2026; estimated end Oct 1, 2027; five days onsite in Toronto. S M Software profile lists greater than 10 years' experience. Not a direct OPS employee position. | 2026-10-30 09:04 ET: Added as one canonical historical/vendor requisition after new CCI and S M Software listings were found; not a suitable early-career recommendation. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: vendors merged under RQ11539 include S M Software Solutions, CCI/Computer Consultants International, A.T. Consulting & Recruiting, Maarut and Lotus IT Solutions; cutoff Oct30 10:00 ET passed. | 2026-10-31: Vendor aliases consolidated by RQ11539: S M Software Solutions; CCI; A.T. Consulting & Recruiting; Maarut; Lotus IT Solutions. No direct OPS application route.\n[2026-10-31 recheck] Rechecked Oct 31: no verified live application route; retain as historical RQ record.",
       "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
@@ -4536,12 +4560,12 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official BambooHR job page live; 0–2 years; Toronto hybrid",
-      "Notes": "Early Career (0–2 years, including internships/academic projects). B2B self-service kiosk, mobile and web product UX; strong fit with visual design, UX research, accessibility and cross-functional product work. Search title on official BambooHR board. | 2026-10-30 recheck: early-career 0–2 years; academic projects/internships accepted; Toronto hybrid. | 2026-10-31: Previous application link retained in history: https://kiosoft.bamboohr.com/careers | 2026-10-31: 2026-10-31 direct BambooHR application route verified; junior product UX/UI, accessibility and design-system work.",
-      "Source Type": "Official BambooHR ATS"
+      "Job Status": "Open/Provisional — BambooHR job URL exists; direct page access blocked, current Built In/RoleFinder mirrors visible",
+      "Notes": "Early Career (0–2 years, including internships/academic projects). B2B self-service kiosk, mobile and web product UX; strong fit with visual design, UX research, accessibility and cross-functional product work. Search title on official BambooHR board. | 2026-10-30 recheck: early-career 0–2 years; academic projects/internships accepted; Toronto hybrid. | 2026-10-31: Previous application link retained in history: https://kiosoft.bamboohr.com/careers | 2026-10-31: 2026-10-31 direct BambooHR application route verified; junior product UX/UI, accessibility and design-system work.\n[2026-10-31 recheck] Rechecked: junior UX/UI listing remains visible on current mirrors; Toronto hybrid, 0–2 years. BambooHR page could not be independently confirmed for final submission in this pass.",
+      "Source Type": "Official ATS (BambooHR) + third-party mirrors"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Allstate Insurance Company of Canada",
       "Job Title": "Provincial Product Analyst (R35634)",
@@ -4558,9 +4582,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Workday R35634 page live; final form not tested.",
-      "Notes": "Early Career-compatible (1–3 years preferred/bonus). Remote GTA. SQL/Python and data-analysis background align; emphasize analytical dashboards and decision support. | 2026-10-30 recheck: Remote GTA; early-career-compatible analytics/product role.",
-      "Source Type": "Official Workday ATS"
+      "Job Status": "Open/Provisional — official Workday requisition indexed; application page live, experience/domain fit is conditional",
+      "Notes": "Early Career-compatible (1–3 years preferred/bonus). Remote GTA. SQL/Python and data-analysis background align; emphasize analytical dashboards and decision support. | 2026-10-30 recheck: Remote GTA; early-career-compatible analytics/product role.\n[2026-10-31 recheck] Rechecked: GTA-remote Product Analyst role remains on official Workday; insurance/product experience is preferred and is the main gap.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4580,9 +4604,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Closed/Expired — third-party listing reports expired Sep 24; official ATS page not accepting submissions",
-      "Notes": "Early Career-compatible (2+ years PM/delivery). Canada-eligible; Toronto hybrid. Strong bridge into digital product operations and delivery, not a pure UX role. | 2026-10-30 recheck: older open/backfill role; retain as a digital product operations option. | 2026-10-31: 2026-10-31 rechecked; keep as historical only.",
-      "Source Type": "Official ATS URL attempted + Jobs.ca"
+      "Job Status": "Open — official iCIMS job page active with Apply; Jobs.ca expired mirror is stale",
+      "Notes": "Early Career-compatible (2+ years PM/delivery). Canada-eligible; Toronto hybrid. Strong bridge into digital product operations and delivery, not a pure UX role. | 2026-10-30 recheck: older open/backfill role; retain as a digital product operations option. | 2026-10-31: 2026-10-31 rechecked; keep as historical only.\n[2026-10-31 recheck] Rechecked: official iCIMS page is active with Apply; Toronto hybrid, 2+ years project management/digital technology coordination, salary CAD $53k–$70k. Ignore stale Jobs.ca expired mirror.",
+      "Source Type": "Official ATS (iCIMS) + Jobs.ca Verified Employer Source"
     },
     {
       "Date Checked": "2026-10-30",
@@ -4717,7 +4741,7 @@
       "Source Type": "LinkedIn + Jobs.ca"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "CIBC",
       "Job Title": "Associate, Technology Graduate Rotational Program (TGRP) — 2027 (Historical — closed)",
@@ -4734,9 +4758,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-08-28",
-      "Job Status": "Closed / Expired — deadline passed and eligibility prerequisite not met.",
-      "Notes": "Graduate pass monitoring only; retain for future cohorts if the prior-CIBC-co-op requirement changes.",
-      "Source Type": "Official ATS / Workday"
+      "Job Status": "Closed/Expired — official Workday end date Aug 28, 2026; prior CIBC co-op/internship within the last year required",
+      "Notes": "Graduate pass monitoring only; retain for future cohorts if the prior-CIBC-co-op requirement changes.\n[2026-10-31 recheck] Rechecked: official Workday posting closed Aug 28; prior CIBC co-op/internship requirement is not met. Monitor future cohorts only.",
+      "Source Type": "Official ATS (Workday)"
     },
     {
       "Date Checked": "2026-10-30",
@@ -4827,7 +4851,7 @@
       "Source Type": "LinkedIn recruiter post"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "OceanMD",
       "Job Title": "Product Launch Specialist",
@@ -4844,9 +4868,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "Until filled",
-      "Job Status": "Open — official ApplyToJob listing live; application form and Submit Application control verified.",
-      "Notes": "New this run. Official ApplyToJob listing checked 2026-10-30; Toronto hybrid 2–3 days/week; full-time; role supports product launches and client initiatives. Strong bridge from current design/build internal-platform project, Kyndryl enterprise UX and operations background. Final submission not performed.",
-      "Source Type": "Official ApplyToJob ATS (company careers)"
+      "Job Status": "Open — official ApplyToJob application page live; Toronto",
+      "Notes": "New this run. Official ApplyToJob listing checked 2026-10-30; Toronto hybrid 2–3 days/week; full-time; role supports product launches and client initiatives. Strong bridge from current design/build internal-platform project, Kyndryl enterprise UX and operations background. Final submission not performed.\n[2026-10-31 recheck] Rechecked: official application page remains live; product launch/implementation role, Toronto; adjacent product operations fit.",
+      "Source Type": "Official ATS / ApplyToJob"
     },
     {
       "Date Checked": "2026-10-30",
@@ -4893,7 +4917,7 @@
       "Source Type": "LinkedIn Jobs — employer listing; official ATS not resolved"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-10-31",
       "New This Run": "No",
       "Company": "Upper Canada Soap",
       "Job Title": "Associate Product Manager – CPG/Retail",
@@ -4910,9 +4934,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Provisional Open — LinkedIn employer repost visible ~6 days ago; Apply button shown; prior Jobs.ca listing expired; official ATS not found.",
-      "Notes": "New this run. Adjacent early-career product role leveraging retail operations and graphic/brand design; current LinkedIn repost may be a new intake, but verify employer status before investing time.",
-      "Source Type": "LinkedIn Jobs + Jobs.ca historical listing"
+      "Job Status": "Open/Provisional — LinkedIn employer listing current; location and application route need confirmation",
+      "Notes": "New this run. Adjacent early-career product role leveraging retail operations and graphic/brand design; current LinkedIn repost may be a new intake, but verify employer status before investing time.\n[2026-10-31 recheck] Rechecked: CPG/retail APM listing remains visible; 3+ years product/marketing experience. Location metadata conflicts across mirrors; confirm GTA and employer application before applying.",
+      "Source Type": "LinkedIn Jobs"
     },
     {
       "Date Checked": "2026-10-30",
@@ -5180,29 +5204,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
-      "Company": "Compu-Vision Consulting Inc.",
-      "Job Title": "UX Designer – Junior (MSON #13; vendor contract)",
-      "Track": "UX Designer — Junior / Public-sector vendor contract",
-      "Company Type": "Canadian consulting/staffing vendor; client not disclosed",
-      "Location": "Toronto, Brampton, Hamilton, Mississauga, Vaughan, ON",
-      "Work Mode": "Not specified; confirm client-site / hybrid expectations",
-      "Experience Requirement": "0–3 years UX design",
-      "Core Requirements": "Figma; UX research; journey maps/service blueprints; WCAG 2.0 AA; JAWS; Miro; Visio; Azure DevOps; Agile; design handoff",
-      "Salary": "CAD $400–600/day",
-      "Application Link": "https://compuvis.talentnest.com/en/posting/244418",
-      "Match %": 92,
-      "Main Risks": "Contract term and actual client not disclosed; work mode unclear; no Ontario Government RQ ID; vendor submission",
-      "Application Status": "Not Applied",
-      "Application Date": null,
-      "Deadline": "2026-11-14",
-      "Job Status": "Open — TalentNest vendor posting live; apply by Nov 14; client and RQ ID not disclosed",
-      "Notes": "New 2026-10-31. Strong enterprise UX/accessibility match; not counted as OPS direct hire because client/RQ ID are not disclosed.",
-      "Source Type": "Compu-Vision TalentNest vendor ATS"
-    },
-    {
-      "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Let's Roam",
       "Job Title": "AI-Native Product Designer — Design to React Native Build",
       "Track": "Product Design / Design Engineer / Early Career",
@@ -5224,7 +5226,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Product Analyst",
       "Track": "Product Analyst / Early Career",
@@ -5246,7 +5248,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "RBC",
       "Job Title": "Business Analyst – RBC Amplify 2027 (R-0000191191)",
       "Track": "Graduate / Early Career — Business Analyst (student-only filter)",
@@ -5256,19 +5258,19 @@
       "Experience Requirement": "Must be currently enrolled and graduating Aug 2027–Jun 2028; 2026 graduate is ineligible",
       "Core Requirements": "Business analysis; technology/business collaboration; student cohort; full-time program",
       "Salary": "Not disclosed",
-      "Application Link": "https://jobs.rbc.com/ca/en/job/R-0000191191/Business-Analyst-RBC-Amplify-2027-Toronto-ON",
+      "Application Link": "https://jobs.rbc.com/ca/en/job/R-0000191191/Business-Analyst-RBC-Amplify-2027-Toronto",
       "Match %": 55,
       "Main Risks": "Graduation window mismatch; student-only cohort; not eligible for 2026 graduate",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official RBC Workday listing live; eligibility not met (graduating Aug 2027–Jun 2028)",
-      "Notes": "New 2026-10-31. New requisition R-0000191191; older Amplify BA requisition closed Oct 5.",
-      "Source Type": "Official Workday ATS"
+      "Job Status": "Closed/Expired — official RBC ATS reports the job is filled; student-only graduation window Aug 2027–Jun 2028 excludes 2026 graduates",
+      "Notes": "New 2026-10-31. New requisition R-0000191191; older Amplify BA requisition closed Oct 5.\n[2026-10-31 recheck] Rechecked: official ATS page says filled. Posting requires current enrollment and graduation Aug 2027–Jun 2028; user expects 2026 graduation, so ineligible even if reopened.",
+      "Source Type": "Official ATS (RBC Careers)"
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Bell",
       "Job Title": "2027 Graduate Program – Customer Experience",
       "Track": "Graduate / Early Career — Customer Experience (eligibility/location filter)",
@@ -5284,13 +5286,13 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-16",
-      "Job Status": "Open — official Bell page live; eligibility and location do not fit",
-      "Notes": "New 2026-10-31 filtered record. Keep for cohort monitoring only; not recommended for application.",
+      "Job Status": "Open — official Bell ATS active through 2026-11-16; filtered/ineligible under Bell graduate eligibility; do not recommend",
+      "Notes": "New 2026-10-31 filtered record. Keep for cohort monitoring only; not recommended for application.\n[2026-10-31 recheck] Bell graduate eligibility rechecked: less than 3 years combined professional experience excluding internships and no more than 3 years between degrees; user’s BA 2016 → DTI master’s start after 2023 and >3 years professional experience do not meet criteria. Some streams also list Montreal/Verdun; only Toronto/GTA locations retained for monitoring.",
       "Source Type": "Official Bell Careers / ATS"
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "STAN AI",
       "Job Title": "UI/UX Designer – Product Design & Frontend",
       "Track": "UX/UI Designer / Product UI",
@@ -5312,7 +5314,7 @@
     },
     {
       "Date Checked": "2026-10-31",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Ontario Government — vendor requisition RQ11544",
       "Job Title": "UX Designer — Senior (RQ11544)",
       "Track": "UX / Service Design — OPS vendor contract (senior; filtered)",
@@ -5328,9 +5330,295 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-11-14",
-      "Job Status": "Unverified/likely closed — supplier cutoff passed; later mirror date not confirmed; no direct OPS application route",
-      "Notes": "New 2026-10-31 canonical RQ record. Vendor alias: S M Software Solutions / MovoJobs. Do not count as an open direct OPS role.",
+      "Job Status": "Open — vendor posting indexed/current; filtered by 5+ years/seniority",
+      "Notes": "New 2026-10-31 canonical RQ record. Vendor alias: S M Software Solutions / MovoJobs. Do not count as an open direct OPS role.\n[2026-10-31 recheck] Rechecked Oct 31: senior vendor requisition remains outside the 0–3/2+ year target; not recommended.",
       "Source Type": "Vendor mirror (S M Software Solutions / MovoJobs)"
+    },
+    {
+      "Company": "Rogers Communications",
+      "Job Title": "Sr Analyst, Wireline eCommerce (Req 340177)",
+      "Track": "Product Operations / Digital Product Analyst",
+      "Company Type": "Canadian Telecom",
+      "Location": "Toronto, ON",
+      "Work Mode": "On-site (Rogers corporate roles)",
+      "Experience Requirement": "2+ years in digital product/eCommerce, business analysis, project delivery, digital experience or related technology role",
+      "Core Requirements": "Digital product delivery; eCommerce buyflow/customer journey; business analysis; requirements and user stories; cross-functional product/engineering/analytics collaboration; QA/UAT/reporting; Agile/Jira/Confluence; data-driven optimization",
+      "Salary": "Not published by employer",
+      "Application Link": "https://jobs.rogers.com/job/Toronto-Sr-Analyst%2C-Dig-Wireln-Buyflow-ON/1413792300/",
+      "Match %": 90,
+      "Main Risks": "Senior Analyst title; on-site Toronto; telecom/eCommerce domain preferred; formal product analytics/BA experience may be assessed",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Open — official Rogers ATS listing active; Apply Now available",
+      "Notes": "New this run. Strong fit for enterprise UX/product collaboration, workflow analysis, accessibility and digital transformation. Role requires 2+ years in related digital product/eCommerce/BA/project-delivery work; no salary or deadline published on official page.",
+      "Source Type": "Official ATS (Rogers SuccessFactors)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Rogers Communications",
+      "Job Title": "Product Manager, Wireline eCommerce (Req 340190)",
+      "Track": "Product Management / Digital eCommerce — Stretch",
+      "Company Type": "Canadian Telecom",
+      "Location": "Brampton, ON",
+      "Work Mode": "On-site (Rogers corporate roles)",
+      "Experience Requirement": "3–5 years digital product management/product ownership/eCommerce/customer experience",
+      "Core Requirements": "Product roadmap/backlog; eCommerce conversion and customer experience; analytics; Agile delivery; Jira/Confluence; cross-functional UX/engineering/marketing collaboration; product ownership",
+      "Salary": "Not published by employer",
+      "Application Link": "https://jobs.rogers.com/job/Brampton-Product-Manager-ON/1415976500/",
+      "Match %": 78,
+      "Main Risks": "3–5 years digital PM/PO experience; Brampton on-site; user has UX/product collaboration but limited formal product ownership",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Open — official Rogers ATS listing active; Apply Now available",
+      "Notes": "New this run. Stretch PM-track role in GTA retail/eCommerce; apply only if framing current product-design and operations work around product discovery, workflow ownership and cross-functional delivery.",
+      "Source Type": "Official ATS (Rogers SuccessFactors)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Randstad Canada (client undisclosed)",
+      "Job Title": "Junior UX Designer (Refs WW3GI33PROEN / OQM2VCOPROEN)",
+      "Track": "UX/Product Design — Junior / Contract",
+      "Company Type": "Global staffing agency; Canadian contract; client undisclosed",
+      "Location": "Toronto, ON",
+      "Work Mode": "Fully on-site, 5 days/week",
+      "Experience Requirement": "Relevant UX/UI experience; no minimum years stated; public-sector/enterprise experience listed as nice-to-have",
+      "Core Requirements": "End-to-end user research; interviews/surveys; synthesis; journey maps; design workshops; Figma/Canvas; wireframes/prototypes; usability testing; design systems; Ontario Design System; WCAG 2.1 AA; digital service standards; legacy modernization; cross-functional collaboration",
+      "Salary": "Not disclosed",
+      "Application Link": "https://www.randstad.ca/fr/jobs/junior-ux-designer_toronto_47651157/",
+      "Match %": 94,
+      "Main Risks": "6-month contract; fully on-site; client/RQ not disclosed; possible relationship to OPS RQ11617/11618 is unconfirmed; must demonstrate research/workshop experience",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Open — current Randstad posting with Apply; 6-month contract",
+      "Notes": "New this run. Two Randstad reference numbers merged under Company + Job Title. Public-sector experience is nice-to-have on this listing, not stated as mandatory. It may be related to Ontario Design System vendor requisitions, but no RQ ID is disclosed; do not merge with RQ11617/11618 without confirmation.",
+      "Source Type": "Randstad Careers (staffing vendor)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Swoon",
+      "Job Title": "UX/UI Designer, Research-Led (Construction Tech) — 6-Month Contract",
+      "Track": "UX/Product Design / Enterprise Construction Tech — Stretch",
+      "Company Type": "Staffing / global client; Canada contract (T4 only)",
+      "Location": "Toronto, ON",
+      "Work Mode": "Mostly remote; 1–2 days on-site per month in GTA",
+      "Experience Requirement": "3–5 years UX/Product/Interaction Design",
+      "Core Requirements": "Research-led UX/UI; complex data-heavy enterprise platform; construction/site workflows; AI-enabled product collaboration; interaction design; high-fidelity UI; stakeholder and engineering collaboration",
+      "Salary": "CAD $45–$55/hour (T4 only)",
+      "Application Link": "https://ca.linkedin.com/jobs/view/user-experience-designer-at-swoon-4484544995",
+      "Match %": 88,
+      "Main Risks": "3–5 years requirement; 6-month contract; client unnamed; T4 only; possible duplicate client with other anonymous construction-tech listings but not confirmed",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Open — LinkedIn recruiter posting active; posted within 24 hours",
+      "Notes": "New this run. Strong domain match to current design-build/internal project platform work. Stretch on formal UX tenure; no official client ATS found because client is undisclosed.",
+      "Source Type": "LinkedIn Jobs (staffing intermediary)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Bell",
+      "Job Title": "2027 Graduate Program, Technology Services — Emerging AI and Data Solutions (Req 432894)",
+      "Track": "Graduate / Early Career — AI & Data Rotational (eligibility-filtered)",
+      "Company Type": "Canadian Telecom",
+      "Location": "Toronto, ON / Verdun, QC",
+      "Work Mode": "Hybrid, minimum 3 days/week in office",
+      "Experience Requirement": "Related Bachelor’s/Master’s/diploma; less than 3 years combined professional work experience excluding internships; Bell graduate-program eligibility",
+      "Core Requirements": "Data science/ML/data engineering; Python/SQL/R; AI/ML and GenAI; ETL/data models; cloud; Agile; business-to-technical requirements; systems thinking",
+      "Salary": "Not published",
+      "Application Link": "https://jobs.bce.ca/bell/job/Verdun-2027-Graduate-Program%2C-Technology-Services-Emerging-AI-and-Data-Solutions-QC/1431592500/",
+      "Match %": 55,
+      "Main Risks": "Open through Nov 16 but user exceeds <3-year professional-experience cap and BA-to-master’s gap exceeds Bell’s general eligibility window; role is technical AI/data rather than UX/Product",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2026-11-16",
+      "Job Status": "Open — official Bell ATS active; filtered/ineligible; do not recommend",
+      "Notes": "New this run. Official Bell posting confirms Toronto as one location and requires less than 3 years combined professional experience excluding internships. User’s 2016 BA and later DTI master’s plus prior professional work do not meet general Bell graduate criteria.",
+      "Source Type": "Official ATS (Bell)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Bell",
+      "Job Title": "2027 Graduate Program, Technology Services — Delivery, Excellence & Architecture (Req 432718)",
+      "Track": "Graduate / Early Career — Digital Transformation Rotational (eligibility-filtered)",
+      "Company Type": "Canadian Telecom",
+      "Location": "Toronto, ON / Verdun, QC",
+      "Work Mode": "Hybrid, minimum 3 days/week in office",
+      "Experience Requirement": "Related Bachelor’s/Master’s/diploma; less than 3 years combined professional work experience excluding internships; Bell graduate-program eligibility",
+      "Core Requirements": "Technology delivery; architecture; operational excellence; process improvement; Agile; user stories/process flows; enterprise workflows; SQL/NoSQL; APIs/cloud; AI tools; stakeholder coordination",
+      "Salary": "Not published",
+      "Application Link": "https://jobs.bce.ca/bell/job/Verdun-2027-Graduate-Program%2C-Technology-Services-Delivery%2C-Excellence-%26-Architecture-QC/1431589800/",
+      "Match %": 62,
+      "Main Risks": "Open through Nov 16 but user exceeds <3-year professional-experience cap and BA-to-master’s gap exceeds Bell’s general eligibility window; technical delivery stream, not UX design",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2026-11-16",
+      "Job Status": "Open — official Bell ATS active; filtered/ineligible; do not recommend",
+      "Notes": "New this run. Official Bell posting includes Toronto as a location and focuses on delivery/architecture/operational excellence. Eligibility criteria exclude the user’s graduation/work-history profile.",
+      "Source Type": "Official ATS (Bell)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Manulife",
+      "Job Title": "GRO Program — Canadian Segment (Toronto, 2027 cohort, Req JR26061457)",
+      "Track": "Graduate / Early Career — Product Analyst & Business Rotational (closed/ineligible)",
+      "Company Type": "Canadian Insurance / Global Financial Services",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "Expected graduation Spring 2027 from an undergraduate degree in Business/Commerce/Economics/CS/Analytics or related",
+      "Core Requirements": "Business/Product Analyst; digital capability projects; process improvement; data analytics; strategy; customer experience; cross-functional operations",
+      "Salary": "CAD $62,850–$104,750 (published range)",
+      "Application Link": "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/toronto-ontario/gro---canadian-segment--toronto-_jr26061457",
+      "Match %": 70,
+      "Main Risks": "Official Workday end date Oct 5, 2026; expected Spring 2027 undergraduate graduation excludes 2026 graduate; no current application",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2026-10-05",
+      "Job Status": "Closed/Expired — official Workday cohort posting ended Oct 5; monitor next intake",
+      "Notes": "New this run. Relevant product/business analyst stream but the 2027 cohort requires Spring 2027 undergraduate graduation; not eligible as a 2026 graduate.",
+      "Source Type": "Official ATS (Workday)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Manulife",
+      "Job Title": "GRO Program — Technology (Toronto/Waterloo, 2027 cohort, Req JR26082027 / JR26061548)",
+      "Track": "Graduate / Early Career — Technology Rotational (closed/ineligible)",
+      "Company Type": "Canadian Insurance / Global Financial Services",
+      "Location": "Toronto / Waterloo, ON",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "Expected graduation Spring 2027 from an undergraduate degree in Computer Engineering, Software Engineering, Computer Science or related",
+      "Core Requirements": "Full-stack software engineering; data engineering; Java/JavaScript/React; APIs/microservices; Git/CI/CD; cloud; testing; Agile",
+      "Salary": "CAD $69,525–$115,875 (published range)",
+      "Application Link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/GRO-Program---Technology--Toronto-_JR26082027",
+      "Match %": 62,
+      "Main Risks": "Official Workday end date Oct 5, 2026; expected Spring 2027 graduation excludes 2026 graduate; technical software/data stream rather than product UI",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2026-10-05",
+      "Job Status": "Closed/Expired — official Workday cohort posting ended Oct 5; monitor next intake",
+      "Notes": "New this run. Two Workday records for the same Technology stream were merged under Company + Job Title; both show the Oct 5 end date despite stale 'time left' text.",
+      "Source Type": "Official ATS (Workday)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Manulife",
+      "Job Title": "GRO Program — Operations (2026 cohort, Toronto)",
+      "Track": "Graduate / Early Career — Operations Rotational (closed/ineligible)",
+      "Company Type": "Canadian Insurance / Global Financial Services",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "Expected graduation Spring 2026 from an accredited university in Business Administration or related",
+      "Core Requirements": "Operations; process assessment; data analysis/visualization; customer experience; requirements documentation; continuous improvement; financial-services operations",
+      "Salary": "CAD $55,125–$91,875 (archived listing range)",
+      "Application Link": "https://careers.manulife.com/global/en/new-graduate",
+      "Match %": 65,
+      "Main Risks": "2026 cohort closed Sep 30; expected Spring 2026 graduation does not match October 2026 completion; no current job-specific ATS page",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2026-09-30",
+      "Job Status": "Closed/Expired — 2026 cohort closed; monitor next intake",
+      "Notes": "New this run. Archived MovoJobs listing confirms the cohort closed Sep 30 and required Spring 2026 graduation. Official Manulife GRO program page retained as monitoring link.",
+      "Source Type": "Official Careers Program Page + archived MovoJobs listing",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Manulife",
+      "Job Title": "GRO Program — Marketing & Strategy (monitor; next cohort)",
+      "Track": "Graduate / Early Career — Digital Experience / Marketing Technology (monitor)",
+      "Company Type": "Canadian Insurance / Global Financial Services",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid (program stream)",
+      "Experience Requirement": "New-graduate cohort; specific graduation window to be verified when next job-specific posting opens",
+      "Core Requirements": "Marketing technology; marketing measurement; demand generation; strategy/planning; digital experiences; customer personalization; cross-functional transformation",
+      "Salary": "Not published for monitor record",
+      "Application Link": "https://careers.manulife.com/global/en/new-graduate",
+      "Match %": 72,
+      "Main Risks": "No current job-specific requisition found; program page is evergreen; eligibility and graduation window must be checked when postings open",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Monitor — official GRO program page active; no current job-specific application found",
+      "Notes": "New this run. Monitor the Marketing & Strategy stream because rotations include Marketing Technology, Marketing Measurement, Demand Generation and Strategy & Planning; do not treat as currently open.",
+      "Source Type": "Official Careers Program Page",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Intact Financial Corporation",
+      "Job Title": "Product Owner — Identity Governance Administration Platform (Req R155761)",
+      "Track": "Product Management / Enterprise Digital Transformation — Stretch",
+      "Company Type": "Canadian Insurance",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "2–3 years in a similar product/business/technology role; 1+ year Product Owner/Manager experience or equivalent",
+      "Core Requirements": "Product backlog; user stories; Agile delivery; enterprise identity governance; stakeholder management; roadmap/prioritization; technology and business collaboration",
+      "Salary": "CAD $94,200–$115,200",
+      "Application Link": "https://careers.intactfc.com/product-owner-identity-governance-administration-platform/job/R155761",
+      "Match %": 78,
+      "Main Risks": "Identity governance domain; 1+ year formal PO/PM experience; user’s experience is UX/product design and project coordination rather than a formal PO title",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Open — official Intact ATS listing active; Apply Now available",
+      "Notes": "New this run. Strong enterprise workflow/product collaboration fit; apply as a stretch if positioning the current design-build platform and Kyndryl work around backlog, requirements and cross-functional delivery.",
+      "Source Type": "Official ATS (Intact Careers)",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "Intact Financial Corporation",
+      "Job Title": "New Grad Tech Development Program — Software Development & Cloud (monitor)",
+      "Track": "Graduate / Early Career — Technology Rotational (monitor)",
+      "Company Type": "Canadian Insurance",
+      "Location": "Canada (program locations vary; current stream location not specified)",
+      "Work Mode": "Not specified",
+      "Experience Requirement": "Recent graduate within 1 year; Bachelor’s/Master’s in Computer Science, Software Engineering, IT or related field",
+      "Core Requirements": "Software development/cloud foundations; technical rotations; enterprise technology; programming and data foundations",
+      "Salary": "Not published",
+      "Application Link": "https://careers.intactfc.com/new-grads-tech-development-program",
+      "Match %": 72,
+      "Main Risks": "Program page is active but no job-specific requisition found on current careers board; not UX/Product design; DTI/Information Systems degree-field equivalency needs confirmation",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "",
+      "Job Status": "Monitor — official program page active; no current job-specific application found",
+      "Notes": "New this run. Eligibility states recent graduates within one year and a related technical degree; user’s 2026 graduation may fit if the next Software Development & Cloud intake opens, but there is no active requisition to apply to now.",
+      "Source Type": "Official Careers Program Page",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
+    },
+    {
+      "Company": "McGraw Hill",
+      "Job Title": "Associate Portfolio Manager (Toronto)",
+      "Track": "Product Management / Education Portfolio — Stretch",
+      "Company Type": "US/global EdTech with Canadian entity",
+      "Location": "Toronto, ON",
+      "Work Mode": "Hybrid, approximately 1 day/week on-site",
+      "Experience Requirement": "3–5 years relevant product/portfolio/education or publishing experience; bachelor’s degree",
+      "Core Requirements": "Portfolio/product strategy; roadmap and content lifecycle; author/SME collaboration; market/performance insights; cross-functional delivery; education publishing",
+      "Salary": "CAD $70,000–$75,000",
+      "Application Link": "https://www.jobs.ca/mcgraw-hill-llc/jobs/associate-portfolio-manager-toronto-on-da974fe2ea9a",
+      "Match %": 70,
+      "Main Risks": "3–5 years relevant experience; publishing/author management/P&L exposure preferred; current Jobs.ca listing conflicts with an older expired mirror; job-specific iCIMS page not resolved",
+      "Application Status": "Not Applied",
+      "Application Date": "",
+      "Deadline": "2027-09-16",
+      "Job Status": "Open/Provisional — current Jobs.ca Verified Employer Source listing; apply-on-employer-site route present; confirm employer portal",
+      "Notes": "New this run. Current Jobs.ca Verified Employer Source listing is posted Sep 20 and applies by Sep 16, 2027; an older mirror expired Oct 1. Toronto hybrid, 1 day/week on-site. Stretch due lack of publishing/portfolio ownership experience.",
+      "Source Type": "Jobs.ca Verified Employer Source",
+      "Date Checked": "2026-10-31",
+      "New This Run": "Yes"
     }
   ]
 }
