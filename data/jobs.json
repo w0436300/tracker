@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 231,
-    "syncStatus": "GitHub main updated 2026-10-30 20:37 ET; Excel tracker generation completed in this run; Applied statuses preserved; no site code files changed.",
+    "syncStatus": "GitHub main updated 2026-10-30 20:37 ET; Excel tracker to be synced in this run; Applied statuses preserved; no site code files changed.",
     "lastScan": {
       "runAt": "2026-10-30T20:37:22-04:00",
       "officialAtsCandidateCount": 32,
@@ -54,7 +54,9 @@
         "7d public-index scan",
         "30d public-index scan"
       ],
-      "notes": "Three independent discovery passes completed: official company Careers/ATS; LinkedIn Jobs public-index scans across 24h/7d/30d; GOjobs/Indeed/Jobs.ca/MovoJobs/other supplemental sources. Counts are manual unique postings reviewed from indexed results; LinkedIn native filter combinations were not fully accessible, so this is not a claim of exhaustive LinkedIn result counts. Graduate/Early Talent pass reviewed 18 cohorts/pages; no new eligible Graduate cohort. Bell 2027 remains ineligible for 2016 Bachelor's + 2024 postgraduate enrolment gap; Konrad Spring 2027 eligibility remains uncertain; Manulife Product Design internship is student-only and deadline Oct30. OPS direct-hire new=0; vendor RQ11539/RQ11617/RQ11618/RQ11744 closed/expired and merged by requisition ID. 16 new tracker records; 14 current open/conditional, 2 closed/expired; 6 are filtered/conditional by seniority, domain or eligibility. Rechecked applied roles remain Applied and are not re-recommended."
+      "notes": "Three independent discovery passes completed: official company Careers/ATS; LinkedIn Jobs public-index scans across 24h/7d/30d; GOjobs/Indeed/Jobs.ca/MovoJobs/other supplemental sources. Counts are manual unique postings reviewed from indexed results; LinkedIn native filter combinations were not fully accessible, so this is not a claim of exhaustive LinkedIn result counts. Graduate/Early Talent pass reviewed 18 cohorts/pages; no new eligible Graduate cohort. Bell 2027 remains ineligible for 2016 Bachelor's + 2024 postgraduate enrolment gap; Konrad Spring 2027 eligibility remains uncertain; Manulife Product Design internship is student-only and deadline Oct30. OPS direct-hire new=0; vendor RQ11539/RQ11617/RQ11618/RQ11744 closed/expired and merged by requisition ID. 16 new tracker records: 12 current open/conditional and 4 closed/expired; 6 are filtered/conditional by seniority, domain or eligibility. Rechecked approximately 40 existing postings/ATS records; some dynamic pages prevent final-submit verification. Rechecked Applied roles remain Applied and are not re-recommended.",
+      "newClosedExpired": 4,
+      "recheckedExistingCount": 40
     }
   },
   "jobs": [
