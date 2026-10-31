@@ -9,8 +9,8 @@
       "North York",
       "Vaughan"
     ],
-    "total": 232,
-    "syncStatus": "GitHub main updated 2026-10-30 20:37 ET; Excel tracker sync pending; Applied statuses preserved; no site code files changed.",
+    "total": 231,
+    "syncStatus": "GitHub main updated 2026-10-30 20:37 ET; Excel tracker generation completed in this run; Applied statuses preserved; no site code files changed.",
     "lastScan": {
       "runAt": "2026-10-30T20:37:22-04:00",
       "officialAtsCandidateCount": 32,
@@ -19,16 +19,17 @@
       "graduateCandidateCount": 18,
       "candidateCount": 64,
       "duplicates": 48,
-      "new": 26,
-      "newCurrentOpen": 14,
+      "new": 16,
+      "newCurrentOpen": 12,
       "newRecommended": 3,
       "newStretch": 6,
       "newProvisional": 3,
       "newFilteredRecords": 6,
-      "stillRecommendedCount": 4,
+      "stillRecommendedCount": 31,
+      "stillOpenConditionalCount": 45,
       "appliedPreserved": 15,
       "closedExpiredTotal": 60,
-      "openTotal": 70,
+      "openTotal": 71,
       "experienceFiltered": 17,
       "closedFiltered": 8,
       "eligibilityFiltered": 7,
@@ -53,7 +54,7 @@
         "7d public-index scan",
         "30d public-index scan"
       ],
-      "notes": "Three independent discovery passes completed: official company Careers/ATS; LinkedIn Jobs public-index scans across 24h/7d/30d; GOjobs/Indeed/Jobs.ca/MovoJobs/other supplemental sources. Counts are manual unique postings reviewed from indexed results; LinkedIn native filter combinations were not fully accessible, so this is not a claim of exhaustive LinkedIn result counts. Graduate/Early Talent pass reviewed 18 cohorts/pages; no new eligible Graduate cohort. Bell 2027 remains ineligible for 2016 Bachelor's + 2024 postgraduate gap; Konrad Spring 2027 eligibility remains uncertain; Manulife Product Design internship is student-only and deadline Oct30. OPS direct-hire new=0; vendor RQ11539/RQ11617/RQ11618/RQ11744 closed/expired and merged by requisition ID. 16 new tracker records; 14 current open/conditional, 2 closed/expired; 6 are filtered/conditional by seniority, domain or eligibility. Rechecked applied roles remain Applied and are not re-recommended."
+      "notes": "Three independent discovery passes completed: official company Careers/ATS; LinkedIn Jobs public-index scans across 24h/7d/30d; GOjobs/Indeed/Jobs.ca/MovoJobs/other supplemental sources. Counts are manual unique postings reviewed from indexed results; LinkedIn native filter combinations were not fully accessible, so this is not a claim of exhaustive LinkedIn result counts. Graduate/Early Talent pass reviewed 18 cohorts/pages; no new eligible Graduate cohort. Bell 2027 remains ineligible for 2016 Bachelor's + 2024 postgraduate enrolment gap; Konrad Spring 2027 eligibility remains uncertain; Manulife Product Design internship is student-only and deadline Oct30. OPS direct-hire new=0; vendor RQ11539/RQ11617/RQ11618/RQ11744 closed/expired and merged by requisition ID. 16 new tracker records; 14 current open/conditional, 2 closed/expired; 6 are filtered/conditional by seniority, domain or eligibility. Rechecked applied roles remain Applied and are not re-recommended."
     }
   },
   "jobs": [
@@ -1909,45 +1910,23 @@
       "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Loblaw Digital",
-      "Job Title": "Product Designer",
-      "Track": "UX / Product Design",
-      "Company Type": "Retail / eCommerce",
-      "Location": "Toronto, ON",
-      "Work Mode": "On-site",
-      "Experience Requirement": "1–3+ years",
-      "Core Requirements": "Preserved from GitHub historical tracker; role details require fresh verification.",
-      "Salary": "CA$80K–110K",
-      "Application Link": "https://www.jobs.ca/loblaw-digital/jobs/product-designer-toronto-on-d2e177ffb4fb",
-      "Match %": null,
-      "Main Risks": "Historical import only; application status not reverified on 2026-10-11.",
-      "Application Status": "Not Applied",
-      "Application Date": null,
-      "Deadline": null,
-      "Job Status": "Open — official Loblaw Careers page live; Apply link visible.",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 16 evening: Jobs.ca listed apply-by Oct 25; final employer ATS submit not retested. | 2026-10-30 recheck: digital product design; existing vacancy.",
-      "Source Type": "Jobs.ca"
-    },
-    {
-      "Date Checked": "2026-10-30",
-      "New This Run": "No",
-      "Company": "Loblaw Digital",
       "Job Title": "Product Designer, Buy, Fulfill & Assist",
       "Track": "UX / Product Design",
       "Company Type": "Retail / eCommerce",
       "Location": "Toronto, ON",
       "Work Mode": "Toronto office; exact hybrid cadence not confirmed",
-      "Experience Requirement": "2–4 years Product/UX design on cross-functional digital products; portfolio required.",
-      "Core Requirements": "Preserved from GitHub historical tracker; role details require fresh verification.",
+      "Experience Requirement": "2–4 years product design; responsive web/mobile; enterprise/consumer product collaboration.",
+      "Core Requirements": "End-to-end UX, research, interaction design, design systems, accessibility, Figma, product/engineering collaboration, AI-assisted workflows.",
       "Salary": "CA$80,000–110,000/year",
       "Application Link": "https://careers.loblaw.ca/product-designer/job/R2000708557",
-      "Match %": null,
-      "Main Risks": "Historical import only; application status not reverified on 2026-10-11.",
+      "Match %": 92,
+      "Main Risks": "2–4 years professional product design; Toronto office-based role; shipped product outcomes expected.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Official Loblaw Careers page live; Apply today visible; final downstream form not tested.",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca. | 2026-10-27 evening recheck: Employer requisition R2000708557 remains on careers.loblaw.ca; 2–4y. | 2026-10-30: Rechecked 2026-10-30: excellent alignment with complex retail/customer and colleague workflows, design systems, accessibility, AI-fluent product design, research, validation and product/engineering collaboration.",
-      "Source Type": "Official Careers — Loblaw"
+      "Job Status": "Open — official Loblaw Workday requisition R2000708557 live; Apply Now available; final form not submitted.",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | Oct 15 check: Req R2000708557; 2–4 years; CA$80k–110k; design for retail and internal operations; deadline Oct 25 per Jobs.ca. | 2026-10-27 evening recheck: Employer requisition R2000708557 remains on careers.loblaw.ca; 2–4y. | 2026-10-30: Rechecked 2026-10-30: excellent alignment with complex retail/customer and colleague workflows, design systems, accessibility, AI-fluent product design, research, validation and product/engineering collaboration. | 2026-10-30 recheck: official R2000708557 is the Buy, Fulfill & Assist product role; generic Jobs.ca Product Designer listing merged here. | Merged duplicate generic Loblaw Digital 'Product Designer' Jobs.ca listing into canonical R2000708557 row; prior listing https://www.jobs.ca/loblaw-digital/jobs/product-designer-toronto-on-d2e177ffb4fb.",
+      "Source Type": "Official Workday ATS + Jobs.ca duplicate listing merged"
     },
     {
       "Date Checked": "2026-10-30",
@@ -2236,7 +2215,7 @@
       "Source Type": "LinkedIn (employer posted; ATS not verified)"
     },
     {
-      "Date Checked": "2026-10-19",
+      "Date Checked": "2026-10-30",
       "New This Run": "No",
       "Company": "Bank of China (Canada)",
       "Job Title": "Associate, Product Manager, Personal Deposit",
@@ -2248,14 +2227,14 @@
       "Core Requirements": "Markham priority; Mandarin; BMO banking exposure; product coordination, governance and CX",
       "Salary": "Not published",
       "Application Link": "https://ca.linkedin.com/jobs/view/associate-product-manager-personal-deposit-at-bank-of-china-canada-4470816674",
-      "Match %": 71,
+      "Match %": 66,
       "Main Risks": "3+ years direct banking/product experience; deposit expertise; official ATS not found",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "LinkedIn listed; official ATS unverified",
-      "Notes": "Stretch: apply only if banking-related experience can be evidenced | Posted: Sep 29, 2026",
-      "Source Type": "LinkedIn (employer posted; ATS not verified)"
+      "Job Status": "Open — LinkedIn listing visible; filtered by 3+ years retail/personal banking and deposit-product experience.",
+      "Notes": "Stretch: apply only if banking-related experience can be evidenced | Posted: Sep 29, 2026 | 2026-10-30 recheck: direct retail-banking/deposit-product experience is the main gap; Mandarin may be useful but not confirmed as required.",
+      "Source Type": "LinkedIn Jobs"
     },
     {
       "Date Checked": "2026-10-12 14:05 ET",
@@ -3749,9 +3728,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": "2026-10-27 (supplier cutoff; some syndicated mirrors show Nov24)",
-      "Job Status": "Closed/Expired — supplier deadline passed and estimated start date Oct27 has passed.",
-      "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract. | 2026-10-30: 2026-10-30: canonical RQ11618; vendors found: S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code, The Code Crackers. Treat Oct27 supplier cutoff as controlling; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11618 vendors S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code and The Code Crackers. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID.",
-      "Source Type": "Multiple staffing vendors / LinkedIn / MovoJobs; not direct OPS"
+      "Job Status": "Closed/Expired — supplier cutoff Oct27 10:00 ET and estimated start date Oct27 passed; Bevertec repost is not confirmed as a new requisition.",
+      "Notes": "Single canonical RQ11618 record. Vendor options: Analyst Technical Solutions (linked), Lotus IT Solutions (https://www.lotusit.ca/Jobs/Details/269), Maarut, Source Code, The Code Crackers (their own application says closed). Bevertec / Joblinxsapp / Akkodis show matching junior UX requirements and dates but do not identify requisition ID, so cannot definitively merge them. Separate RQ11617 appears on recruiter social profile and is not merged because requisition ID differs. Start 2026-10-27; end 2027-05-06; 135 business days. Not a direct OPS government employee position. No student-only/return-to-school restriction; Canadian work eligibility assumed from Toronto contract. | 2026-10-30: 2026-10-30: canonical RQ11618; vendors found: S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code, The Code Crackers. Treat Oct27 supplier cutoff as controlling; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11618 vendors S M Software Solutions Inc, Lotus IT Solutions, Analyst Technical Solutions, Maarut, Source Code and The Code Crackers. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: Bevertec LinkedIn Junior UX Designer repost 4482751055 appears to match RQ11618/RQ11617 scope; exact RQ not stated, start date/cutoff passed; no separate OPS row.",
+      "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
       "Date Checked": "2026-10-26",
@@ -3881,9 +3860,9 @@
       "Application Link": "https://www.lotusit.ca/Jobs/Details/270",
       "Match %": 79,
       "Main Risks": "Lotus requires prior OPS/public-sector experience, which may be disqualifying; fully onsite Toronto; vendor requires account sign-in; final application submission unverified; other vendor deadlines vary",
-      "Job Status": "Closed/Expired — supplier deadline passed and estimated start date Oct27 has passed.",
-      "Notes": "RQ11617 is distinct from previously tracked RQ11618 and RQ11616; deduplicate by requisition ID. Lotus source https://www.lotusit.ca/Jobs/Details/270 . A Randstad Junior UX Designer post dated Oct 24 has very similar government design-system requirements but omits RQ ID; probable related vendor lead, not conclusively the same requisition: https://www.randstad.ca/jobs/junior-ux-designer_toronto_47644696/ . Vendor deadline Oct 27 10am ET comes from contemporaneous recruiter LinkedIn post, not official supplier site. Contract end 2027-05-06. No student-only restriction. | 2026-10-30: 2026-10-30: canonical RQ11617; vendors found: S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Similar vendor mirrors do not create separate requisitions; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11617 vendors S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID.",
-      "Source Type": "Multiple staffing vendors / LinkedIn / MovoJobs; not direct OPS"
+      "Job Status": "Closed/Expired — supplier cutoff Oct27 10:00 ET and estimated start date passed; retain one canonical RQ11617 record.",
+      "Notes": "RQ11617 is distinct from previously tracked RQ11618 and RQ11616; deduplicate by requisition ID. Lotus source https://www.lotusit.ca/Jobs/Details/270 . A Randstad Junior UX Designer post dated Oct 24 has very similar government design-system requirements but omits RQ ID; probable related vendor lead, not conclusively the same requisition: https://www.randstad.ca/jobs/junior-ux-designer_toronto_47644696/ . Vendor deadline Oct 27 10am ET comes from contemporaneous recruiter LinkedIn post, not official supplier site. Contract end 2027-05-06. No student-only restriction. | 2026-10-30: 2026-10-30: canonical RQ11617; vendors found: S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Similar vendor mirrors do not create separate requisitions; not direct OPS. | 2026-10-30: Canonical requisition merge: RQ11617 vendors S M Software Solutions Inc, Lotus IT Solutions, AMANST Inc. Do not create one row per vendor. | 2026-10-30 recheck: supplier submission cutoff/start date has passed; keep Closed/Expired and merge all vendor aliases under this requisition ID. | 2026-10-30 recheck: vendors merged under RQ11617 include S M Software Solutions, Lotus IT Solutions, AMANST and other mirrors; cutoff/start date passed.",
+      "Source Type": "Ontario Government vendor requisition — canonical RQ ID; vendor mirrors"
     },
     {
       "Date Checked": "2026-10-25",
@@ -4569,7 +4548,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Interac",
       "Job Title": "Product Manager — RTR (REQ-2352)",
       "Track": "Product Management / Early Career–Mid-level (2–5 years)",
@@ -4591,7 +4570,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Applied Systems",
       "Job Title": "UX Designer — EZLynx Product Team",
       "Track": "UX Designer / Enterprise UX (Stretch)",
@@ -4602,18 +4581,18 @@
       "Core Requirements": "B2B insurance workflows; user research; usability testing; IA; wireframes/prototypes/coded prototypes; Figma; analytics; cross-functional product/engineering collaboration",
       "Salary": "CA$100,000–140,000 (third-party indexed range)",
       "Application Link": "https://canada-appliedsystems.icims.com/jobs/7605/ux-designer/job?in_iframe=1",
-      "Match %": 82,
-      "Main Risks": "Official page describes senior-level UX work and asks 3–5+ years; direct UX experience may be below threshold; insurance SaaS domain preferred.",
+      "Match %": 72,
+      "Main Risks": "3–5+ years UX; B2B SaaS; official role text appears US-focused despite US/CA location label; Canada payroll/remote eligibility not confirmed.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official iCIMS job page live; reposted within the last 30 days; Apply control visible, final submission not tested.",
-      "Notes": "Stretch role but strong enterprise/financial-services workflow fit. Apply only if portfolio clearly demonstrates end-to-end research, complex workflows, implementation and outcomes.",
-      "Source Type": "Official ATS / iCIMS + Built In Toronto"
+      "Job Status": "Open — official iCIMS page live, but Canada eligibility is conflicting (US/CA label vs US-focused role text); senior 3–5+ years; do not prioritize until Canada location confirmed.",
+      "Notes": "Stretch role but strong enterprise/financial-services workflow fit. Apply only if portfolio clearly demonstrates end-to-end research, complex workflows, implementation and outcomes. | 2026-10-30 recheck: official iCIMS page live; location/eligibility text conflicts, so not treated as confirmed Canada-eligible.",
+      "Source Type": "Official iCIMS ATS — Canada eligibility conflict"
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Aecon Group Inc.",
       "Job Title": "Jr. Product Manager (Historical — closed)",
       "Track": "Product Management / Early Career (Historical)",
@@ -4635,7 +4614,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Euna Solutions",
       "Job Title": "Junior Product Owner (Historical — closed)",
       "Track": "Product Owner / Early Career (Historical)",
@@ -4657,7 +4636,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Infinite Investment Systems",
       "Job Title": "UX Designer (Historical — closed)",
       "Track": "UX Designer / Financial Services (Historical)",
@@ -4679,7 +4658,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Red Oak Technologies",
       "Job Title": "Design Engineer (UI/UX) (Historical — closed)",
       "Track": "Design Engineer / UI UX (Historical)",
@@ -4701,7 +4680,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "CIBC",
       "Job Title": "Associate, Technology Graduate Rotational Program (TGRP) — 2027 (Historical — closed)",
       "Track": "Graduate / Early Career (Historical)",
@@ -4723,7 +4702,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Siemens Canada",
       "Job Title": "Project Specialist — New Graduate, 12-Month Contract (Experience@Siemens) (Historical — closed)",
       "Track": "Graduate / Project Coordinator (Historical)",
@@ -4745,7 +4724,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Manulife",
       "Job Title": "Digital Product Owner (JR26041219) (Historical — closed)",
       "Track": "Digital Product / Product Owner (Historical)",
@@ -4789,7 +4768,7 @@
     },
     {
       "Date Checked": "2026-10-30",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Akkodis",
       "Job Title": "Junior UX Designer (B2B Contract; client/req ID undisclosed) (Historical — expired)",
       "Track": "UX Designer / Early Career (Historical vendor lead)",
