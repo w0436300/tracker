@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31 15:02 ET",
+    "lastUpdated": "2026-10-31 19:27 ET",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_1405.xlsx",
     "priorityLocations": [
@@ -10,113 +10,29 @@
       "Vaughan"
     ],
     "total": 266,
-    "syncStatus": "GitHub main and Excel tracker updated in this run; Excel file: Toronto_UX_Product_Job_Tracker_2026-10-31_1405.xlsx. Applied statuses preserved; no site code files changed.",
+    "syncStatus": "GitHub main updated 2026-10-31 19:27 ET with refreshed status/details for existing Swoon and Valtech records; no duplicate job rows added. Excel tracker remains at latest recorded snapshot Toronto_UX_Product_Job_Tracker_2026-10-31_1405.xlsx and was not refreshed in this run.",
     "lastScan": {
-      "runAt": "2026-10-31T15:02:50-04:00",
+      "runAt": "2026-10-31T19:27:16-04:00",
       "timezone": "America/Toronto",
-      "commitMessage": "Update job tracker 2026-10-31 15:02 ET",
+      "commitMessage": "Update job tracker 2026-10-31 19:27 ET",
       "discoveryPasses": {
-        "officialATS": {
-          "candidatesScreened": 38,
-          "newTrackerRecords": 8,
-          "newOpenEligibleOrConditional": 5,
-          "newOpenFiltered": 1,
-          "newMonitorOnly": 2,
-          "duplicatesOrAlreadyTracked": 17,
-          "closedOrExpired": 6,
-          "seniorityStackLocationFiltered": 7
-        },
-        "linkedinJobs": {
-          "candidatesScreened": 52,
-          "windows": [
-            "24 hours",
-            "7 days",
-            "30 days"
-          ],
-          "newTrackerRecords": 5,
-          "duplicatesOrAlreadyTracked": 22,
-          "closedExpiredOrUnverifiedNotAdded": 14,
-          "seniorityStackLocationFiltered": 11,
-          "note": "Public-index searches run independently for each role/location cluster; native LinkedIn filter matrix was not fully accessible."
-        },
-        "supplementalBoards": {
-          "candidatesScreened": 30,
+        "targetedWebSearch": {
+          "queriesRun": 31,
           "newTrackerRecords": 0,
-          "duplicatesOrAlreadyTracked": 15,
-          "closedOrExpired": 8,
-          "seniorityLocationScopeFiltered": 7,
-          "sources": [
-            "GOjobs",
-            "Indeed",
-            "Jobs.ca",
-            "MovoJobs",
-            "ITJobsInCanada",
-            "JobsLeads"
-          ]
-        },
-        "graduateEarlyCareer": {
-          "candidatesScreened": 24,
-          "newEligibleGraduateProgramRecords": 0,
-          "reclassifiedEligibleExisting": 2,
-          "reopenedEarlyCareerExisting": 1,
-          "newStudentOnlyIneligibleRecords": 1,
-          "closedOrFilled": 1,
-          "conditionalExisting": 1,
-          "notes": "Bell 432877 Channels and 432880 Marketing reclassified based on role-specific degree-before-start criteria; Konrad Spring 2027 remains conditional; Intact Winter 2027 co-op is student-only/Montreal; RBC Amplify official ATS says filled; Bell 432669 is Montreal and <3-year experience cap."
-        },
-        "traditionalIndustry": {
-          "candidatesScreened": 24,
-          "newOpenRecords": 5,
-          "duplicatesOrAlreadyTracked": 9,
-          "closedOrExpired": 4,
-          "seniorityStackOrScopeFiltered": 6,
-          "industries": [
-            "telecom",
-            "retail/eCommerce",
-            "banking/insurance",
-            "utilities",
-            "construction/engineering",
-            "healthcare/medical device"
-          ]
+          "existingRecentlyPostedRechecked": 2,
+          "duplicateOrAlreadyTracked": 2,
+          "notes": "Targeted searches across Toronto/GTA priority locations and Canada-remote UX/Product/Design Engineering/Frontend roles. Newly posted relevant Swoon and Valtech opportunities were already in the tracker from the earlier same-day scan."
         }
       },
-      "totalPassHits": 168,
-      "uniqueCandidatesReviewed": 70,
-      "newThisRunCount": 11,
-      "newOpenEligibleOrConditional": 5,
-      "newOpenFiltered": 1,
-      "newClosedOrExpired": 5,
-      "newMonitorOnly": 2,
-      "recheckedExistingCount": 38,
-      "reverifiedOpenExistingCount": 29,
-      "reclassifiedGraduateEligibleExistingCount": 2,
-      "reopenedEarlyCareerExistingCount": 1,
-      "appliedPreservedCount": 15,
-      "appliedStatusChanges": 0,
-      "duplicateOrAlreadyTrackedCount": 29,
-      "experienceOrSeniorityFilteredCount": 18,
-      "closedExpiredFilteredCount": 12,
-      "locationOrEligibilityFilteredCount": 7,
-      "ats404OrSubmitUnverifiedCount": 5,
-      "filterCountsOverlap": true,
-      "officialATSExclusiveNewOpenCount": 1,
-      "usGlobalCanadaEligibleNewCount": 0,
-      "usGlobalCanadaEligibleCurrentOpenCount": 8,
-      "opsDirectHireCount": 0,
-      "opsVendorVerifiedOpenCount": 0,
-      "opsVendorClosedOrUnverifiedCount": 11,
-      "opsJuniorVendorContractNoRQOpenCount": 2,
-      "openCount": 134,
-      "closedExpiredCount": 78,
-      "stillRecommendedCount": 50,
-      "highConfidenceSubmitReadyCount": 26,
-      "officialATSCurrentOpenCount": 75,
-      "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_1502.xlsx",
-      "excelWorkbookRows": 268,
-      "excelMainSheetRows": 215,
-      "excelBaselineGapRows": 53,
-      "excelSyncStatus": "Excel refreshed from the latest accessible 202-row workbook snapshot, plus 13 new records in the main sheet and 53 pre-existing GitHub-only records in a supplemental sheet (268 total). GitHub JSON is canonical; website code files were not changed.",
-      "notes": "Candidate counts are public-index/ATS review counts; pass counts overlap. LinkedIn 24h/7d/30d queries were executed independently, but native LinkedIn filters were not fully accessible. Official ATS links were preferred where found. No Applied status changed."
+      "newThisRunCount": 0,
+      "newOpenEligibleOrConditional": 0,
+      "recheckedExistingCount": 2,
+      "reverifiedOpenExistingCount": 1,
+      "duplicateOrAlreadyTrackedCount": 2,
+      "experienceOrSeniorityFilteredCount": 4,
+      "closedExpiredFilteredCount": 1,
+      "locationOrEligibilityFilteredCount": 0,
+      "notes": "No new unique role rows added. Swoon remains open via current recruiter mirror/LinkedIn route; Valtech official career page is live but its ATS Apply redirect currently returns 404. KOHO Junior Designer was excluded from recommendations because the role is brand/marketing design rather than product UX; Procom Junior UX mirror returned 404 and overlaps the existing junior government UX vendor record."
     }
   },
   "jobs": [
@@ -5362,7 +5278,7 @@
       "Track": "UX/Product Design / Enterprise Construction Tech — Stretch",
       "Company Type": "Staffing / global client; Canada contract (T4 only)",
       "Location": "Toronto, ON",
-      "Work Mode": "Mostly remote; 1–2 days on-site per month in GTA",
+      "Work Mode": "Toronto-based; mostly remote, 1–2 days onsite per month",
       "Experience Requirement": "3–5 years UX/Product/Interaction Design",
       "Core Requirements": "Research-led UX/UI; complex data-heavy enterprise platform; construction/site workflows; AI-enabled product collaboration; interaction design; high-fidelity UI; stakeholder and engineering collaboration",
       "Salary": "CAD $45–$55/hour (T4 only)",
@@ -5371,12 +5287,13 @@
       "Main Risks": "3–5 years requirement; 6-month contract; client unnamed; T4 only; possible duplicate client with other anonymous construction-tech listings but not confirmed",
       "Application Status": "Not Applied",
       "Application Date": "",
-      "Deadline": "",
-      "Job Status": "Open — current LinkedIn recruiter posting visible; Apply route remains LinkedIn; final submission not verified.",
-      "Notes": "New this run. Strong domain match to current design-build/internal project platform work. Stretch on formal UX tenure; no official client ATS found because client is undisclosed.\n[2026-10-31 14:05 ET] 6-month construction-tech contract; 3–5 years, Toronto with limited onsite cadence. Strong design-build domain adjacency; experience threshold is a stretch.",
-      "Source Type": "LinkedIn Jobs (staffing intermediary)",
-      "Date Checked": "2026-10-31 14:05 ET",
-      "New This Run": "No"
+      "Deadline": "2026-11-28",
+      "Job Status": "Open — current MovoJobs mirror and LinkedIn route visible; final submission not verified.",
+      "Notes": "New this run. Strong domain match to current design-build/internal project platform work. Stretch on formal UX tenure; no official client ATS found because client is undisclosed.\n[2026-10-31 14:05 ET] 6-month construction-tech contract; 3–5 years, Toronto with limited onsite cadence. Strong design-build domain adjacency; experience threshold is a stretch.\n[2026-10-31 19:27 ET] Rechecked via current MovoJobs listing: posted Oct 29, apply by Nov 28, 2026; 3–5 years UX/product/interaction design; 6-month T4 contract at CAD $45–$55/hr; Toronto-based with 1–2 onsite days/month. Strong design-build/construction-tech and AI workflow fit, but experience gap remains. Already tracked; no duplicate row added.",
+      "Source Type": "Swoon recruiter listing + MovoJobs mirror + LinkedIn application route",
+      "Date Checked": "2026-10-31 19:27 ET",
+      "New This Run": "No",
+      "Posting Date": "2026-10-29"
     },
     {
       "Company": "Bell",
@@ -5643,7 +5560,7 @@
       "Source Type": "Official Scotiabank Careers + LinkedIn Jobs"
     },
     {
-      "Date Checked": "2026-10-31 14:05 ET",
+      "Date Checked": "2026-10-31 19:27 ET",
       "New This Run": "No",
       "Company": "Valtech",
       "Job Title": "Jr. AI Native Experience Designer",
@@ -5653,16 +5570,17 @@
       "Work Mode": "Remote Canada",
       "Experience Requirement": "2–4 years professional UX/product/interaction design; Figma/prototyping, AI-native workflows and technical fluency.",
       "Core Requirements": "Human-centered AI experiences, conversational/multimodal interfaces, research and prototyping, Figma, AI coding/prototyping tools, React/HTML/CSS familiarity.",
-      "Salary": "Not disclosed (third-party estimate CA$50K–90K unverified)",
-      "Application Link": "https://job-boards.eu.greenhouse.io/valtech/jobs/5020038101",
+      "Salary": "Not disclosed",
+      "Application Link": "https://www.valtech.com/de-de/karriere/joboverview/5020038101/",
       "Match %": 92,
       "Main Risks": "Official Greenhouse direct URL returned 404 on this check; independent verifier indexed the role as live within 19 hours; final Submit not verified; deadline may be Oct 31.",
       "Application Status": "Not Applied",
       "Application Date": null,
-      "Deadline": "2026-10-31 (third-party index; ATS deadline not verified)",
-      "Job Status": "Not confirmed Open — official Greenhouse direct page returned 404; independent verifier reports active; monitor only, not submit-ready.",
-      "Notes": "New this run. High AI-native UX fit, but do not prioritize until the official Greenhouse application page is restored and Submit can be verified. Canada-remote role was indexed; 2–4 years requirement remains a stretch.",
-      "Source Type": "Official ATS (Greenhouse) + LinkedIn/aggregator; direct submit unverified"
+      "Deadline": null,
+      "Job Status": "Open/Provisional — official Valtech career page is live and tagged Canada Remote; its Apply redirect to Greenhouse returned 404, so final submission is not verified.",
+      "Notes": "New this run. High AI-native UX fit, but do not prioritize until the official Greenhouse application page is restored and Submit can be verified. Canada-remote role was indexed; 2–4 years requirement remains a stretch.\n[2026-10-31 19:27 ET] Official Valtech career page rechecked: Canada Remote; 2–4 years professional experience; Figma, interaction design, AI-native research/prototyping and AI-assisted front-end workflows; no salary or DDL on the official page. Official page is live, but Apply redirects to Greenhouse 404. Already tracked; no duplicate row added.",
+      "Source Type": "Official Valtech career page + Greenhouse ATS (Apply redirect currently 404)",
+      "Posting Date": "2026-10-28"
     },
     {
       "Date Checked": "2026-10-31 15:02 ET",
