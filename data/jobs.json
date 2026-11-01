@@ -86,7 +86,8 @@
         "OPS direct new roles: 0. Ontario Government vendor RQ postings have passed supplier cutoffs/planned start dates; OCS Req #836 is unavailable and is a Crown agency, not direct OPS.",
         "US/global Canada-eligible existing leads rechecked: Avida APM, Jerry.ai APM Growth, Mercury Frontend Engineer Design Systems, Infisical Design Engineer Site, and provisional Verifast Junior Product Designer; no new US/global Canada-eligible tracker row this run.",
         "Official ATS/careers-exclusive new rows: Silk & Snow Retail Operations Coordinator (Oracle) and Kohl & Frisch Product Data Coordinator (official Careers/Catsone).",
-        "Applied statuses preserved exactly; no new applications submitted."
+        "Applied statuses preserved exactly; no new applications submitted.",
+        "Additional rechecks Nov 1: Smile.io Junior Product Designer, Veeva APM Network MDM, Simple Ventures Product & Design Associate, CMiC APM and CMiC Project Coordinator; Swoon Construction Tech UX/UI contract remains open through Nov 28."
       ]
     }
   },
@@ -2974,7 +2975,7 @@
       "Source Type": "LinkedIn Jobs + Jobs.ca (official ATS job-specific link not found)"
     },
     {
-      "Date Checked": "2026-10-31",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "CMiC",
       "Job Title": "Associate Product Manager (Project Controls / Job Costing)",
@@ -2987,13 +2988,13 @@
       "Salary": "CA$60,000–100,000 + bonus",
       "Application Link": "https://ca.linkedin.com/jobs/view/associate-product-manager-project-controls-job-costing-at-cmic-4478457514",
       "Match %": 90,
-      "Main Risks": "Construction ERP/job-costing domain preferred; no formal PM title; direct HiBob requisition not resolved.",
+      "Main Risks": "Official ATS route not resolved; construction project-controls/job-costing domain; hybrid Toronto.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Provisional — LinkedIn employer listing active; official job-specific CMiC ATS page not resolved",
-      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement. | 2026-10-27 14:06 ET reverified Indeed employer posting; not new, already tracked since Oct 18. | 2026-10-30 recheck: active employer listing; construction software is a strong bridge to the current design/build internal-platform project.\n[2026-10-31 recheck] Rechecked: Toronto/Canada APM listing remains active on LinkedIn; 1–3 years, construction project controls/job-costing software. Strong domain fit with current design-build platform work; verify employer application route.",
-      "Source Type": "LinkedIn Jobs"
+      "Job Status": "Open/Provisional — LinkedIn employer listing and Indeed active; official CMiC HiBob job-specific ATS route not resolved.",
+      "Notes": "NEW 2026-10-16; strong fit to construction-company Intake Tracker, project milestones, work packages, stakeholder workflows and technical product delivery. Official careers portal https://cmicglobal.careers.hibob.com/ (dynamic); LinkedIn employer posting and Indeed active. Graduate/Early Career: 1–3 years, no student-only requirement. | 2026-10-27 14:06 ET reverified Indeed employer posting; not new, already tracked since Oct 18. | 2026-10-30 recheck: active employer listing; construction software is a strong bridge to the current design/build internal-platform project.\n[2026-10-31 recheck] Rechecked: Toronto/Canada APM listing remains active on LinkedIn; 1–3 years, construction project controls/job-costing software. Strong domain fit with current design-build platform work; verify employer application route.\n[2026-11-01 08:34 ET] Rechecked Nov 1: LinkedIn employer posting and Indeed listing remain active; 1–3 years, Toronto hybrid; strong domain fit to current design-build internal platform.",
+      "Source Type": "LinkedIn Jobs + Indeed + official CMiC careers portal"
     },
     {
       "Date Checked": "2026-10-26",
@@ -4888,7 +4889,7 @@
       "Source Type": "LinkedIn Jobs — employer listing"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "CMiC",
       "Job Title": "Project Coordinator – Construction Software Implementation",
@@ -4896,18 +4897,18 @@
       "Company Type": "Canadian construction software / B2B SaaS",
       "Location": "Toronto, ON",
       "Work Mode": "Toronto office; travel up to ~25%",
-      "Experience Requirement": "1–3 years project coordination, implementation or related support experience; construction software preferred.",
+      "Experience Requirement": "1–3 years project coordination/implementation support; construction software preferred; travel up to ~25%.",
       "Core Requirements": "Project plans, client implementation, requirements, timelines, stakeholder coordination, construction ERP workflows and travel.",
       "Salary": "CA$45K–55K",
       "Application Link": "https://ca.linkedin.com/jobs/view/project-coordinator-at-cmic-4475481652",
       "Match %": 75,
-      "Main Risks": "US travel eligibility/unrestricted travel requirement; salary low; project implementation rather than product UX; official HiBob requisition not resolved.",
+      "Main Risks": "Official application route not resolved; prior Jobs.ca mirror expired Oct 1; travel up to ~25%.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Provisional Open — LinkedIn employer listing posted ~3 weeks ago; Apply button visible; prior Jobs.ca listing expired Oct1; official HiBob board accessible but job-specific route not found.",
-      "Notes": "New this run. Strong adjacent fit with current design/build internal-platform project and restaurant operations; verify travel eligibility and current intake before applying.",
-      "Source Type": "LinkedIn Jobs + Jobs.ca historical listing + official HiBob careers board"
+      "Job Status": "Open/Provisional — LinkedIn employer listing posted ~3 weeks ago; Apply button visible; official HiBob job-specific route not found.",
+      "Notes": "New this run. Strong adjacent fit with current design/build internal-platform project and restaurant operations; verify travel eligibility and current intake before applying.\n[2026-11-01 08:34 ET] Rechecked Nov 1: LinkedIn employer listing remains visible with Apply; Toronto office, 1–3 years, travel up to ~25%; keep provisional.",
+      "Source Type": "LinkedIn Jobs + official CMiC careers portal + Jobs.ca historical listing"
     },
     {
       "Date Checked": "2026-11-01 08:34 ET",
@@ -5334,19 +5335,19 @@
       "Company Type": "Staffing / global client; Canada contract (T4 only)",
       "Location": "Toronto, ON",
       "Work Mode": "Toronto-based; mostly remote, 1–2 days onsite per month",
-      "Experience Requirement": "3–5 years UX/Product/Interaction Design",
+      "Experience Requirement": "3–5 years UX/Product/Interaction Design; Toronto-based, mostly remote with 1–2 onsite days/month; 6-month contract.",
       "Core Requirements": "Research-led UX/UI; complex data-heavy enterprise platform; construction/site workflows; AI-enabled product collaboration; interaction design; high-fidelity UI; stakeholder and engineering collaboration",
       "Salary": "CAD $45–$55/hour (T4 only)",
       "Application Link": "https://ca.linkedin.com/jobs/view/user-experience-designer-at-swoon-4484544995",
       "Match %": 88,
-      "Main Risks": "3–5 years requirement; 6-month contract; client unnamed; T4 only; possible duplicate client with other anonymous construction-tech listings but not confirmed",
+      "Main Risks": "3–5 years formal UX/Product/Interaction Design is a stretch; client undisclosed; T4 contract only; final submit route not verified.",
       "Application Status": "Not Applied",
       "Application Date": "",
       "Deadline": "2026-11-28",
-      "Job Status": "Open — current MovoJobs mirror and LinkedIn route visible; final submission not verified.",
-      "Notes": "New this run. Strong domain match to current design-build/internal project platform work. Stretch on formal UX tenure; no official client ATS found because client is undisclosed.\n[2026-10-31 14:05 ET] 6-month construction-tech contract; 3–5 years, Toronto with limited onsite cadence. Strong design-build domain adjacency; experience threshold is a stretch.\n[2026-10-31 19:27 ET] Rechecked via current MovoJobs listing: posted Oct 29, apply by Nov 28, 2026; 3–5 years UX/product/interaction design; 6-month T4 contract at CAD $45–$55/hr; Toronto-based with 1–2 onsite days/month. Strong design-build/construction-tech and AI workflow fit, but experience gap remains. Already tracked; no duplicate row added.",
+      "Job Status": "Open — current MovoJobs mirror and LinkedIn route visible; apply by Nov 28, 2026; final submission not verified.",
+      "Notes": "New this run. Strong domain match to current design-build/internal project platform work. Stretch on formal UX tenure; no official client ATS found because client is undisclosed.\n[2026-10-31 14:05 ET] 6-month construction-tech contract; 3–5 years, Toronto with limited onsite cadence. Strong design-build domain adjacency; experience threshold is a stretch.\n[2026-10-31 19:27 ET] Rechecked via current MovoJobs listing: posted Oct 29, apply by Nov 28, 2026; 3–5 years UX/product/interaction design; 6-month T4 contract at CAD $45–$55/hr; Toronto-based with 1–2 onsite days/month. Strong design-build/construction-tech and AI workflow fit, but experience gap remains. Already tracked; no duplicate row added.\n[2026-11-01 08:34 ET] Rechecked Nov 1: current MovoJobs listing posted Oct 29 and Apply by Nov 28; 6-month T4 construction-tech contract, CAD $45–$55/hr, 1–2 onsite days/month. Strong design-build domain fit; already tracked.",
       "Source Type": "Swoon recruiter listing + MovoJobs mirror + LinkedIn application route",
-      "Date Checked": "2026-10-31 19:27 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Posting Date": "2026-10-29"
     },
