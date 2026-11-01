@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31 20:08 ET",
+    "lastUpdated": "2026-10-31 20:09 ET",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_2008.xlsx",
     "priorityLocations": [
@@ -12,7 +12,7 @@
     "total": 274,
     "syncStatus": "GitHub main updated this run. Excel workbook updated from the last accessible 2026-10-30 14:04 snapshot plus this run's 8 new records and status changes; it is not fully reconciled to the 2026-10-31 19:27 GitHub snapshot (266 rows) because the later workbook attachment was unavailable.",
     "lastScan": {
-      "runAt": "2026-10-31T20:08:00-04:00",
+      "runAt": "2026-10-31T20:09:00-04:00",
       "timezone": "America/Toronto",
       "discoveryPasses": {
         "officialCareersATS": {
@@ -78,7 +78,9 @@
         "Excel source snapshot limitation: only 2026-10-30 14:04 workbook was accessible; latest GitHub main had 266 rows before this run and now has 274.",
         "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale.",
         "Sun Life Student Developer Digital Finance Transformation corrected to Closed/Expired (official posting end date 2026-05-21) and requires Dec 2027+ graduation.",
-        "Bell 2027 Marketing/Channels pages remain live through Nov 16; eligibility is conditional due conflict between role-specific criteria and general cohort FAQ, not marked filled."
+        "Bell 2027 Marketing/Channels pages remain live through Nov 16; eligibility is conditional due conflict between role-specific criteria and general cohort FAQ, not marked filled.",
+        "Sun Life Student Developer Digital Finance Transformation was screened out as expired (posting end date 2026-05-21) and student/graduation-ineligible; no tracker row added because it is not a target title.",
+        "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale."
       ]
     }
   },
