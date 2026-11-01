@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-01 08:34 ET",
+    "lastUpdated": "2026-11-01 08:55 ET",
     "timezone": "America/Toronto",
     "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx",
     "priorityLocations": [
@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 278,
-    "syncStatus": "GitHub main synced (278 records; 4 new tracker rows; 15 Applied preserved). Excel workbook generated as a 218-row partial snapshot (210 prior + 4 new + 4 existing high-priority rows restored); 60 historical rows remain absent vs GitHub. Library overwrite failed due container-session error; downloadable workbook artifact is available in the conversation.",
+    "syncStatus": "GitHub main synced (278 records; 4 new tracker rows; 15 Applied preserved). Excel workbook generated as a 218-row partial snapshot (210 prior + 4 new + 4 existing high-priority rows restored); 60 historical rows remain absent vs GitHub. Library upload/overwrite failed due Library storage limit; downloadable workbook artifacts are available in the conversation.",
     "lastScan": {
       "runAt": "2026-11-01T08:34:00-05:00",
       "timezone": "America/Toronto",
@@ -89,12 +89,13 @@
         "Applied statuses preserved exactly; no new applications submitted.",
         "Additional rechecks Nov 1: Smile.io Junior Product Designer, Veeva APM Network MDM, Simple Ventures Product & Design Associate, CMiC APM and CMiC Project Coordinator; Swoon Construction Tech UX/UI contract remains open through Nov 28.",
         "Additional recheck Nov 1: Swatch Group E-Commerce & Retail Operations Coordinator remains listed on official Careers page; Toronto, CA$60K–65K, 2–5 years.",
-        "Excel artifact generated and verified at sandbox:/mnt/data/Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx (218 rows). Library upload/overwrite failed with container_session_unavailable; GitHub JSON remains the complete source of truth."
+        "Excel artifact generated and verified (218 rows); Library upload/overwrite failed due Library storage limit. Downloadable workbook artifacts are available in the conversation; GitHub JSON remains the complete source of truth."
       ]
     },
     "excelRows": 218,
     "excelMissingFromGitHub": 60,
-    "excelArtifactPath": "sandbox:/mnt/data/Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx"
+    "excelArtifactPath": "sandbox:/mnt/data/Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx",
+    "excelCompactArtifactPath": "sandbox:/mnt/data/Toronto_GTA_UX_Product_Jobs_Tracker_compact.xlsx"
   },
   "jobs": [
     {
