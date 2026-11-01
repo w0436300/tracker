@@ -87,7 +87,8 @@
         "US/global Canada-eligible existing leads rechecked: Avida APM, Jerry.ai APM Growth, Mercury Frontend Engineer Design Systems, Infisical Design Engineer Site, and provisional Verifast Junior Product Designer; no new US/global Canada-eligible tracker row this run.",
         "Official ATS/careers-exclusive new rows: Silk & Snow Retail Operations Coordinator (Oracle) and Kohl & Frisch Product Data Coordinator (official Careers/Catsone).",
         "Applied statuses preserved exactly; no new applications submitted.",
-        "Additional rechecks Nov 1: Smile.io Junior Product Designer, Veeva APM Network MDM, Simple Ventures Product & Design Associate, CMiC APM and CMiC Project Coordinator; Swoon Construction Tech UX/UI contract remains open through Nov 28."
+        "Additional rechecks Nov 1: Smile.io Junior Product Designer, Veeva APM Network MDM, Simple Ventures Product & Design Associate, CMiC APM and CMiC Project Coordinator; Swoon Construction Tech UX/UI contract remains open through Nov 28.",
+        "Additional recheck Nov 1: Swatch Group E-Commerce & Retail Operations Coordinator remains listed on official Careers page; Toronto, CA$60K–65K, 2–5 years."
       ]
     }
   },
@@ -6101,26 +6102,26 @@
       "Source Type": "Official Employer Careers / Workday"
     },
     {
-      "Date Checked": "2026-10-31 20:07 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "Yes",
       "Company": "The Swatch Group (Canada) Ltd.",
       "Job Title": "E-Commerce and Retail Operations Coordinator",
       "Track": "E-Commerce / Retail Operations Coordinator",
       "Company Type": "Swiss global brand with Canadian entity",
       "Location": "Toronto, ON — 555 Richmond St W",
-      "Work Mode": "Toronto site; hybrid not stated",
-      "Experience Requirement": "2–5 years in e-commerce, retail operations, customer service or related experience.",
+      "Work Mode": "Toronto, ON; office/hybrid arrangement not specified",
+      "Experience Requirement": "2–5 years retail operations, e-commerce operations, customer service or related field; e-commerce platform familiarity (Salesforce Commerce Cloud or similar).",
       "Core Requirements": "E-commerce site operations, Magento/commerce cloud, SAP, catalog/product data, order flow, retail operations, inventory/fulfillment, reporting and customer experience.",
-      "Salary": "CA$60,000–65,000/year + bonus",
+      "Salary": "CA$60,000–65,000/year + benefits",
       "Application Link": "https://www.swatchgroup.com/en/job/33635",
       "Match %": 86,
-      "Main Risks": "Operations/e-commerce rather than UX design; 2–5 years requirement; external application form returned an error during this check.",
+      "Main Risks": "2–5 years required; e-commerce platform experience; external application form may require retry; role is retail operations rather than product design.",
       "Application Status": "Not Applied — official page live; external form needs retry",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Swatch Group careers page live; Apply link visible; external application form failed to load during check.",
-      "Notes": "2026-10-31 official employer-careers discovery. Strong transfer from retail/restaurant operations, website/graphic design and customer experience; use the official job page and retry the external form.",
-      "Source Type": "Official Employer Careers"
+      "Job Status": "Open — official Swatch Group Careers page still lists E-Commerce & Retail Operations Coordinator; external application form route remains to be tested.",
+      "Notes": "2026-10-31 official employer-careers discovery. Strong transfer from retail/restaurant operations, website/graphic design and customer experience; use the official job page and retry the external form.\n[2026-11-01 08:34 ET] Rechecked official Swatch Group Careers page: E-Commerce & Retail Operations Coordinator remains listed; Toronto, CA$60K–65K, 2–5 years retail/e-commerce operations. Apply route still needs external form check.",
+      "Source Type": "Official Swatch Group Careers + Indeed employer listing"
     },
     {
       "Date Checked": "2026-11-01 08:34 ET",
