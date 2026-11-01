@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31 20:09 ET",
+    "lastUpdated": "2026-10-31 20:10 ET",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_2008.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_2009.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -10,9 +10,9 @@
       "Vaughan"
     ],
     "total": 274,
-    "syncStatus": "GitHub main updated this run. Excel workbook updated from the last accessible 2026-10-30 14:04 snapshot plus this run's 8 new records and status changes; it is not fully reconciled to the 2026-10-31 19:27 GitHub snapshot (266 rows) because the later workbook attachment was unavailable.",
+    "syncStatus": "GitHub main updated. Excel workbook created at Toronto_UX_Product_Job_Tracker_2026-10-31_2009.xlsx with 210 rows (202 from the last accessible 2026-10-30 14:04 snapshot + 8 new records/status changes); it is a partial snapshot and not fully reconciled to GitHub's 274 rows because the later 2026-10-31 workbook attachment was unavailable.",
     "lastScan": {
-      "runAt": "2026-10-31T20:09:00-04:00",
+      "runAt": "2026-10-31T20:10:00-04:00",
       "timezone": "America/Toronto",
       "discoveryPasses": {
         "officialCareersATS": {
@@ -75,12 +75,12 @@
         "Konrad Product Analyst reactivated on official careers/Greenhouse page; Submit Application verified.",
         "Bell 2027 Marketing/Channels pages are open through Nov 16 but eligibility is conditional because role-specific pages and general cohort FAQ differ; other Bell streams with explicit <3-year professional-experience caps are filtered.",
         "OCS UX Designer official Dayforce posting is no longer available; page 3362 identifies Req #836 (prior tracker label #837 corrected).",
-        "Excel source snapshot limitation: only 2026-10-30 14:04 workbook was accessible; latest GitHub main had 266 rows before this run and now has 274.",
         "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale.",
         "Sun Life Student Developer Digital Finance Transformation corrected to Closed/Expired (official posting end date 2026-05-21) and requires Dec 2027+ graduation.",
         "Bell 2027 Marketing/Channels pages remain live through Nov 16; eligibility is conditional due conflict between role-specific criteria and general cohort FAQ, not marked filled.",
         "Sun Life Student Developer Digital Finance Transformation was screened out as expired (posting end date 2026-05-21) and student/graduation-ineligible; no tracker row added because it is not a target title.",
-        "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale."
+        "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale.",
+        "Excel file created: Toronto_UX_Product_Job_Tracker_2026-10-31_2009.xlsx, 210 rows (202 from 10/30 14:04 snapshot + 8 new records). Partial vs GitHub main 274 because later 10/31 workbook attachment was unavailable."
       ]
     }
   },
