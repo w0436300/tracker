@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-01 08:55 ET",
+    "lastUpdated": "2026-11-01 08:56 ET",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-11-01_0856.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 278,
-    "syncStatus": "GitHub main synced (278 records; 4 new tracker rows; 15 Applied preserved). Excel workbook generated as a 218-row partial snapshot (210 prior + 4 new + 4 existing high-priority rows restored); 60 historical rows remain absent vs GitHub. Library upload/overwrite failed due Library storage limit; downloadable workbook artifacts are available in the conversation.",
+    "syncStatus": "GitHub main synced (278 records; exactly 4 New This Run rows; 15 Applied preserved). Excel workbook generated as a 218-row partial snapshot; 60 historical rows remain absent vs GitHub. Library upload/overwrite failed due Library storage limit; downloadable workbook artifacts are available in the conversation.",
     "lastScan": {
       "runAt": "2026-11-01T08:34:00-05:00",
       "timezone": "America/Toronto",
@@ -89,13 +89,14 @@
         "Applied statuses preserved exactly; no new applications submitted.",
         "Additional rechecks Nov 1: Smile.io Junior Product Designer, Veeva APM Network MDM, Simple Ventures Product & Design Associate, CMiC APM and CMiC Project Coordinator; Swoon Construction Tech UX/UI contract remains open through Nov 28.",
         "Additional recheck Nov 1: Swatch Group E-Commerce & Retail Operations Coordinator remains listed on official Careers page; Toronto, CA$60K–65K, 2–5 years.",
-        "Excel artifact generated and verified (218 rows); Library upload/overwrite failed due Library storage limit. Downloadable workbook artifacts are available in the conversation; GitHub JSON remains the complete source of truth."
+        "Excel artifact generated and verified (218 rows); Library upload/overwrite failed due Library storage limit. Downloadable workbook artifacts are available in the conversation; GitHub JSON remains the complete source of truth.",
+        "New This Run flags reset for the new daily run: exactly four new Company+Title rows marked Yes; previously added/revalidated rows reset to No."
       ]
     },
     "excelRows": 218,
     "excelMissingFromGitHub": 60,
-    "excelArtifactPath": "sandbox:/mnt/data/Toronto_UX_Product_Job_Tracker_2026-11-01_0834.xlsx",
-    "excelCompactArtifactPath": "sandbox:/mnt/data/Toronto_GTA_UX_Product_Jobs_Tracker_compact.xlsx"
+    "excelArtifactPath": "sandbox:/mnt/data/Toronto_UX_Product_Job_Tracker_2026-11-01_0856.xlsx",
+    "excelCompactArtifactPath": "sandbox:/mnt/data/Toronto_GTA_UX_Product_Jobs_Tracker_2026-11-01_0856_compact.xlsx"
   },
   "jobs": [
     {
@@ -5954,7 +5955,7 @@
     },
     {
       "Date Checked": "2026-11-01 08:34 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Associate Data Analyst",
       "Track": "Product Analyst / Data Analytics — Early Career",
@@ -5976,7 +5977,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Russell Tobin",
       "Job Title": "User Experience Designer — Junior (Public Sector Contract)",
       "Track": "UX Designer / Interaction Designer — Junior Contract",
@@ -5998,7 +5999,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Neon One",
       "Job Title": "Product Designer (Remote Canada — provisional)",
       "Track": "Product Design / Design Engineering — Remote Canada (Provisional)",
@@ -6020,7 +6021,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Ateko",
       "Job Title": "Specialist — User Experience Design (ServiceNow Portal, Ontario — provisional)",
       "Track": "Enterprise UX / ServiceNow Portal — Contract (Provisional)",
@@ -6042,7 +6043,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Konrad Group",
       "Job Title": "Project Coordinator (Digital Delivery)",
       "Track": "Product Coordinator / Digital Project Coordination — Early Career (Historical)",
@@ -6064,7 +6065,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "City of Toronto",
       "Job Title": "SERVICE DESIGN CONSULTANT (Job ID 67731)",
       "Track": "Service Design / Digital Transformation — Senior (Filtered)",
@@ -6086,7 +6087,7 @@
     },
     {
       "Date Checked": "2026-10-31 20:07 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Loblaw Companies Limited",
       "Job Title": "Assistant Product Manager, Value Creation (R2000711649)",
       "Track": "Associate Product Manager / Retail Product Development — Early Career",
@@ -6108,7 +6109,7 @@
     },
     {
       "Date Checked": "2026-11-01 08:34 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "The Swatch Group (Canada) Ltd.",
       "Job Title": "E-Commerce and Retail Operations Coordinator",
       "Track": "E-Commerce / Retail Operations Coordinator",
@@ -6130,7 +6131,7 @@
     },
     {
       "Date Checked": "2026-11-01 08:34 ET",
-      "New This Run": "Yes",
+      "New This Run": "No",
       "Company": "Centah Inc.",
       "Job Title": "Product Designer",
       "Track": "Product Designer — Enterprise B2B SaaS",
