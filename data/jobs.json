@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31 20:07 ET",
+    "lastUpdated": "2026-10-31 20:08 ET",
     "timezone": "America/Toronto",
-    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_2007.xlsx",
+    "sourceWorkbook": "Toronto_UX_Product_Job_Tracker_2026-10-31_2008.xlsx",
     "priorityLocations": [
       "Markham",
       "Richmond Hill",
@@ -12,7 +12,7 @@
     "total": 274,
     "syncStatus": "GitHub main updated this run. Excel workbook updated from the last accessible 2026-10-30 14:04 snapshot plus this run's 8 new records and status changes; it is not fully reconciled to the 2026-10-31 19:27 GitHub snapshot (266 rows) because the later workbook attachment was unavailable.",
     "lastScan": {
-      "runAt": "2026-10-31T20:07:29-04:00",
+      "runAt": "2026-10-31T20:08:00-04:00",
       "timezone": "America/Toronto",
       "discoveryPasses": {
         "officialCareersATS": {
@@ -60,7 +60,7 @@
       "newProvisionalLeads": 2,
       "newClosedOrUnverifiedRecords": 1,
       "newSeniorityFilteredRecords": 1,
-      "reopenedExistingRoles": 1,
+      "reopenedExistingRoles": 2,
       "confirmedClosedOrExpiredRechecked": 10,
       "duplicateOrAlreadyTrackedApprox": 18,
       "seniorityOrExperienceFilteredApprox": 7,
@@ -75,7 +75,10 @@
         "Konrad Product Analyst reactivated on official careers/Greenhouse page; Submit Application verified.",
         "Bell 2027 Marketing/Channels pages are open through Nov 16 but eligibility is conditional because role-specific pages and general cohort FAQ differ; other Bell streams with explicit <3-year professional-experience caps are filtered.",
         "OCS UX Designer official Dayforce posting is no longer available; page 3362 identifies Req #836 (prior tracker label #837 corrected).",
-        "Excel source snapshot limitation: only 2026-10-30 14:04 workbook was accessible; latest GitHub main had 266 rows before this run and now has 274."
+        "Excel source snapshot limitation: only 2026-10-30 14:04 workbook was accessible; latest GitHub main had 266 rows before this run and now has 274.",
+        "7shifts Product Designer reactivated via official Ashby/current job board; Jobs.ca expired mirror is stale.",
+        "Sun Life Student Developer Digital Finance Transformation corrected to Closed/Expired (official posting end date 2026-05-21) and requires Dec 2027+ graduation.",
+        "Bell 2027 Marketing/Channels pages remain live through Nov 16; eligibility is conditional due conflict between role-specific criteria and general cohort FAQ, not marked filled."
       ]
     }
   },
@@ -1203,26 +1206,26 @@
       "Source Type": "LinkedIn / Canada HQ + Toronto listing"
     },
     {
-      "Date Checked": "2026-10-31 14:05 ET",
+      "Date Checked": "2026-10-31 20:08 ET",
       "New This Run": "No",
       "Company": "7shifts",
       "Job Title": "Product Designer",
       "Track": "UX / Product Design",
       "Company Type": "Restaurant Operations / B2B SaaS",
-      "Location": "Toronto / Saskatoon",
-      "Work Mode": "Hybrid preferred; remote possible",
-      "Experience Requirement": "3+ years product design; SaaS/restaurant-tech experience preferred",
+      "Location": "Toronto, ON / Saskatoon, SK",
+      "Work Mode": "Hybrid",
+      "Experience Requirement": "3+ years as a product designer on cross-functional teams, ideally SaaS.",
       "Core Requirements": "Restaurant operator research, Figma, AI-assisted design, design systems and Product/Engineering collaboration; previous restaurant operations experience is an advantage.",
       "Salary": "CA$105,000–130,000",
       "Application Link": "https://jobs.ashbyhq.com/7shifts/02b4374c-b0c6-4f7f-9156-180c6d16f8b3",
-      "Match %": 88,
-      "Main Risks": "3+ years professional shipped product design; needs strong autonomy.",
+      "Match %": 86,
+      "Main Risks": "3+ years product-design experience may exceed directly relevant UX tenure; fast-paced, high-ownership environment.",
       "Application Status": "Applied",
       "Application Date": "2026-10-07",
       "Deadline": null,
-      "Job Status": "Open — official Ashby repost live; Application Status remains Applied.",
-      "Notes": "2026-10-30 recheck: preserve Applied and do not re-recommend. | 2026-10-30 recheck: current Ashby posting is live, but the user already Applied to the same company/title; preserve Applied and avoid duplicate recommendation. | 2026-10-31: Previous application link retained in history: https://job-boards.greenhouse.io/7shifts/jobs/4832851004 | 2026-10-31: 2026-10-31 official Ashby repost rechecked; preserve Applied and do not recommend duplicate application.\n[2026-10-31 14:05 ET] Official Ashby repost is live; preserve Applied status and do not re-recommend.",
-      "Source Type": "Official Ashby ATS"
+      "Job Status": "Open/Provisional — official Ashby job page and current 7shifts Greenhouse board list the role; dynamic application page not readable. Jobs.ca expired mirror is stale.",
+      "Notes": "2026-10-30 recheck: preserve Applied and do not re-recommend. | 2026-10-30 recheck: current Ashby posting is live, but the user already Applied to the same company/title; preserve Applied and avoid duplicate recommendation. | 2026-10-31: Previous application link retained in history: https://job-boards.greenhouse.io/7shifts/jobs/4832851004 | 2026-10-31: 2026-10-31 official Ashby repost rechecked; preserve Applied and do not recommend duplicate application.\n[2026-10-31 14:05 ET] Official Ashby repost is live; preserve Applied status and do not re-recommend.\n[2026-10-31 20:08 ET] Reactivated after official Ashby page/current 7shifts job board recheck; third-party Jobs.ca expired label is stale. Strong restaurant-tech domain fit plus AI, Figma, design systems and product/engineering collaboration.",
+      "Source Type": "Official ATS / Ashby"
     },
     {
       "Date Checked": "2026-10-09",
