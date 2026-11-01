@@ -10,7 +10,7 @@
       "Vaughan"
     ],
     "total": 278,
-    "syncStatus": "GitHub main snapshot updated; full Excel workbook will be generated from this complete data/jobs.json snapshot and saved to the Library.",
+    "syncStatus": "GitHub main updated with 278 records; Excel tracker reconciliation is in progress from the latest 214-row workbook snapshot.",
     "lastScan": {
       "runAt": "2026-11-01T08:34:00-05:00",
       "timezone": "America/Toronto",
@@ -19,7 +19,7 @@
           "candidateListingsReviewed": 36,
           "newTrackerRecords": 2,
           "verifiedOpenNew": 2,
-          "existingRolesRechecked": 21,
+          "existingRolesRechecked": 24,
           "mergedNewRequisitionIntoExistingRecord": 1
         },
         "linkedinJobs": {
@@ -686,7 +686,7 @@
       "Source Type": "Official Bell Careers / ATS"
     },
     {
-      "Date Checked": "2026-10-31 20:07 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Veeva Systems",
       "Job Title": "Associate Product Manager – Network MDM",
@@ -699,12 +699,12 @@
       "Salary": "CAD $70,000–$100,000",
       "Application Link": "https://jobs.lever.co/veeva/f93df5c6-7b1f-4aa5-9f16-96a904302c3b/apply",
       "Match %": 90,
-      "Main Risks": "Toronto on-site; technical/data-platform product context; 1+ year related experience.",
+      "Main Risks": "On-site Toronto; needs technical/data-platform curiosity and API/user-story/backlog comfort; product-management experience may be limited.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application form live; Submit Application verified.",
-      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Product work includes APIs, user stories, acceptance criteria, backlog and data-platform workflows. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internship/technical experience welcomed. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internships welcome; complete Lever Submit verified. | 2026-10-31: 2026-10-31 rechecked; recent graduates with strong internships encouraged; Network MDM product role.\n[2026-10-31 recheck] Rechecked: official Lever application page remains active; 1+ year in software/consulting/technical field, recent graduates with strong internships encouraged; Toronto on-site; CAD $70k–$100k.\n[2026-10-31 14:05 ET] 1+ year related software/consulting/technical experience; internship experience accepted; high-priority early-career PM. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Rechecked official Lever form; Toronto, 1+ years relevant experience, product backlog/user stories/API/data workflow; strong early-career fit.",
+      "Job Status": "Open — official Lever application form live; Submit Application verified Nov 1; Toronto on-site.",
+      "Notes": "Apply | Official ATS listing rechecked Oct 13 evening. | Oct 15 check: 1+ year related; strong internships welcomed; CA$70–100k; Toronto on-site. | 2026-10-19 LinkedIn employer listing indexed; final ATS not retested. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Product work includes APIs, user stories, acceptance criteria, backlog and data-platform workflows. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internship/technical experience welcomed. | 2026-10-30 recheck: Toronto on-site; recent graduates with strong internships welcome; complete Lever Submit verified. | 2026-10-31: 2026-10-31 rechecked; recent graduates with strong internships encouraged; Network MDM product role.\n[2026-10-31 recheck] Rechecked: official Lever application page remains active; 1+ year in software/consulting/technical field, recent graduates with strong internships encouraged; Toronto on-site; CAD $70k–$100k.\n[2026-10-31 14:05 ET] 1+ year related software/consulting/technical experience; internship experience accepted; high-priority early-career PM. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Rechecked official Lever form; Toronto, 1+ years relevant experience, product backlog/user stories/API/data workflow; strong early-career fit.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official Lever form loads with Submit Application; 1+ year related software/consulting/technical experience; recent graduates with strong internships encouraged; CAD $70K–100K.",
       "Source Type": "Official ATS / Lever"
     },
     {
@@ -1698,7 +1698,7 @@
       "Source Type": "Other / Aggregator"
     },
     {
-      "Date Checked": "2026-10-31 20:07 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Simple Ventures",
       "Job Title": "Product & Design Associate",
@@ -1706,17 +1706,17 @@
       "Company Type": "Venture studio",
       "Location": "Toronto, ON",
       "Work Mode": "Hybrid",
-      "Experience Requirement": "No fixed years",
+      "Experience Requirement": "No fixed years; shipped product work through employment or personal projects; AI-assisted prototyping/development and design judgment.",
       "Core Requirements": "Preserved from GitHub historical tracker; role details require fresh verification.",
       "Salary": "Not disclosed",
       "Application Link": "https://jobs.lever.co/simpleventures/4523d9c6-0934-43e3-9c5d-344e28195b49",
       "Match %": 92,
-      "Main Risks": "Historical import only; application status not reverified on 2026-10-11.",
+      "Main Risks": "High ownership in early-stage venture studio; must show shipped MVPs, AI-assisted workflow judgment and ability to code/prototype; salary undisclosed.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Lever application page live; Apply for this job/Submit form verified.",
-      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | 2026-10-27 evening recheck: Official Lever listing includes full-time hybrid Toronto and no student-only requirement. | 2026-10-31: Previous application link retained in history: https://jobs.lever.co/simpleventures/4523d9c6-0934-43e3-9c5d-344e28195b49 | 2026-10-31: 2026-10-31 official Lever form live; strong product/design/AI-assisted prototyping match.\n[2026-10-31 recheck] Rechecked: official Lever application form remains live; Toronto hybrid, product/design generalist role; review current scope before applying.\n[2026-10-31 14:05 ET] Toronto startup product/design/operations blend; early-career fit, but scope is broad. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Rechecked official Lever form; strong UX + AI-assisted MVP + React/Figma fit. Main risk remains early-stage ambiguity and high autonomy.",
+      "Job Status": "Open — official Lever application page live; Submit application form verified Nov 1; Toronto hybrid; full-time, not internship.",
+      "Notes": "Reverify employer ATS before applying; not a newly discovered role. | Posted: 2026-09 (historical) | 2026-10-27 evening recheck: Official Lever listing includes full-time hybrid Toronto and no student-only requirement. | 2026-10-31: Previous application link retained in history: https://jobs.lever.co/simpleventures/4523d9c6-0934-43e3-9c5d-344e28195b49 | 2026-10-31: 2026-10-31 official Lever form live; strong product/design/AI-assisted prototyping match.\n[2026-10-31 recheck] Rechecked: official Lever application form remains live; Toronto hybrid, product/design generalist role; review current scope before applying.\n[2026-10-31 14:05 ET] Toronto startup product/design/operations blend; early-career fit, but scope is broad. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Rechecked official Lever form; strong UX + AI-assisted MVP + React/Figma fit. Main risk remains early-stage ambiguity and high autonomy.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official Lever application form and Submit button verified; full-time Toronto hybrid; excellent fit for UX + React + AI-assisted prototyping workflow.",
       "Source Type": "Official ATS / Lever"
     },
     {
@@ -2864,7 +2864,7 @@
       "Source Type": "Official ATS / Ashby"
     },
     {
-      "Date Checked": "2026-10-31 20:07 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Smile.io",
       "Job Title": "Junior Product Designer",
@@ -2872,17 +2872,17 @@
       "Company Type": "Canadian eCommerce SaaS / Loyalty",
       "Location": "Remote Canada",
       "Work Mode": "Remote — Canada",
-      "Experience Requirement": "Junior product design; portfolio required; internships, freelance and personal projects count.",
+      "Experience Requirement": "Junior product design; portfolio required; internships, freelance and personal projects count; no student-only/return-to-school requirement.",
       "Core Requirements": "Product UX/UI, interaction design, Figma, AI-assisted design and portfolio storytelling.",
       "Salary": "CA$85K–95K",
       "Application Link": "https://jobs.lever.co/Smile.io/acd4b6c0-a872-4bb4-9153-eef83065003a/apply",
       "Match %": 97,
-      "Main Risks": "Portfolio quality and ability to explain shipped/validated outcomes.",
+      "Main Risks": "High competition; portfolio prompt quality and shipped-product examples matter; final application not submitted.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open/Provisional — official Lever URL remains current; current fetch timed out, Submit was verified on 2026-10-30.",
-      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Screening asks about project retrospection, AI use and product-design judgment. | 2026-10-30 recheck: Remote Canada; junior; portfolio/projects and internship experience accepted. | 2026-10-30 recheck: Remote Canada; CA$85K–95K; complete Lever form and Submit button verified.\n[2026-10-31 recheck] Rechecked: official Lever application page remains live; 0–3 years, Canada-remote, CAD $85k–$95k; high-priority junior product design fit.\n[2026-10-31 14:05 ET] Remote Canada; CA$85K–95K; junior role accepts internship/coursework/personal projects; top priority. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Current page fetch timed out; last successful official Submit verification was 2026-10-30. Remote Canada, CA$85K–95K, junior scope.",
+      "Job Status": "Open — official Lever application form live; Submit application button verified Nov 1; Remote Canada; junior scope.",
+      "Notes": "Early Career; 2026 graduate eligible. Posting around Oct 15. Frontend, AI, visual design and enterprise UX all relevant. Oct 16 evening: retained priority based on previously verified Lever form; not retested. | 2026-10-18 official Lever Submit application reconfirmed. | Oct 21 PM: retained priority; final submission not independently re-tested in this pass. | 2026-10-26 20:03 ET: Official Lever application form displays Submit application, Remote Canada. | 2026-10-27 14:06 ET official ATS application form and Submit button checked, not submitted. | 2026-10-30: Rechecked 2026-10-30: complete Lever form and Submit button verified. Screening asks about project retrospection, AI use and product-design judgment. | 2026-10-30 recheck: Remote Canada; junior; portfolio/projects and internship experience accepted. | 2026-10-30 recheck: Remote Canada; CA$85K–95K; complete Lever form and Submit button verified.\n[2026-10-31 recheck] Rechecked: official Lever application page remains live; 0–3 years, Canada-remote, CAD $85k–$95k; high-priority junior product design fit.\n[2026-10-31 14:05 ET] Remote Canada; CA$85K–95K; junior role accepts internship/coursework/personal projects; top priority. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-10-31 20:07 ET] Current page fetch timed out; last successful official Submit verification was 2026-10-30. Remote Canada, CA$85K–95K, junior scope.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official Lever application page loads full form and Submit application button; Remote Canada; CA$85K–95K; high-priority junior role.",
       "Source Type": "Official ATS / Lever"
     },
     {
@@ -3502,7 +3502,7 @@
       "Source Type": "Indeed employer listing + careers cross-check"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Loblaw Digital",
       "Job Title": "Associate - Digital Experience Strategy (R2000700663)",
@@ -3516,11 +3516,11 @@
       "Application Link": "https://careers.loblaw.ca/associate-digital-experience-strategy/job/PAF-LCL-6B71C676-F721-469E-A344-CDB9B75B69F7_7580_1788210608_0",
       "Match %": 83,
       "Main Risks": "Very short non-payroll contractor assignment ends Dec 31 2026; hourly pay low; digital campaign execution/QA rather than UX design; contradictory annual pay band; final application submit not tested.",
-      "Application Status": "Not Applied",
+      "Application Status": "Not recommended — closed/expired.",
       "Application Date": null,
       "Deadline": null,
       "Job Status": "Closed/Expired — official Loblaw Careers URL returns 404; no current application route.",
-      "Notes": "NEW 2026-10-21 historical backfill; Req R2000700663. Early Career adjacent Product Operations, no minimum experience or return-to-school requirement. Role explicitly 3-month non-payroll contract through 2026-12-31; no guarantee of extension. Canada-based Toronto work. | 2026-10-30: 2026-10-30: 3-month non-payroll contract no longer verifiable.",
+      "Notes": "NEW 2026-10-21 historical backfill; Req R2000700663. Early Career adjacent Product Operations, no minimum experience or return-to-school requirement. Role explicitly 3-month non-payroll contract through 2026-12-31; no guarantee of extension. Canada-based Toronto work. | 2026-10-30: 2026-10-30: 3-month non-payroll contract no longer verifiable.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official job URL remains unavailable; keep historical only.",
       "Source Type": "Official Careers / Loblaw (listing + Apply Now; final submit unverified)"
     },
     {
@@ -3964,7 +3964,7 @@
       "Source Type": "Official ATS / Ashby (ATS-exclusive discovery)"
     },
     {
-      "Date Checked": "2026-10-30",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Intercept",
       "Job Title": "Interactive Designer",
@@ -3972,7 +3972,7 @@
       "Company Type": "Canadian B2B technology marketing agency / Digital Experience",
       "Location": "Toronto, Ontario, Canada (remote)",
       "Work Mode": "Remote",
-      "Experience Requirement": "2+ years; Jobs.ca lists mid-level. Digital/interactive/web/visual design; no student or return-to-school restriction.",
+      "Experience Requirement": "3–5 years agency digital/interactive design; Figma/Adobe; CMS and AI-assisted workflows; remote Toronto.",
       "Core Requirements": "Figma, Adobe Creative Suite, digital/interactive experiences, CMS, responsive websites, B2B technology, accessibility/ARIA, design systems, visual storytelling, wireframes/prototypes, AI workflows, developer collaboration",
       "Salary": "CA$75,000–85,000/year",
       "Application Link": "https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474",
@@ -3981,9 +3981,9 @@
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Jobs.ca employer-verified listing remains live; Apply on employer's site button visible; final employer form not independently verified.",
-      "Notes": "Backfill first tracked 2026-10-27; posting originally 2026-09-30 (not published today). Strong match to earlier visual communication design + Figma, Adobe, B2B digital experiences, front-end knowledge, AI workflows. Canada eligibility explicit: fully remote Canada, Toronto-based employer. 2026 graduation eligible; not Graduate Program. Official employer Careers https://interceptgroup.com/careers/ currently says roles open across creative/technology; verified employer listing https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474 . Company application path not independently tested. | 2026-10-30: Rechecked 2026-10-30: employer listing emphasizes complex B2B digital experiences, Figma wireframes/prototypes, accessibility, visual storytelling and hybrid human+AI work; 2+ years shown on current Jobs.ca listing.",
-      "Source Type": "Employer Careers corroborated + Jobs.ca Verified Job Source (official downstream submit unverified)"
+      "Job Status": "Open/Conditional — Jobs.ca employer-verified listing current; Apply on employer's site visible; downstream form not independently verified.",
+      "Notes": "Backfill first tracked 2026-10-27; posting originally 2026-09-30 (not published today). Strong match to earlier visual communication design + Figma, Adobe, B2B digital experiences, front-end knowledge, AI workflows. Canada eligibility explicit: fully remote Canada, Toronto-based employer. 2026 graduation eligible; not Graduate Program. Official employer Careers https://interceptgroup.com/careers/ currently says roles open across creative/technology; verified employer listing https://www.jobs.ca/intercept/jobs/interactive-designer-remote-toronto-ontario-canada-79abee178474 . Company application path not independently tested. | 2026-10-30: Rechecked 2026-10-30: employer listing emphasizes complex B2B digital experiences, Figma wireframes/prototypes, accessibility, visual storytelling and hybrid human+AI work; 2+ years shown on current Jobs.ca listing.\n[2026-11-01 08:34 ET] Rechecked Nov 1: Jobs.ca listing remains current; remote Toronto; 3–5 years agency digital/interactive design; strong B2B visual/UX fit but stretch.",
+      "Source Type": "Employer Careers corroborated + Jobs.ca Verified Employer Source"
     },
     {
       "Date Checked": "2026-10-31",
@@ -4272,7 +4272,7 @@
       "Source Type": "Official ATS / Lever"
     },
     {
-      "Date Checked": "2026-10-31 15:02 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Trader Interactive",
       "Job Title": "Digital Designer (B2B / Industry)",
@@ -4280,21 +4280,21 @@
       "Company Type": "US/Global Digital Marketplaces / Automotive & Transportation (Canada-based Toronto role)",
       "Location": "Toronto, Ontario",
       "Work Mode": "Toronto; hybrid details to confirm",
-      "Experience Requirement": "3+ years graphic/digital design or online advertising; motion/video skills preferred.",
+      "Experience Requirement": "3+ years graphic/digital design or online advertising; Figma/Adobe; motion/video and B2B marketing experience.",
       "Core Requirements": "B2B marketplace digital design, campaign/web assets, visual design, Adobe/Figma and marketing collaboration.",
-      "Salary": "CA$70,000–85,000",
+      "Salary": "CA$70,000–85,000/year",
       "Application Link": "https://careers.traderinteractive.com/jobs/722026-digital-designer-b2b-industry",
       "Match %": 72,
       "Main Risks": "Marketing/visual design rather than product UX; 3+ years design; motion/video depth.",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Teamtailor page live; final application modal/Submit not tested.",
-      "Notes": "Posted about 2026-10-19; US-based company explicitly has Toronto team and role, Canadian salary; not US-only. Visual communication and digital UX experience may count toward 3+ years. Found on LinkedIn then cross-verified employer Teamtailor. | 2026-10-30: Rechecked 2026-10-30: official Teamtailor page remains live; digital, motion and campaign design for B2B/industry marketplace; 3+ years design experience. | 2026-10-30 recheck: Toronto hybrid 3 days/week; 3+ years digital/graphic design. | 2026-10-30 recheck: Toronto hybrid 3 days/week; adjacent visual/digital design option, not core product UX.\n[2026-10-31 14:05 ET] Toronto hybrid B2B/industry digital design; 3+ years and motion/video are gaps. | 2026-10-31 recheck: current source checked; status retained unless noted.",
-      "Source Type": "Official Teamtailor ATS"
+      "Job Status": "Open — official Teamtailor page live; Toronto hybrid; Apply for this job route available.",
+      "Notes": "Posted about 2026-10-19; US-based company explicitly has Toronto team and role, Canadian salary; not US-only. Visual communication and digital UX experience may count toward 3+ years. Found on LinkedIn then cross-verified employer Teamtailor. | 2026-10-30: Rechecked 2026-10-30: official Teamtailor page remains live; digital, motion and campaign design for B2B/industry marketplace; 3+ years design experience. | 2026-10-30 recheck: Toronto hybrid 3 days/week; 3+ years digital/graphic design. | 2026-10-30 recheck: Toronto hybrid 3 days/week; adjacent visual/digital design option, not core product UX.\n[2026-10-31 14:05 ET] Toronto hybrid B2B/industry digital design; 3+ years and motion/video are gaps. | 2026-10-31 recheck: current source checked; status retained unless noted.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official Teamtailor page and current openings list still include role; 3+ years digital/graphic design, Toronto hybrid, CAD $70K–85K.",
+      "Source Type": "Official ATS / Teamtailor"
     },
     {
-      "Date Checked": "2026-10-31 20:07 ET",
+      "Date Checked": "2026-11-01 08:34 ET",
       "New This Run": "No",
       "Company": "Loblaw Companies Limited",
       "Job Title": "Associate Product Manager, Enterprise Initiatives (R2000723824)",
@@ -4302,17 +4302,17 @@
       "Company Type": "Canadian Retail / Consumer Brands & Enterprise Initiatives",
       "Location": "Brampton, Ontario — 1 Presidents Choice Circle",
       "Work Mode": "On-site / location-based; hybrid cadence not stated",
-      "Experience Requirement": "Post-secondary education; strong project coordination, Excel/reporting, stakeholder and vendor management; no fixed years or return-to-school requirement stated.",
+      "Experience Requirement": "Post-secondary education; project coordination, vendor/stakeholder management, Excel/reporting; no fixed years or return-to-school requirement stated.",
       "Core Requirements": "Vendor and stakeholder coordination, project milestones, timelines, design kick-offs, packaging and artwork circulation, risk reporting, Power BI/SAP/Excel, cross-functional delivery",
-      "Salary": "CAD $52,000–$71,500",
+      "Salary": "CA$52,000–71,500/year",
       "Application Link": "https://careers.loblaw.ca/associate-product-manager-enterprise-initiatives/job/R2000723824",
       "Match %": 82,
       "Main Risks": "12-month contract; consumer packaged goods/packaging delivery rather than digital software product management; office arrangement and downstream submission unverified",
       "Application Status": "Not Applied",
       "Application Date": null,
       "Deadline": null,
-      "Job Status": "Open — official Loblaw Careers page live; 12-month contract; Brampton.",
-      "Notes": "12-month contract. Employer requisition R2000723824 distinct from existing President's Choice APM R2000715094. 2026 graduate eligible by published criteria, no student-only restriction. Strong cross-functional project coordination and delivery fit. | 2026-10-30: Rechecked 2026-10-30: 12-month contract; project timelines, milestones, vendors, design kick-offs, packaging/agency coordination and progress reporting. Good project-coordination bridge, but physical product development rather than software product. | 2026-10-31: 2026-10-31 rechecked; APM/enterprise initiatives and cross-functional project coordination.\n[2026-10-31 recheck] Rechecked: official Workday APM Enterprise Initiatives posting remains live; 12-month contract, Brampton; strong product coordination/enterprise transformation fit.\n[2026-10-31 14:05 ET] Project/vendor coordination and milestones; adjacent product ops, not software product management.\n[2026-10-31 20:07 ET] Rechecked official APM Enterprise Initiatives page; project/vendor coordination and milestones are transferable, but physical product development rather than software PM.",
+      "Job Status": "Open — official Loblaw Careers/Workday page live; 12-month contract; Brampton.",
+      "Notes": "12-month contract. Employer requisition R2000723824 distinct from existing President's Choice APM R2000715094. 2026 graduate eligible by published criteria, no student-only restriction. Strong cross-functional project coordination and delivery fit. | 2026-10-30: Rechecked 2026-10-30: 12-month contract; project timelines, milestones, vendors, design kick-offs, packaging/agency coordination and progress reporting. Good project-coordination bridge, but physical product development rather than software product. | 2026-10-31: 2026-10-31 rechecked; APM/enterprise initiatives and cross-functional project coordination.\n[2026-10-31 recheck] Rechecked: official Workday APM Enterprise Initiatives posting remains live; 12-month contract, Brampton; strong product coordination/enterprise transformation fit.\n[2026-10-31 14:05 ET] Project/vendor coordination and milestones; adjacent product ops, not software product management.\n[2026-10-31 20:07 ET] Rechecked official APM Enterprise Initiatives page; project/vendor coordination and milestones are transferable, but physical product development rather than software PM.\n[2026-11-01 08:34 ET] Rechecked Nov 1: official Workday page remains live; 12-month contract; product launch/critical-path coordination, vendor management and reporting.",
       "Source Type": "Official Employer Careers / Workday"
     },
     {
